@@ -1,5 +1,12 @@
 # Summary
 
+
 # Commentary
 
 - [The story of Prahlada and Holika teaches us that good will always triumph over evil](./opinion/holi_and_prahlada.md)
+
+# Sarcasm
+
+- [Dictatorship](./satire/dictatorship.md)
+- [Electoral Bond](./satire/electoral_bond.md)
+- [News](./satire/news.md)
