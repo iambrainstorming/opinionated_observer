@@ -1,0 +1,18 @@
+# The story of Prahlada and Holika teaches us that good will always triumph over evil
+
+The story of Prahlada and Holika teaches us that good will always triumph over evil, and that devotion and faith can overcome even the most powerful adversaries. This is a lesson that we can apply to our modern-day struggles, especially in the political arena.
+
+One of the most pressing issues facing our democracy today is the prevalence of dictatorship and the manipulation of the voting process. In many countries, including India, the use of electronic voting machines (EVMs) has raised concerns about the accuracy and integrity of election results. The lack of transparency in the counting and tabulation of votes has led to widespread doubts about the legitimacy of election outcomes.
+
+This is where we can draw inspiration from the story of Prahlada. Like Prahlada, who remained steadfast in his devotion to Vishnu despite the threats of his evil father, we must also remain steadfast in our commitment to democracy and the rule of law. We must not allow the forces of dictatorship and corruption to undermine our democratic institutions, and we must demand transparency and accountability in our electoral processes.
+
+One way to achieve this is to ban the use of electronic voting machines and return to a paper-based system of voting. While EVMs were initially introduced to improve the speed and efficiency of vote counting, their use has been marred by allegations of tampering and fraud. By returning to a paper-based system, we can ensure that every vote is counted and that the results accurately reflect the will of the people.
+
+In addition to banning EVMs, we must also work to end dictatorship and promote democratic values. This means standing up to authoritarian leaders who seek to consolidate power and silence dissent. It means supporting civil society organizations and independent media that hold our leaders accountable and promote transparency and accountability. And it means educating our citizens about the importance of voting and the role they play in shaping our democracy.
+
+[The fascist government’s unabated manipulation of legal systems, scapegoating, and discrimination have reached alarming levels.](https://iambrainstorming.github.io/chapters/democracy/fascism.html) It has weakened or abolished democratic institutions and relentlessly suppressed opposition, arresting anyone who dares to dissent. In these trying times, we must draw inspiration from the story of Prahlada, who remained steadfast and unmoved by the relentless efforts of Hiranyakashipu to destroy him. Prahlada’s unwavering faith and devotion serve as a beacon of hope, reminding us of the power of perseverance in the face of adversity. We must emulate Prahlada’s resilience and stand firm in our commitment to democracy, human rights, and the rule of law. By working together and supporting each other, we can overcome the challenges posed by authoritarian regimes and create a society that values justice, equality, and freedom for all.
+
+[‘Billionaire Raj’ Is Pushing India Toward Autocracy](https://archive.is/Pp8iO)
+The super-rich have opened their wallets to Modi, and income inequality has soared over the past decade. With an election coming, ordinary voters need to ask, ‘What’s in it for us?’
+
+As we celebrate Holi and the triumph of good over evil, let us remember the lessons of Prahlada and use them to guide our actions in the fight for democracy and justice. By standing up to dictatorship and demanding transparency and accountability in our electoral processes, we can ensure that our voices are heard and our votes are counted. Let us work together to create a brighter future for ourselves and for generations to come.
