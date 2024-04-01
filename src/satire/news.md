@@ -19,3 +19,9 @@ So, why does a currency get devalued? It's about more printing of money for unpr
 ### Explanation of Inflation and quantity theory of Money
 
 <https://mru.org/courses/principles-economics-macroeconomics/zimbabwe-currency-inflation>
+
+### Media Ownership
+
+<https://en.wikipedia.org/wiki/List_of_news_media_ownership_in_India>
+
+![Media Ownership](image/media_ownership.jpeg)
