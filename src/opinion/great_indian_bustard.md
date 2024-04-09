@@ -2,7 +2,7 @@
 
 [Great Indian Bustard Ardeotis nigriceps is a critically endangered species](http://datazone.birdlife.org/species/factsheet/22691932)
 
-![Critically Endangered](./opinion/images/critically_endangered.png)
+![Critically Endangered](./images/critically_endangered.png)
 
 
 
