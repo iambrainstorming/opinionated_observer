@@ -35,6 +35,10 @@ She has been writing 'Bharat' in her judgment. One can assume her political bias
 
 According to her, feminism is a Western concept, without taking into account the reality of women in India. In the judiciary itself, about 89% of judges are male, and in the economic workforce, [75% of women are unemployed](https://iambrainstorming.github.io/data/india_employment_data.html). Patriarchy has existed long before from history, including regressive systems like the Sati system that people like Ram Mohan Roy had to fight against.
 
+Nearly [41% of women reported experiencing domestic violence in their lifetime](https://www.tandfonline.com/doi/full/10.1080/17441692.2015.1119293), with 30% reporting it in the past year.
+
+[Domestic violence in Indian women: lessons from nearly 20 years of surveillance](https://bmcwomenshealth.biomedcentral.com/articles/10.1186/s12905-022-01703-3)
+
 Women need to be caregivers and remain at home, doing unpaid work for their husbands and families, and there is nothing wrong with it according to her.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/R_aGNDr5Qp8?si=RT9Bk-77LtCaiPHO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
