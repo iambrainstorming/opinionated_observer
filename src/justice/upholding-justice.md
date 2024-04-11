@@ -16,8 +16,6 @@ In addition to judicial competence, transparency and accountability mechanisms a
 
 ## Are some judges working fairly?
 
-### Draft, will edit with more research
-
 Let's look at the two sides. According to the judge, the time of arrest of Arvind Kejriwal is irrelevant, whereas for NDA representatives, a bench led by Justice Swarna Kanta Sharma allowed the application filed by Dilip Ray seeking the [suspension of his conviction](https://www.indiatoday.in/law/story/delhi-high-court-stays-conviction-of-ex-union-minister-dilip-ray-coal-scam-case-2524911-2024-04-09) order dated October 6, 2020, on the grounds that he has to contest the upcoming Odisha Assembly Elections.
 
 
