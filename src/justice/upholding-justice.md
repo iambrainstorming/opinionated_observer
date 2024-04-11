@@ -39,5 +39,4 @@ According to her, feminism is a Western concept, without taking into account the
 
 Women need to be caregivers and remain at home, doing unpaid work for their husbands and families, and there is nothing wrong with it according to her.
 
-<iframe width="1275" height="712" src="https://www.youtube.com/embed/R_aGNDr5Qp8" title="Justice  Swarana Kanta Sharma, Judge of the Delhi High Court talks about Women&#39;s Empowerment." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/R_aGNDr5Qp8?si=RT9Bk-77LtCaiPHO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
