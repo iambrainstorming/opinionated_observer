@@ -14,7 +14,7 @@ Chronic exposure to noise pollution can also lead to cognitive impairments, part
 
 ### The Exploitation of Religious Noise Pollution by Fascist Governments
 
-In some instances, noise pollution has been deliberately weaponized by fascist governments to sow discord and polarize societies along religious lines. This is particularly evident in countries where religious minorities are subjected to targeted noise pollution as a form of psychological warfare.
+In some instances, noise pollution has been deliberately weaponized by [fascist governments to sow discord and polarize societies along religious lines](https://iambrainstorming.github.io/chapters/democracy/fascism.html). This is particularly evident in countries where religious minorities are subjected to targeted noise pollution as a form of psychological warfare.
 
 For example, in India, Hindu nationalist groups have been accused of using loudspeakers to blast religious songs and chants outside mosques during Muslim prayer times, creating a cacophony that makes it difficult for worshippers to concentrate. This deliberate noise pollution is a form of harassment designed to intimidate and marginalize religious minorities, fueling tensions and deepening societal divisions.
 
