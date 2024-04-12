@@ -14,7 +14,7 @@ Furthermore, judicial education and training programs play a vital role in equip
 
 In addition to judicial competence, transparency and accountability mechanisms are essential to uphold the integrity of the judiciary. Public scrutiny and oversight serve as checks against judicial misconduct or partiality, fostering trust and confidence in the legal system.
 
-## Just learning law books by judges is not enough for judges.
+## Just learning law books by judges is not enough.
 
 ### The Crucial Role of Interdisciplinary Knowledge in Judicial Decision Making
 
