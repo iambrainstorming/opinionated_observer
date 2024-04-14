@@ -9,12 +9,14 @@ The diet of the earliest hominins was probably somewhat similar to the diet of m
 
 ## Eating meat drove the evolution of our big, powerful brain
 
+<https://www.nasw.org/article/eating-meat-drove-evolution-our-big-powerful-brain>
 
 The modern human brain is two to three times larger than that of our closest relatives, chimpanzees. But to supply energy to such metabolically demanding tissue, a distinct trade-off in energy allocation had to evolve.
 
 In 1992, researchers proposed that this gradual expansion of the ancestral brain was made possible by switching from a vegetative diet to a meat-rich, fat-rich diet. As meat became a dietary staple, the gut shortened, and the brain no longer needed to rely on fuel from muscle and fat stores in the body. A shorter gut requires a great deal less energy than the lengthy gut of herbivores. Drawing on the extra energy resources from a fatty diet, and a shorter gut, the brain could afford to grow.
 
 ## How a vegan diet could affect your intelligence
+<https://www.bbc.com/future/article/20200127-how-a-vegan-diet-could-affect-your-intelligence>
 
 There are several important brain nutrients that simply do not exist in plants or fungi
 
