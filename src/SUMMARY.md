@@ -13,3 +13,7 @@
 - [Dictatorship](./satire/dictatorship.md)
 - [Electoral Bond](./satire/electoral_bond.md)
 - [News](./satire/news.md)
+
+# Draft
+
+- [Meat politics in India](/src/health/meat_politics.md)
