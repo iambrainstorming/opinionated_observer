@@ -22,6 +22,22 @@ As the festival of Ram Navami approaches, concerns arise regarding the potential
 
 In light of the upcoming Ram Navami celebrations, it is imperative that we reconsider the role of loudspeakers in these festivities. Instead of allowing them to become a tool for political posturing and noise pollution, we should strive for a more introspective and spiritual approach to the occasion. By focusing on the actual values of Lord Ram and promoting personal growth and reflection, we can ensure that the true spirit of Ram Navami is preserved.
 
+### Peace, silence and prayer
+
+Throughout the Ramayana, Lord Ram consistently upholds principles of peace, compassion, and justice. He adheres to his duty as a prince and later as an exiled king with utmost integrity, despite facing numerous trials and tribulations. He exemplifies forgiveness, even towards those who wrong him, such as his stepmother Kaikeyi and the demon king Ravana. In the end, his victory over Ravana is not just a triumph of physical strength but also of righteousness and truth.
+
+In Hindu philosophy, the concept of peace (shanti) is highly valued. It is believed that inner peace leads to harmony with the external world. Prayer, meditation, and religious rituals are often seen as means to attain this inner peace, enabling individuals to lead fulfilling and virtuous lives.
+
+
+## Noise and Ram Navami
+
+The celebration of Ram Navami is often accompanied by such [loud noise that people can even suffer heart attacks](https://www.indiatoday.in/india/odisha/story/odisha-man-dies-from-heart-attack-due-to-loud-sound-during-saraswati-idol-immersion-2506684-2024-02-24).
+
+We have shifted prayer and spirituality to noise pollution during Ram Navami celebrations, and it has become a political tool to garner voters through polarization and the promotion of Hindu supremacy.
+[Video Link](https://bafybeif3zp26snz5ky3qldvfo34gifxso5ma5tvtbrdrvrcm5v2jjgjkma.ipfs.nectarnode.io/)
+
+
+
 ### Conclusion
 
 Noise pollution is a silent crisis that demands greater attention from policymakers, public health experts, and society at large. Its impact on human health and well-being is significant and far-reaching, affecting not only individuals but also entire communities and societies.
