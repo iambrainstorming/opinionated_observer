@@ -34,6 +34,8 @@ In Hindu philosophy, the concept of peace (shanti) is highly valued. It is belie
 The celebration of Ram Navami is often accompanied by such [loud noise that people can even suffer heart attacks](https://www.indiatoday.in/india/odisha/story/odisha-man-dies-from-heart-attack-due-to-loud-sound-during-saraswati-idol-immersion-2506684-2024-02-24).
 
 We have shifted prayer and spirituality to noise pollution during Ram Navami celebrations, and it has become a political tool to garner voters through polarization and the promotion of Hindu supremacy.
+
+
 [Video Link](https://bafybeif3zp26snz5ky3qldvfo34gifxso5ma5tvtbrdrvrcm5v2jjgjkma.ipfs.nectarnode.io/)
 
 
