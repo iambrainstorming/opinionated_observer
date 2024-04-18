@@ -54,33 +54,3 @@ Moreover, an interdisciplinary approach to judicial decision making can help to 
 
 In conclusion, while a solid understanding of the law is essential for judges, it is not enough to ensure just and fair decisions. Judges must also be well-versed in interdisciplinary knowledge, including physics, chemistry, biology, molecular biology, neuroscience, scientific methods, experimentation, logical fallacies, and paradoxes. By acquiring this knowledge, judges can better navigate the complexities of modern society, making more informed, evidence-based decisions that provide better social justice for all.
 
-
-
-## Are some judges working fairly?
-
-Let's look at the two sides. According to the judge, the time of arrest of Arvind Kejriwal is irrelevant, whereas for NDA representatives, a bench led by Justice Swarna Kanta Sharma allowed the application filed by Dilip Ray seeking the [suspension of his conviction](https://www.indiatoday.in/law/story/delhi-high-court-stays-conviction-of-ex-union-minister-dilip-ray-coal-scam-case-2524911-2024-04-09) order dated October 6, 2020, on the grounds that he has to contest the upcoming Odisha Assembly Elections.
-
-
-We all know that the arrest is [politically motivated](https://iambrainstorming.github.io/chapters/democracy/fascism.html) based on what's happening to the country with opposition parties. There is enough sequence of evidence of what is happening, but the judge is turning a blind eye to it. Courts, whose duty is to protect the constitution, are failing to conduct free and fair elections.
-
-
-## Term bharat in her judgement
-
-She has been writing 'Bharat' in her judgment. One can assume her political biases and affiliations.
-
-<video width="100%" controls preload="none" >
-  <source src="https://42683ff2b1a2ac5ad2fef0ee01995d78.ipfs.4everland.link/ipfs/QmSatjFDSWmeP5rT5wYkQUxNkhPNg8qeto3gnydgJPt7wB" type="video/mp4">
-</video>
-
-
-## Feminism a Western concept
-
-According to her, feminism is a Western concept, without taking into account the reality of women in India. In the judiciary itself, about 89% of judges are male, and in the economic workforce, [75% of women are unemployed](https://iambrainstorming.github.io/data/india_employment_data.html). Patriarchy has existed long before from history, including regressive systems like the Sati system that people like Ram Mohan Roy had to fight against.
-
-Nearly [41% of women reported experiencing domestic violence in their lifetime](https://www.tandfonline.com/doi/full/10.1080/17441692.2015.1119293), with 30% reporting it in the past year.
-
-[Domestic violence in Indian women: lessons from nearly 20 years of surveillance](https://bmcwomenshealth.biomedcentral.com/articles/10.1186/s12905-022-01703-3)
-
-Women need to be caregivers and remain at home, doing unpaid work for their husbands and families, and there is nothing wrong with it according to her.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/R_aGNDr5Qp8?si=RT9Bk-77LtCaiPHO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
