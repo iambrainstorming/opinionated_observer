@@ -15,3 +15,7 @@
 - [News](./satire/news.md)
 - [Elon on Freedom of Speech](./satire/elon_on_freedom_of_speech.md)
 
+# Factcheck
+
+- [PM's Rajasthan Speech](./factcheck/pm_modi_speech.md)
+

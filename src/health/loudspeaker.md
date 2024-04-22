@@ -36,9 +36,13 @@ The celebration of Ram Navami is often accompanied by such [loud noise that peop
 We have shifted prayer and spirituality to noise pollution during Ram Navami celebrations, and it has become a political tool to garner voters through polarization and the promotion of Hindu supremacy.
 
 
-[Video Link](https://bafybeif3zp26snz5ky3qldvfo34gifxso5ma5tvtbrdrvrcm5v2jjgjkma.ipfs.nectarnode.io/)
-
-
+<a href="https://bafybeif3zp26snz5ky3qldvfo34gifxso5ma5tvtbrdrvrcm5v2jjgjkma.ipfs.nectarnode.io/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiJiYWZ5YmVpZjN6cDI2c256NWt5M3FsZHZmbzM0Z2lmeHNvNW1hNXR2dGJyZHJ2cmNtNXYyampnamttYSIsInByb2plY3RfdXVpZCI6IjkyZjMzNzNmLTVhYzAtNGE2ZS04OWEwLTNlNGU4NjEwYzk4OSIsImlhdCI6MTcxMzgwNTk0NSwic3ViIjoiSVBGUy10b2tlbiJ9.1Nh5197tmZOyT4jKNYcoxJB91RwpcCuk17tYC6cAFRE" target="_blank">
+  <video controls width="400">
+    <source src="https://bafybeif3zp26snz5ky3qldvfo34gifxso5ma5tvtbrdrvrcm5v2jjgjkma.ipfs.nectarnode.io/?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaWQiOiJiYWZ5YmVpZjN6cDI2c256NWt5M3FsZHZmbzM0Z2lmeHNvNW1hNXR2dGJyZHJ2cmNtNXYyampnamttYSIsInByb2plY3RfdXVpZCI6IjkyZjMzNzNmLTVhYzAtNGE2ZS04OWEwLTNlNGU4NjEwYzk4OSIsImlhdCI6MTcxMzgwNTk0NSwic3ViIjoiSVBGUy10b2tlbiJ9.1Nh5197tmZOyT4jKNYcoxJB91RwpcCuk17tYC6cAFRE" type="video/mp4">
+    <!-- Add additional source elements for different video formats if needed -->
+    Your browser does not support the video tag.
+  </video>
+</a>
 
 ### Conclusion
 
