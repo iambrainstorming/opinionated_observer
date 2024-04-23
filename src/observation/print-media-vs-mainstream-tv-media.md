@@ -13,6 +13,9 @@ Mainstream TV media in India, on the other hand, is funded mostly by advertisers
 
 Moreover, mainstream TV media comes with minimal TV package options, and users cannot unsubscribe news channels to save a substantial amount of money. This has led to a situation where people are forced to consume news from TV channels that may not provide authentic and unbiased information.
 
+## How can we tackle mainstream media? 
+
+The [Supreme Court stated](https://www.indiatoday.in/law-today/story/supreme-court-on-pleas-regulate-tv-news-channels-media-tribunal-2418224-2023-08-08), "Don't watch if you don't like: Supreme Court on pleas to regulate TV news channels." However, the government is forcing us to pay for these channels through the minimum TV package. To address this issue, TV news channels should be excluded from the minimum package, allowing users to choose which channels they pay for. Why should we pay for propaganda channels? A similar Public Interest Litigation (PIL) should be submitted before the court to advocate for this change.
 
 ## Conclusion
 
