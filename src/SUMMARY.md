@@ -21,5 +21,5 @@
 
 # Observation
 
-- [Print Media vs Mainstream TV Media](./observation/print-madia-vs-mainstream-tv-media.md)
+- [Print Media vs Mainstream TV Media](./observation/print-media-vs-mainstream-tv-media.md)
 
