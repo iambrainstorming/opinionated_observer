@@ -19,3 +19,7 @@
 
 - [PM's Rajasthan Speech](./factcheck/pm_modi_speech.md)
 
+# Observation
+
+- [Print Media vs Mainstream TV Media](./observation/print-madia-vs-mainstream-tv-media.md)
+
