@@ -1,0 +1,249 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>Meat politics in India - The Opinionated Observer</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><li class="part-title">Commentary</li><li class="chapter-item expanded "><a href="../justice/upholding-justice.html"><strong aria-hidden="true">1.</strong> Upholding the Justice</a></li><li class="chapter-item expanded "><a href="../opinion/great_indian_bustard.html"><strong aria-hidden="true">2.</strong> Is protecting climate recognized as a fundamental right, or is it merely serving corporate profit?</a></li><li class="chapter-item expanded "><a href="../health/loudspeaker.html"><strong aria-hidden="true">3.</strong> The Silent Crisis: Noise Pollution, Health Impact, and Fascism's Exploitation of Religious Noise Pollution</a></li><li class="chapter-item expanded "><a href="../opinion/holi_and_prahlada.html"><strong aria-hidden="true">4.</strong> The story of Prahlada and Holika teaches us that good will always triumph over evil</a></li><li class="chapter-item expanded "><a href="../health/meat_politics.html" class="active"><strong aria-hidden="true">5.</strong> Meat politics in India</a></li><li class="chapter-item expanded affix "><li class="part-title">Sarcasm</li><li class="chapter-item expanded "><a href="../satire/dictatorship.html"><strong aria-hidden="true">6.</strong> Dictatorship</a></li><li class="chapter-item expanded "><a href="../satire/electoral_bond.html"><strong aria-hidden="true">7.</strong> Electoral Bond</a></li><li class="chapter-item expanded "><a href="../satire/news.html"><strong aria-hidden="true">8.</strong> News</a></li><li class="chapter-item expanded "><a href="../satire/elon_on_freedom_of_speech.html"><strong aria-hidden="true">9.</strong> Elon on Freedom of Speech</a></li><li class="chapter-item expanded affix "><li class="part-title">Factcheck</li><li class="chapter-item expanded "><a href="../factcheck/pm_modi_speech.html"><strong aria-hidden="true">10.</strong> PM's Rajasthan Speech</a></li><li class="chapter-item expanded affix "><li class="part-title">Observation</li><li class="chapter-item expanded "><a href="../observation/print-madia-vs-mainstream-tv-media.html"><strong aria-hidden="true">11.</strong> Print Media vs Mainstream TV Media</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">The Opinionated Observer</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="the-meat-politics-in-india"><a class="header" href="#the-meat-politics-in-india">The meat politics in India</a></h1>
+<h2 id="meat-eating-by-early-humans"><a class="header" href="#meat-eating-by-early-humans">Meat eating by Early Humans</a></h2>
+<p><a href="https://www.nature.com/scitable/knowledge/library/evidence-for-meat-eating-by-early-humans-103874273/">https://www.nature.com/scitable/knowledge/library/evidence-for-meat-eating-by-early-humans-103874273/</a></p>
+<p>The diet of the earliest hominins was probably somewhat similar to the diet of modern chimpanzees: omnivorous, including large quantities of fruit, leaves, flowers, bark, insects and meat.</p>
+<h2 id="eating-meat-drove-the-evolution-of-our-big-powerful-brain"><a class="header" href="#eating-meat-drove-the-evolution-of-our-big-powerful-brain">Eating meat drove the evolution of our big, powerful brain</a></h2>
+<p><a href="https://www.nasw.org/article/eating-meat-drove-evolution-our-big-powerful-brain">https://www.nasw.org/article/eating-meat-drove-evolution-our-big-powerful-brain</a></p>
+<p>The modern human brain is two to three times larger than that of our closest relatives, chimpanzees. But to supply energy to such metabolically demanding tissue, a distinct trade-off in energy allocation had to evolve.</p>
+<p>In 1992, researchers proposed that this gradual expansion of the ancestral brain was made possible by switching from a vegetative diet to a meat-rich, fat-rich diet. As meat became a dietary staple, the gut shortened, and the brain no longer needed to rely on fuel from muscle and fat stores in the body. A shorter gut requires a great deal less energy than the lengthy gut of herbivores. Drawing on the extra energy resources from a fatty diet, and a shorter gut, the brain could afford to grow.</p>
+<h2 id="how-a-vegan-diet-could-affect-your-intelligence"><a class="header" href="#how-a-vegan-diet-could-affect-your-intelligence">How a vegan diet could affect your intelligence</a></h2>
+<p><a href="https://www.bbc.com/future/article/20200127-how-a-vegan-diet-could-affect-your-intelligence">https://www.bbc.com/future/article/20200127-how-a-vegan-diet-could-affect-your-intelligence</a></p>
+<p>There are several important brain nutrients that simply do not exist in plants or fungi</p>
+<p>Surprisingly, the children who were given the soup containing meat each day seemed to have a significant edge. By the end of the study, they outperformed all the other children on a test for non-verbal reasoning. Along with the children who received soup with added oil, they also did the best on a test of arithmetic ability. Of course, more research is needed to verify if this effect is real, and if it would also apply to adults in developed countries, too. But it does raise intriguing questions about whether veganism could be holding some people back.</p>
+<h2 id="meat-and-climate-change"><a class="header" href="#meat-and-climate-change">Meat and climate change</a></h2>
+<p><a href="https://www.un.org/en/climatechange/science/climate-issues/food">https://www.un.org/en/climatechange/science/climate-issues/food</a></p>
+<p>Which foods cause the most greenhouse gas emissions?</p>
+<p>Meat production often requires extensive grasslands, which is often created by cutting down trees, releasing carbon dioxide stored in forests.</p>
+<h2 id="the-cultural-significance-of-meat-consumption"><a class="header" href="#the-cultural-significance-of-meat-consumption">The Cultural Significance of Meat Consumption</a></h2>
+<p>Meat consumption is not just a biological necessity; it is also an essential part of many cultural practices. In many societies, meat is a symbol of wealth, power, and status. For instance, in many African cultures, meat is considered a delicacy and is served during special occasions and ceremonies. Similarly, in many Indigenous cultures, hunting and meat consumption are integral to their cultural identity and way of life.</p>
+<p>Therefore, the cultural significance of meat consumption cannot be ignored. Attempts to impose vegetarianism or veganism on people who have deep-rooted cultural connections to meat consumption can be seen as a form of cultural imperialism. Instead, we should focus on promoting responsible meat consumption that takes into account the cultural practices and beliefs of different communities.</p>
+<h2 id="the-importance-of-personal-choice"><a class="header" href="#the-importance-of-personal-choice">The Importance of Personal Choice</a></h2>
+<p>The decision to consume meat or abstain from it is a deeply personal one that should be based on individual preferences, beliefs, and cultural practices. Imposing vegetarianism or veganism on people based on religious grounds can be seen as a form of cultural imperialism that undermines the agency of individuals to make their own choices. Moreover, it can lead to a sense of alienation and exclusion among those who do not adhere to the prescribed dietary practices.</p>
+<p>Religious indoctrination to quit meat can also lead to conflicts within families and communities, especially in cultures where meat consumption is an essential part of social and cultural practices. For instance, in many Hindu households, meat is served during special occasions and festivals, and abstaining from it can be seen as a rejection of cultural traditions and practices.</p>
+<h2 id="conclusion"><a class="header" href="#conclusion">Conclusion</a></h2>
+<p>The debate surrounding meat politics has become increasingly polarized, with advocates for vegetarianism and veganism on one side and those who support responsible meat consumption on the other. While it is essential to consider the environmental impact of meat production and consumption, it is equally important to recognize the historical, evolutionary, and health benefits of meat consumption.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../opinion/holi_and_prahlada.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../satire/dictatorship.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../opinion/holi_and_prahlada.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../satire/dictatorship.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
