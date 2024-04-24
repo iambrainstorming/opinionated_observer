@@ -23,3 +23,7 @@
 
 - [Print Media vs Mainstream TV Media](./observation/print-media-vs-mainstream-tv-media.md)
 
+# Information
+
+- [Four departments of brainwashing](./information/four_departments_brainwashing.md)
+
