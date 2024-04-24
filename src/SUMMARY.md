@@ -26,4 +26,5 @@
 # Information
 
 - [Four departments of brainwashing](./information/four_departments_brainwashing.md)
+- [The Justice Brief, Master of Roster](./information/master_of_the_roster.md)
 
