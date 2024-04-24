@@ -17,7 +17,7 @@
 
 # Factcheck
 
-- [PM's Rajasthan Speech](./factcheck/pm_modi_speech.md)
+- [PM's Rajasthan Speech on Population Jihad](./factcheck/pm_modi_speech.md)
 
 # Observation
 
