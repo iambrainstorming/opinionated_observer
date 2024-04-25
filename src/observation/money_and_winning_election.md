@@ -16,7 +16,7 @@ While it's true that money plays a role in elections, it is not the sole determi
 
 Engaging with the community is another critical aspect of a winning election campaign. This involves attending local events, volunteering, and building relationships with local organizations, businesses, and residents. By actively participating in the community, candidates can demonstrate their commitment to the area and establish a strong network of supporters who can help spread their message.
 
-##  Vision and a Practical Manifesto to Deliver
+## Vision and a Practical Manifesto to Deliver
 
 A compelling vision for the future is another essential element of a successful election campaign. This vision should outline the candidate's goals and priorities for the community, demonstrating their understanding of the issues at hand and their commitment to finding practical solutions. A well-crafted manifesto can help candidates differentiate themselves from their opponents and provide voters with a clear understanding of what they can expect if the candidate is elected.
 
