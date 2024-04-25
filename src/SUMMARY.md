@@ -22,6 +22,7 @@
 # Observation
 
 - [Print Media vs Mainstream TV Media](./observation/print-media-vs-mainstream-tv-media.md)
+- [Money is Not the Key to Winning an Election](./observation/money_and_winning_election.md)
 
 # Information
 
