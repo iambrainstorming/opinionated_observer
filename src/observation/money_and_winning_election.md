@@ -10,7 +10,7 @@ While it's true that money plays a role in elections, it is not the sole determi
 
 ## The Power of Authentic Communication
 
-Authentic communication is the cornerstone of any successful political campaign. It involves being genuine, transparent, and relatable to voters. By establishing trust and demonstrating a deep understanding of the issues that matter most to the community, candidates can connect with voters on a personal level. This connection is often more powerful than any amount of money spent on advertising or campaign materials.
+[Authentic communication](https://iambrainstorming.github.io/chapters/how-to-tackle-disinformation.html) is the cornerstone of any successful political campaign. It involves being genuine, transparent, and relatable to voters. By establishing trust and demonstrating a deep understanding of the issues that matter most to the community, candidates can connect with voters on a personal level. This connection is often more powerful than any amount of money spent on advertising or campaign materials.
 
 ## Community Engagement and Networking
 
