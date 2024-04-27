@@ -13,7 +13,7 @@ Cash is still very easy to use, but the government has undermined the cash syste
 
 Can poor and middle-class people bear the burden of maintaining a minimum balance?
 
-[Banks collected over Rs21,00 Cr for breaching minimum balance norm](./image/minimum_balance.jpg)
+[Banks collected over Rs21,00 Cr for breaching minimum balance norm](../image/minimum_balance.jpg)
 
 ## Internet or digital penetration
 

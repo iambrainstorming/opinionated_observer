@@ -177,7 +177,7 @@
 <p>According to her, paying through UPI is considered development. However, it's actually a dangerous move. It's about relinquishing control of your finances to the government, enabling them to seize your account anytime there's protest or dissent. Thousands of bank accounts have already been blocked by the government, including those of the Congress Party.</p>
 <p>Cash is still very easy to use, but the government has undermined the cash system through measures such as demonetization, which has <a href="https://www.sciencedirect.com/science/article/abs/pii/S0165176518302143">adversely affected the livelihoods of millions</a></p>
 <p>Can poor and middle-class people bear the burden of maintaining a minimum balance?</p>
-<p><a href="./image/minimum_balance.jpg">Banks collected over Rs21,00 Cr for breaching minimum balance norm</a></p>
+<p><a href="../image/minimum_balance.jpg">Banks collected over Rs21,00 Cr for breaching minimum balance norm</a></p>
 <h2 id="internet-or-digital-penetration"><a class="header" href="#internet-or-digital-penetration">Internet or digital penetration</a></h2>
 <p>While during Congress's tenure, there were more than 12 service providers, under the new Modi government, the number has dwindled to two or three. None of them offer optimal service; Airtel is somewhat better, but Jio is worse. The government seems to prioritize corporate profits and foster monopolies. As for digital penetration, the credit should be attributed to cheaper mobiles from China rather than Modi's India.</p>
 <h2 id="airport-traffic"><a class="header" href="#airport-traffic">Airport Traffic</a></h2>
@@ -219,6 +219,22 @@
 
         </div>
 
+        <!-- Livereload script (if served using the cli tool) -->
+        <script>
+            const wsProtocol = location.protocol === 'https:' ? 'wss:' : 'ws:';
+            const wsAddress = wsProtocol + "//" + location.host + "/" + "__livereload";
+            const socket = new WebSocket(wsAddress);
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
 
 
 
