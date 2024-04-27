@@ -18,6 +18,7 @@
 # Factcheck
 
 - [PM's Rajasthan Speech on Population Jihad](./factcheck/pm_modi_speech.md)
+- [Palki Sharma FactCheck](./factcheck/palki_speech.md)
 
 # Observation
 
