@@ -6,6 +6,8 @@ Tavleen Singh's article argues against what she perceives as Rahul Gandhi's incl
 
 2. **Neglect of Monopoly Power**: Singh fails to acknowledge the negative implications of monopoly power. Take for example pharmaceutical patents. By granting exclusive rights to produce and sell certain drugs, monopolies like GlaxoSmithKline can inflate prices significantly above production costs. This artificially high pricing limits access to essential medicines, leading to adverse health outcomes for those unable to afford them. Under the Congress government, we had about 12 internet service providers, but now we have just two or three.
 
+[The mystery of the Adani coal imports that quietly doubled in value](https://www.ft.com/content/7aadb3d7-4a03-44ba-a01e-8ddd8bce29ed)
+
 3. **Ignoring Economic Inequality**: Singh's focus on preserving wealth creation without addressing the widening wealth gap overlooks a critical aspect of economic prosperity. Monopolies exacerbate inequality by concentrating wealth and power in the hands of a few, rather than fostering broad-based economic growth that benefits society as a whole.
 
 4. **Monopolies provide taxes**:Singh's argument that Adani and Ambani bring in more taxes is also incorrect. Decentralized systems without monopolies tend to collect more taxes than monopolies. Monopolies discourage entrepreneurship, and unchecked monopolistic practices also pose significant threats to economic freedom and prosperity.
