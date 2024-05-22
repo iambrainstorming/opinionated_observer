@@ -14,6 +14,7 @@
 - [Electoral Bond](./satire/electoral_bond.md)
 - [News](./satire/news.md)
 - [Elon on Freedom of Speech](./satire/elon_on_freedom_of_speech.md)
+- [Modi Balloon](./satire/modi_balloon.md)
 
 # Factcheck
 
