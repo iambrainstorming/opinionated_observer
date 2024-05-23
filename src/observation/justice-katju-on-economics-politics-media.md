@@ -16,6 +16,6 @@ In conclusion, while foreign influence may contribute to India's challenges, it 
 
 ## Are coalition governments inherently unstable?
 
-It depends on the voting methodology and the rules governing the appointment of ministers and bureaucrat. Instability is not an inherent property of coalition governments.
+It depends on the voting methodology and the rules governing the appointment of ministers and bureaucrats. Instability is not an inherent property of coalition governments.
 
 [Do look at the critics of PR](https://iambrainstorming.github.io/chapters/do-we-need-a-supreme-leader-how-can-we-share-power-between-parties.html#critiques-of-proportional-representation)
