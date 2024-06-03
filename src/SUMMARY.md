@@ -7,6 +7,7 @@
 - [The Silent Crisis: Noise Pollution, Health Impact, and Fascism's Exploitation of Religious Noise Pollution](./health/loudspeaker.md)
 - [The story of Prahlada and Holika teaches us that good will always triumph over evil](./opinion/holi_and_prahlada.md)
 - [Meat politics in India](./health/meat_politics.md)
+- [Gullibility Test](./opinion/gullibility_test.md)
 
 # Sarcasm
 
