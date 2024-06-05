@@ -8,6 +8,7 @@
 - [The story of Prahlada and Holika teaches us that good will always triumph over evil](./opinion/holi_and_prahlada.md)
 - [Meat politics in India](./health/meat_politics.md)
 - [Gullibility Test](./opinion/gullibility_test.md)
+- [Odisha's future for the next five years looks gloomy with the change in government](./opinion/odisha_future.md)
 
 # Sarcasm
 
