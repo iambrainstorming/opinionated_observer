@@ -46,8 +46,24 @@ Things seem to be now uncertain.
 
 The fate of the 5T schools, known for their improved infrastructure under Naveen's leadership, is uncertain under a BJP government led by Modi. The quality of education in Odisha under the leadership of Naveen remains questionable. However, it is worth acknowledging that the school infrastructure has witnessed some positive changes and improvements during his tenure. Modi, who has positioned himself as a divine, non-biological entity, promotes pseudoscience over scientific facts, as evidenced by his party's efforts to remove the theory of evolution from the curriculum. This raises concerns about the BJP's commitment to educational standards and their potential disregard for evidence-based learning.
 
-
+## The Manifesto
 Naveen made a promise to provide 100 units of free electricity, a feat that the BJP government would find difficult to replicate. Instead, there is evidence of a coal scam by corporates, leading to an increase in electricity prices beyond affordability.
 
 Roof-top solar installations, led by the Modi government, are also questionable. Although the Modi government has done some good work on solar infrastructure, this too can be challenged as they are attempting to create a corporate-based solar grid to keep solar power under the control of corporations, rather than allowing people to run rooftop solar systems.
 
+[The manifesto pledged to extend BJD Government’s flagship BSKY health insurance to middle class families, government employees and contractual employees in a phased manner.](https://42683ff2b1a2ac5ad2fef0ee01995d78.ipfs.4everland.link/ipfs/bafkreihz4zkxqyhcdlctypui7gqy36hjnrn7bqxi4oxjixivqsplhohz5a)
+BJD was also implementing it before election through Naveen card, will BJP bring such health care benefits to middle class?
+
+Tall claims by [BJP of 300 units of free electricity](https://42683ff2b1a2ac5ad2fef0ee01995d78.ipfs.4everland.link/ipfs/bafybeifoniiv4kutl6mjpjgmcyk3jiujd7g5u4bv4whqa56h67uct32ahy), but no mention of it in their manifesto.
+
+> We will provide free electricity up to 100 units for every antyodaya household.
+
+Who are antyodaya household, is it 0.1% of people, 1% of people or even less or more?
+
+[BJP Odisha Manifesto](https://42683ff2b1a2ac5ad2fef0ee01995d78.ipfs.4everland.link/ipfs/bafybeidgjawiv7lydf35kmt5o5nh43u4ztyvc6glvb3t5n6y3mxyxux52u)
+
+[BJP Important Promises in short](https://42683ff2b1a2ac5ad2fef0ee01995d78.ipfs.4everland.link/ipfs/bafkreigxwfaprrdzolkruzf4otknxn4jts4v3mg6v6t2gziquna25yu4ki)
+
+## Role of Opposition
+
+This time, the BJP, as a single party, has not secured a full majority in the center. The opposition has gained strength and their role is to expose the government's lies and prevent the situation from worsening.
