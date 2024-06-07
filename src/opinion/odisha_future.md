@@ -15,7 +15,7 @@ It is evident that the Modi-led government has been reluctant to conduct surveys
 
 India has become number one in spreading disinformation.
 
-For example, to win the election, a campaign filled with bigotry and hatred was directed towards Pandian. By portraying the Tamil Pandian as a secret Chief Minister of Odisha and mocking the Tamil way of life.
+For example, to win the election, a campaign filled with bigotry and hatred was directed towards Pandian. By portraying the Tamil Pandian as a secret Chief Minister of Odisha and [mocking the Tamil way of life](https://42683ff2b1a2ac5ad2fef0ee01995d78.ipfs.4everland.link/ipfs/bafybeiestxq2cmm6smn3gbuud4rsjswnoarc6zgyew2mh2od66745ftg4a).
 
 The BJP is adept at hate politics, as evidenced by their targeting of a Tamil Pandian who has lived and worked in the state for 20 years and speaks fluent Odia. They promote the idea that loyalty to the state should be determined by blood, which is a divisive and discriminatory ideology.
 
@@ -67,3 +67,14 @@ Who are antyodaya household, is it 0.1% of people, 1% of people or even less or 
 ## Role of Opposition
 
 This time, the BJP, as a single party, has not secured a full majority in the center. The opposition has gained strength and their role is to expose the government's lies and prevent the situation from worsening.
+
+
+## Suggestion for Political Reform in BJD
+
+Naveen Patnaik can no longer lead due to his old age. He is now 77 and suffers from various ailments. It's time for him to retire. But what will be the future of the BJD? Political parties have always depended on a single leader, and elections are fought based on that single leader's name. The defeat of the BJD was partly because the BJP highlighted that Naveen Patnaik is no longer able to lead, questioning how a Tamil from a different state could lead the BJD. Pandian is not Odia.
+
+It's time for reform in the BJD. Leaders should be elected by party workers, and it's crucial to use [Approval Voting](https://electionscience.org/approval-voting-faqs/) or Score Voting to select the leader, not the First-Past-The-Post (FPTP) system. FPTP is a terrible voting method due to vote splitting; it is unlikely to yield the best leader or reflect the consensus of party workers and the people.
+
+Additionally, decision-making needs to be more decentralized. The BJD can form evidence based [teal organization to handle a self-managed system effectively](https://cloudflare-ipfs.com/ipfs/bafykbzacecfk7ruyr2cyk4px5o4op6tzdfnkwfzah3t5drrwxrftznfahhn3c?filename=Laloux%2C%20Frederic%20-%20Reinventing%20Organizations_%20A%20Guide%20to%20Creating%20Organizations%20Inspired%20by%20the%20Next%20Stage%20of%20Human%20Consciousness-Nelson%20Parker%20%282014%29.epub) decreasing centralized decision-making.
+
+This approach can also be applied to other political parties, such as Congress or other regional parties.
