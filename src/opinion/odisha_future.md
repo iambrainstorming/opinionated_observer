@@ -78,3 +78,56 @@ It's time for reform in the BJD. Leaders should be elected by party workers, and
 Additionally, decision-making needs to be more decentralized. The BJD can form evidence based [teal organization to handle a self-managed system effectively](https://cloudflare-ipfs.com/ipfs/bafykbzacecfk7ruyr2cyk4px5o4op6tzdfnkwfzah3t5drrwxrftznfahhn3c?filename=Laloux%2C%20Frederic%20-%20Reinventing%20Organizations_%20A%20Guide%20to%20Creating%20Organizations%20Inspired%20by%20the%20Next%20Stage%20of%20Human%20Consciousness-Nelson%20Parker%20%282014%29.epub) decreasing centralized decision-making.
 
 This approach can also be applied to other political parties, such as Congress or other regional parties.
+
+## FPTP: The Most Problematic Voting Method
+
+FPTP, or the first-past-the-post voting method, is indeed considered one of the most problematic voting systems. The example provided illustrates this issue well. In the 2024 Lok Sabha elections, the Biju Janata Dal (BJD) secured 37.4% of the vote share but did not win any seats, while the Bharatiya Janata Party (BJP) won 20 out of 21 seats with a 45.4% vote share. It's a completely unfair distribution of seats. One can also consider the opaque EVM voting system and its potential for manipulation.
+
+[Percentage data](https://github.com/silicology/election_data_analysis/blob/main/data/percentage_votes_state_wise.json)
+
+```json
+
+"Odisha": [
+    {
+      "party": "Bharatiya Janata Party",
+      "percentage": 45.40879937009895,
+      "votes": 11410789
+    },
+    {
+      "party": "Biju Janata Dal",
+      "percentage": 37.460182499711685,
+      "votes": 9413379
+    },
+    {
+      "party": "Indian National Congress",
+      "percentage": 12.526486303130094,
+      "votes": 3147784
+    },
+    {
+      "party": "None of the Above",
+      "percentage": 1.2952471775069994,
+      "votes": 325483
+    },
+    {
+      "party": "Independent",
+      "percentage": 1.1795960575630748,
+      "votes": 296421
+    },
+    {
+      "party": "Jharkhand Mukti Morcha",
+      "percentage": 0.5388151534404875,
+      "votes": 135399
+    },
+    {
+      "party": "Socialist Unity Centre Of India (COMMUNIST)",
+      "percentage": 0.45754658377925195,
+      "votes": 114977
+    },
+    {
+      "party": "Bahujan Samaj Party",
+      "percentage": 0.411221668519902,
+      "votes": 103336
+    }
+  ]
+    
+```
