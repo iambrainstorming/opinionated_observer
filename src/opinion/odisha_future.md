@@ -136,7 +136,7 @@ FPTP, or the first-past-the-post voting method, is indeed considered one of the 
 
 Looking at the data of EVM counts during polling and counting, one can confidently say that EVM manipulation is widespread in Odisha.
 
-Will the election be considered valid? #RiggedElection
+Will the election be considered valid? #RiggedElection #ElectoralFraud
 
 
 [All data](https://github.com/silicology/election_data_analysis/blob/main/data/voter_turnout_data/evm_tunout_matching/evm_voter_turnout_comparison.json)
