@@ -131,3 +131,160 @@ FPTP, or the first-past-the-post voting method, is indeed considered one of the 
   ]
     
 ```
+
+## Widespread EVM Manipulation in Odisha
+
+Looking at the data of EVM counts during polling and counting, one can confidently say that EVM manipulation is widespread in Odisha.
+
+[All data](https://github.com/silicology/election_data_analysis/blob/main/data/voter_turnout_data/evm_tunout_matching/evm_voter_turnout_comparison.json)
+
+```json
+{
+    "constituency_name": "Bargarh",
+    "difference": -1803,
+    "evm_turnout_votes": 1300266,
+    "evm_turnout_votes_polled": 1302069,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Sundargarh",
+    "difference": -1907,
+    "evm_turnout_votes": 1148968,
+    "evm_turnout_votes_polled": 1150875,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Sambalpur",
+    "difference": -1610,
+    "evm_turnout_votes": 1190616,
+    "evm_turnout_votes_polled": 1192226,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Keonjhar",
+    "difference": -1402,
+    "evm_turnout_votes": 1252761,
+    "evm_turnout_votes_polled": 1254163,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Mayurbhanj",
+    "difference": -3666,
+    "evm_turnout_votes": 1165669,
+    "evm_turnout_votes_polled": 1169335,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Balasore",
+    "difference": 1173,
+    "evm_turnout_votes": 1235600,
+    "evm_turnout_votes_polled": 1234427,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Bhadrak",
+    "difference": -5619,
+    "evm_turnout_votes": 1291183,
+    "evm_turnout_votes_polled": 1296802,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Jajpur",
+    "difference": 809,
+    "evm_turnout_votes": 1151847,
+    "evm_turnout_votes_polled": 1151038,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Dhenkanal",
+    "difference": -9427,
+    "evm_turnout_votes": 1184033,
+    "evm_turnout_votes_polled": 1193460,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Bolangir",
+    "difference": -2638,
+    "evm_turnout_votes": 1394081,
+    "evm_turnout_votes_polled": 1396719,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Kalahandi",
+    "difference": -2137,
+    "evm_turnout_votes": 1322799,
+    "evm_turnout_votes_polled": 1324936,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Nabarangpur",
+    "difference": -7296,
+    "evm_turnout_votes": 1236661,
+    "evm_turnout_votes_polled": 1243957,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Kandhamal",
+    "difference": -2571,
+    "evm_turnout_votes": 990520,
+    "evm_turnout_votes_polled": 993091,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Cuttack",
+    "difference": -1977,
+    "evm_turnout_votes": 1116941,
+    "evm_turnout_votes_polled": 1118918,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Kendrapara",
+    "difference": -4212,
+    "evm_turnout_votes": 1272561,
+    "evm_turnout_votes_polled": 1276773,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Jagatsinghpur",
+    "difference": -3597,
+    "evm_turnout_votes": 1280103,
+    "evm_turnout_votes_polled": 1283700,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Puri",
+    "difference": -5650,
+    "evm_turnout_votes": 1191034,
+    "evm_turnout_votes_polled": 1196684,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Bhubaneswar",
+    "difference": -1334,
+    "evm_turnout_votes": 1077476,
+    "evm_turnout_votes_polled": 1078810,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Aska",
+    "difference": 164,
+    "evm_turnout_votes": 1016047,
+    "evm_turnout_votes_polled": 1015883,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Berhampur",
+    "difference": -2118,
+    "evm_turnout_votes": 1038806,
+    "evm_turnout_votes_polled": 1040924,
+    "state": "Odisha"
+  },
+  {
+    "constituency_name": "Koraput",
+    "difference": -4159,
+    "evm_turnout_votes": 1144023,
+    "evm_turnout_votes_polled": 1148182,
+    "state": "Odisha"
+  }
+  
+```
