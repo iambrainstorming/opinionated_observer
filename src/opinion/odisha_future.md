@@ -139,7 +139,7 @@ Looking at the data of EVM counts during polling and counting, one can confident
 Will the election be considered valid? #RiggedElection #ElectoralFraud
 
 
-[All data](https://github.com/silicology/election_data_analysis/blob/main/data/voter_turnout_data/evm_tunout_matching/evm_voter_turnout_comparison.json)
+[All data](https://github.com/silicology/election_data_analysis/blob/main/data/voter_turnout_data/evm_turnout_matching/evm_voter_turnout_comparison.json)
 
 ```json
 {
