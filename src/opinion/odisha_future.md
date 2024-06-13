@@ -21,6 +21,8 @@ The BJP is adept at hate politics, as evidenced by their targeting of a Tamil Pa
 
 Do you prefer a candidate like Pandian from an independent regional party, or do you support a system where the chief minister and all other ministers and bureaucrats are mere bootlickers, remote-controlled by Modi and Shah? These bootlickers elevate Modi to the status of a god, placing him even above Lord Jagannath.
 
+[New Odisha CM Had Campaigned for Release of Graham Staines' Killer Dara Singh](https://thewire.in/communalism/new-odisha-cm-had-campaigned-for-release-of-graham-staines-killer-dara-singh)
+
 Do you prefer the South model, exemplified by Pandian, which is widely regarded as one of the most successful models in India, or do you opt for the Gujarat capitalist model, which boasts high education dropout rates, malnourished children, and exorbitant electricity bills? The choice between these two distinct models presents a clear contrast in priorities and outcomes.
 
 
