@@ -35,6 +35,17 @@ The trend of independent anchors resigning from TV news channels is concerning, 
 
 The government will continue to exploit WhatsApp and other social media platforms to disseminate disinformation, conceal its flaws, and manipulate public opinion through emotional appeals. This tactic enables them to shape public perception and maintain control over the narrative, often at the expense of transparency and factual information.
 
+## Normalizing Internet Shutdowns and Curfews Amidst the Rise of Religious Politics
+
+As the influence of religious groups continues to grow in our society, it is becoming increasingly apparent that the political landscape is shifting in a manner that reflects this. With the rise of religious politics, we are seeing the implementation of measures such as curfews and internet shutdowns in an attempt to maintain order and control. While these actions may seem necessary to some, the long-term consequences of such restrictions can be detrimental to both individuals and the economy as a whole.
+
+Internet shutdowns, in particular, are a cause for concern. By cutting off access to the internet, essential communication channels, vital information sources, and online businesses are hindered. This not only affects the ability of citizens to stay connected and informed but also has a direct impact on the economy. Small businesses, freelancers, and entrepreneurs who rely on the internet to conduct their work can suffer significant financial losses during these shutdowns, leading to a potential decline in the economy.
+
+[In 2022, the world saw 187 internet shutdowns – 84 by India alone](https://www.aljazeera.com/news/2023/2/28/in-2022-the-world-saw-187-internet-shutdowns-84-by-india-alone)
+
+Moreover, the normalization of curfews and internet shutdowns can lead to a further erosion of civil liberties and individual freedoms. As these measures become more commonplace, citizens may become desensitized to the infringement of their rights, ultimately allowing for more drastic and authoritarian policies to be enacted in the name of maintaining order.
+
+[Curfew in Odisha's Balasore after clash between groups](https://www.indiatoday.in/india/story/curfew-odishas-balasore-clash-erupted-bakri-eid-odisha-cm-mohan-charan-majhi-2554612-2024-06-18)
 
 ## More exploitation of resources
 
