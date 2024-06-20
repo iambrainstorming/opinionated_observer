@@ -30,6 +30,8 @@ Surprisingly, the children who were given the soup containing meat each day seem
 
 Which foods cause the most greenhouse gas emissions?
 
+Animal-based foods, especially red meat, dairy, and farmed shrimp, are generally associated with the highest greenhouse gas emissions. 
+
 Meat production often requires extensive grasslands, which is often created by cutting down trees, releasing carbon dioxide stored in forests.
 
 ## The Cultural Significance of Meat Consumption
