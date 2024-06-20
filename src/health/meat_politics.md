@@ -34,6 +34,15 @@ Animal-based foods, especially red meat, dairy, and farmed shrimp, are generally
 
 Meat production often requires extensive grasslands, which is often created by cutting down trees, releasing carbon dioxide stored in forests.
 
+## High Meat Consumption Linked to Obesity
+
+Several studies have found a positive correlation between high meat consumption and obesity. For example, a study published in the International Journal of Obesity found that individuals who consumed high amounts of meat had a 33% higher risk of central obesity compared to those who consumed less meat.
+
+[Diets High in Meat Consumption Associated with Obesity](https://publichealth.jhu.edu/2009/wang-meat-consumption-obesity)
+
+Moreover, a diet high in meat may also lack essential nutrients found in plant-based foods, such as fiber, vitamins, and minerals, which are essential for maintaining a healthy weight and preventing chronic diseases. A balanced diet should include a variety of foods from all food groups, including fruits, vegetables, whole grains, lean proteins, and healthy fats, to ensure that all necessary nutrients are obtained.
+
+
 ## The Cultural Significance of Meat Consumption
 
 Meat consumption is not just a biological necessity; it is also an essential part of many cultural practices. In many societies, meat is a symbol of wealth, power, and status. For instance, in many African cultures, meat is considered a delicacy and is served during special occasions and ceremonies. Similarly, in many Indigenous cultures, hunting and meat consumption are integral to their cultural identity and way of life.
