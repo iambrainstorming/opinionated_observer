@@ -18,7 +18,9 @@ In 1992, researchers proposed that this gradual expansion of the ancestral brain
 ## How a vegan diet could affect your intelligence
 <https://www.bbc.com/future/article/20200127-how-a-vegan-diet-could-affect-your-intelligence>
 
-There are several important brain nutrients that simply do not exist in plants or fungi
+> There are several important brain nutrients that simply do not exist in plants or fungi
+
+Creatine, carnosine, taurine, EPA and DHA omega-3 (the third kind can be found in plants), haem iron and vitamins B12 and D3 generally only occur naturally in foods derived from animal products, though they can be synthesised in the lab or extracted from non-animal sources such as algae, bacteria or lichen, and added to supplements.
 
 Surprisingly, the children who were given the soup containing meat each day seemed to have a significant edge. By the end of the study, they outperformed all the other children on a test for non-verbal reasoning. Along with the children who received soup with added oil, they also did the best on a test of arithmetic ability. Of course, more research is needed to verify if this effect is real, and if it would also apply to adults in developed countries, too. But it does raise intriguing questions about whether veganism could be holding some people back.
 
@@ -35,6 +37,18 @@ Meat production often requires extensive grasslands, which is often created by c
 Meat consumption is not just a biological necessity; it is also an essential part of many cultural practices. In many societies, meat is a symbol of wealth, power, and status. For instance, in many African cultures, meat is considered a delicacy and is served during special occasions and ceremonies. Similarly, in many Indigenous cultures, hunting and meat consumption are integral to their cultural identity and way of life.
 
 Therefore, the cultural significance of meat consumption cannot be ignored. Attempts to impose vegetarianism or veganism on people who have deep-rooted cultural connections to meat consumption can be seen as a form of cultural imperialism. Instead, we should focus on promoting responsible meat consumption that takes into account the cultural practices and beliefs of different communities.
+
+## Animal Sacrifice and Superstition
+
+While meat consumption can offer numerous health benefits and has played a significant role in human evolution, it is crucial to distinguish between its use as a source of nutrition and its involvement in animal sacrifice and superstition.
+
+The practice of animal sacrifice, however, raises concerns about animal welfare and can perpetuate a culture of violence and disregard for the sanctity of life.
+
+Superstition, on the other hand, involves the belief in supernatural influences and the attribution of events to causes that have no logical explanation. When it comes to meat consumption, superstition can lead to misguided beliefs and practices that may pose a danger to both human and animal health.
+
+In some underdeveloped communities, the belief in supernatural forces and the need to appease these entities can result in horrific acts of violence, including the sacrifice of human lives.
+
+The persistence of misguided beliefs and practices, such as animal sacrifice, serves as a stark reminder of the potential dangers that can arise from the intersection of superstition and human behavior. In some underdeveloped communities, the belief in supernatural forces and the need to appease these entities can result in horrific acts of violence, including the sacrifice of human lives.
 
 ## The Importance of Personal Choice
 
