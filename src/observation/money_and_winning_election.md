@@ -2,11 +2,19 @@
 
 ## Introduction
 
-The narrative that money is the defining factor in winning an election is deeply ingrained in our society. However, this belief often overlooks the critical role of authentic communication, community engagement, and vision in connecting with voters and winning their support. As independent candidates or political newcomers, it's crucial to understand how these factors can help you overcome the challenges of vote buying and the first-past-the-post (FPTP) system.
+The narrative that money is the defining factor in winning an election is deeply ingrained in our society. In a country where [88% of MPs are crorepatis](https://www.indiatoday.in/elections/lok-sabha-2019/story/new-lok-sabha-has-475-crorepati-mps-adr-1535330-2019-05-26), it's hard to imagine politics without money. However, this belief often overlooks the critical role of authentic communication, community engagement, and vision in connecting with voters and winning their support. As independent candidates or political newcomers, it's crucial to understand how these factors can help you overcome the challenges of vote buying and the first-past-the-post (FPTP) system.
 
 ## The Myth of Money in Elections
 
 While it's true that money plays a role in elections, it is not the sole determining factor. In fact, numerous examples of candidates with limited financial resources but strong grassroots support and compelling messages have proven that money is not a necessary factor to win an election.
+
+## Money for Bribing Voters
+
+In a constituency with 7 to 14 lakh voters, it's not even practical for a crorepati to bribe everyone. If they pay ₹500 per voter, it would cost about ₹70 crore. Moreover, most voters are not morally corrupt and will not vote for a candidate just for money. Additionally, voting is a secret affair; you might take a bribe from someone but still vote for another candidate if they have convinced you enough.
+
+## Money for Marketing
+
+Crorepatis invest heavily in marketing to build their narrative, for example, the sold-out corporate mainstream media campaigns promoting the central government 24/7. However, candidates does not need to spend crores on marketing. Loudspeakers and social media are the cheapest forms of communication to reach a large number of people, provided you are communicating authentically with techniques like deep canvassing and being more creative with your campaign. It's not the money, but the time you are willing to give, that is important.
 
 ## The Power of Authentic Communication
 
