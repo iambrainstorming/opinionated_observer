@@ -19,6 +19,13 @@ The new criminal law allows the police to seek direct custody of an accused for 
 
 While the word "sedition" has been absent from the new criminal law, experts argue that a more draconian version has been introduced through the back door. The criminalization of vague actions, such as "endangering sovereignty or unity and integrity of India," carries harsh punishments of up to life imprisonment. This raises concerns about free speech and the potential misuse of power by authorities.
 
+## NTA exam scam
+
+The lack of public outrage and mass gatherings, similar to the victory parade celebrations, in response to the NTA scam is concerning. The government's decision to proceed with the counseling process, despite the ongoing controversy, further highlights the disconnect between the authorities and the students' plight. 
+
+[Millions of students at risk: India’s elite exams hit by corruption ‘scam’](https://www.aljazeera.com/news/2024/6/21/millions-of-students-at-risk-indias-elite-exams-hit-by-corruption-scam)
+
+
 ## Apathy Towards Protesting Athletes
 
 The Indian youth's enthusiasm for cricket and its players is undeniable, but where is this support when other athletes stand up for important causes? In May 2023, Olympic medal winner Vinesh Phogat and fellow wrestlers protested against the IOA's top official, Brij Bhushan Sharan Singh, who was accused of sexual harassment and abuse.  Despite the presence of celebrated Olympic medallists, the protest was largely ignored by the cricket fraternity, with hardly any cricketers voicing their support. The absence of mass gatherings and a public outcry, similar to the victory parade for T20 Cup that attracted hundreds of thousands, highlights a selective interest in issues that demand attention and action. 

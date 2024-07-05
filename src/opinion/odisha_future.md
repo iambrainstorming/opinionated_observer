@@ -1,6 +1,5 @@
 # Odisha's future for the next five years looks gloomy with the change in government.
 
-
 What will you choose: rampant exploitation by big corporates or social welfare? Confused voters of Odisha have chosen the former.
 
 The governance of the Modi-led BJP and the Naveen-led BJD is markedly different. One focuses on big corporates and privatization, while the other leans towards social welfare to some extent. Although the BJD may have its flaws, politics under the First-Past-the-Post (FPTP) voting system is not about choosing between good and evil, but rather between lesser evils. By opting for a more evil government over a less evil one, Odisha has made a significant mistake.
@@ -67,7 +66,10 @@ Naveen made a promise to provide 100 units of free electricity, a feat that the 
 Roof-top solar installations, led by the Modi government, are also questionable. Although the Modi government has done some good work on solar infrastructure, this too can be challenged as they are attempting to create a corporate-based solar grid to keep solar power under the control of corporations, rather than allowing people to run rooftop solar systems.
 
 [The manifesto pledged to extend BJD Government’s flagship BSKY health insurance to middle class families, government employees and contractual employees in a phased manner.](https://42683ff2b1a2ac5ad2fef0ee01995d78.ipfs.4everland.link/ipfs/bafkreihz4zkxqyhcdlctypui7gqy36hjnrn7bqxi4oxjixivqsplhohz5a)
+
 BJD was also implementing it before election through Naveen card, will BJP bring such health care benefits to middle class?
+
+Though there are reports that many hospitals are not accepting BSKY cards due to non-payment of fees during BJD tenure, but exact figures are unavailable, thanks to the insincere media.
 
 Tall claims by [BJP of 300 units of free electricity](https://42683ff2b1a2ac5ad2fef0ee01995d78.ipfs.4everland.link/ipfs/bafybeifoniiv4kutl6mjpjgmcyk3jiujd7g5u4bv4whqa56h67uct32ahy), but no mention of it in their manifesto.
 
