@@ -31,6 +31,8 @@
 - [Justice Katju on Indian economics, politics and media](./observation/justice-katju-on-economics-politics-media.md)
 - [Why Don't Educated Indians Enter Politics?](./observation/dont-enter-politics.md)
 - [Bread and Circuses: The Distracted Youth of India](./observation/bread_and_circuses_indian_youth.md)
+- [Nurture vs. Nature: The Complex Interaction of Genes and Environment](./observation/nurture_vs_nature.md)
+- [Criminals are not born out but made](./observation/criminals-are-not-born.md)
 
 # Information
 
