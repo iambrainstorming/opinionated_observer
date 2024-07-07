@@ -33,6 +33,7 @@
 - [Bread and Circuses: The Distracted Youth of India](./observation/bread_and_circuses_indian_youth.md)
 - [Nurture vs. Nature: The Complex Interaction of Genes and Environment](./observation/nurture_vs_nature.md)
 - [Criminals are not born out but made](./observation/criminals-are-not-born.md)
+- [The Necessity of Education for Politicians: Ensuring Competent Governance](./observation/educated_politicians.md)
 
 # Information
 
