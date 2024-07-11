@@ -14,7 +14,7 @@ In large groups, individual instances of cheating might not significantly alter 
 
 About 20 lakh students registered for the exam, and there are about [41,000 government seats](https://www.vedantu.com/neet/government-mbbs-seats-through-neet). Including private colleges, there are 78,000 seats in total. The percentage of students getting seats is 3.9%.
 
-It's a minuscule number of seats, and the bell curve can hardly provide any insight if 4-10% of cheating has occurred, and and they won the seats.
+It's a minuscule number of seats, and the bell curve can hardly provide any insight if 4-10% of cheating has occurred, and they got the seats.
 
 Furthermore, there is no mention of standard deviation, variance, or the spread of data, whether it’s a flattened normal distribution or a squeezed normal distribution, based on exam history. Changes in variability can also suggest deviations from normal patterns of results.
 
