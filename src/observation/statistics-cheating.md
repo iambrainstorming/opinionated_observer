@@ -20,6 +20,12 @@ Furthermore, there is no mention of standard deviation, variance, or the spread 
 
 According to the Center, marks do deviate from the usual history, but they suggest the reduction of the syllabus as the reason instead of cheating. How can they be so sure?
 
+
+## Mass scale manipulation argument is vague
+
+The argument regarding mass-scale manipulation is vague. In today's internet and mobile world, it takes just minutes for a leaked paper to spread. If it reaches even 10,000 to 20,000 students, the entire purpose of the examination is defeated, especially considering there are fewer than a lakh medical seats, and even fewer (41,000) government seats.
+
+
 ## What statistics researcher use for Detection of Cheating?
 
 [The Detection of Cheating on E-Exams in Higher Education—The Performance of Several Old and Some New Indicators](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7573546/)
