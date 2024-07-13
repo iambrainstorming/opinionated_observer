@@ -39,4 +39,22 @@ However, this is not happening. In order to defeat the right to default bail, in
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HbzQ9V31Zj8?si=pvwQreC9ltKh9XEB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
+## When justice perishes, the people are left to the vultures
 
+The root cause of every big problem in India is now the CJI and the judiciary, whether it's UAPA/PMLA, Money Bill, EVM, or NEET. It is the judiciary that has become a threat to our democracy.
+
+
+One should learn from the USA: when corruption becomes rampant in the judiciary, impeachment should be pursued.
+
+> Corruption, without consequence, infects all it touches. 
+
+Congress must exercise its powers to impeach.
+
+<video controls width="500">
+    <source src="https://cf-ipfs.com/ipfs/bafybeicdac3gfr4ospw3jvi4rxfhjauleezt76nx64qrpsfjr4zqnt2are" type="video/mp4">
+    <!-- Add additional source elements for different video formats if needed -->
+    Your browser does not support the video tag.
+</video>
+
+
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Corruption, without consequence, infects all it touches. Congress must exercise its powers to impeach.<br><br>The corruption of Justices Thomas &amp; Alito constitutes a clear danger to our democracy. I moved to impeach them because it is the right thing to do for the American people. <a href="https://t.co/eOscx9avE1">pic.twitter.com/eOscx9avE1</a></p>&mdash; Rep. Alexandria Ocasio-Cortez (@RepAOC) <a href="https://twitter.com/RepAOC/status/1811251753435754564?ref_src=twsrc%5Etfw">July 11, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
