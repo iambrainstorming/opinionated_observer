@@ -51,7 +51,7 @@ One should learn from the USA: when corruption becomes rampant in the judiciary,
 Congress must exercise its powers to impeach.
 
 <video controls width="500">
-    <source src="https://cf-ipfs.com/ipfs/bafybeicdac3gfr4ospw3jvi4rxfhjauleezt76nx64qrpsfjr4zqnt2are" type="video/mp4">
+    <source src="https://42683ff2b1a2ac5ad2fef0ee01995d78.ipfs.4everland.link/ipfs/bafybeicr5ljkoxisqylmo27d6vaf5hap36cex3dedpsid3xvfclktph7me" type="video/mp4">
     <!-- Add additional source elements for different video formats if needed -->
     Your browser does not support the video tag.
 </video>

@@ -81,6 +81,10 @@ Who are antyodaya household, is it 0.1% of people, 1% of people or even less or 
 
 [BJP Important Promises in short](https://42683ff2b1a2ac5ad2fef0ee01995d78.ipfs.4everland.link/ipfs/bafkreigxwfaprrdzolkruzf4otknxn4jts4v3mg6v6t2gziquna25yu4ki)
 
+## Renaming of schemes
+
+What do you expect from the government? Do you expect an improvement in the services of existing schemes or merely a rebranding of all the schemes introduced by the previous government, accompanied by a [hefty expenditure of hundreds of crores on the rebranding effort](./images/rename.jpeg)?
+
 ## Role of Opposition
 
 This time, the BJP, as a single party, has not secured a full majority in the center. The opposition has gained strength and their role is to expose the government's lies and prevent the situation from worsening.
