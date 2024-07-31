@@ -58,3 +58,19 @@ Congress must exercise its powers to impeach.
 
 
 <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Corruption, without consequence, infects all it touches. Congress must exercise its powers to impeach.<br><br>The corruption of Justices Thomas &amp; Alito constitutes a clear danger to our democracy. I moved to impeach them because it is the right thing to do for the American people. <a href="https://t.co/eOscx9avE1">pic.twitter.com/eOscx9avE1</a></p>&mdash; Rep. Alexandria Ocasio-Cortez (@RepAOC) <a href="https://twitter.com/RepAOC/status/1811251753435754564?ref_src=twsrc%5Etfw">July 11, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+## Are judiciary decisions legitimate?
+
+> We need to stop believing the judiciary is legitimate, if they make decision on pseudoscience to serve the powerful. 
+
+The [entire country on Electronic Voting Machines (EVMs)](https://iambrainstorming.github.io/chapters/the-lok-sabha-election-is-about-regional-parties-vs-one-party-dictatorship.html#loksabha-election-2024-results) and the electoral process rely on EVM integrity. Despite compelling evidence and widespread concerns regarding the potential flaws and vulnerabilities of EVMs, the Supreme Court rejected Public Interest Litigations (PILs) seeking a thorough investigation. Furthermore, the court denied requests to count all Voter-Verified Paper Audit Trails (VVPATs), an essential verification mechanism, without providing any satisfactory justification.
+
+This example underscores the need for a paradigm shift in understanding power dynamics, as outlined in the pluralistic model of power. This model challenges the perception of power as monolithic or static, instead highlighting its fluid and dispersed nature. In any society, power dynamics can shift rapidly, and ultimately, power emanates from the people. Each individual possesses a small yet significant source of political power, and collectively, they have the agency to grant or revoke power from their rulers.
+
+> Power in society ultimately comes from the people. And those people - each of whom is a small, individual source of political power - can change their minds. Rulers only have that power which people provide to them.
+
+In democratic societies, power is ideally granted willingly by the people, but it can also be coerced or relinquished through apathy. Recognizing this dynamic, nonviolent campaigns play a pivotal role in empowering individuals to understand their capacity for change. When people unite and act in strategic, nonviolent ways, they can exert immense pressure on power structures and demand accountability.
+
+The current situation calls for precisely such a response from the citizens. By questioning the legitimacy of the judiciary in the face of unjust decisions, people send a powerful message that they will not tolerate corruption or abuse of power. This sentiment is encapsulated in the pluralistic model of power, which asserts that rulers derive their power from the people and are therefore accountable to them.
+
+[Bring Down Dictatorship](https://iambrainstorming.github.io/chapters/democracy/fascism_power.html)
