@@ -41,4 +41,5 @@
 
 - [Four departments of brainwashing](./information/four_departments_brainwashing.md)
 - [The Justice Brief, Master of Roster](./information/master_of_the_roster.md)
+- [Broadcast bill explained: Is censorship coming for content creators?](./information/broadcast_bill.md)
 
