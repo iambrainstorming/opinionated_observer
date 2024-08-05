@@ -60,6 +60,10 @@ Things seem to be now uncertain.
 
 The fate of the 5T schools, known for their improved infrastructure under Naveen's leadership, is uncertain under a BJP government led by Modi. The quality of education in Odisha under the leadership of Naveen remains questionable. However, it is worth acknowledging that the school infrastructure has witnessed some positive changes and improvements during his tenure. Modi, who has positioned himself as a divine, non-biological entity, promotes pseudoscience over scientific facts, as evidenced by his party's efforts to remove the theory of evolution from the curriculum. This raises concerns about the BJP's commitment to educational standards and their potential disregard for evidence-based learning.
 
+## Lakshmi bus scheme 
+
+The BJP government was never a fan of public transport, that benefits the middle-class and poor, instead their policies are to build car centric infrastructure. The Lakshmi bus scheme is now under uncertainty. BJP government may not expand it further instead, busy is shutting down the services. Lakshmi bus is already shut down in Malkangiri. 
+
 ## The Manifesto
 Naveen made a promise to provide 100 units of free electricity, a feat that the BJP government would find difficult to replicate. Instead, there is evidence of a coal scam by corporates, leading to an increase in electricity prices beyond affordability.
 
@@ -84,6 +88,15 @@ Who are antyodaya household, is it 0.1% of people, 1% of people or even less or 
 ## Renaming of schemes
 
 What do you expect from the government? Do you expect an improvement in the services of existing schemes or merely a rebranding of all the schemes introduced by the previous government, accompanied by a [hefty expenditure of hundreds of crores on the rebranding effort](./images/rename.jpeg)?
+
+## The Bulldozer Government: Destroying Local Businesses
+
+The BJP government has a track record of bulldozing small businesses, and their actions often leave local communities and entrepreneurs suffering. These road sides are often the lifeblood of local communities, providing a means for small business owners to support their families and offer convenient services to the public. While it is true that road sides are typically government property, the purpose of such property is to serve the public. These entrepreneurs are don't have  the same opportunities and money  as large corporations to build supermarkets, and must instead make do with limited resources with roadside business. The destruction of the Bhadrak market, where countless shops have been bulldozed, is a prime example of the government's shortsighted and dictatorship approach. [Widening roads to accommodate cars](https://iambrainstorming.github.io/chapters/road-planning-of-cities.html#city-traffic-sucks-they-should-widen-the-roads) will never be enough, and the true loss is felt by those whose livelihoods are being destroyed in the name of "progress."
+
+> No more shopkeepers to sell children's materials or no more shopkeepers to sell spectacles; their livelihoods have been destroyed.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Kz0pe1YHQR4?si=L-EaZmLm1AFcnSpG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Role of Opposition
 
