@@ -36,6 +36,7 @@
 - [Criminals are not born out but made](./observation/criminals-are-not-born.md)
 - [The Necessity of Education for Politicians: Ensuring Competent Governance](./observation/educated_politicians.md)
 - [Statistics Behind Cheating in Exam](./observation/statistics-cheating.md)
+- [Citing sources to criticize not copyright](./observation/citing_sources.md)
 
 # Information
 
