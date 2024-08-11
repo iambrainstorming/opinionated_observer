@@ -11,6 +11,7 @@ The consequences of this trend are far-reaching. It discourages content creators
 
 Furthermore, the arbitrary nature of these content moderation decisions raises questions of transparency and accountability. Platforms often rely on automated systems or opaque guidelines to determine what constitutes acceptable criticism, leading to inconsistent and unfair enforcement. This lack of clarity creates an environment of uncertainty for content creators, who are left wondering if their next video will be targeted for expressing their opinions.
 
+
 When citing sources for criticism, the primary purpose is to engage with the original work, provide context, and support arguments. This type of citation is essential for:
 
 - Providing background information: Cite sources to establish the foundation of a topic, highlighting relevant research, theories, or debates.
@@ -33,3 +34,11 @@ Criticism-driven citations often involve:
 These citations are typically longer and more nuanced than copyright-driven citations, as they require a deeper understanding of the original work and its significance.
 
 By citing sources for criticism, you demonstrate academic integrity, respect for the original work, and a commitment to advancing knowledge in your field.
+
+## Freedom of speech is non-negotiable and the role of courts
+
+The role of the courts in safeguarding freedom of speech cannot be overstated, particularly when government overreach threatens to censor and silence critical voices. It is imperative that the judiciary actively intervenes to protect this fundamental right, enshrined in the constitution as a foundational principle. When the government requests censorship, the courts must not become passive spectators but instead uphold the truth and defend the freedoms guaranteed to all citizens.
+
+The courts, as guardians of the Constitution, must uphold the fundamental right to free expression, ensuring that truth and transparency prevail over arbitrary power.
+
+By intervening in cases of government-imposed censorship, the courts send a strong signal that freedom of speech is non-negotiable and that any attempts to curtail it will be scrutinized and challenged. This checks the power of the executive, holding them accountable to the people and the principles of a free and open society. It is through this proactive approach that the judiciary can fulfill its duty to defend the First Amendment rights of citizens and uphold the spirit of the Constitution.
