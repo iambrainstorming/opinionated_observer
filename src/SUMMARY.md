@@ -37,6 +37,7 @@
 - [The Necessity of Education for Politicians: Ensuring Competent Governance](./observation/educated_politicians.md)
 - [Statistics Behind Cheating in Exam](./observation/statistics-cheating.md)
 - [Citing sources to criticize not copyright](./observation/citing_sources.md)
+- [Justice for Moumita Debnath](./observation/justice-for-moumita-debnath.md)
 
 # Information
 
