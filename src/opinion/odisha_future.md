@@ -89,6 +89,17 @@ Who are antyodaya household, is it 0.1% of people, 1% of people or even less or 
 
 What do you expect from the government? Do you expect an improvement in the services of existing schemes or merely a rebranding of all the schemes introduced by the previous government, accompanied by a [hefty expenditure of hundreds of crores on the rebranding effort](./images/rename.jpeg)?
 
+## Free money: An Electoral Fraud
+
+Distributing free money without addressing supply chain issues and controlling inflation is a form of electoral fraud, akin to vote buying.
+
+### Subhadra Yojana
+
+How will [10,000 rupees per year help women](https://www.thehindu.com/news/national/odisha/bjd-mp-sulata-deo-calls-subhadra-yojana-an-election-gimmick-criticizes-limited-benefits-for-women/article68564892.ece) and the economy? With 10,000 rupees, one receives only 800 rupees per month. What can one do with 800 rupees? It can barely buy meals for two to three days. Furthermore, the excessive debts and printing of money will only further devalue the currency and decrease purchasing power. If the government provided rations with a fixed amount, we could ensure that the benefit would not fluctuate with changing prices. This promise of 800 rupees per month, without addressing supply chain issues and inflation, is nothing but an electoral gimmick and a fraudulent attempt to fool the people.
+
+There is also no certainty regarding the number of women who will benefit from this scheme. The government has not provided clear information on whether it will be applicable to all women or just a select few. They have a track record of changing their words and lying to the public.
+
+
 ## The Bulldozer Government: Destroying Local Businesses
 
 The BJP government has a track record of bulldozing small businesses, and their actions often leave local communities and entrepreneurs suffering. These road sides are often the lifeblood of local communities, providing a means for small business owners to support their families and offer convenient services to the public. What is the purpose of govt land? While it is true that road sides are typically government property, the purpose of such property is to serve the public. These entrepreneurs don't have the same opportunities and money  as large corporations to build supermarkets, and must instead make do with limited resources with roadside business. The destruction of the Bhadrak market, where countless shops have been bulldozed, is a prime example of the government's shortsighted and dictatorship approach. [Widening roads to accommodate cars](https://iambrainstorming.github.io/chapters/road-planning-of-cities.html#city-traffic-sucks-they-should-widen-the-roads) will never be enough, and the true loss is felt by those whose livelihoods are being destroyed in the name of "progress."
