@@ -95,9 +95,10 @@ Distributing free money without addressing supply chain issues and controlling i
 
 ### Subhadra Yojana
 
-How will [10,000 rupees per year help women](https://www.thehindu.com/news/national/odisha/bjd-mp-sulata-deo-calls-subhadra-yojana-an-election-gimmick-criticizes-limited-benefits-for-women/article68564892.ece) and the economy? With 10,000 rupees, one receives only 800 rupees per month. What can one do with 800 rupees? It can barely buy meals for two to three days. Furthermore, the excessive debts and printing of money will only further devalue the currency and decrease purchasing power. If the government provided rations with a fixed amount, we could ensure that the benefit would not fluctuate with changing prices. This promise of 800 rupees per month, without addressing supply chain issues and inflation, is nothing but an electoral gimmick and a fraudulent attempt to fool the people.
+How will [10,000 rupees per year help women](https://www.thehindu.com/news/national/odisha/bjd-mp-sulata-deo-calls-subhadra-yojana-an-election-gimmick-criticizes-limited-benefits-for-women/article68564892.ece) and the economy? With 10,000 rupees, one receives only 833 rupees per month. What can one do with 833 rupees? It can barely buy meals for two to three days. Furthermore, the excessive debts and printing of money will only further devalue the currency and decrease purchasing power. If the government provided rations with a fixed amount, we could ensure that the benefit would not fluctuate with changing prices. This promise of 833 rupees per month, without addressing supply chain issues and inflation, is nothing but an electoral gimmick and a fraudulent attempt to fool the people.
 
-There is also no certainty regarding the number of women who will benefit from this scheme. The government has not provided clear information on whether it will be applicable to all women or just a select few. They have a track record of changing their words and lying to the public.
+Additionally, the scheme has limited reach. With a female population of 2.25 crore in Odisha, the scheme only reaches 70 lakh women.
+
 
 ## Free money and hyperinflation
 
