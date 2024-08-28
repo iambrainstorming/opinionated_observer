@@ -99,6 +99,10 @@ How will [10,000 rupees per year help women](https://www.thehindu.com/news/natio
 
 There is also no certainty regarding the number of women who will benefit from this scheme. The government has not provided clear information on whether it will be applicable to all women or just a select few. They have a track record of changing their words and lying to the public.
 
+## Free money and hyperinflation
+
+When a [government prints and distributes large amounts of free money](https://mru.org/courses/principles-economics-macroeconomics/zimbabwe-currency-inflation) without addressing supply chain issues and inflation, it can lead to hyperinflation, where prices of goods and services increase rapidly. This occurs because the excess supply of money outpaces the supply of goods, causing each unit of currency to lose value. As prices rise, the purchasing power of individuals decreases, leading to increased debt as people borrow to maintain their standard of living. This cycle of printing more money to service the growing debt further exacerbates inflation, creating a vicious cycle that can ultimately lead to the destruction of an economy.
+
 
 ## The Bulldozer Government: Destroying Local Businesses
 
