@@ -91,7 +91,7 @@ What do you expect from the government? Do you expect an improvement in the serv
 
 ## Free money: An Electoral Fraud
 
-Distributing free money without addressing supply chain issues and controlling inflation is a form of electoral fraud, akin to vote buying.
+Distributing free money without addressing supply chain issues and controlling inflation and without taking account of state income is a form of electoral fraud, akin to vote buying.
 
 ### Subhadra Yojana
 
