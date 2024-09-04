@@ -4,7 +4,7 @@ Capital punishment is unethical and lacks empirical evidence as a solution.
 
 While the West Bengal TMC government can be appreciated for taking proactive measures, such as attempting to introduce legislative bills addressing rape, they are not in denial mode like the BJP government, which tends to sweep the issue under the rug and becomes self-righteous when such incidents occur in non-BJP states, all while ignoring similar incidents in BJP-ruled states.
 
-But is the West Bengal bill on the table based on empirical evidence?
+But is the [West Bengal anti-rape bill](https://www.barandbench.com/news/west-bengal-assembly-passes-anti-rape-bill-death-penalty-convicts) on the table based on empirical evidence?
 
 Capital punishment, also known as the death penalty, is the state-sanctioned killing of a person as punishment for actual or supposed misconduct.
 
