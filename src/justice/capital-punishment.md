@@ -31,3 +31,7 @@ It’s natural to get angry as we are biological beings, but we shouldn’t forg
 
 Rapes and criminal psychology are being studied in research, and to bring about change we need to apply the research in practice, we need to address our regressive societal norms for women and prioritize mental health. Only then can we ensure that our workplaces, streets, and homes remain safe for women.
 
+
+## Quiz
+
+{{#quiz ./capital-punishment.toml}}

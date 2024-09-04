@@ -1,0 +1,41 @@
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = """
+Which of the following best describes the meaning of capital punishment?
+"""
+prompt.distractors = [
+  "Life imprisonment without the possibility of parole",
+  "A fine or monetary penalty imposed by the state",
+  "Community service ordered by a court of law"
+]
+answer.answer = "State-sanctioned killing as punishment for misconduct"
+id = "209de2b0-b4a0-4491-bec4-5ddc0d260135"
+
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = """
+Is capital punishment an effective deterrent for crime?
+"""
+prompt.distractors = [
+  "Yes, capital punishment is a strong deterrent because it ensures criminals will never reoffend.",
+  "Capital punishment is effective only if the punishment is carried out swiftly and publicly.",
+  "The presence of capital punishment in a legal system reduces all types of crime."
+]
+answer.answer = "No, the certainty of being caught is a more powerful deterrent than the severity of punishment."
+id = "8b20ecfd-9b37-4fbd-9d64-584c0a4a3891"
+
+
+[[questions]]
+type = "MultipleChoice"
+prompt.prompt = """
+Which of the following best describes the relationship between our actions and reactions?"""
+prompt.distractors = [
+  "Our actions and reactions are entirely controlled by our genes.",
+  "The environment and social factors solely determine our actions and reactions.",
+  "Our actions and reactions are a manifestation of our free will, independent of genetic predispositions and environmental influences. We make choices independently regardless of biological or external factors."
+]
+answer.answer = "Our brain and body's biomolecular processes interact with environmental cues to shape our actions and reactions. With both our genetic makeup and life experiences playing significant roles in shaping who we are."
+id = "360cf75b-af4e-463a-8a34-911cad3a7b4f"
+
+
