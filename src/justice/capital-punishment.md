@@ -25,6 +25,8 @@ So, how can we increase the certainty of being caught? It’s about making the p
 
 The proposal for a special police force called the "Aparajita Task Force" is a good start, but it’s crucial to ensure they are adequately resourced.
 
+[Higher the punishment, the less certain a conviction becomes. Bengal’s ‘anti-rape’ law will actually reduce convictions, say experts.](https://scroll.in/article/1072870/bengals-anti-rape-law-will-actually-reduce-convictions-say-experts-heres-why) 
+
 ## Human: A Biological Body with a Biological Brain
 
 It’s natural to get angry as we are biological beings, but we shouldn’t forget that our [actions and reactions are based on molecular processes in our brain](https://iambrainstorming.github.io/chapters/understanding-free-will-and-how-it-can-impact-our-behavior.html). Criminal psychology can be studied in terms of environment and genetics, and how these factors impact the molecular processes of our brain.

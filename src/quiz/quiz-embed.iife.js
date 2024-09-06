@@ -10,8 +10,8 @@ var __publicField = (obj, key, value) => {
   function getDefaultExportFromCjs(x) {
     return x && x.__esModule && Object.prototype.hasOwnProperty.call(x, "default") ? x["default"] : x;
   }
-  var jsxRuntime = { exports: {} };
-  var reactJsxRuntime_development = {};
+  var jsxDevRuntime = { exports: {} };
+  var reactJsxDevRuntime_development = {};
   var react = { exports: {} };
   var react_development = { exports: {} };
   /**
@@ -995,10 +995,10 @@ var __publicField = (obj, key, value) => {
               get: function() {
                 return ownName;
               },
-              set: function(name2) {
-                ownName = name2;
+              set: function(name) {
+                ownName = name;
                 if (!render2.name && !render2.displayName) {
-                  render2.displayName = name2;
+                  render2.displayName = name;
                 }
               }
             });
@@ -1046,10 +1046,10 @@ var __publicField = (obj, key, value) => {
               get: function() {
                 return ownName;
               },
-              set: function(name2) {
-                ownName = name2;
+              set: function(name) {
+                ownName = name;
                 if (!type.name && !type.displayName) {
-                  type.displayName = name2;
+                  type.displayName = name;
                 }
               }
             });
@@ -1217,7 +1217,7 @@ var __publicField = (obj, key, value) => {
         }
         var ReactCurrentDispatcher$1 = ReactSharedInternals.ReactCurrentDispatcher;
         var prefix;
-        function describeBuiltInComponentFrame(name2, source2, ownerFn) {
+        function describeBuiltInComponentFrame(name, source2, ownerFn) {
           {
             if (prefix === void 0) {
               try {
@@ -1227,7 +1227,7 @@ var __publicField = (obj, key, value) => {
                 prefix = match && match[1] || "";
               }
             }
-            return "\n" + prefix + name2;
+            return "\n" + prefix + name;
           }
         }
         var reentry = false;
@@ -1330,8 +1330,8 @@ var __publicField = (obj, key, value) => {
             }
             Error.prepareStackTrace = previousPrepareStackTrace;
           }
-          var name2 = fn ? fn.displayName || fn.name : "";
-          var syntheticFrame = name2 ? describeBuiltInComponentFrame(name2) : "";
+          var name = fn ? fn.displayName || fn.name : "";
+          var syntheticFrame = name ? describeBuiltInComponentFrame(name) : "";
           {
             if (typeof fn === "function") {
               componentFrameCache.set(fn, syntheticFrame);
@@ -1446,9 +1446,9 @@ var __publicField = (obj, key, value) => {
         }
         function getDeclarationErrorAddendum() {
           if (ReactCurrentOwner.current) {
-            var name2 = getComponentNameFromType(ReactCurrentOwner.current.type);
-            if (name2) {
-              return "\n\nCheck the render method of `" + name2 + "`.";
+            var name = getComponentNameFromType(ReactCurrentOwner.current.type);
+            if (name) {
+              return "\n\nCheck the render method of `" + name + "`.";
             }
           }
           return "";
@@ -1545,8 +1545,8 @@ var __publicField = (obj, key, value) => {
               return;
             }
             if (propTypes) {
-              var name2 = getComponentNameFromType(type);
-              checkPropTypes(propTypes, element.props, "prop", name2, element);
+              var name = getComponentNameFromType(type);
+              checkPropTypes(propTypes, element.props, "prop", name, element);
             } else if (type.PropTypes !== void 0 && !propTypesMisspellWarningShown) {
               propTypesMisspellWarningShown = true;
               var _name = getComponentNameFromType(type);
@@ -1899,7 +1899,7 @@ var __publicField = (obj, key, value) => {
   const React = /* @__PURE__ */ getDefaultExportFromCjs(reactExports);
   /**
    * @license React
-   * react-jsx-runtime.development.js
+   * react-jsx-dev-runtime.development.js
    *
    * Copyright (c) Facebook, Inc. and its affiliates.
    *
@@ -2138,7 +2138,7 @@ var __publicField = (obj, key, value) => {
       }
       var ReactCurrentDispatcher = ReactSharedInternals.ReactCurrentDispatcher;
       var prefix;
-      function describeBuiltInComponentFrame(name2, source2, ownerFn) {
+      function describeBuiltInComponentFrame(name, source2, ownerFn) {
         {
           if (prefix === void 0) {
             try {
@@ -2148,7 +2148,7 @@ var __publicField = (obj, key, value) => {
               prefix = match && match[1] || "";
             }
           }
-          return "\n" + prefix + name2;
+          return "\n" + prefix + name;
         }
       }
       var reentry = false;
@@ -2251,8 +2251,8 @@ var __publicField = (obj, key, value) => {
           }
           Error.prepareStackTrace = previousPrepareStackTrace;
         }
-        var name2 = fn ? fn.displayName || fn.name : "";
-        var syntheticFrame = name2 ? describeBuiltInComponentFrame(name2) : "";
+        var name = fn ? fn.displayName || fn.name : "";
+        var syntheticFrame = name ? describeBuiltInComponentFrame(name) : "";
         {
           if (typeof fn === "function") {
             componentFrameCache.set(fn, syntheticFrame);
@@ -2570,9 +2570,9 @@ var __publicField = (obj, key, value) => {
       function getDeclarationErrorAddendum() {
         {
           if (ReactCurrentOwner$1.current) {
-            var name2 = getComponentNameFromType(ReactCurrentOwner$1.current.type);
-            if (name2) {
-              return "\n\nCheck the render method of `" + name2 + "`.";
+            var name = getComponentNameFromType(ReactCurrentOwner$1.current.type);
+            if (name) {
+              return "\n\nCheck the render method of `" + name + "`.";
             }
           }
           return "";
@@ -2670,8 +2670,8 @@ var __publicField = (obj, key, value) => {
             return;
           }
           if (propTypes) {
-            var name2 = getComponentNameFromType(type);
-            checkPropTypes(propTypes, element.props, "prop", name2, element);
+            var name = getComponentNameFromType(type);
+            checkPropTypes(propTypes, element.props, "prop", name, element);
           } else if (type.PropTypes !== void 0 && !propTypesMisspellWarningShown) {
             propTypesMisspellWarningShown = true;
             var _name = getComponentNameFromType(type);
@@ -2759,33 +2759,20 @@ var __publicField = (obj, key, value) => {
           return element;
         }
       }
-      function jsxWithValidationStatic(type, props, key) {
-        {
-          return jsxWithValidation(type, props, key, true);
-        }
-      }
-      function jsxWithValidationDynamic(type, props, key) {
-        {
-          return jsxWithValidation(type, props, key, false);
-        }
-      }
-      var jsx = jsxWithValidationDynamic;
-      var jsxs = jsxWithValidationStatic;
-      reactJsxRuntime_development.Fragment = REACT_FRAGMENT_TYPE;
-      reactJsxRuntime_development.jsx = jsx;
-      reactJsxRuntime_development.jsxs = jsxs;
+      var jsxDEV$1 = jsxWithValidation;
+      reactJsxDevRuntime_development.Fragment = REACT_FRAGMENT_TYPE;
+      reactJsxDevRuntime_development.jsxDEV = jsxDEV$1;
     })();
   }
   {
-    jsxRuntime.exports = reactJsxRuntime_development;
+    jsxDevRuntime.exports = reactJsxDevRuntime_development;
   }
-  var jsxRuntimeExports = jsxRuntime.exports;
-  const rustEditorPlaceholder = "";
+  var jsxDevRuntimeExports = jsxDevRuntime.exports;
   var classnames = { exports: {} };
   /*!
-  	Copyright (c) 2018 Jed Watson.
-  	Licensed under the MIT License (MIT), see
-  	http://jedwatson.github.io/classnames
+    Copyright (c) 2018 Jed Watson.
+    Licensed under the MIT License (MIT), see
+    http://jedwatson.github.io/classnames
   */
   (function(module) {
     (function() {
@@ -2807,14 +2794,14 @@ var __publicField = (obj, key, value) => {
               }
             }
           } else if (argType === "object") {
-            if (arg.toString !== Object.prototype.toString && !arg.toString.toString().includes("[native code]")) {
-              classes.push(arg.toString());
-              continue;
-            }
-            for (var key in arg) {
-              if (hasOwn.call(arg, key) && arg[key]) {
-                classes.push(key);
+            if (arg.toString === Object.prototype.toString) {
+              for (var key in arg) {
+                if (hasOwn.call(arg, key) && arg[key]) {
+                  classes.push(key);
+                }
               }
+            } else {
+              classes.push(arg.toString());
             }
           }
         }
@@ -8319,34 +8306,8 @@ var __publicField = (obj, key, value) => {
   const isObjectType = (value) => typeof value === "object";
   var isObject$1 = (value) => !isNullOrUndefined(value) && !Array.isArray(value) && isObjectType(value) && !isDateObject(value);
   var getEventValue = (event) => isObject$1(event) && event.target ? isCheckBoxInput(event.target) ? event.target.checked : event.target.value : event;
-  var getNodeParentName = (name2) => name2.substring(0, name2.search(/\.\d+(\.|$)/)) || name2;
-  var isNameInFieldArray = (names, name2) => names.has(getNodeParentName(name2));
-  var isPlainObject$1 = (tempObject) => {
-    const prototypeCopy = tempObject.constructor && tempObject.constructor.prototype;
-    return isObject$1(prototypeCopy) && prototypeCopy.hasOwnProperty("isPrototypeOf");
-  };
-  var isWeb = typeof window !== "undefined" && typeof window.HTMLElement !== "undefined" && typeof document !== "undefined";
-  function cloneObject(data) {
-    let copy2;
-    const isArray = Array.isArray(data);
-    if (data instanceof Date) {
-      copy2 = new Date(data);
-    } else if (data instanceof Set) {
-      copy2 = new Set(data);
-    } else if (!(isWeb && (data instanceof Blob || data instanceof FileList)) && (isArray || isObject$1(data))) {
-      copy2 = isArray ? [] : {};
-      if (!Array.isArray(data) && !isPlainObject$1(data)) {
-        copy2 = data;
-      } else {
-        for (const key in data) {
-          copy2[key] = cloneObject(data[key]);
-        }
-      }
-    } else {
-      return data;
-    }
-    return copy2;
-  }
+  var getNodeParentName = (name) => name.substring(0, name.search(/\.\d+(\.|$)/)) || name;
+  var isNameInFieldArray = (names, name) => names.has(getNodeParentName(name));
   var compact = (value) => Array.isArray(value) ? value.filter(Boolean) : [];
   var isUndefined = (val) => val === void 0;
   var get = (obj, path, defaultValue) => {
@@ -8378,16 +8339,14 @@ var __publicField = (obj, key, value) => {
     validate: "validate"
   };
   React.createContext(null);
-  var getProxyFormState = (formState, control, localProxyFormState, isRoot = true) => {
-    const result = {
-      defaultValues: control._defaultValues
-    };
+  var getProxyFormState = (formState, _proxyFormState, localProxyFormState, isRoot = true) => {
+    const result = {};
     for (const key in formState) {
       Object.defineProperty(result, key, {
         get: () => {
           const _key = key;
-          if (control._proxyFormState[_key] !== VALIDATION_MODE.all) {
-            control._proxyFormState[_key] = !isRoot || VALIDATION_MODE.all;
+          if (_proxyFormState[_key] !== VALIDATION_MODE.all) {
+            _proxyFormState[_key] = !isRoot || VALIDATION_MODE.all;
           }
           localProxyFormState && (localProxyFormState[_key] = true);
           return formState[_key];
@@ -8397,9 +8356,8 @@ var __publicField = (obj, key, value) => {
     return result;
   };
   var isEmptyObject = (value) => isObject$1(value) && !Object.keys(value).length;
-  var shouldRenderFormState = (formStateData, _proxyFormState, updateFormState, isRoot) => {
-    updateFormState(formStateData);
-    const { name: name2, ...formState } = formStateData;
+  var shouldRenderFormState = (formStateData, _proxyFormState, isRoot) => {
+    const { name, ...formState } = formStateData;
     return isEmptyObject(formState) || Object.keys(formState).length >= Object.keys(_proxyFormState).length || Object.keys(formState).find((key) => _proxyFormState[key] === (!isRoot || VALIDATION_MODE.all));
   };
   var convertToArrayPayload = (value) => Array.isArray(value) ? value : [value];
@@ -8407,26 +8365,46 @@ var __publicField = (obj, key, value) => {
     const _props = React.useRef(props);
     _props.current = props;
     React.useEffect(() => {
-      const subscription = !props.disabled && _props.current.subject && _props.current.subject.subscribe({
-        next: _props.current.next
-      });
-      return () => {
-        subscription && subscription.unsubscribe();
+      const tearDown = (subscription2) => {
+        if (subscription2) {
+          subscription2.unsubscribe();
+        }
       };
+      const subscription = !props.disabled && _props.current.subject.subscribe({
+        next: _props.current.callback
+      });
+      return () => tearDown(subscription);
     }, [props.disabled]);
   }
   var isString = (value) => typeof value === "string";
-  var generateWatchOutput = (names, _names, formValues, isGlobal, defaultValue) => {
+  var generateWatchOutput = (names, _names, formValues, isGlobal) => {
+    const isArray = Array.isArray(names);
     if (isString(names)) {
       isGlobal && _names.watch.add(names);
-      return get(formValues, names, defaultValue);
+      return get(formValues, names);
     }
-    if (Array.isArray(names)) {
+    if (isArray) {
       return names.map((fieldName) => (isGlobal && _names.watch.add(fieldName), get(formValues, fieldName)));
     }
     isGlobal && (_names.watchAll = true);
     return formValues;
   };
+  var isFunction$1 = (value) => typeof value === "function";
+  var objectHasFunction = (data) => {
+    for (const key in data) {
+      if (isFunction$1(data[key])) {
+        return true;
+      }
+    }
+    return false;
+  };
+  var appendErrors = (name, validateAllFieldCriteria, errors2, type, message) => validateAllFieldCriteria ? {
+    ...errors2[name],
+    types: {
+      ...errors2[name] && errors2[name].types ? errors2[name].types : {},
+      [type]: message || true
+    }
+  } : {};
   var isKey = (value) => /^\w*$/.test(value);
   var stringToPath = (input) => compact(input.replace(/["|']|\]/g, "").split(/\.|\[/));
   function set(object, path, value) {
@@ -8446,23 +8424,15 @@ var __publicField = (obj, key, value) => {
     }
     return object;
   }
-  var appendErrors = (name2, validateAllFieldCriteria, errors2, type, message) => validateAllFieldCriteria ? {
-    ...errors2[name2],
-    types: {
-      ...errors2[name2] && errors2[name2].types ? errors2[name2].types : {},
-      [type]: message || true
-    }
-  } : {};
   const focusFieldBy = (fields, callback, fieldsNames) => {
     for (const key of fieldsNames || Object.keys(fields)) {
       const field = get(fields, key);
       if (field) {
         const { _f, ...currentField } = field;
         if (_f && callback(_f.name)) {
-          if (_f.ref.focus) {
-            _f.ref.focus();
+          if (_f.ref.focus && isUndefined(_f.ref.focus())) {
             break;
-          } else if (_f.refs && _f.refs[0].focus) {
+          } else if (_f.refs) {
             _f.refs[0].focus();
             break;
           }
@@ -8472,222 +8442,29 @@ var __publicField = (obj, key, value) => {
       }
     }
   };
-  var getValidationModes = (mode) => ({
-    isOnSubmit: !mode || mode === VALIDATION_MODE.onSubmit,
-    isOnBlur: mode === VALIDATION_MODE.onBlur,
-    isOnChange: mode === VALIDATION_MODE.onChange,
-    isOnAll: mode === VALIDATION_MODE.all,
-    isOnTouch: mode === VALIDATION_MODE.onTouched
-  });
-  var isWatched = (name2, _names, isBlurEvent) => !isBlurEvent && (_names.watchAll || _names.watch.has(name2) || [..._names.watch].some((watchName) => name2.startsWith(watchName) && /^\.\w+/.test(name2.slice(watchName.length))));
-  var updateFieldArrayRootError = (errors2, error, name2) => {
-    const fieldArrayErrors = compact(get(errors2, name2));
-    set(fieldArrayErrors, "root", error[name2]);
-    set(errors2, name2, fieldArrayErrors);
-    return errors2;
-  };
-  var isBoolean = (value) => typeof value === "boolean";
-  var isFileInput = (element) => element.type === "file";
-  var isFunction$1 = (value) => typeof value === "function";
-  var isHTMLElement = (value) => {
-    if (!isWeb) {
-      return false;
-    }
-    const owner = value ? value.ownerDocument : 0;
-    return value instanceof (owner && owner.defaultView ? owner.defaultView.HTMLElement : HTMLElement);
-  };
-  var isMessage = (value) => isString(value);
-  var isRadioInput = (element) => element.type === "radio";
-  var isRegex = (value) => value instanceof RegExp;
-  const defaultResult = {
-    value: false,
-    isValid: false
-  };
-  const validResult = { value: true, isValid: true };
-  var getCheckboxValue = (options) => {
-    if (Array.isArray(options)) {
-      if (options.length > 1) {
-        const values = options.filter((option) => option && option.checked && !option.disabled).map((option) => option.value);
-        return { value: values, isValid: !!values.length };
+  var isWatched = (name, _names, isBlurEvent) => !isBlurEvent && (_names.watchAll || _names.watch.has(name) || [..._names.watch].some((watchName) => name.startsWith(watchName) && /^\.\w+/.test(name.slice(watchName.length))));
+  var isWeb = typeof window !== "undefined" && typeof window.HTMLElement !== "undefined" && typeof document !== "undefined";
+  function cloneObject(data) {
+    let copy2;
+    const isArray = Array.isArray(data);
+    if (data instanceof Date) {
+      copy2 = new Date(data);
+    } else if (data instanceof Set) {
+      copy2 = new Set(data);
+    } else if (!(isWeb && (data instanceof Blob || data instanceof FileList)) && (isArray || isObject$1(data))) {
+      copy2 = isArray ? [] : {};
+      for (const key in data) {
+        if (isFunction$1(data[key])) {
+          copy2 = data;
+          break;
+        }
+        copy2[key] = cloneObject(data[key]);
       }
-      return options[0].checked && !options[0].disabled ? (
-        // @ts-expect-error expected to work in the browser
-        options[0].attributes && !isUndefined(options[0].attributes.value) ? isUndefined(options[0].value) || options[0].value === "" ? validResult : { value: options[0].value, isValid: true } : validResult
-      ) : defaultResult;
+    } else {
+      return data;
     }
-    return defaultResult;
-  };
-  const defaultReturn = {
-    isValid: false,
-    value: null
-  };
-  var getRadioValue = (options) => Array.isArray(options) ? options.reduce((previous, option) => option && option.checked && !option.disabled ? {
-    isValid: true,
-    value: option.value
-  } : previous, defaultReturn) : defaultReturn;
-  function getValidateError(result, ref, type = "validate") {
-    if (isMessage(result) || Array.isArray(result) && result.every(isMessage) || isBoolean(result) && !result) {
-      return {
-        type,
-        message: isMessage(result) ? result : "",
-        ref
-      };
-    }
+    return copy2;
   }
-  var getValueAndMessage = (validationData) => isObject$1(validationData) && !isRegex(validationData) ? validationData : {
-    value: validationData,
-    message: ""
-  };
-  var validateField = async (field, formValues, validateAllFieldCriteria, shouldUseNativeValidation, isFieldArray) => {
-    const { ref, refs, required, maxLength, minLength, min, max, pattern, validate, name: name2, valueAsNumber, mount, disabled } = field._f;
-    const inputValue = get(formValues, name2);
-    if (!mount || disabled) {
-      return {};
-    }
-    const inputRef = refs ? refs[0] : ref;
-    const setCustomValidity = (message) => {
-      if (shouldUseNativeValidation && inputRef.reportValidity) {
-        inputRef.setCustomValidity(isBoolean(message) ? "" : message || "");
-        inputRef.reportValidity();
-      }
-    };
-    const error = {};
-    const isRadio = isRadioInput(ref);
-    const isCheckBox = isCheckBoxInput(ref);
-    const isRadioOrCheckbox2 = isRadio || isCheckBox;
-    const isEmpty = (valueAsNumber || isFileInput(ref)) && isUndefined(ref.value) && isUndefined(inputValue) || isHTMLElement(ref) && ref.value === "" || inputValue === "" || Array.isArray(inputValue) && !inputValue.length;
-    const appendErrorsCurry = appendErrors.bind(null, name2, validateAllFieldCriteria, error);
-    const getMinMaxMessage = (exceedMax, maxLengthMessage, minLengthMessage, maxType = INPUT_VALIDATION_RULES.maxLength, minType = INPUT_VALIDATION_RULES.minLength) => {
-      const message = exceedMax ? maxLengthMessage : minLengthMessage;
-      error[name2] = {
-        type: exceedMax ? maxType : minType,
-        message,
-        ref,
-        ...appendErrorsCurry(exceedMax ? maxType : minType, message)
-      };
-    };
-    if (isFieldArray ? !Array.isArray(inputValue) || !inputValue.length : required && (!isRadioOrCheckbox2 && (isEmpty || isNullOrUndefined(inputValue)) || isBoolean(inputValue) && !inputValue || isCheckBox && !getCheckboxValue(refs).isValid || isRadio && !getRadioValue(refs).isValid)) {
-      const { value, message } = isMessage(required) ? { value: !!required, message: required } : getValueAndMessage(required);
-      if (value) {
-        error[name2] = {
-          type: INPUT_VALIDATION_RULES.required,
-          message,
-          ref: inputRef,
-          ...appendErrorsCurry(INPUT_VALIDATION_RULES.required, message)
-        };
-        if (!validateAllFieldCriteria) {
-          setCustomValidity(message);
-          return error;
-        }
-      }
-    }
-    if (!isEmpty && (!isNullOrUndefined(min) || !isNullOrUndefined(max))) {
-      let exceedMax;
-      let exceedMin;
-      const maxOutput = getValueAndMessage(max);
-      const minOutput = getValueAndMessage(min);
-      if (!isNullOrUndefined(inputValue) && !isNaN(inputValue)) {
-        const valueNumber = ref.valueAsNumber || (inputValue ? +inputValue : inputValue);
-        if (!isNullOrUndefined(maxOutput.value)) {
-          exceedMax = valueNumber > maxOutput.value;
-        }
-        if (!isNullOrUndefined(minOutput.value)) {
-          exceedMin = valueNumber < minOutput.value;
-        }
-      } else {
-        const valueDate = ref.valueAsDate || new Date(inputValue);
-        const convertTimeToDate = (time) => /* @__PURE__ */ new Date((/* @__PURE__ */ new Date()).toDateString() + " " + time);
-        const isTime = ref.type == "time";
-        const isWeek = ref.type == "week";
-        if (isString(maxOutput.value) && inputValue) {
-          exceedMax = isTime ? convertTimeToDate(inputValue) > convertTimeToDate(maxOutput.value) : isWeek ? inputValue > maxOutput.value : valueDate > new Date(maxOutput.value);
-        }
-        if (isString(minOutput.value) && inputValue) {
-          exceedMin = isTime ? convertTimeToDate(inputValue) < convertTimeToDate(minOutput.value) : isWeek ? inputValue < minOutput.value : valueDate < new Date(minOutput.value);
-        }
-      }
-      if (exceedMax || exceedMin) {
-        getMinMaxMessage(!!exceedMax, maxOutput.message, minOutput.message, INPUT_VALIDATION_RULES.max, INPUT_VALIDATION_RULES.min);
-        if (!validateAllFieldCriteria) {
-          setCustomValidity(error[name2].message);
-          return error;
-        }
-      }
-    }
-    if ((maxLength || minLength) && !isEmpty && (isString(inputValue) || isFieldArray && Array.isArray(inputValue))) {
-      const maxLengthOutput = getValueAndMessage(maxLength);
-      const minLengthOutput = getValueAndMessage(minLength);
-      const exceedMax = !isNullOrUndefined(maxLengthOutput.value) && inputValue.length > +maxLengthOutput.value;
-      const exceedMin = !isNullOrUndefined(minLengthOutput.value) && inputValue.length < +minLengthOutput.value;
-      if (exceedMax || exceedMin) {
-        getMinMaxMessage(exceedMax, maxLengthOutput.message, minLengthOutput.message);
-        if (!validateAllFieldCriteria) {
-          setCustomValidity(error[name2].message);
-          return error;
-        }
-      }
-    }
-    if (pattern && !isEmpty && isString(inputValue)) {
-      const { value: patternValue, message } = getValueAndMessage(pattern);
-      if (isRegex(patternValue) && !inputValue.match(patternValue)) {
-        error[name2] = {
-          type: INPUT_VALIDATION_RULES.pattern,
-          message,
-          ref,
-          ...appendErrorsCurry(INPUT_VALIDATION_RULES.pattern, message)
-        };
-        if (!validateAllFieldCriteria) {
-          setCustomValidity(message);
-          return error;
-        }
-      }
-    }
-    if (validate) {
-      if (isFunction$1(validate)) {
-        const result = await validate(inputValue, formValues);
-        const validateError = getValidateError(result, inputRef);
-        if (validateError) {
-          error[name2] = {
-            ...validateError,
-            ...appendErrorsCurry(INPUT_VALIDATION_RULES.validate, validateError.message)
-          };
-          if (!validateAllFieldCriteria) {
-            setCustomValidity(validateError.message);
-            return error;
-          }
-        }
-      } else if (isObject$1(validate)) {
-        let validationResult = {};
-        for (const key in validate) {
-          if (!isEmptyObject(validationResult) && !validateAllFieldCriteria) {
-            break;
-          }
-          const validateError = getValidateError(await validate[key](inputValue, formValues), inputRef, key);
-          if (validateError) {
-            validationResult = {
-              ...validateError,
-              ...appendErrorsCurry(key, validateError.message)
-            };
-            setCustomValidity(validateError.message);
-            if (validateAllFieldCriteria) {
-              error[name2] = validationResult;
-            }
-          }
-        }
-        if (!isEmptyObject(validationResult)) {
-          error[name2] = {
-            ref: inputRef,
-            ...validationResult
-          };
-          if (!validateAllFieldCriteria) {
-            return error;
-          }
-        }
-      }
-    }
-    setCustomValidity(true);
-    return error;
-  };
   function baseGet(object, updatePath) {
     const length = updatePath.slice(0, -1).length;
     let index2 = 0;
@@ -8696,24 +8473,30 @@ var __publicField = (obj, key, value) => {
     }
     return object;
   }
-  function isEmptyArray(obj) {
-    for (const key in obj) {
-      if (!isUndefined(obj[key])) {
-        return false;
-      }
-    }
-    return true;
-  }
   function unset(object, path) {
-    const paths = Array.isArray(path) ? path : isKey(path) ? [path] : stringToPath(path);
-    const childObject = paths.length === 1 ? object : baseGet(object, paths);
-    const index2 = paths.length - 1;
-    const key = paths[index2];
+    const updatePath = isKey(path) ? [path] : stringToPath(path);
+    const childObject = updatePath.length == 1 ? object : baseGet(object, updatePath);
+    const key = updatePath[updatePath.length - 1];
+    let previousObjRef;
     if (childObject) {
       delete childObject[key];
     }
-    if (index2 !== 0 && (isObject$1(childObject) && isEmptyObject(childObject) || Array.isArray(childObject) && isEmptyArray(childObject))) {
-      unset(object, paths.slice(0, -1));
+    for (let k = 0; k < updatePath.slice(0, -1).length; k++) {
+      let index2 = -1;
+      let objectRef;
+      const currentPaths = updatePath.slice(0, -(k + 1));
+      const currentPathsLength = currentPaths.length - 1;
+      if (k > 0) {
+        previousObjRef = object;
+      }
+      while (++index2 < currentPaths.length) {
+        const item = currentPaths[index2];
+        objectRef = objectRef ? objectRef[item] : object[item];
+        if (currentPathsLength === index2 && (isObject$1(objectRef) && isEmptyObject(objectRef) || Array.isArray(objectRef) && !objectRef.filter((data) => !isUndefined(data)).length)) {
+          previousObjRef ? delete previousObjRef[item] : delete object[item];
+        }
+        previousObjRef = objectRef;
+      }
     }
     return object;
   }
@@ -8721,7 +8504,7 @@ var __publicField = (obj, key, value) => {
     let _observers = [];
     const next = (value) => {
       for (const observer2 of _observers) {
-        observer2.next && observer2.next(value);
+        observer2.next(value);
       }
     };
     const subscribe = (observer2) => {
@@ -8771,17 +8554,24 @@ var __publicField = (obj, key, value) => {
     }
     return true;
   }
+  var getValidationModes = (mode) => ({
+    isOnSubmit: !mode || mode === VALIDATION_MODE.onSubmit,
+    isOnBlur: mode === VALIDATION_MODE.onBlur,
+    isOnChange: mode === VALIDATION_MODE.onChange,
+    isOnAll: mode === VALIDATION_MODE.all,
+    isOnTouch: mode === VALIDATION_MODE.onTouched
+  });
+  var isBoolean = (value) => typeof value === "boolean";
+  var isFileInput = (element) => element.type === "file";
+  var isHTMLElement = (value) => {
+    const owner = value ? value.ownerDocument : 0;
+    const ElementClass = owner && owner.defaultView ? owner.defaultView.HTMLElement : HTMLElement;
+    return value instanceof ElementClass;
+  };
   var isMultipleSelect = (element) => element.type === `select-multiple`;
+  var isRadioInput = (element) => element.type === "radio";
   var isRadioOrCheckbox = (ref) => isRadioInput(ref) || isCheckBoxInput(ref);
   var live = (ref) => isHTMLElement(ref) && ref.isConnected;
-  var objectHasFunction = (data) => {
-    for (const key in data) {
-      if (isFunction$1(data[key])) {
-        return true;
-      }
-    }
-    return false;
-  };
   function markFieldsDirty(data, fields = {}) {
     const isParentNodeArray = Array.isArray(data);
     if (isObject$1(data) || isParentNodeArray) {
@@ -8814,7 +8604,33 @@ var __publicField = (obj, key, value) => {
     return dirtyFieldsFromValues;
   }
   var getDirtyFields = (defaultValues, formValues) => getDirtyFieldsFromDefaultValues(defaultValues, formValues, markFieldsDirty(formValues));
-  var getFieldValueAs = (value, { valueAsNumber, valueAsDate, setValueAs }) => isUndefined(value) ? value : valueAsNumber ? value === "" ? NaN : value ? +value : value : valueAsDate && isString(value) ? new Date(value) : setValueAs ? setValueAs(value) : value;
+  const defaultResult = {
+    value: false,
+    isValid: false
+  };
+  const validResult = { value: true, isValid: true };
+  var getCheckboxValue = (options) => {
+    if (Array.isArray(options)) {
+      if (options.length > 1) {
+        const values = options.filter((option) => option && option.checked && !option.disabled).map((option) => option.value);
+        return { value: values, isValid: !!values.length };
+      }
+      return options[0].checked && !options[0].disabled ? (
+        // @ts-expect-error expected to work in the browser
+        options[0].attributes && !isUndefined(options[0].attributes.value) ? isUndefined(options[0].value) || options[0].value === "" ? validResult : { value: options[0].value, isValid: true } : validResult
+      ) : defaultResult;
+    }
+    return defaultResult;
+  };
+  var getFieldValueAs = (value, { valueAsNumber, valueAsDate, setValueAs }) => isUndefined(value) ? value : valueAsNumber ? value === "" || isNullOrUndefined(value) ? NaN : +value : valueAsDate && isString(value) ? new Date(value) : setValueAs ? setValueAs(value) : value;
+  const defaultReturn = {
+    isValid: false,
+    value: null
+  };
+  var getRadioValue = (options) => Array.isArray(options) ? options.reduce((previous, option) => option && option.checked && !option.disabled ? {
+    isValid: true,
+    value: option.value
+  } : previous, defaultReturn) : defaultReturn;
   function getFieldValue(_f) {
     const ref = _f.ref;
     if (_f.refs ? _f.refs.every((ref2) => ref2.disabled) : ref.disabled) {
@@ -8836,9 +8652,9 @@ var __publicField = (obj, key, value) => {
   }
   var getResolverOptions = (fieldsNames, _fields, criteriaMode, shouldUseNativeValidation) => {
     const fields = {};
-    for (const name2 of fieldsNames) {
-      const field = get(_fields, name2);
-      field && set(fields, name2, field._f);
+    for (const name of fieldsNames) {
+      const field = get(_fields, name);
+      field && set(fields, name, field._f);
     }
     return {
       criteriaMode,
@@ -8847,23 +8663,24 @@ var __publicField = (obj, key, value) => {
       shouldUseNativeValidation
     };
   };
-  var getRuleValue = (rule) => isUndefined(rule) ? rule : isRegex(rule) ? rule.source : isObject$1(rule) ? isRegex(rule.value) ? rule.value.source : rule.value : rule;
+  var isRegex = (value) => value instanceof RegExp;
+  var getRuleValue = (rule) => isUndefined(rule) ? void 0 : isRegex(rule) ? rule.source : isObject$1(rule) ? isRegex(rule.value) ? rule.value.source : rule.value : rule;
   var hasValidation = (options) => options.mount && (options.required || options.min || options.max || options.maxLength || options.minLength || options.pattern || options.validate);
-  function schemaErrorLookup(errors2, _fields, name2) {
-    const error = get(errors2, name2);
-    if (error || isKey(name2)) {
+  function schemaErrorLookup(errors2, _fields, name) {
+    const error = get(errors2, name);
+    if (error || isKey(name)) {
       return {
         error,
-        name: name2
+        name
       };
     }
-    const names = name2.split(".");
+    const names = name.split(".");
     while (names.length) {
       const fieldName = names.join(".");
       const field = get(_fields, fieldName);
       const foundError = get(errors2, fieldName);
-      if (field && !Array.isArray(field) && name2 !== fieldName) {
-        return { name: name2 };
+      if (field && !Array.isArray(field) && name !== fieldName) {
+        return { name };
       }
       if (foundError && foundError.type) {
         return {
@@ -8874,7 +8691,7 @@ var __publicField = (obj, key, value) => {
       names.pop();
     }
     return {
-      name: name2
+      name
     };
   }
   var skipValidation = (isBlurEvent, isTouched, isSubmitted, reValidateMode, mode) => {
@@ -8889,34 +8706,193 @@ var __publicField = (obj, key, value) => {
     }
     return true;
   };
-  var unsetEmptyArray = (ref, name2) => !compact(get(ref, name2)).length && unset(ref, name2);
+  var unsetEmptyArray = (ref, name) => !compact(get(ref, name)).length && unset(ref, name);
+  var isMessage = (value) => isString(value) || React.isValidElement(value);
+  function getValidateError(result, ref, type = "validate") {
+    if (isMessage(result) || Array.isArray(result) && result.every(isMessage) || isBoolean(result) && !result) {
+      return {
+        type,
+        message: isMessage(result) ? result : "",
+        ref
+      };
+    }
+  }
+  var getValueAndMessage = (validationData) => isObject$1(validationData) && !isRegex(validationData) ? validationData : {
+    value: validationData,
+    message: ""
+  };
+  var validateField = async (field, inputValue, validateAllFieldCriteria, shouldUseNativeValidation) => {
+    const { ref, refs, required, maxLength, minLength, min, max, pattern, validate, name, valueAsNumber, mount, disabled } = field._f;
+    if (!mount || disabled) {
+      return {};
+    }
+    const inputRef = refs ? refs[0] : ref;
+    const setCustomValidity = (message) => {
+      if (shouldUseNativeValidation && inputRef.reportValidity) {
+        inputRef.setCustomValidity(isBoolean(message) ? "" : message || " ");
+        inputRef.reportValidity();
+      }
+    };
+    const error = {};
+    const isRadio = isRadioInput(ref);
+    const isCheckBox = isCheckBoxInput(ref);
+    const isRadioOrCheckbox2 = isRadio || isCheckBox;
+    const isEmpty = (valueAsNumber || isFileInput(ref)) && !ref.value || inputValue === "" || Array.isArray(inputValue) && !inputValue.length;
+    const appendErrorsCurry = appendErrors.bind(null, name, validateAllFieldCriteria, error);
+    const getMinMaxMessage = (exceedMax, maxLengthMessage, minLengthMessage, maxType = INPUT_VALIDATION_RULES.maxLength, minType = INPUT_VALIDATION_RULES.minLength) => {
+      const message = exceedMax ? maxLengthMessage : minLengthMessage;
+      error[name] = {
+        type: exceedMax ? maxType : minType,
+        message,
+        ref,
+        ...appendErrorsCurry(exceedMax ? maxType : minType, message)
+      };
+    };
+    if (required && (!isRadioOrCheckbox2 && (isEmpty || isNullOrUndefined(inputValue)) || isBoolean(inputValue) && !inputValue || isCheckBox && !getCheckboxValue(refs).isValid || isRadio && !getRadioValue(refs).isValid)) {
+      const { value, message } = isMessage(required) ? { value: !!required, message: required } : getValueAndMessage(required);
+      if (value) {
+        error[name] = {
+          type: INPUT_VALIDATION_RULES.required,
+          message,
+          ref: inputRef,
+          ...appendErrorsCurry(INPUT_VALIDATION_RULES.required, message)
+        };
+        if (!validateAllFieldCriteria) {
+          setCustomValidity(message);
+          return error;
+        }
+      }
+    }
+    if (!isEmpty && (!isNullOrUndefined(min) || !isNullOrUndefined(max))) {
+      let exceedMax;
+      let exceedMin;
+      const maxOutput = getValueAndMessage(max);
+      const minOutput = getValueAndMessage(min);
+      if (!isNullOrUndefined(inputValue) && !isNaN(inputValue)) {
+        const valueNumber = ref.valueAsNumber || +inputValue;
+        if (!isNullOrUndefined(maxOutput.value)) {
+          exceedMax = valueNumber > maxOutput.value;
+        }
+        if (!isNullOrUndefined(minOutput.value)) {
+          exceedMin = valueNumber < minOutput.value;
+        }
+      } else {
+        const valueDate = ref.valueAsDate || new Date(inputValue);
+        if (isString(maxOutput.value)) {
+          exceedMax = valueDate > new Date(maxOutput.value);
+        }
+        if (isString(minOutput.value)) {
+          exceedMin = valueDate < new Date(minOutput.value);
+        }
+      }
+      if (exceedMax || exceedMin) {
+        getMinMaxMessage(!!exceedMax, maxOutput.message, minOutput.message, INPUT_VALIDATION_RULES.max, INPUT_VALIDATION_RULES.min);
+        if (!validateAllFieldCriteria) {
+          setCustomValidity(error[name].message);
+          return error;
+        }
+      }
+    }
+    if ((maxLength || minLength) && !isEmpty && isString(inputValue)) {
+      const maxLengthOutput = getValueAndMessage(maxLength);
+      const minLengthOutput = getValueAndMessage(minLength);
+      const exceedMax = !isNullOrUndefined(maxLengthOutput.value) && inputValue.length > maxLengthOutput.value;
+      const exceedMin = !isNullOrUndefined(minLengthOutput.value) && inputValue.length < minLengthOutput.value;
+      if (exceedMax || exceedMin) {
+        getMinMaxMessage(exceedMax, maxLengthOutput.message, minLengthOutput.message);
+        if (!validateAllFieldCriteria) {
+          setCustomValidity(error[name].message);
+          return error;
+        }
+      }
+    }
+    if (pattern && !isEmpty && isString(inputValue)) {
+      const { value: patternValue, message } = getValueAndMessage(pattern);
+      if (isRegex(patternValue) && !inputValue.match(patternValue)) {
+        error[name] = {
+          type: INPUT_VALIDATION_RULES.pattern,
+          message,
+          ref,
+          ...appendErrorsCurry(INPUT_VALIDATION_RULES.pattern, message)
+        };
+        if (!validateAllFieldCriteria) {
+          setCustomValidity(message);
+          return error;
+        }
+      }
+    }
+    if (validate) {
+      if (isFunction$1(validate)) {
+        const result = await validate(inputValue);
+        const validateError = getValidateError(result, inputRef);
+        if (validateError) {
+          error[name] = {
+            ...validateError,
+            ...appendErrorsCurry(INPUT_VALIDATION_RULES.validate, validateError.message)
+          };
+          if (!validateAllFieldCriteria) {
+            setCustomValidity(validateError.message);
+            return error;
+          }
+        }
+      } else if (isObject$1(validate)) {
+        let validationResult = {};
+        for (const key in validate) {
+          if (!isEmptyObject(validationResult) && !validateAllFieldCriteria) {
+            break;
+          }
+          const validateError = getValidateError(await validate[key](inputValue), inputRef, key);
+          if (validateError) {
+            validationResult = {
+              ...validateError,
+              ...appendErrorsCurry(key, validateError.message)
+            };
+            setCustomValidity(validateError.message);
+            if (validateAllFieldCriteria) {
+              error[name] = validationResult;
+            }
+          }
+        }
+        if (!isEmptyObject(validationResult)) {
+          error[name] = {
+            ref: inputRef,
+            ...validationResult
+          };
+          if (!validateAllFieldCriteria) {
+            return error;
+          }
+        }
+      }
+    }
+    setCustomValidity(true);
+    return error;
+  };
   const defaultOptions = {
     mode: VALIDATION_MODE.onSubmit,
     reValidateMode: VALIDATION_MODE.onChange,
     shouldFocusError: true
   };
-  function createFormControl(props = {}, flushRootRender) {
+  function createFormControl(props = {}) {
     let _options = {
       ...defaultOptions,
       ...props
     };
     let _formState = {
-      submitCount: 0,
       isDirty: false,
-      isLoading: isFunction$1(_options.defaultValues),
       isValidating: false,
+      dirtyFields: {},
       isSubmitted: false,
+      submitCount: 0,
+      touchedFields: {},
       isSubmitting: false,
       isSubmitSuccessful: false,
       isValid: false,
-      touchedFields: {},
-      dirtyFields: {},
       errors: {}
     };
     let _fields = {};
-    let _defaultValues = isObject$1(_options.defaultValues) || isObject$1(_options.values) ? cloneObject(_options.defaultValues || _options.values) || {} : {};
+    let _defaultValues = cloneObject(_options.defaultValues) || {};
     let _formValues = _options.shouldUnregister ? {} : cloneObject(_defaultValues);
-    let _state = {
+    let _stateFlags = {
       action: false,
       mount: false,
       watch: false
@@ -8929,6 +8905,7 @@ var __publicField = (obj, key, value) => {
     };
     let delayErrorCallback;
     let timer = 0;
+    let validateFields = {};
     const _proxyFormState = {
       isDirty: false,
       dirtyFields: false,
@@ -8938,121 +8915,116 @@ var __publicField = (obj, key, value) => {
       errors: false
     };
     const _subjects = {
-      values: createSubject(),
+      watch: createSubject(),
       array: createSubject(),
       state: createSubject()
     };
-    const shouldCaptureDirtyFields = props.resetOptions && props.resetOptions.keepDirtyValues;
     const validationModeBeforeSubmit = getValidationModes(_options.mode);
     const validationModeAfterSubmit = getValidationModes(_options.reValidateMode);
     const shouldDisplayAllAssociatedErrors = _options.criteriaMode === VALIDATION_MODE.all;
     const debounce = (callback) => (wait) => {
       clearTimeout(timer);
-      timer = setTimeout(callback, wait);
+      timer = window.setTimeout(callback, wait);
     };
-    const _updateValid = async (shouldUpdateValid) => {
-      if (_proxyFormState.isValid || shouldUpdateValid) {
-        const isValid = _options.resolver ? isEmptyObject((await _executeSchema()).errors) : await executeBuiltInValidation(_fields, true);
-        if (isValid !== _formState.isValid) {
+    const _updateValid = async (shouldSkipRender) => {
+      let isValid = false;
+      if (_proxyFormState.isValid) {
+        isValid = _options.resolver ? isEmptyObject((await _executeSchema()).errors) : await executeBuildInValidation(_fields, true);
+        if (!shouldSkipRender && isValid !== _formState.isValid) {
+          _formState.isValid = isValid;
           _subjects.state.next({
             isValid
           });
         }
       }
+      return isValid;
     };
-    const _updateIsValidating = (value) => _proxyFormState.isValidating && _subjects.state.next({
-      isValidating: value
-    });
-    const _updateFieldArray = (name2, values = [], method, args, shouldSetValues = true, shouldUpdateFieldsAndState = true) => {
+    const _updateFieldArray = (name, values = [], method, args, shouldSetValues = true, shouldUpdateFieldsAndState = true) => {
       if (args && method) {
-        _state.action = true;
-        if (shouldUpdateFieldsAndState && Array.isArray(get(_fields, name2))) {
-          const fieldValues = method(get(_fields, name2), args.argA, args.argB);
-          shouldSetValues && set(_fields, name2, fieldValues);
+        _stateFlags.action = true;
+        if (shouldUpdateFieldsAndState && Array.isArray(get(_fields, name))) {
+          const fieldValues = method(get(_fields, name), args.argA, args.argB);
+          shouldSetValues && set(_fields, name, fieldValues);
         }
-        if (shouldUpdateFieldsAndState && Array.isArray(get(_formState.errors, name2))) {
-          const errors2 = method(get(_formState.errors, name2), args.argA, args.argB);
-          shouldSetValues && set(_formState.errors, name2, errors2);
-          unsetEmptyArray(_formState.errors, name2);
+        if (_proxyFormState.errors && shouldUpdateFieldsAndState && Array.isArray(get(_formState.errors, name))) {
+          const errors2 = method(get(_formState.errors, name), args.argA, args.argB);
+          shouldSetValues && set(_formState.errors, name, errors2);
+          unsetEmptyArray(_formState.errors, name);
         }
-        if (_proxyFormState.touchedFields && shouldUpdateFieldsAndState && Array.isArray(get(_formState.touchedFields, name2))) {
-          const touchedFields = method(get(_formState.touchedFields, name2), args.argA, args.argB);
-          shouldSetValues && set(_formState.touchedFields, name2, touchedFields);
+        if (_proxyFormState.touchedFields && shouldUpdateFieldsAndState && Array.isArray(get(_formState.touchedFields, name))) {
+          const touchedFields = method(get(_formState.touchedFields, name), args.argA, args.argB);
+          shouldSetValues && set(_formState.touchedFields, name, touchedFields);
         }
         if (_proxyFormState.dirtyFields) {
           _formState.dirtyFields = getDirtyFields(_defaultValues, _formValues);
         }
         _subjects.state.next({
-          name: name2,
-          isDirty: _getDirty(name2, values),
+          isDirty: _getDirty(name, values),
           dirtyFields: _formState.dirtyFields,
           errors: _formState.errors,
           isValid: _formState.isValid
         });
       } else {
-        set(_formValues, name2, values);
+        set(_formValues, name, values);
       }
     };
-    const updateErrors = (name2, error) => {
-      set(_formState.errors, name2, error);
+    const updateErrors = (name, error) => {
+      set(_formState.errors, name, error);
       _subjects.state.next({
         errors: _formState.errors
       });
     };
-    const updateValidAndValue = (name2, shouldSkipSetValueAs, value, ref) => {
-      const field = get(_fields, name2);
+    const updateValidAndValue = (name, shouldSkipSetValueAs, value, ref) => {
+      const field = get(_fields, name);
       if (field) {
-        const defaultValue = get(_formValues, name2, isUndefined(value) ? get(_defaultValues, name2) : value);
-        isUndefined(defaultValue) || ref && ref.defaultChecked || shouldSkipSetValueAs ? set(_formValues, name2, shouldSkipSetValueAs ? defaultValue : getFieldValue(field._f)) : setFieldValue(name2, defaultValue);
-        _state.mount && _updateValid();
+        const defaultValue = get(_formValues, name, isUndefined(value) ? get(_defaultValues, name) : value);
+        isUndefined(defaultValue) || ref && ref.defaultChecked || shouldSkipSetValueAs ? set(_formValues, name, shouldSkipSetValueAs ? defaultValue : getFieldValue(field._f)) : setFieldValue(name, defaultValue);
+        _stateFlags.mount && _updateValid();
       }
     };
-    const updateTouchAndDirty = (name2, fieldValue, isBlurEvent, shouldDirty, shouldRender) => {
-      let shouldUpdateField = false;
-      let isPreviousDirty = false;
+    const updateTouchAndDirty = (name, fieldValue, isBlurEvent, shouldDirty, shouldRender) => {
+      let isFieldDirty = false;
       const output = {
-        name: name2
+        name
       };
-      if (!isBlurEvent || shouldDirty) {
-        if (_proxyFormState.isDirty) {
-          isPreviousDirty = _formState.isDirty;
-          _formState.isDirty = output.isDirty = _getDirty();
-          shouldUpdateField = isPreviousDirty !== output.isDirty;
-        }
-        const isCurrentFieldPristine = deepEqual$1(get(_defaultValues, name2), fieldValue);
-        isPreviousDirty = get(_formState.dirtyFields, name2);
-        isCurrentFieldPristine ? unset(_formState.dirtyFields, name2) : set(_formState.dirtyFields, name2, true);
+      const isPreviousFieldTouched = get(_formState.touchedFields, name);
+      if (_proxyFormState.isDirty) {
+        const isPreviousFormDirty = _formState.isDirty;
+        _formState.isDirty = output.isDirty = _getDirty();
+        isFieldDirty = isPreviousFormDirty !== output.isDirty;
+      }
+      if (_proxyFormState.dirtyFields && (!isBlurEvent || shouldDirty)) {
+        const isPreviousFieldDirty = get(_formState.dirtyFields, name);
+        const isCurrentFieldPristine = deepEqual$1(get(_defaultValues, name), fieldValue);
+        isCurrentFieldPristine ? unset(_formState.dirtyFields, name) : set(_formState.dirtyFields, name, true);
         output.dirtyFields = _formState.dirtyFields;
-        shouldUpdateField = shouldUpdateField || _proxyFormState.dirtyFields && isPreviousDirty !== !isCurrentFieldPristine;
+        isFieldDirty = isFieldDirty || isPreviousFieldDirty !== get(_formState.dirtyFields, name);
       }
-      if (isBlurEvent) {
-        const isPreviousFieldTouched = get(_formState.touchedFields, name2);
-        if (!isPreviousFieldTouched) {
-          set(_formState.touchedFields, name2, isBlurEvent);
-          output.touchedFields = _formState.touchedFields;
-          shouldUpdateField = shouldUpdateField || _proxyFormState.touchedFields && isPreviousFieldTouched !== isBlurEvent;
-        }
+      if (isBlurEvent && !isPreviousFieldTouched) {
+        set(_formState.touchedFields, name, isBlurEvent);
+        output.touchedFields = _formState.touchedFields;
+        isFieldDirty = isFieldDirty || _proxyFormState.touchedFields && isPreviousFieldTouched !== isBlurEvent;
       }
-      shouldUpdateField && shouldRender && _subjects.state.next(output);
-      return shouldUpdateField ? output : {};
+      isFieldDirty && shouldRender && _subjects.state.next(output);
+      return isFieldDirty ? output : {};
     };
-    const shouldRenderByError = (name2, isValid, error, fieldState) => {
-      const previousFieldError = get(_formState.errors, name2);
-      const shouldUpdateValid = _proxyFormState.isValid && isBoolean(isValid) && _formState.isValid !== isValid;
+    const shouldRenderByError = async (name, isValid, error, fieldState) => {
+      const previousFieldError = get(_formState.errors, name);
+      const shouldUpdateValid = _proxyFormState.isValid && _formState.isValid !== isValid;
       if (props.delayError && error) {
-        delayErrorCallback = debounce(() => updateErrors(name2, error));
+        delayErrorCallback = debounce(() => updateErrors(name, error));
         delayErrorCallback(props.delayError);
       } else {
         clearTimeout(timer);
         delayErrorCallback = null;
-        error ? set(_formState.errors, name2, error) : unset(_formState.errors, name2);
+        error ? set(_formState.errors, name, error) : unset(_formState.errors, name);
       }
       if ((error ? !deepEqual$1(previousFieldError, error) : previousFieldError) || !isEmptyObject(fieldState) || shouldUpdateValid) {
         const updatedFormState = {
           ...fieldState,
-          ...shouldUpdateValid && isBoolean(isValid) ? { isValid } : {},
+          ...shouldUpdateValid ? { isValid } : {},
           errors: _formState.errors,
-          name: name2
+          name
         };
         _formState = {
           ..._formState,
@@ -9060,69 +9032,79 @@ var __publicField = (obj, key, value) => {
         };
         _subjects.state.next(updatedFormState);
       }
-      _updateIsValidating(false);
+      validateFields[name]--;
+      if (_proxyFormState.isValidating && !Object.values(validateFields).some((v) => v)) {
+        _subjects.state.next({
+          isValidating: false
+        });
+        validateFields = {};
+      }
     };
-    const _executeSchema = async (name2) => _options.resolver(_formValues, _options.context, getResolverOptions(name2 || _names.mount, _fields, _options.criteriaMode, _options.shouldUseNativeValidation));
+    const _executeSchema = async (name) => _options.resolver ? await _options.resolver({ ..._formValues }, _options.context, getResolverOptions(name || _names.mount, _fields, _options.criteriaMode, _options.shouldUseNativeValidation)) : {};
     const executeSchemaAndUpdateState = async (names) => {
       const { errors: errors2 } = await _executeSchema();
       if (names) {
-        for (const name2 of names) {
-          const error = get(errors2, name2);
-          error ? set(_formState.errors, name2, error) : unset(_formState.errors, name2);
+        for (const name of names) {
+          const error = get(errors2, name);
+          error ? set(_formState.errors, name, error) : unset(_formState.errors, name);
         }
       } else {
         _formState.errors = errors2;
       }
       return errors2;
     };
-    const executeBuiltInValidation = async (fields, shouldOnlyCheckValid, context = {
+    const executeBuildInValidation = async (fields, shouldOnlyCheckValid, context = {
       valid: true
     }) => {
-      for (const name2 in fields) {
-        const field = fields[name2];
+      for (const name in fields) {
+        const field = fields[name];
         if (field) {
-          const { _f, ...fieldValue } = field;
-          if (_f) {
-            const isFieldArrayRoot = _names.array.has(_f.name);
-            const fieldError = await validateField(field, _formValues, shouldDisplayAllAssociatedErrors, _options.shouldUseNativeValidation && !shouldOnlyCheckValid, isFieldArrayRoot);
-            if (fieldError[_f.name]) {
+          const { _f: fieldReference, ...fieldValue } = field;
+          if (fieldReference) {
+            const fieldError = await validateField(field, get(_formValues, fieldReference.name), shouldDisplayAllAssociatedErrors, _options.shouldUseNativeValidation);
+            if (fieldError[fieldReference.name]) {
               context.valid = false;
               if (shouldOnlyCheckValid) {
                 break;
               }
             }
-            !shouldOnlyCheckValid && (get(fieldError, _f.name) ? isFieldArrayRoot ? updateFieldArrayRootError(_formState.errors, fieldError, _f.name) : set(_formState.errors, _f.name, fieldError[_f.name]) : unset(_formState.errors, _f.name));
+            if (!shouldOnlyCheckValid) {
+              fieldError[fieldReference.name] ? set(_formState.errors, fieldReference.name, fieldError[fieldReference.name]) : unset(_formState.errors, fieldReference.name);
+            }
           }
-          fieldValue && await executeBuiltInValidation(fieldValue, shouldOnlyCheckValid, context);
+          fieldValue && await executeBuildInValidation(fieldValue, shouldOnlyCheckValid, context);
         }
       }
       return context.valid;
     };
     const _removeUnmounted = () => {
-      for (const name2 of _names.unMount) {
-        const field = get(_fields, name2);
-        field && (field._f.refs ? field._f.refs.every((ref) => !live(ref)) : !live(field._f.ref)) && unregister(name2);
+      for (const name of _names.unMount) {
+        const field = get(_fields, name);
+        field && (field._f.refs ? field._f.refs.every((ref) => !live(ref)) : !live(field._f.ref)) && unregister(name);
       }
       _names.unMount = /* @__PURE__ */ new Set();
     };
-    const _getDirty = (name2, data) => (name2 && data && set(_formValues, name2, data), !deepEqual$1(getValues(), _defaultValues));
-    const _getWatch = (names, defaultValue, isGlobal) => generateWatchOutput(names, _names, {
-      ..._state.mount ? _formValues : isUndefined(defaultValue) ? _defaultValues : isString(names) ? { [names]: defaultValue } : defaultValue
-    }, isGlobal, defaultValue);
-    const _getFieldArray = (name2) => compact(get(_state.mount ? _formValues : _defaultValues, name2, props.shouldUnregister ? get(_defaultValues, name2, []) : []));
-    const setFieldValue = (name2, value, options = {}) => {
-      const field = get(_fields, name2);
+    const _getDirty = (name, data) => (name && data && set(_formValues, name, data), !deepEqual$1(getValues(), _defaultValues));
+    const _getWatch = (names, defaultValue, isGlobal) => {
+      const fieldValues = {
+        ..._stateFlags.mount ? _formValues : isUndefined(defaultValue) ? _defaultValues : isString(names) ? { [names]: defaultValue } : defaultValue
+      };
+      return generateWatchOutput(names, _names, fieldValues, isGlobal);
+    };
+    const _getFieldArray = (name) => compact(get(_stateFlags.mount ? _formValues : _defaultValues, name, props.shouldUnregister ? get(_defaultValues, name, []) : []));
+    const setFieldValue = (name, value, options = {}) => {
+      const field = get(_fields, name);
       let fieldValue = value;
       if (field) {
         const fieldReference = field._f;
         if (fieldReference) {
-          !fieldReference.disabled && set(_formValues, name2, getFieldValueAs(value, fieldReference));
-          fieldValue = isHTMLElement(fieldReference.ref) && isNullOrUndefined(value) ? "" : value;
+          !fieldReference.disabled && set(_formValues, name, getFieldValueAs(value, fieldReference));
+          fieldValue = isWeb && isHTMLElement(fieldReference.ref) && isNullOrUndefined(value) ? "" : value;
           if (isMultipleSelect(fieldReference.ref)) {
-            [...fieldReference.ref.options].forEach((optionRef) => optionRef.selected = fieldValue.includes(optionRef.value));
+            [...fieldReference.ref.options].forEach((selectRef) => selectRef.selected = fieldValue.includes(selectRef.value));
           } else if (fieldReference.refs) {
             if (isCheckBoxInput(fieldReference.ref)) {
-              fieldReference.refs.length > 1 ? fieldReference.refs.forEach((checkboxRef) => (!checkboxRef.defaultChecked || !checkboxRef.disabled) && (checkboxRef.checked = Array.isArray(fieldValue) ? !!fieldValue.find((data) => data === checkboxRef.value) : fieldValue === checkboxRef.value)) : fieldReference.refs[0] && (fieldReference.refs[0].checked = !!fieldValue);
+              fieldReference.refs.length > 1 ? fieldReference.refs.forEach((checkboxRef) => !checkboxRef.disabled && (checkboxRef.checked = Array.isArray(fieldValue) ? !!fieldValue.find((data) => data === checkboxRef.value) : fieldValue === checkboxRef.value)) : fieldReference.refs[0] && (fieldReference.refs[0].checked = !!fieldValue);
             } else {
               fieldReference.refs.forEach((radioRef) => radioRef.checked = radioRef.value === fieldValue);
             }
@@ -9131,207 +9113,196 @@ var __publicField = (obj, key, value) => {
           } else {
             fieldReference.ref.value = fieldValue;
             if (!fieldReference.ref.type) {
-              _subjects.values.next({
-                name: name2,
-                values: { ..._formValues }
+              _subjects.watch.next({
+                name
               });
             }
           }
         }
       }
-      (options.shouldDirty || options.shouldTouch) && updateTouchAndDirty(name2, fieldValue, options.shouldTouch, options.shouldDirty, true);
-      options.shouldValidate && trigger(name2);
+      (options.shouldDirty || options.shouldTouch) && updateTouchAndDirty(name, fieldValue, options.shouldTouch, options.shouldDirty, true);
+      options.shouldValidate && trigger(name);
     };
-    const setValues = (name2, value, options) => {
+    const setValues = (name, value, options) => {
       for (const fieldKey in value) {
         const fieldValue = value[fieldKey];
-        const fieldName = `${name2}.${fieldKey}`;
+        const fieldName = `${name}.${fieldKey}`;
         const field = get(_fields, fieldName);
-        (_names.array.has(name2) || !isPrimitive(fieldValue) || field && !field._f) && !isDateObject(fieldValue) ? setValues(fieldName, fieldValue, options) : setFieldValue(fieldName, fieldValue, options);
+        (_names.array.has(name) || !isPrimitive(fieldValue) || field && !field._f) && !isDateObject(fieldValue) ? setValues(fieldName, fieldValue, options) : setFieldValue(fieldName, fieldValue, options);
       }
     };
-    const setValue = (name2, value, options = {}) => {
-      const field = get(_fields, name2);
-      const isFieldArray = _names.array.has(name2);
+    const setValue = (name, value, options = {}) => {
+      const field = get(_fields, name);
+      const isFieldArray = _names.array.has(name);
       const cloneValue = cloneObject(value);
-      set(_formValues, name2, cloneValue);
+      set(_formValues, name, cloneValue);
       if (isFieldArray) {
         _subjects.array.next({
-          name: name2,
-          values: { ..._formValues }
+          name,
+          values: _formValues
         });
         if ((_proxyFormState.isDirty || _proxyFormState.dirtyFields) && options.shouldDirty) {
+          _formState.dirtyFields = getDirtyFields(_defaultValues, _formValues);
           _subjects.state.next({
-            name: name2,
-            dirtyFields: getDirtyFields(_defaultValues, _formValues),
-            isDirty: _getDirty(name2, cloneValue)
+            name,
+            dirtyFields: _formState.dirtyFields,
+            isDirty: _getDirty(name, cloneValue)
           });
         }
       } else {
-        field && !field._f && !isNullOrUndefined(cloneValue) ? setValues(name2, cloneValue, options) : setFieldValue(name2, cloneValue, options);
+        field && !field._f && !isNullOrUndefined(cloneValue) ? setValues(name, cloneValue, options) : setFieldValue(name, cloneValue, options);
       }
-      isWatched(name2, _names) && _subjects.state.next({ ..._formState });
-      _subjects.values.next({
-        name: name2,
-        values: { ..._formValues }
+      isWatched(name, _names) && _subjects.state.next({});
+      _subjects.watch.next({
+        name
       });
-      !_state.mount && flushRootRender();
     };
     const onChange = async (event) => {
       const target2 = event.target;
-      let name2 = target2.name;
-      let isFieldValueUpdated = true;
-      const field = get(_fields, name2);
-      const getCurrentFieldValue = () => target2.type ? getFieldValue(field._f) : getEventValue(event);
+      let name = target2.name;
+      const field = get(_fields, name);
       if (field) {
         let error;
         let isValid;
-        const fieldValue = getCurrentFieldValue();
+        const fieldValue = target2.type ? getFieldValue(field._f) : getEventValue(event);
         const isBlurEvent = event.type === EVENTS.BLUR || event.type === EVENTS.FOCUS_OUT;
-        const shouldSkipValidation = !hasValidation(field._f) && !_options.resolver && !get(_formState.errors, name2) && !field._f.deps || skipValidation(isBlurEvent, get(_formState.touchedFields, name2), _formState.isSubmitted, validationModeAfterSubmit, validationModeBeforeSubmit);
-        const watched = isWatched(name2, _names, isBlurEvent);
-        set(_formValues, name2, fieldValue);
+        const shouldSkipValidation = !hasValidation(field._f) && !_options.resolver && !get(_formState.errors, name) && !field._f.deps || skipValidation(isBlurEvent, get(_formState.touchedFields, name), _formState.isSubmitted, validationModeAfterSubmit, validationModeBeforeSubmit);
+        const watched = isWatched(name, _names, isBlurEvent);
+        set(_formValues, name, fieldValue);
         if (isBlurEvent) {
           field._f.onBlur && field._f.onBlur(event);
           delayErrorCallback && delayErrorCallback(0);
         } else if (field._f.onChange) {
           field._f.onChange(event);
         }
-        const fieldState = updateTouchAndDirty(name2, fieldValue, isBlurEvent, false);
+        const fieldState = updateTouchAndDirty(name, fieldValue, isBlurEvent, false);
         const shouldRender = !isEmptyObject(fieldState) || watched;
-        !isBlurEvent && _subjects.values.next({
-          name: name2,
-          type: event.type,
-          values: { ..._formValues }
+        !isBlurEvent && _subjects.watch.next({
+          name,
+          type: event.type
         });
         if (shouldSkipValidation) {
-          _proxyFormState.isValid && _updateValid();
-          return shouldRender && _subjects.state.next({ name: name2, ...watched ? {} : fieldState });
+          return shouldRender && _subjects.state.next({ name, ...watched ? {} : fieldState });
         }
-        !isBlurEvent && watched && _subjects.state.next({ ..._formState });
-        _updateIsValidating(true);
+        !isBlurEvent && watched && _subjects.state.next({});
+        validateFields[name] = validateFields[name] ? 1 : 1;
+        _subjects.state.next({
+          isValidating: true
+        });
         if (_options.resolver) {
-          const { errors: errors2 } = await _executeSchema([name2]);
-          const previousErrorLookupResult = schemaErrorLookup(_formState.errors, _fields, name2);
-          const errorLookupResult = schemaErrorLookup(errors2, _fields, previousErrorLookupResult.name || name2);
+          const { errors: errors2 } = await _executeSchema([name]);
+          const previousErrorLookupResult = schemaErrorLookup(_formState.errors, _fields, name);
+          const errorLookupResult = schemaErrorLookup(errors2, _fields, previousErrorLookupResult.name || name);
           error = errorLookupResult.error;
-          name2 = errorLookupResult.name;
+          name = errorLookupResult.name;
           isValid = isEmptyObject(errors2);
         } else {
-          error = (await validateField(field, _formValues, shouldDisplayAllAssociatedErrors, _options.shouldUseNativeValidation))[name2];
-          isFieldValueUpdated = isNaN(fieldValue) || fieldValue === get(_formValues, name2, fieldValue);
-          if (isFieldValueUpdated) {
-            if (error) {
-              isValid = false;
-            } else if (_proxyFormState.isValid) {
-              isValid = await executeBuiltInValidation(_fields, true);
-            }
-          }
+          error = (await validateField(field, get(_formValues, name), shouldDisplayAllAssociatedErrors, _options.shouldUseNativeValidation))[name];
+          isValid = await _updateValid(true);
         }
-        if (isFieldValueUpdated) {
-          field._f.deps && trigger(field._f.deps);
-          shouldRenderByError(name2, isValid, error, fieldState);
-        }
+        field._f.deps && trigger(field._f.deps);
+        shouldRenderByError(name, isValid, error, fieldState);
       }
     };
-    const trigger = async (name2, options = {}) => {
+    const trigger = async (name, options = {}) => {
       let isValid;
       let validationResult;
-      const fieldNames = convertToArrayPayload(name2);
-      _updateIsValidating(true);
+      const fieldNames = convertToArrayPayload(name);
+      _subjects.state.next({
+        isValidating: true
+      });
       if (_options.resolver) {
-        const errors2 = await executeSchemaAndUpdateState(isUndefined(name2) ? name2 : fieldNames);
+        const errors2 = await executeSchemaAndUpdateState(isUndefined(name) ? name : fieldNames);
         isValid = isEmptyObject(errors2);
-        validationResult = name2 ? !fieldNames.some((name3) => get(errors2, name3)) : isValid;
-      } else if (name2) {
+        validationResult = name ? !fieldNames.some((name2) => get(errors2, name2)) : isValid;
+      } else if (name) {
         validationResult = (await Promise.all(fieldNames.map(async (fieldName) => {
           const field = get(_fields, fieldName);
-          return await executeBuiltInValidation(field && field._f ? { [fieldName]: field } : field);
+          return await executeBuildInValidation(field && field._f ? { [fieldName]: field } : field);
         }))).every(Boolean);
         !(!validationResult && !_formState.isValid) && _updateValid();
       } else {
-        validationResult = isValid = await executeBuiltInValidation(_fields);
+        validationResult = isValid = await executeBuildInValidation(_fields);
       }
       _subjects.state.next({
-        ...!isString(name2) || _proxyFormState.isValid && isValid !== _formState.isValid ? {} : { name: name2 },
-        ..._options.resolver || !name2 ? { isValid } : {},
+        ...!isString(name) || _proxyFormState.isValid && isValid !== _formState.isValid ? {} : { name },
+        ..._options.resolver ? { isValid } : {},
         errors: _formState.errors,
         isValidating: false
       });
-      options.shouldFocus && !validationResult && focusFieldBy(_fields, (key) => key && get(_formState.errors, key), name2 ? fieldNames : _names.mount);
+      options.shouldFocus && !validationResult && focusFieldBy(_fields, (key) => get(_formState.errors, key), name ? fieldNames : _names.mount);
       return validationResult;
     };
     const getValues = (fieldNames) => {
       const values = {
         ..._defaultValues,
-        ..._state.mount ? _formValues : {}
+        ..._stateFlags.mount ? _formValues : {}
       };
-      return isUndefined(fieldNames) ? values : isString(fieldNames) ? get(values, fieldNames) : fieldNames.map((name2) => get(values, name2));
+      return isUndefined(fieldNames) ? values : isString(fieldNames) ? get(values, fieldNames) : fieldNames.map((name) => get(values, name));
     };
-    const getFieldState = (name2, formState) => ({
-      invalid: !!get((formState || _formState).errors, name2),
-      isDirty: !!get((formState || _formState).dirtyFields, name2),
-      isTouched: !!get((formState || _formState).touchedFields, name2),
-      error: get((formState || _formState).errors, name2)
+    const getFieldState = (name, formState) => ({
+      invalid: !!get((formState || _formState).errors, name),
+      isDirty: !!get((formState || _formState).dirtyFields, name),
+      isTouched: !!get((formState || _formState).touchedFields, name),
+      error: get((formState || _formState).errors, name)
     });
-    const clearErrors = (name2) => {
-      name2 && convertToArrayPayload(name2).forEach((inputName) => unset(_formState.errors, inputName));
+    const clearErrors = (name) => {
+      name ? convertToArrayPayload(name).forEach((inputName) => unset(_formState.errors, inputName)) : _formState.errors = {};
       _subjects.state.next({
-        errors: name2 ? _formState.errors : {}
+        errors: _formState.errors
       });
     };
-    const setError = (name2, error, options) => {
-      const ref = (get(_fields, name2, { _f: {} })._f || {}).ref;
-      set(_formState.errors, name2, {
+    const setError = (name, error, options) => {
+      const ref = (get(_fields, name, { _f: {} })._f || {}).ref;
+      set(_formState.errors, name, {
         ...error,
         ref
       });
       _subjects.state.next({
-        name: name2,
+        name,
         errors: _formState.errors,
         isValid: false
       });
       options && options.shouldFocus && ref && ref.focus && ref.focus();
     };
-    const watch = (name2, defaultValue) => isFunction$1(name2) ? _subjects.values.subscribe({
-      next: (payload) => name2(_getWatch(void 0, defaultValue), payload)
-    }) : _getWatch(name2, defaultValue, true);
-    const unregister = (name2, options = {}) => {
-      for (const fieldName of name2 ? convertToArrayPayload(name2) : _names.mount) {
+    const watch = (name, defaultValue) => isFunction$1(name) ? _subjects.watch.subscribe({
+      next: (info) => name(_getWatch(void 0, defaultValue), info)
+    }) : _getWatch(name, defaultValue, true);
+    const unregister = (name, options = {}) => {
+      for (const fieldName of name ? convertToArrayPayload(name) : _names.mount) {
         _names.mount.delete(fieldName);
         _names.array.delete(fieldName);
-        if (!options.keepValue) {
-          unset(_fields, fieldName);
-          unset(_formValues, fieldName);
+        if (get(_fields, fieldName)) {
+          if (!options.keepValue) {
+            unset(_fields, fieldName);
+            unset(_formValues, fieldName);
+          }
+          !options.keepError && unset(_formState.errors, fieldName);
+          !options.keepDirty && unset(_formState.dirtyFields, fieldName);
+          !options.keepTouched && unset(_formState.touchedFields, fieldName);
+          !_options.shouldUnregister && !options.keepDefaultValue && unset(_defaultValues, fieldName);
         }
-        !options.keepError && unset(_formState.errors, fieldName);
-        !options.keepDirty && unset(_formState.dirtyFields, fieldName);
-        !options.keepTouched && unset(_formState.touchedFields, fieldName);
-        !_options.shouldUnregister && !options.keepDefaultValue && unset(_defaultValues, fieldName);
       }
-      _subjects.values.next({
-        values: { ..._formValues }
-      });
+      _subjects.watch.next({});
       _subjects.state.next({
         ..._formState,
         ...!options.keepDirty ? {} : { isDirty: _getDirty() }
       });
       !options.keepIsValid && _updateValid();
     };
-    const register = (name2, options = {}) => {
-      let field = get(_fields, name2);
+    const register = (name, options = {}) => {
+      let field = get(_fields, name);
       const disabledIsDefined = isBoolean(options.disabled);
-      set(_fields, name2, {
-        ...field || {},
+      set(_fields, name, {
         _f: {
-          ...field && field._f ? field._f : { ref: { name: name2 } },
-          name: name2,
+          ...field && field._f ? field._f : { ref: { name } },
+          name,
           mount: true,
           ...options
         }
       });
-      _names.mount.add(name2);
-      field ? disabledIsDefined && set(_formValues, name2, options.disabled ? void 0 : get(_formValues, name2, getFieldValue(field._f))) : updateValidAndValue(name2, true, options.value);
+      _names.mount.add(name);
+      field ? disabledIsDefined && set(_formValues, name, options.disabled ? void 0 : get(_formValues, name, getFieldValue(field._f))) : updateValidAndValue(name, true, options.value);
       return {
         ...disabledIsDefined ? { disabled: options.disabled } : {},
         ..._options.shouldUseNativeValidation ? {
@@ -9342,104 +9313,110 @@ var __publicField = (obj, key, value) => {
           maxLength: getRuleValue(options.maxLength),
           pattern: getRuleValue(options.pattern)
         } : {},
-        name: name2,
+        name,
         onChange,
         onBlur: onChange,
         ref: (ref) => {
           if (ref) {
-            register(name2, options);
-            field = get(_fields, name2);
+            register(name, options);
+            field = get(_fields, name);
             const fieldRef = isUndefined(ref.value) ? ref.querySelectorAll ? ref.querySelectorAll("input,select,textarea")[0] || ref : ref : ref;
             const radioOrCheckbox = isRadioOrCheckbox(fieldRef);
             const refs = field._f.refs || [];
             if (radioOrCheckbox ? refs.find((option) => option === fieldRef) : fieldRef === field._f.ref) {
               return;
             }
-            set(_fields, name2, {
+            set(_fields, name, {
               _f: {
                 ...field._f,
                 ...radioOrCheckbox ? {
                   refs: [
                     ...refs.filter(live),
                     fieldRef,
-                    ...Array.isArray(get(_defaultValues, name2)) ? [{}] : []
+                    ...!!Array.isArray(get(_defaultValues, name)) ? [{}] : []
                   ],
-                  ref: { type: fieldRef.type, name: name2 }
+                  ref: { type: fieldRef.type, name }
                 } : { ref: fieldRef }
               }
             });
-            updateValidAndValue(name2, false, void 0, fieldRef);
+            updateValidAndValue(name, false, void 0, fieldRef);
           } else {
-            field = get(_fields, name2, {});
+            field = get(_fields, name, {});
             if (field._f) {
               field._f.mount = false;
             }
-            (_options.shouldUnregister || options.shouldUnregister) && !(isNameInFieldArray(_names.array, name2) && _state.action) && _names.unMount.add(name2);
+            (_options.shouldUnregister || options.shouldUnregister) && !(isNameInFieldArray(_names.array, name) && _stateFlags.action) && _names.unMount.add(name);
           }
         }
       };
     };
-    const _focusError = () => _options.shouldFocusError && focusFieldBy(_fields, (key) => key && get(_formState.errors, key), _names.mount);
     const handleSubmit = (onValid, onInvalid) => async (e) => {
       if (e) {
         e.preventDefault && e.preventDefault();
         e.persist && e.persist();
       }
+      let hasNoPromiseError = true;
       let fieldValues = cloneObject(_formValues);
       _subjects.state.next({
         isSubmitting: true
       });
-      if (_options.resolver) {
-        const { errors: errors2, values } = await _executeSchema();
-        _formState.errors = errors2;
-        fieldValues = values;
-      } else {
-        await executeBuiltInValidation(_fields);
-      }
-      unset(_formState.errors, "root");
-      if (isEmptyObject(_formState.errors)) {
-        _subjects.state.next({
-          errors: {}
-        });
-        await onValid(fieldValues, e);
-      } else {
-        if (onInvalid) {
-          await onInvalid({ ..._formState.errors }, e);
-        }
-        _focusError();
-        setTimeout(_focusError);
-      }
-      _subjects.state.next({
-        isSubmitted: true,
-        isSubmitting: false,
-        isSubmitSuccessful: isEmptyObject(_formState.errors),
-        submitCount: _formState.submitCount + 1,
-        errors: _formState.errors
-      });
-    };
-    const resetField = (name2, options = {}) => {
-      if (get(_fields, name2)) {
-        if (isUndefined(options.defaultValue)) {
-          setValue(name2, get(_defaultValues, name2));
+      try {
+        if (_options.resolver) {
+          const { errors: errors2, values } = await _executeSchema();
+          _formState.errors = errors2;
+          fieldValues = values;
         } else {
-          setValue(name2, options.defaultValue);
-          set(_defaultValues, name2, options.defaultValue);
+          await executeBuildInValidation(_fields);
+        }
+        if (isEmptyObject(_formState.errors)) {
+          _subjects.state.next({
+            errors: {},
+            isSubmitting: true
+          });
+          await onValid(fieldValues, e);
+        } else {
+          if (onInvalid) {
+            await onInvalid({ ..._formState.errors }, e);
+          }
+          _options.shouldFocusError && focusFieldBy(_fields, (key) => get(_formState.errors, key), _names.mount);
+        }
+      } catch (err) {
+        hasNoPromiseError = false;
+        throw err;
+      } finally {
+        _formState.isSubmitted = true;
+        _subjects.state.next({
+          isSubmitted: true,
+          isSubmitting: false,
+          isSubmitSuccessful: isEmptyObject(_formState.errors) && hasNoPromiseError,
+          submitCount: _formState.submitCount + 1,
+          errors: _formState.errors
+        });
+      }
+    };
+    const resetField = (name, options = {}) => {
+      if (get(_fields, name)) {
+        if (isUndefined(options.defaultValue)) {
+          setValue(name, get(_defaultValues, name));
+        } else {
+          setValue(name, options.defaultValue);
+          set(_defaultValues, name, options.defaultValue);
         }
         if (!options.keepTouched) {
-          unset(_formState.touchedFields, name2);
+          unset(_formState.touchedFields, name);
         }
         if (!options.keepDirty) {
-          unset(_formState.dirtyFields, name2);
-          _formState.isDirty = options.defaultValue ? _getDirty(name2, get(_defaultValues, name2)) : _getDirty();
+          unset(_formState.dirtyFields, name);
+          _formState.isDirty = options.defaultValue ? _getDirty(name, get(_defaultValues, name)) : _getDirty();
         }
         if (!options.keepError) {
-          unset(_formState.errors, name2);
+          unset(_formState.errors, name);
           _proxyFormState.isValid && _updateValid();
         }
         _subjects.state.next({ ..._formState });
       }
     };
-    const _reset = (formValues, keepStateOptions = {}) => {
+    const reset = (formValues, keepStateOptions = {}) => {
       const updatedValues = formValues || _defaultValues;
       const cloneUpdatedValues = cloneObject(updatedValues);
       const values = formValues && !isEmptyObject(formValues) ? cloneUpdatedValues : _defaultValues;
@@ -9447,22 +9424,20 @@ var __publicField = (obj, key, value) => {
         _defaultValues = updatedValues;
       }
       if (!keepStateOptions.keepValues) {
-        if (keepStateOptions.keepDirtyValues || shouldCaptureDirtyFields) {
+        if (keepStateOptions.keepDirtyValues) {
           for (const fieldName of _names.mount) {
             get(_formState.dirtyFields, fieldName) ? set(values, fieldName, get(_formValues, fieldName)) : setValue(fieldName, get(values, fieldName));
           }
         } else {
           if (isWeb && isUndefined(formValues)) {
-            for (const name2 of _names.mount) {
-              const field = get(_fields, name2);
+            for (const name of _names.mount) {
+              const field = get(_fields, name);
               if (field && field._f) {
                 const fieldReference = Array.isArray(field._f.refs) ? field._f.refs[0] : field._f.ref;
-                if (isHTMLElement(fieldReference)) {
-                  const form = fieldReference.closest("form");
-                  if (form) {
-                    form.reset();
-                    break;
-                  }
+                try {
+                  isHTMLElement(fieldReference) && fieldReference.closest("form").reset();
+                  break;
+                } catch (_a2) {
                 }
               }
             }
@@ -9471,10 +9446,10 @@ var __publicField = (obj, key, value) => {
         }
         _formValues = props.shouldUnregister ? keepStateOptions.keepDefaultValues ? cloneObject(_defaultValues) : {} : cloneUpdatedValues;
         _subjects.array.next({
-          values: { ...values }
+          values
         });
-        _subjects.values.next({
-          values: { ...values }
+        _subjects.watch.next({
+          values
         });
       }
       _names = {
@@ -9485,46 +9460,24 @@ var __publicField = (obj, key, value) => {
         watchAll: false,
         focus: ""
       };
-      !_state.mount && flushRootRender();
-      _state.mount = !_proxyFormState.isValid || !!keepStateOptions.keepIsValid;
-      _state.watch = !!props.shouldUnregister;
+      _stateFlags.mount = !_proxyFormState.isValid || !!keepStateOptions.keepIsValid;
+      _stateFlags.watch = !!props.shouldUnregister;
       _subjects.state.next({
         submitCount: keepStateOptions.keepSubmitCount ? _formState.submitCount : 0,
-        isDirty: keepStateOptions.keepDirty ? _formState.isDirty : !!(keepStateOptions.keepDefaultValues && !deepEqual$1(formValues, _defaultValues)),
+        isDirty: keepStateOptions.keepDirty || keepStateOptions.keepDirtyValues ? _formState.isDirty : !!(keepStateOptions.keepDefaultValues && !deepEqual$1(formValues, _defaultValues)),
         isSubmitted: keepStateOptions.keepIsSubmitted ? _formState.isSubmitted : false,
-        dirtyFields: keepStateOptions.keepDirtyValues ? _formState.dirtyFields : keepStateOptions.keepDefaultValues && formValues ? getDirtyFields(_defaultValues, formValues) : {},
+        dirtyFields: keepStateOptions.keepDirty || keepStateOptions.keepDirtyValues ? _formState.dirtyFields : keepStateOptions.keepDefaultValues && formValues ? getDirtyFields(_defaultValues, formValues) : {},
         touchedFields: keepStateOptions.keepTouched ? _formState.touchedFields : {},
         errors: keepStateOptions.keepErrors ? _formState.errors : {},
         isSubmitting: false,
         isSubmitSuccessful: false
       });
     };
-    const reset = (formValues, keepStateOptions) => _reset(isFunction$1(formValues) ? formValues(_formValues) : formValues, keepStateOptions);
-    const setFocus = (name2, options = {}) => {
-      const field = get(_fields, name2);
-      const fieldReference = field && field._f;
-      if (fieldReference) {
-        const fieldRef = fieldReference.refs ? fieldReference.refs[0] : fieldReference.ref;
-        if (fieldRef.focus) {
-          fieldRef.focus();
-          options.shouldSelect && fieldRef.select();
-        }
-      }
+    const setFocus = (name, options = {}) => {
+      const field = get(_fields, name)._f;
+      const fieldRef = field.refs ? field.refs[0] : field.ref;
+      options.shouldSelect ? fieldRef.select() : fieldRef.focus();
     };
-    const _updateFormState = (updatedFormState) => {
-      _formState = {
-        ..._formState,
-        ...updatedFormState
-      };
-    };
-    if (isFunction$1(_options.defaultValues)) {
-      _options.defaultValues().then((values) => {
-        reset(values, _options.resetOptions);
-        _subjects.state.next({
-          isLoading: false
-        });
-      });
-    }
     return {
       control: {
         register,
@@ -9537,8 +9490,6 @@ var __publicField = (obj, key, value) => {
         _removeUnmounted,
         _updateFieldArray,
         _getFieldArray,
-        _reset,
-        _updateFormState,
         _subjects,
         _proxyFormState,
         get _fields() {
@@ -9547,11 +9498,11 @@ var __publicField = (obj, key, value) => {
         get _formValues() {
           return _formValues;
         },
-        get _state() {
-          return _state;
+        get _stateFlags() {
+          return _stateFlags;
         },
-        set _state(value) {
-          _state = value;
+        set _stateFlags(value) {
+          _stateFlags = value;
         },
         get _defaultValues() {
           return _defaultValues;
@@ -9598,50 +9549,49 @@ var __publicField = (obj, key, value) => {
     const [formState, updateFormState] = React.useState({
       isDirty: false,
       isValidating: false,
-      isLoading: isFunction$1(props.defaultValues),
+      dirtyFields: {},
       isSubmitted: false,
+      submitCount: 0,
+      touchedFields: {},
       isSubmitting: false,
       isSubmitSuccessful: false,
       isValid: false,
-      submitCount: 0,
-      dirtyFields: {},
-      touchedFields: {},
-      errors: {},
-      defaultValues: isFunction$1(props.defaultValues) ? void 0 : props.defaultValues
+      errors: {}
     });
-    if (!_formControl.current) {
+    if (_formControl.current) {
+      _formControl.current.control._options = props;
+    } else {
       _formControl.current = {
-        ...createFormControl(props, () => updateFormState((formState2) => ({ ...formState2 }))),
+        ...createFormControl(props),
         formState
       };
     }
     const control = _formControl.current.control;
-    control._options = props;
+    const callback = React.useCallback((value) => {
+      if (shouldRenderFormState(value, control._proxyFormState, true)) {
+        control._formState = {
+          ...control._formState,
+          ...value
+        };
+        updateFormState({ ...control._formState });
+      }
+    }, [control]);
     useSubscribe({
       subject: control._subjects.state,
-      next: (value) => {
-        if (shouldRenderFormState(value, control._proxyFormState, control._updateFormState, true)) {
-          updateFormState({ ...control._formState });
-        }
-      }
+      callback
     });
     React.useEffect(() => {
-      if (props.values && !deepEqual$1(props.values, control._defaultValues)) {
-        control._reset(props.values, control._options.resetOptions);
+      if (!control._stateFlags.mount) {
+        control._proxyFormState.isValid && control._updateValid();
+        control._stateFlags.mount = true;
       }
-    }, [props.values, control]);
-    React.useEffect(() => {
-      if (!control._state.mount) {
-        control._updateValid();
-        control._state.mount = true;
-      }
-      if (control._state.watch) {
-        control._state.watch = false;
-        control._subjects.state.next({ ...control._formState });
+      if (control._stateFlags.watch) {
+        control._stateFlags.watch = false;
+        control._subjects.state.next({});
       }
       control._removeUnmounted();
     });
-    _formControl.current.formState = getProxyFormState(formState, control);
+    _formControl.current.formState = getProxyFormState(formState, control._proxyFormState);
     return _formControl.current;
   }
   var showdown = { exports: {} };
@@ -9889,13 +9839,13 @@ var __publicField = (obj, key, value) => {
       showdown2.resetOptions = function() {
         globalOptions = getDefaultOpts(true);
       };
-      showdown2.setFlavor = function(name2) {
-        if (!flavor.hasOwnProperty(name2)) {
-          throw Error(name2 + " flavor was not found");
+      showdown2.setFlavor = function(name) {
+        if (!flavor.hasOwnProperty(name)) {
+          throw Error(name + " flavor was not found");
         }
         showdown2.resetOptions();
-        var preset = flavor[name2];
-        setFlavor = name2;
+        var preset = flavor[name];
+        setFlavor = name;
         for (var option in preset) {
           if (preset.hasOwnProperty(option)) {
             globalOptions[option] = preset[option];
@@ -9905,37 +9855,37 @@ var __publicField = (obj, key, value) => {
       showdown2.getFlavor = function() {
         return setFlavor;
       };
-      showdown2.getFlavorOptions = function(name2) {
-        if (flavor.hasOwnProperty(name2)) {
-          return flavor[name2];
+      showdown2.getFlavorOptions = function(name) {
+        if (flavor.hasOwnProperty(name)) {
+          return flavor[name];
         }
       };
       showdown2.getDefaultOptions = function(simple) {
         return getDefaultOpts(simple);
       };
-      showdown2.subParser = function(name2, func) {
-        if (showdown2.helper.isString(name2)) {
+      showdown2.subParser = function(name, func) {
+        if (showdown2.helper.isString(name)) {
           if (typeof func !== "undefined") {
-            parsers[name2] = func;
+            parsers[name] = func;
           } else {
-            if (parsers.hasOwnProperty(name2)) {
-              return parsers[name2];
+            if (parsers.hasOwnProperty(name)) {
+              return parsers[name];
             } else {
-              throw Error("SubParser named " + name2 + " not registered!");
+              throw Error("SubParser named " + name + " not registered!");
             }
           }
         }
       };
-      showdown2.extension = function(name2, ext) {
-        if (!showdown2.helper.isString(name2)) {
+      showdown2.extension = function(name, ext) {
+        if (!showdown2.helper.isString(name)) {
           throw Error("Extension 'name' must be a string");
         }
-        name2 = showdown2.helper.stdExtName(name2);
+        name = showdown2.helper.stdExtName(name);
         if (showdown2.helper.isUndefined(ext)) {
-          if (!extensions.hasOwnProperty(name2)) {
-            throw Error("Extension named " + name2 + " is not registered!");
+          if (!extensions.hasOwnProperty(name)) {
+            throw Error("Extension named " + name + " is not registered!");
           }
-          return extensions[name2];
+          return extensions[name];
         } else {
           if (typeof ext === "function") {
             ext = ext();
@@ -9943,9 +9893,9 @@ var __publicField = (obj, key, value) => {
           if (!showdown2.helper.isArray(ext)) {
             ext = [ext];
           }
-          var validExtension = validate(ext, name2);
+          var validExtension = validate(ext, name);
           if (validExtension.valid) {
-            extensions[name2] = ext;
+            extensions[name] = ext;
           } else {
             throw Error(validExtension.error);
           }
@@ -9954,14 +9904,14 @@ var __publicField = (obj, key, value) => {
       showdown2.getAllExtensions = function() {
         return extensions;
       };
-      showdown2.removeExtension = function(name2) {
-        delete extensions[name2];
+      showdown2.removeExtension = function(name) {
+        delete extensions[name];
       };
       showdown2.resetExtensions = function() {
         extensions = {};
       };
-      function validate(extension, name2) {
-        var errMsg = name2 ? "Error in " + name2 + " extension->" : "Error in unnamed extension", ret = {
+      function validate(extension, name) {
+        var errMsg = name ? "Error in " + name + " extension->" : "Error in unnamed extension", ret = {
           valid: true,
           error: ""
         };
@@ -11462,11 +11412,11 @@ var __publicField = (obj, key, value) => {
             showdown2.helper.forEach(options.extensions, _parseExtension);
           }
         }
-        function _parseExtension(ext, name2) {
-          name2 = name2 || null;
+        function _parseExtension(ext, name) {
+          name = name || null;
           if (showdown2.helper.isString(ext)) {
             ext = showdown2.helper.stdExtName(ext);
-            name2 = ext;
+            name = ext;
             if (showdown2.extensions[ext]) {
               console.warn("DEPRECATION WARNING: " + ext + " is an old extension that uses a deprecated loading method.Please inform the developer that the extension should be updated!");
               legacyExtensionLoading(showdown2.extensions[ext], ext);
@@ -11483,7 +11433,7 @@ var __publicField = (obj, key, value) => {
           if (!showdown2.helper.isArray(ext)) {
             ext = [ext];
           }
-          var validExt = validate(ext, name2);
+          var validExt = validate(ext, name);
           if (!validExt.valid) {
             throw Error(validExt.error);
           }
@@ -11505,14 +11455,14 @@ var __publicField = (obj, key, value) => {
             }
           }
         }
-        function legacyExtensionLoading(ext, name2) {
+        function legacyExtensionLoading(ext, name) {
           if (typeof ext === "function") {
             ext = ext(new showdown2.Converter());
           }
           if (!showdown2.helper.isArray(ext)) {
             ext = [ext];
           }
-          var valid = validate(ext, name2);
+          var valid = validate(ext, name);
           if (!valid.valid) {
             throw Error(valid.error);
           }
@@ -11529,17 +11479,17 @@ var __publicField = (obj, key, value) => {
             }
           }
         }
-        function listen(name2, callback) {
-          if (!showdown2.helper.isString(name2)) {
-            throw Error("Invalid argument in converter.listen() method: name must be a string, but " + typeof name2 + " given");
+        function listen(name, callback) {
+          if (!showdown2.helper.isString(name)) {
+            throw Error("Invalid argument in converter.listen() method: name must be a string, but " + typeof name + " given");
           }
           if (typeof callback !== "function") {
             throw Error("Invalid argument in converter.listen() method: callback must be a function, but " + typeof callback + " given");
           }
-          if (!listeners.hasOwnProperty(name2)) {
-            listeners[name2] = [];
+          if (!listeners.hasOwnProperty(name)) {
+            listeners[name] = [];
           }
-          listeners[name2].push(callback);
+          listeners[name].push(callback);
         }
         function rTrimInputText(text) {
           var rsp = text.match(/^\s*/)[0].length, rgx = new RegExp("^\\s{0," + rsp + "}", "gm");
@@ -11556,8 +11506,8 @@ var __publicField = (obj, key, value) => {
           }
           return text;
         };
-        this.listen = function(name2, callback) {
-          listen(name2, callback);
+        this.listen = function(name, callback) {
+          listen(name, callback);
           return this;
         };
         this.makeHtml = function(text) {
@@ -11689,19 +11639,19 @@ var __publicField = (obj, key, value) => {
         this.getOptions = function() {
           return options;
         };
-        this.addExtension = function(extension, name2) {
-          name2 = name2 || null;
-          _parseExtension(extension, name2);
+        this.addExtension = function(extension, name) {
+          name = name || null;
+          _parseExtension(extension, name);
         };
         this.useExtension = function(extensionName) {
           _parseExtension(extensionName);
         };
-        this.setFlavor = function(name2) {
-          if (!flavor.hasOwnProperty(name2)) {
-            throw Error(name2 + " flavor was not found");
+        this.setFlavor = function(name) {
+          if (!flavor.hasOwnProperty(name)) {
+            throw Error(name + " flavor was not found");
           }
-          var preset = flavor[name2];
-          setConvFlavor = name2;
+          var preset = flavor[name];
+          setConvFlavor = name;
           for (var option in preset) {
             if (preset.hasOwnProperty(option)) {
               options[option] = preset[option];
@@ -18546,8 +18496,8 @@ var __publicField = (obj, key, value) => {
       Tokenizer2.prototype.getSection = function() {
         return this.buffer.substring(this.sectionStart, this._index);
       };
-      Tokenizer2.prototype.emitToken = function(name2) {
-        this.cbs[name2](this.getSection());
+      Tokenizer2.prototype.emitToken = function(name) {
+        this.cbs[name](this.getSection());
         this.sectionStart = -1;
       };
       Tokenizer2.prototype.emitPartial = function(value) {
@@ -18667,7 +18617,7 @@ var __publicField = (obj, key, value) => {
         if (options === void 0) {
           options = {};
         }
-        var _a2, _b, _c, _d, _e;
+        var _a2, _b2, _c, _d, _e;
         this.startIndex = 0;
         this.endIndex = null;
         this.tagname = "";
@@ -18679,7 +18629,7 @@ var __publicField = (obj, key, value) => {
         this.options = options;
         this.cbs = cbs !== null && cbs !== void 0 ? cbs : {};
         this.lowerCaseTagNames = (_a2 = options.lowerCaseTags) !== null && _a2 !== void 0 ? _a2 : !options.xmlMode;
-        this.lowerCaseAttributeNames = (_b = options.lowerCaseAttributeNames) !== null && _b !== void 0 ? _b : !options.xmlMode;
+        this.lowerCaseAttributeNames = (_b2 = options.lowerCaseAttributeNames) !== null && _b2 !== void 0 ? _b2 : !options.xmlMode;
         this.tokenizer = new ((_c = options.Tokenizer) !== null && _c !== void 0 ? _c : Tokenizer_1.default)(this.options, this);
         (_e = (_d = this.cbs).onparserinit) === null || _e === void 0 ? void 0 : _e.call(_d, this);
       }
@@ -18696,40 +18646,40 @@ var __publicField = (obj, key, value) => {
         this.endIndex = this.tokenizer.getAbsoluteIndex();
       };
       Parser2.prototype.ontext = function(data) {
-        var _a2, _b;
+        var _a2, _b2;
         this.updatePosition(1);
         this.endIndex--;
-        (_b = (_a2 = this.cbs).ontext) === null || _b === void 0 ? void 0 : _b.call(_a2, data);
+        (_b2 = (_a2 = this.cbs).ontext) === null || _b2 === void 0 ? void 0 : _b2.call(_a2, data);
       };
-      Parser2.prototype.onopentagname = function(name2) {
-        var _a2, _b;
+      Parser2.prototype.onopentagname = function(name) {
+        var _a2, _b2;
         if (this.lowerCaseTagNames) {
-          name2 = name2.toLowerCase();
+          name = name.toLowerCase();
         }
-        this.tagname = name2;
-        if (!this.options.xmlMode && Object.prototype.hasOwnProperty.call(openImpliesClose, name2)) {
+        this.tagname = name;
+        if (!this.options.xmlMode && Object.prototype.hasOwnProperty.call(openImpliesClose, name)) {
           var el2 = void 0;
-          while (this.stack.length > 0 && openImpliesClose[name2].has(el2 = this.stack[this.stack.length - 1])) {
+          while (this.stack.length > 0 && openImpliesClose[name].has(el2 = this.stack[this.stack.length - 1])) {
             this.onclosetag(el2);
           }
         }
-        if (this.options.xmlMode || !voidElements.has(name2)) {
-          this.stack.push(name2);
-          if (foreignContextElements.has(name2)) {
+        if (this.options.xmlMode || !voidElements.has(name)) {
+          this.stack.push(name);
+          if (foreignContextElements.has(name)) {
             this.foreignContext.push(true);
-          } else if (htmlIntegrationElements.has(name2)) {
+          } else if (htmlIntegrationElements.has(name)) {
             this.foreignContext.push(false);
           }
         }
-        (_b = (_a2 = this.cbs).onopentagname) === null || _b === void 0 ? void 0 : _b.call(_a2, name2);
+        (_b2 = (_a2 = this.cbs).onopentagname) === null || _b2 === void 0 ? void 0 : _b2.call(_a2, name);
         if (this.cbs.onopentag)
           this.attribs = {};
       };
       Parser2.prototype.onopentagend = function() {
-        var _a2, _b;
+        var _a2, _b2;
         this.updatePosition(1);
         if (this.attribs) {
-          (_b = (_a2 = this.cbs).onopentag) === null || _b === void 0 ? void 0 : _b.call(_a2, this.tagname, this.attribs);
+          (_b2 = (_a2 = this.cbs).onopentag) === null || _b2 === void 0 ? void 0 : _b2.call(_a2, this.tagname, this.attribs);
           this.attribs = null;
         }
         if (!this.options.xmlMode && this.cbs.onclosetag && voidElements.has(this.tagname)) {
@@ -18737,16 +18687,16 @@ var __publicField = (obj, key, value) => {
         }
         this.tagname = "";
       };
-      Parser2.prototype.onclosetag = function(name2) {
+      Parser2.prototype.onclosetag = function(name) {
         this.updatePosition(1);
         if (this.lowerCaseTagNames) {
-          name2 = name2.toLowerCase();
+          name = name.toLowerCase();
         }
-        if (foreignContextElements.has(name2) || htmlIntegrationElements.has(name2)) {
+        if (foreignContextElements.has(name) || htmlIntegrationElements.has(name)) {
           this.foreignContext.pop();
         }
-        if (this.stack.length && (this.options.xmlMode || !voidElements.has(name2))) {
-          var pos = this.stack.lastIndexOf(name2);
+        if (this.stack.length && (this.options.xmlMode || !voidElements.has(name))) {
+          var pos = this.stack.lastIndexOf(name);
           if (pos !== -1) {
             if (this.cbs.onclosetag) {
               pos = this.stack.length - pos;
@@ -18755,12 +18705,12 @@ var __publicField = (obj, key, value) => {
               }
             } else
               this.stack.length = pos;
-          } else if (name2 === "p" && !this.options.xmlMode) {
-            this.onopentagname(name2);
+          } else if (name === "p" && !this.options.xmlMode) {
+            this.onopentagname(name);
             this.closeCurrentTag();
           }
-        } else if (!this.options.xmlMode && (name2 === "br" || name2 === "p")) {
-          this.onopentagname(name2);
+        } else if (!this.options.xmlMode && (name === "br" || name === "p")) {
+          this.onopentagname(name);
           this.closeCurrentTag();
         }
       };
@@ -18772,26 +18722,26 @@ var __publicField = (obj, key, value) => {
         }
       };
       Parser2.prototype.closeCurrentTag = function() {
-        var _a2, _b;
-        var name2 = this.tagname;
+        var _a2, _b2;
+        var name = this.tagname;
         this.onopentagend();
-        if (this.stack[this.stack.length - 1] === name2) {
-          (_b = (_a2 = this.cbs).onclosetag) === null || _b === void 0 ? void 0 : _b.call(_a2, name2);
+        if (this.stack[this.stack.length - 1] === name) {
+          (_b2 = (_a2 = this.cbs).onclosetag) === null || _b2 === void 0 ? void 0 : _b2.call(_a2, name);
           this.stack.pop();
         }
       };
-      Parser2.prototype.onattribname = function(name2) {
+      Parser2.prototype.onattribname = function(name) {
         if (this.lowerCaseAttributeNames) {
-          name2 = name2.toLowerCase();
+          name = name.toLowerCase();
         }
-        this.attribname = name2;
+        this.attribname = name;
       };
       Parser2.prototype.onattribdata = function(value) {
         this.attribvalue += value;
       };
       Parser2.prototype.onattribend = function(quote) {
-        var _a2, _b;
-        (_b = (_a2 = this.cbs).onattribute) === null || _b === void 0 ? void 0 : _b.call(_a2, this.attribname, this.attribvalue, quote);
+        var _a2, _b2;
+        (_b2 = (_a2 = this.cbs).onattribute) === null || _b2 === void 0 ? void 0 : _b2.call(_a2, this.attribname, this.attribvalue, quote);
         if (this.attribs && !Object.prototype.hasOwnProperty.call(this.attribs, this.attribname)) {
           this.attribs[this.attribname] = this.attribvalue;
         }
@@ -18800,11 +18750,11 @@ var __publicField = (obj, key, value) => {
       };
       Parser2.prototype.getInstructionName = function(value) {
         var idx = value.search(reNameEnd);
-        var name2 = idx < 0 ? value : value.substr(0, idx);
+        var name = idx < 0 ? value : value.substr(0, idx);
         if (this.lowerCaseTagNames) {
-          name2 = name2.toLowerCase();
+          name = name.toLowerCase();
         }
-        return name2;
+        return name;
       };
       Parser2.prototype.ondeclaration = function(value) {
         if (this.cbs.onprocessinginstruction) {
@@ -18819,16 +18769,16 @@ var __publicField = (obj, key, value) => {
         }
       };
       Parser2.prototype.oncomment = function(value) {
-        var _a2, _b, _c, _d;
+        var _a2, _b2, _c, _d;
         this.updatePosition(4);
-        (_b = (_a2 = this.cbs).oncomment) === null || _b === void 0 ? void 0 : _b.call(_a2, value);
+        (_b2 = (_a2 = this.cbs).oncomment) === null || _b2 === void 0 ? void 0 : _b2.call(_a2, value);
         (_d = (_c = this.cbs).oncommentend) === null || _d === void 0 ? void 0 : _d.call(_c);
       };
       Parser2.prototype.oncdata = function(value) {
-        var _a2, _b, _c, _d, _e, _f;
+        var _a2, _b2, _c, _d, _e, _f;
         this.updatePosition(1);
         if (this.options.xmlMode || this.options.recognizeCDATA) {
-          (_b = (_a2 = this.cbs).oncdatastart) === null || _b === void 0 ? void 0 : _b.call(_a2);
+          (_b2 = (_a2 = this.cbs).oncdatastart) === null || _b2 === void 0 ? void 0 : _b2.call(_a2);
           (_d = (_c = this.cbs).ontext) === null || _d === void 0 ? void 0 : _d.call(_c, value);
           (_f = (_e = this.cbs).oncdataend) === null || _f === void 0 ? void 0 : _f.call(_e);
         } else {
@@ -18836,20 +18786,20 @@ var __publicField = (obj, key, value) => {
         }
       };
       Parser2.prototype.onerror = function(err) {
-        var _a2, _b;
-        (_b = (_a2 = this.cbs).onerror) === null || _b === void 0 ? void 0 : _b.call(_a2, err);
+        var _a2, _b2;
+        (_b2 = (_a2 = this.cbs).onerror) === null || _b2 === void 0 ? void 0 : _b2.call(_a2, err);
       };
       Parser2.prototype.onend = function() {
-        var _a2, _b;
+        var _a2, _b2;
         if (this.cbs.onclosetag) {
           for (var i2 = this.stack.length; i2 > 0; this.cbs.onclosetag(this.stack[--i2]))
             ;
         }
-        (_b = (_a2 = this.cbs).onend) === null || _b === void 0 ? void 0 : _b.call(_a2);
+        (_b2 = (_a2 = this.cbs).onend) === null || _b2 === void 0 ? void 0 : _b2.call(_a2);
       };
       Parser2.prototype.reset = function() {
-        var _a2, _b, _c, _d;
-        (_b = (_a2 = this.cbs).onreset) === null || _b === void 0 ? void 0 : _b.call(_a2);
+        var _a2, _b2, _c, _d;
+        (_b2 = (_a2 = this.cbs).onreset) === null || _b2 === void 0 ? void 0 : _b2.call(_a2);
         this.tokenizer.reset();
         this.tagname = "";
         this.attribname = "";
@@ -19091,9 +19041,9 @@ var __publicField = (obj, key, value) => {
     /** @class */
     function(_super) {
       __extends$1(ProcessingInstruction2, _super);
-      function ProcessingInstruction2(name2, data) {
+      function ProcessingInstruction2(name, data) {
         var _this = _super.call(this, domelementtype_1$1.ElementType.Directive, data) || this;
-        _this.name = name2;
+        _this.name = name;
         return _this;
       }
       return ProcessingInstruction2;
@@ -19160,15 +19110,15 @@ var __publicField = (obj, key, value) => {
     /** @class */
     function(_super) {
       __extends$1(Element2, _super);
-      function Element2(name2, attribs, children, type) {
+      function Element2(name, attribs, children, type) {
         if (children === void 0) {
           children = [];
         }
         if (type === void 0) {
-          type = name2 === "script" ? domelementtype_1$1.ElementType.Script : name2 === "style" ? domelementtype_1$1.ElementType.Style : domelementtype_1$1.ElementType.Tag;
+          type = name === "script" ? domelementtype_1$1.ElementType.Script : name === "style" ? domelementtype_1$1.ElementType.Style : domelementtype_1$1.ElementType.Tag;
         }
         var _this = _super.call(this, type, children) || this;
-        _this.name = name2;
+        _this.name = name;
         _this.attribs = attribs;
         return _this;
       }
@@ -19181,8 +19131,8 @@ var __publicField = (obj, key, value) => {
         get: function() {
           return this.name;
         },
-        set: function(name2) {
-          this.name = name2;
+        set: function(name) {
+          this.name = name;
         },
         enumerable: false,
         configurable: true
@@ -19190,13 +19140,13 @@ var __publicField = (obj, key, value) => {
       Object.defineProperty(Element2.prototype, "attributes", {
         get: function() {
           var _this = this;
-          return Object.keys(this.attribs).map(function(name2) {
-            var _a2, _b;
+          return Object.keys(this.attribs).map(function(name) {
+            var _a2, _b2;
             return {
-              name: name2,
-              value: _this.attribs[name2],
-              namespace: (_a2 = _this["x-attribsNamespace"]) === null || _a2 === void 0 ? void 0 : _a2[name2],
-              prefix: (_b = _this["x-attribsPrefix"]) === null || _b === void 0 ? void 0 : _b[name2]
+              name,
+              value: _this.attribs[name],
+              namespace: (_a2 = _this["x-attribsNamespace"]) === null || _a2 === void 0 ? void 0 : _a2[name],
+              prefix: (_b2 = _this["x-attribsPrefix"]) === null || _b2 === void 0 ? void 0 : _b2[name]
             };
           });
         },
@@ -19391,9 +19341,9 @@ var __publicField = (obj, key, value) => {
           if (this.elementCB)
             this.elementCB(elem);
         };
-        DomHandler2.prototype.onopentag = function(name2, attribs) {
+        DomHandler2.prototype.onopentag = function(name, attribs) {
           var type = this.options.xmlMode ? domelementtype_12.ElementType.Tag : void 0;
-          var element = new node_1.Element(name2, attribs, void 0, type);
+          var element = new node_1.Element(name, attribs, void 0, type);
           this.addNode(element);
           this.tagStack.push(element);
         };
@@ -19440,8 +19390,8 @@ var __publicField = (obj, key, value) => {
         DomHandler2.prototype.oncdataend = function() {
           this.lastNode = null;
         };
-        DomHandler2.prototype.onprocessinginstruction = function(name2, data) {
-          var node2 = new node_1.ProcessingInstruction(name2, data);
+        DomHandler2.prototype.onprocessinginstruction = function(name, data) {
+          var node2 = new node_1.ProcessingInstruction(name, data);
           this.addNode(node2);
         };
         DomHandler2.prototype.handleCallback = function(error) {
@@ -19551,8 +19501,8 @@ var __publicField = (obj, key, value) => {
   encode.encodeHTML = getInverse(inverseHTML, htmlReplacer);
   encode.encodeNonAsciiHTML = getASCIIEncoder(inverseHTML);
   function getInverseObj(obj) {
-    return Object.keys(obj).sort().reduce(function(inverse, name2) {
-      inverse[obj[name2]] = "&" + name2 + ";";
+    return Object.keys(obj).sort().reduce(function(inverse, name) {
+      inverse[obj[name]] = "&" + name + ";";
       return inverse;
     }, {});
   }
@@ -19601,8 +19551,8 @@ var __publicField = (obj, key, value) => {
   }
   function getInverse(inverse, re) {
     return function(data) {
-      return data.replace(re, function(name2) {
-        return inverse[name2];
+      return data.replace(re, function(name) {
+        return inverse[name];
       }).replace(reNonASCII, singleCharReplacer);
     };
   }
@@ -19848,10 +19798,10 @@ var __publicField = (obj, key, value) => {
     if (!attributes)
       return;
     return Object.keys(attributes).map(function(key) {
-      var _a2, _b;
+      var _a2, _b2;
       var value = (_a2 = attributes[key]) !== null && _a2 !== void 0 ? _a2 : "";
       if (opts.xmlMode === "foreign") {
-        key = (_b = foreignNames_1.attributeNames.get(key)) !== null && _b !== void 0 ? _b : key;
+        key = (_b2 = foreignNames_1.attributeNames.get(key)) !== null && _b2 !== void 0 ? _b2 : key;
       }
       if (!opts.emptyAttrs && !opts.xmlMode && value === "") {
         return key;
@@ -20043,7 +19993,7 @@ var __publicField = (obj, key, value) => {
   }
   traversal.getParent = getParent;
   function getSiblings(elem) {
-    var _a2, _b;
+    var _a2, _b2;
     var parent = getParent(elem);
     if (parent != null)
       return getChildren(parent);
@@ -20055,18 +20005,18 @@ var __publicField = (obj, key, value) => {
     }
     while (next != null) {
       siblings.push(next);
-      _b = next, next = _b.next;
+      _b2 = next, next = _b2.next;
     }
     return siblings;
   }
   traversal.getSiblings = getSiblings;
-  function getAttributeValue(elem, name2) {
+  function getAttributeValue(elem, name) {
     var _a2;
-    return (_a2 = elem.attribs) === null || _a2 === void 0 ? void 0 : _a2[name2];
+    return (_a2 = elem.attribs) === null || _a2 === void 0 ? void 0 : _a2[name];
   }
   traversal.getAttributeValue = getAttributeValue;
-  function hasAttrib(elem, name2) {
-    return elem.attribs != null && Object.prototype.hasOwnProperty.call(elem.attribs, name2) && elem.attribs[name2] != null;
+  function hasAttrib(elem, name) {
+    return elem.attribs != null && Object.prototype.hasOwnProperty.call(elem.attribs, name) && elem.attribs[name] != null;
   }
   traversal.hasAttrib = hasAttrib;
   function getName(elem) {
@@ -20266,16 +20216,16 @@ var __publicField = (obj, key, value) => {
   var domhandler_1$2 = lib$4;
   var querying_1 = querying;
   var Checks = {
-    tag_name: function(name2) {
-      if (typeof name2 === "function") {
+    tag_name: function(name) {
+      if (typeof name === "function") {
         return function(elem) {
-          return (0, domhandler_1$2.isTag)(elem) && name2(elem.name);
+          return (0, domhandler_1$2.isTag)(elem) && name(elem.name);
         };
-      } else if (name2 === "*") {
+      } else if (name === "*") {
         return domhandler_1$2.isTag;
       }
       return function(elem) {
-        return (0, domhandler_1$2.isTag)(elem) && elem.name === name2;
+        return (0, domhandler_1$2.isTag)(elem) && elem.name === name;
       };
     },
     tag_type: function(type) {
@@ -20492,8 +20442,8 @@ var __publicField = (obj, key, value) => {
     return feed;
   }
   function getRssFeed(feedRoot) {
-    var _a2, _b;
-    var childs = (_b = (_a2 = getOneElement$1("channel", feedRoot.children)) === null || _a2 === void 0 ? void 0 : _a2.children) !== null && _b !== void 0 ? _b : [];
+    var _a2, _b2;
+    var childs = (_b2 = (_a2 = getOneElement$1("channel", feedRoot.children)) === null || _a2 === void 0 ? void 0 : _a2.children) !== null && _b2 !== void 0 ? _b2 : [];
     var feed = {
       type: feedRoot.name.substr(0, 3),
       id: "",
@@ -20707,7 +20657,7 @@ var __publicField = (obj, key, value) => {
         return _this;
       }
       FeedHandler2.prototype.onend = function() {
-        var _a2, _b;
+        var _a2, _b2;
         var feedRoot = getOneElement(isValidFeed, this.dom);
         if (!feedRoot) {
           this.handleCallback(new Error("couldn't find root of feed"));
@@ -20750,7 +20700,7 @@ var __publicField = (obj, key, value) => {
             return entry;
           });
         } else {
-          var childs = (_b = (_a2 = getOneElement("channel", feedRoot.children)) === null || _a2 === void 0 ? void 0 : _a2.children) !== null && _b !== void 0 ? _b : [];
+          var childs = (_b2 = (_a2 = getOneElement("channel", feedRoot.children)) === null || _a2 === void 0 ? void 0 : _a2.children) !== null && _b2 !== void 0 ? _b2 : [];
           feed.type = feedRoot.name.substr(0, 3);
           feed.id = "";
           addConditionally(feed, "title", "title", childs);
@@ -20839,12 +20789,12 @@ var __publicField = (obj, key, value) => {
     }
     return DomUtils.getText(DomUtils.getElementsByTagName(tagName, where, recurse, 1)).trim();
   }
-  function getAttribute(name2, elem) {
+  function getAttribute(name, elem) {
     if (!elem) {
       return null;
     }
     var attribs = elem.attribs;
-    return attribs[name2];
+    return attribs[name];
   }
   function addConditionally(obj, prop2, what, where, recurse) {
     if (recurse === void 0) {
@@ -21407,9 +21357,9 @@ var __publicField = (obj, key, value) => {
      * @param {Emitter & {root: DataNode}} emitter
      * @param {string} name
      */
-    addSublanguage(emitter, name2) {
+    addSublanguage(emitter, name) {
       const node2 = emitter.root;
-      node2.kind = name2;
+      node2.kind = name;
       node2.sublanguage = true;
       this.add(node2);
     }
@@ -22224,9 +22174,9 @@ var __publicField = (obj, key, value) => {
       languageSubset = languageSubset || options.languages || Object.keys(languages);
       var result = justTextHighlightResult(code);
       var secondBest = result;
-      languageSubset.filter(getLanguage).filter(autoDetection).forEach(function(name2) {
-        var current = _highlight(name2, code, false);
-        current.language = name2;
+      languageSubset.filter(getLanguage).filter(autoDetection).forEach(function(name) {
+        var current = _highlight(name, code, false);
+        current.language = name;
         if (current.relevance > secondBest.relevance) {
           secondBest = current;
         }
@@ -22343,17 +22293,17 @@ var __publicField = (obj, key, value) => {
     function listLanguages() {
       return Object.keys(languages);
     }
-    function requireLanguage(name2) {
-      var lang2 = getLanguage(name2);
+    function requireLanguage(name) {
+      var lang2 = getLanguage(name);
       if (lang2) {
         return lang2;
       }
-      var err = new Error("The '{}' language is required, but not loaded.".replace("{}", name2));
+      var err = new Error("The '{}' language is required, but not loaded.".replace("{}", name));
       throw err;
     }
-    function getLanguage(name2) {
-      name2 = (name2 || "").toLowerCase();
-      return languages[name2] || languages[aliases[name2]];
+    function getLanguage(name) {
+      name = (name || "").toLowerCase();
+      return languages[name] || languages[aliases[name]];
     }
     function registerAliases(aliasList, { languageName }) {
       if (typeof aliasList === "string") {
@@ -22363,8 +22313,8 @@ var __publicField = (obj, key, value) => {
         aliases[alias] = languageName;
       });
     }
-    function autoDetection(name2) {
-      var lang2 = getLanguage(name2);
+    function autoDetection(name) {
+      var lang2 = getLanguage(name);
       return lang2 && !lang2.disableAutodetect;
     }
     function addPlugin(plugin) {
@@ -23177,19 +23127,19 @@ var __publicField = (obj, key, value) => {
         }
         return false;
       }
-      function shouldIgnoreAttribute(name2, propertyInfo, isCustomComponentTag) {
+      function shouldIgnoreAttribute(name, propertyInfo, isCustomComponentTag) {
         if (propertyInfo !== null) {
           return propertyInfo.type === RESERVED;
         }
         if (isCustomComponentTag) {
           return false;
         }
-        if (name2.length > 2 && (name2[0] === "o" || name2[0] === "O") && (name2[1] === "n" || name2[1] === "N")) {
+        if (name.length > 2 && (name[0] === "o" || name[0] === "O") && (name[1] === "n" || name[1] === "N")) {
           return true;
         }
         return false;
       }
-      function shouldRemoveAttributeWithWarning(name2, value, propertyInfo, isCustomComponentTag) {
+      function shouldRemoveAttributeWithWarning(name, value, propertyInfo, isCustomComponentTag) {
         if (propertyInfo !== null && propertyInfo.type === RESERVED) {
           return false;
         }
@@ -23204,7 +23154,7 @@ var __publicField = (obj, key, value) => {
             if (propertyInfo !== null) {
               return !propertyInfo.acceptsBooleans;
             } else {
-              var prefix2 = name2.toLowerCase().slice(0, 5);
+              var prefix2 = name.toLowerCase().slice(0, 5);
               return prefix2 !== "data-" && prefix2 !== "aria-";
             }
           }
@@ -23212,11 +23162,11 @@ var __publicField = (obj, key, value) => {
             return false;
         }
       }
-      function shouldRemoveAttribute(name2, value, propertyInfo, isCustomComponentTag) {
+      function shouldRemoveAttribute(name, value, propertyInfo, isCustomComponentTag) {
         if (value === null || typeof value === "undefined") {
           return true;
         }
-        if (shouldRemoveAttributeWithWarning(name2, value, propertyInfo, isCustomComponentTag)) {
+        if (shouldRemoveAttributeWithWarning(name, value, propertyInfo, isCustomComponentTag)) {
           return true;
         }
         if (isCustomComponentTag) {
@@ -23236,15 +23186,15 @@ var __publicField = (obj, key, value) => {
         }
         return false;
       }
-      function getPropertyInfo(name2) {
-        return properties.hasOwnProperty(name2) ? properties[name2] : null;
+      function getPropertyInfo(name) {
+        return properties.hasOwnProperty(name) ? properties[name] : null;
       }
-      function PropertyInfoRecord(name2, type, mustUseProperty, attributeName, attributeNamespace, sanitizeURL2, removeEmptyString) {
+      function PropertyInfoRecord(name, type, mustUseProperty, attributeName, attributeNamespace, sanitizeURL2, removeEmptyString) {
         this.acceptsBooleans = type === BOOLEANISH_STRING || type === BOOLEAN || type === OVERLOADED_BOOLEAN;
         this.attributeName = attributeName;
         this.attributeNamespace = attributeNamespace;
         this.mustUseProperty = mustUseProperty;
-        this.propertyName = name2;
+        this.propertyName = name;
         this.type = type;
         this.sanitizeURL = sanitizeURL2;
         this.removeEmptyString = removeEmptyString;
@@ -23263,13 +23213,13 @@ var __publicField = (obj, key, value) => {
         "suppressHydrationWarning",
         "style"
       ];
-      reservedProps.forEach(function(name2) {
-        properties[name2] = new PropertyInfoRecord(
-          name2,
+      reservedProps.forEach(function(name) {
+        properties[name] = new PropertyInfoRecord(
+          name,
           RESERVED,
           false,
           // mustUseProperty
-          name2,
+          name,
           // attributeName
           null,
           // attributeNamespace
@@ -23279,9 +23229,9 @@ var __publicField = (obj, key, value) => {
         );
       });
       [["acceptCharset", "accept-charset"], ["className", "class"], ["htmlFor", "for"], ["httpEquiv", "http-equiv"]].forEach(function(_ref) {
-        var name2 = _ref[0], attributeName = _ref[1];
-        properties[name2] = new PropertyInfoRecord(
-          name2,
+        var name = _ref[0], attributeName = _ref[1];
+        properties[name] = new PropertyInfoRecord(
+          name,
           STRING,
           false,
           // mustUseProperty
@@ -23294,13 +23244,13 @@ var __publicField = (obj, key, value) => {
           false
         );
       });
-      ["contentEditable", "draggable", "spellCheck", "value"].forEach(function(name2) {
-        properties[name2] = new PropertyInfoRecord(
-          name2,
+      ["contentEditable", "draggable", "spellCheck", "value"].forEach(function(name) {
+        properties[name] = new PropertyInfoRecord(
+          name,
           BOOLEANISH_STRING,
           false,
           // mustUseProperty
-          name2.toLowerCase(),
+          name.toLowerCase(),
           // attributeName
           null,
           // attributeNamespace
@@ -23309,13 +23259,13 @@ var __publicField = (obj, key, value) => {
           false
         );
       });
-      ["autoReverse", "externalResourcesRequired", "focusable", "preserveAlpha"].forEach(function(name2) {
-        properties[name2] = new PropertyInfoRecord(
-          name2,
+      ["autoReverse", "externalResourcesRequired", "focusable", "preserveAlpha"].forEach(function(name) {
+        properties[name] = new PropertyInfoRecord(
+          name,
           BOOLEANISH_STRING,
           false,
           // mustUseProperty
-          name2,
+          name,
           // attributeName
           null,
           // attributeNamespace
@@ -23351,13 +23301,13 @@ var __publicField = (obj, key, value) => {
         "seamless",
         // Microdata
         "itemScope"
-      ].forEach(function(name2) {
-        properties[name2] = new PropertyInfoRecord(
-          name2,
+      ].forEach(function(name) {
+        properties[name] = new PropertyInfoRecord(
+          name,
           BOOLEAN,
           false,
           // mustUseProperty
-          name2.toLowerCase(),
+          name.toLowerCase(),
           // attributeName
           null,
           // attributeNamespace
@@ -23376,13 +23326,13 @@ var __publicField = (obj, key, value) => {
         // NOTE: if you add a camelCased prop to this list,
         // you'll need to set attributeName to name.toLowerCase()
         // instead in the assignment below.
-      ].forEach(function(name2) {
-        properties[name2] = new PropertyInfoRecord(
-          name2,
+      ].forEach(function(name) {
+        properties[name] = new PropertyInfoRecord(
+          name,
           BOOLEAN,
           true,
           // mustUseProperty
-          name2,
+          name,
           // attributeName
           null,
           // attributeNamespace
@@ -23397,13 +23347,13 @@ var __publicField = (obj, key, value) => {
         // NOTE: if you add a camelCased prop to this list,
         // you'll need to set attributeName to name.toLowerCase()
         // instead in the assignment below.
-      ].forEach(function(name2) {
-        properties[name2] = new PropertyInfoRecord(
-          name2,
+      ].forEach(function(name) {
+        properties[name] = new PropertyInfoRecord(
+          name,
           OVERLOADED_BOOLEAN,
           false,
           // mustUseProperty
-          name2,
+          name,
           // attributeName
           null,
           // attributeNamespace
@@ -23420,13 +23370,13 @@ var __publicField = (obj, key, value) => {
         // NOTE: if you add a camelCased prop to this list,
         // you'll need to set attributeName to name.toLowerCase()
         // instead in the assignment below.
-      ].forEach(function(name2) {
-        properties[name2] = new PropertyInfoRecord(
-          name2,
+      ].forEach(function(name) {
+        properties[name] = new PropertyInfoRecord(
+          name,
           POSITIVE_NUMERIC,
           false,
           // mustUseProperty
-          name2,
+          name,
           // attributeName
           null,
           // attributeNamespace
@@ -23435,13 +23385,13 @@ var __publicField = (obj, key, value) => {
           false
         );
       });
-      ["rowSpan", "start"].forEach(function(name2) {
-        properties[name2] = new PropertyInfoRecord(
-          name2,
+      ["rowSpan", "start"].forEach(function(name) {
+        properties[name] = new PropertyInfoRecord(
+          name,
           NUMERIC,
           false,
           // mustUseProperty
-          name2.toLowerCase(),
+          name.toLowerCase(),
           // attributeName
           null,
           // attributeNamespace
@@ -23532,9 +23482,9 @@ var __publicField = (obj, key, value) => {
         // you'll need to set attributeName to name.toLowerCase()
         // instead in the assignment below.
       ].forEach(function(attributeName) {
-        var name2 = attributeName.replace(CAMELIZE, capitalize);
-        properties[name2] = new PropertyInfoRecord(
-          name2,
+        var name = attributeName.replace(CAMELIZE, capitalize);
+        properties[name] = new PropertyInfoRecord(
+          name,
           STRING,
           false,
           // mustUseProperty
@@ -23557,9 +23507,9 @@ var __publicField = (obj, key, value) => {
         // you'll need to set attributeName to name.toLowerCase()
         // instead in the assignment below.
       ].forEach(function(attributeName) {
-        var name2 = attributeName.replace(CAMELIZE, capitalize);
-        properties[name2] = new PropertyInfoRecord(
-          name2,
+        var name = attributeName.replace(CAMELIZE, capitalize);
+        properties[name] = new PropertyInfoRecord(
+          name,
           STRING,
           false,
           // mustUseProperty
@@ -23578,9 +23528,9 @@ var __publicField = (obj, key, value) => {
         // you'll need to set attributeName to name.toLowerCase()
         // instead in the assignment below.
       ].forEach(function(attributeName) {
-        var name2 = attributeName.replace(CAMELIZE, capitalize);
-        properties[name2] = new PropertyInfoRecord(
-          name2,
+        var name = attributeName.replace(CAMELIZE, capitalize);
+        properties[name] = new PropertyInfoRecord(
+          name,
           STRING,
           false,
           // mustUseProperty
@@ -23643,14 +23593,14 @@ var __publicField = (obj, key, value) => {
           }
         }
       }
-      function getValueForProperty(node2, name2, expected, propertyInfo) {
+      function getValueForProperty(node2, name, expected, propertyInfo) {
         {
           if (propertyInfo.mustUseProperty) {
             var propertyName = propertyInfo.propertyName;
             return node2[propertyName];
           } else {
             {
-              checkAttributeStringCoercion(expected, name2);
+              checkAttributeStringCoercion(expected, name);
             }
             if (propertyInfo.sanitizeURL) {
               sanitizeURL("" + expected);
@@ -23663,7 +23613,7 @@ var __publicField = (obj, key, value) => {
                 if (value === "") {
                   return true;
                 }
-                if (shouldRemoveAttribute(name2, expected, propertyInfo, false)) {
+                if (shouldRemoveAttribute(name, expected, propertyInfo, false)) {
                   return value;
                 }
                 if (value === "" + expected) {
@@ -23672,7 +23622,7 @@ var __publicField = (obj, key, value) => {
                 return value;
               }
             } else if (node2.hasAttribute(attributeName)) {
-              if (shouldRemoveAttribute(name2, expected, propertyInfo, false)) {
+              if (shouldRemoveAttribute(name, expected, propertyInfo, false)) {
                 return node2.getAttribute(attributeName);
               }
               if (propertyInfo.type === BOOLEAN) {
@@ -23680,7 +23630,7 @@ var __publicField = (obj, key, value) => {
               }
               stringValue = node2.getAttribute(attributeName);
             }
-            if (shouldRemoveAttribute(name2, expected, propertyInfo, false)) {
+            if (shouldRemoveAttribute(name, expected, propertyInfo, false)) {
               return stringValue === null ? expected : stringValue;
             } else if (stringValue === "" + expected) {
               return expected;
@@ -23690,17 +23640,17 @@ var __publicField = (obj, key, value) => {
           }
         }
       }
-      function getValueForAttribute(node2, name2, expected, isCustomComponentTag) {
+      function getValueForAttribute(node2, name, expected, isCustomComponentTag) {
         {
-          if (!isAttributeNameSafe(name2)) {
+          if (!isAttributeNameSafe(name)) {
             return;
           }
-          if (!node2.hasAttribute(name2)) {
+          if (!node2.hasAttribute(name)) {
             return expected === void 0 ? void 0 : null;
           }
-          var value = node2.getAttribute(name2);
+          var value = node2.getAttribute(name);
           {
-            checkAttributeStringCoercion(expected, name2);
+            checkAttributeStringCoercion(expected, name);
           }
           if (value === "" + expected) {
             return expected;
@@ -23708,22 +23658,22 @@ var __publicField = (obj, key, value) => {
           return value;
         }
       }
-      function setValueForProperty(node2, name2, value, isCustomComponentTag) {
-        var propertyInfo = getPropertyInfo(name2);
-        if (shouldIgnoreAttribute(name2, propertyInfo, isCustomComponentTag)) {
+      function setValueForProperty(node2, name, value, isCustomComponentTag) {
+        var propertyInfo = getPropertyInfo(name);
+        if (shouldIgnoreAttribute(name, propertyInfo, isCustomComponentTag)) {
           return;
         }
-        if (shouldRemoveAttribute(name2, value, propertyInfo, isCustomComponentTag)) {
+        if (shouldRemoveAttribute(name, value, propertyInfo, isCustomComponentTag)) {
           value = null;
         }
         if (isCustomComponentTag || propertyInfo === null) {
-          if (isAttributeNameSafe(name2)) {
-            var _attributeName = name2;
+          if (isAttributeNameSafe(name)) {
+            var _attributeName = name;
             if (value === null) {
               node2.removeAttribute(_attributeName);
             } else {
               {
-                checkAttributeStringCoercion(value, name2);
+                checkAttributeStringCoercion(value, name);
               }
               node2.setAttribute(_attributeName, "" + value);
             }
@@ -23878,7 +23828,7 @@ var __publicField = (obj, key, value) => {
       }
       var ReactCurrentDispatcher = ReactSharedInternals.ReactCurrentDispatcher;
       var prefix;
-      function describeBuiltInComponentFrame(name2, source2, ownerFn) {
+      function describeBuiltInComponentFrame(name, source2, ownerFn) {
         {
           if (prefix === void 0) {
             try {
@@ -23888,7 +23838,7 @@ var __publicField = (obj, key, value) => {
               prefix = match && match[1] || "";
             }
           }
-          return "\n" + prefix + name2;
+          return "\n" + prefix + name;
         }
       }
       var reentry = false;
@@ -23991,8 +23941,8 @@ var __publicField = (obj, key, value) => {
           }
           Error.prepareStackTrace = previousPrepareStackTrace;
         }
-        var name2 = fn ? fn.displayName || fn.name : "";
-        var syntheticFrame = name2 ? describeBuiltInComponentFrame(name2) : "";
+        var name = fn ? fn.displayName || fn.name : "";
+        var syntheticFrame = name ? describeBuiltInComponentFrame(name) : "";
         {
           if (typeof fn === "function") {
             componentFrameCache.set(fn, syntheticFrame);
@@ -24519,16 +24469,16 @@ var __publicField = (obj, key, value) => {
             node2.defaultValue = initialValue;
           }
         }
-        var name2 = node2.name;
-        if (name2 !== "") {
+        var name = node2.name;
+        if (name !== "") {
           node2.name = "";
         }
         {
           node2.defaultChecked = !node2.defaultChecked;
           node2.defaultChecked = !!node2._wrapperState.initialChecked;
         }
-        if (name2 !== "") {
-          node2.name = name2;
+        if (name !== "") {
+          node2.name = name;
         }
       }
       function restoreControlledState(element, props) {
@@ -24537,16 +24487,16 @@ var __publicField = (obj, key, value) => {
         updateNamedCousins(node2, props);
       }
       function updateNamedCousins(rootNode, props) {
-        var name2 = props.name;
-        if (props.type === "radio" && name2 != null) {
+        var name = props.name;
+        if (props.type === "radio" && name != null) {
           var queryRoot = rootNode;
           while (queryRoot.parentNode) {
             queryRoot = queryRoot.parentNode;
           }
           {
-            checkAttributeStringCoercion(name2, "name");
+            checkAttributeStringCoercion(name, "name");
           }
-          var group = queryRoot.querySelectorAll("input[name=" + JSON.stringify("" + name2) + '][type="radio"]');
+          var group = queryRoot.querySelectorAll("input[name=" + JSON.stringify("" + name) + '][type="radio"]');
           for (var i2 = 0; i2 < group.length; i2++) {
             var otherNode = group[i2];
             if (otherNode === rootNode || otherNode.form !== rootNode.form) {
@@ -24982,23 +24932,23 @@ var __publicField = (obj, key, value) => {
           isUnitlessNumber[prefixKey(prefix2, prop2)] = isUnitlessNumber[prop2];
         });
       });
-      function dangerousStyleValue(name2, value, isCustomProperty) {
+      function dangerousStyleValue(name, value, isCustomProperty) {
         var isEmpty = value == null || typeof value === "boolean" || value === "";
         if (isEmpty) {
           return "";
         }
-        if (!isCustomProperty && typeof value === "number" && value !== 0 && !(isUnitlessNumber.hasOwnProperty(name2) && isUnitlessNumber[name2])) {
+        if (!isCustomProperty && typeof value === "number" && value !== 0 && !(isUnitlessNumber.hasOwnProperty(name) && isUnitlessNumber[name])) {
           return value + "px";
         }
         {
-          checkCSSPropertyStringCoercion(value, name2);
+          checkCSSPropertyStringCoercion(value, name);
         }
         return ("" + value).trim();
       }
       var uppercasePattern = /([A-Z])/g;
       var msPattern = /^ms-/;
-      function hyphenateStyleName(name2) {
-        return name2.replace(uppercasePattern, "-$1").toLowerCase().replace(msPattern, "-ms-");
+      function hyphenateStyleName(name) {
+        return name.replace(uppercasePattern, "-$1").toLowerCase().replace(msPattern, "-ms-");
       }
       var warnValidStyle = function() {
       };
@@ -25016,61 +24966,61 @@ var __publicField = (obj, key, value) => {
             return character.toUpperCase();
           });
         };
-        var warnHyphenatedStyleName = function(name2) {
-          if (warnedStyleNames.hasOwnProperty(name2) && warnedStyleNames[name2]) {
+        var warnHyphenatedStyleName = function(name) {
+          if (warnedStyleNames.hasOwnProperty(name) && warnedStyleNames[name]) {
             return;
           }
-          warnedStyleNames[name2] = true;
+          warnedStyleNames[name] = true;
           error(
             "Unsupported style property %s. Did you mean %s?",
-            name2,
+            name,
             // As Andi Smith suggests
             // (http://www.andismith.com/blog/2012/02/modernizr-prefixed/), an `-ms` prefix
             // is converted to lowercase `ms`.
-            camelize(name2.replace(msPattern$1, "ms-"))
+            camelize(name.replace(msPattern$1, "ms-"))
           );
         };
-        var warnBadVendoredStyleName = function(name2) {
-          if (warnedStyleNames.hasOwnProperty(name2) && warnedStyleNames[name2]) {
+        var warnBadVendoredStyleName = function(name) {
+          if (warnedStyleNames.hasOwnProperty(name) && warnedStyleNames[name]) {
             return;
           }
-          warnedStyleNames[name2] = true;
-          error("Unsupported vendor-prefixed style property %s. Did you mean %s?", name2, name2.charAt(0).toUpperCase() + name2.slice(1));
+          warnedStyleNames[name] = true;
+          error("Unsupported vendor-prefixed style property %s. Did you mean %s?", name, name.charAt(0).toUpperCase() + name.slice(1));
         };
-        var warnStyleValueWithSemicolon = function(name2, value) {
+        var warnStyleValueWithSemicolon = function(name, value) {
           if (warnedStyleValues.hasOwnProperty(value) && warnedStyleValues[value]) {
             return;
           }
           warnedStyleValues[value] = true;
-          error(`Style property values shouldn't contain a semicolon. Try "%s: %s" instead.`, name2, value.replace(badStyleValueWithSemicolonPattern, ""));
+          error(`Style property values shouldn't contain a semicolon. Try "%s: %s" instead.`, name, value.replace(badStyleValueWithSemicolonPattern, ""));
         };
-        var warnStyleValueIsNaN = function(name2, value) {
+        var warnStyleValueIsNaN = function(name, value) {
           if (warnedForNaNValue) {
             return;
           }
           warnedForNaNValue = true;
-          error("`NaN` is an invalid value for the `%s` css style property.", name2);
+          error("`NaN` is an invalid value for the `%s` css style property.", name);
         };
-        var warnStyleValueIsInfinity = function(name2, value) {
+        var warnStyleValueIsInfinity = function(name, value) {
           if (warnedForInfinityValue) {
             return;
           }
           warnedForInfinityValue = true;
-          error("`Infinity` is an invalid value for the `%s` css style property.", name2);
+          error("`Infinity` is an invalid value for the `%s` css style property.", name);
         };
-        warnValidStyle = function(name2, value) {
-          if (name2.indexOf("-") > -1) {
-            warnHyphenatedStyleName(name2);
-          } else if (badVendoredStyleNamePattern.test(name2)) {
-            warnBadVendoredStyleName(name2);
+        warnValidStyle = function(name, value) {
+          if (name.indexOf("-") > -1) {
+            warnHyphenatedStyleName(name);
+          } else if (badVendoredStyleNamePattern.test(name)) {
+            warnBadVendoredStyleName(name);
           } else if (badStyleValueWithSemicolonPattern.test(value)) {
-            warnStyleValueWithSemicolon(name2, value);
+            warnStyleValueWithSemicolon(name, value);
           }
           if (typeof value === "number") {
             if (isNaN(value)) {
-              warnStyleValueIsNaN(name2, value);
+              warnStyleValueIsNaN(name, value);
             } else if (!isFinite(value)) {
-              warnStyleValueIsInfinity(name2, value);
+              warnStyleValueIsInfinity(name, value);
             }
           }
         };
@@ -25770,35 +25720,35 @@ var __publicField = (obj, key, value) => {
       var warnedProperties = {};
       var rARIA = new RegExp("^(aria)-[" + ATTRIBUTE_NAME_CHAR + "]*$");
       var rARIACamel = new RegExp("^(aria)[A-Z][" + ATTRIBUTE_NAME_CHAR + "]*$");
-      function validateProperty(tagName, name2) {
+      function validateProperty(tagName, name) {
         {
-          if (hasOwnProperty.call(warnedProperties, name2) && warnedProperties[name2]) {
+          if (hasOwnProperty.call(warnedProperties, name) && warnedProperties[name]) {
             return true;
           }
-          if (rARIACamel.test(name2)) {
-            var ariaName = "aria-" + name2.slice(4).toLowerCase();
+          if (rARIACamel.test(name)) {
+            var ariaName = "aria-" + name.slice(4).toLowerCase();
             var correctName = ariaProperties.hasOwnProperty(ariaName) ? ariaName : null;
             if (correctName == null) {
-              error("Invalid ARIA attribute `%s`. ARIA attributes follow the pattern aria-* and must be lowercase.", name2);
-              warnedProperties[name2] = true;
+              error("Invalid ARIA attribute `%s`. ARIA attributes follow the pattern aria-* and must be lowercase.", name);
+              warnedProperties[name] = true;
               return true;
             }
-            if (name2 !== correctName) {
-              error("Invalid ARIA attribute `%s`. Did you mean `%s`?", name2, correctName);
-              warnedProperties[name2] = true;
+            if (name !== correctName) {
+              error("Invalid ARIA attribute `%s`. Did you mean `%s`?", name, correctName);
+              warnedProperties[name] = true;
               return true;
             }
           }
-          if (rARIA.test(name2)) {
-            var lowerCasedName = name2.toLowerCase();
+          if (rARIA.test(name)) {
+            var lowerCasedName = name.toLowerCase();
             var standardName = ariaProperties.hasOwnProperty(lowerCasedName) ? lowerCasedName : null;
             if (standardName == null) {
-              warnedProperties[name2] = true;
+              warnedProperties[name] = true;
               return false;
             }
-            if (name2 !== standardName) {
-              error("Unknown ARIA attribute `%s`. Did you mean `%s`?", name2, standardName);
-              warnedProperties[name2] = true;
+            if (name !== standardName) {
+              error("Unknown ARIA attribute `%s`. Did you mean `%s`?", name, standardName);
+              warnedProperties[name] = true;
               return true;
             }
           }
@@ -25854,95 +25804,95 @@ var __publicField = (obj, key, value) => {
         var INVALID_EVENT_NAME_REGEX = /^on[^A-Z]/;
         var rARIA$1 = new RegExp("^(aria)-[" + ATTRIBUTE_NAME_CHAR + "]*$");
         var rARIACamel$1 = new RegExp("^(aria)[A-Z][" + ATTRIBUTE_NAME_CHAR + "]*$");
-        validateProperty$1 = function(tagName, name2, value, eventRegistry) {
-          if (hasOwnProperty.call(warnedProperties$1, name2) && warnedProperties$1[name2]) {
+        validateProperty$1 = function(tagName, name, value, eventRegistry) {
+          if (hasOwnProperty.call(warnedProperties$1, name) && warnedProperties$1[name]) {
             return true;
           }
-          var lowerCasedName = name2.toLowerCase();
+          var lowerCasedName = name.toLowerCase();
           if (lowerCasedName === "onfocusin" || lowerCasedName === "onfocusout") {
             error("React uses onFocus and onBlur instead of onFocusIn and onFocusOut. All React events are normalized to bubble, so onFocusIn and onFocusOut are not needed/supported by React.");
-            warnedProperties$1[name2] = true;
+            warnedProperties$1[name] = true;
             return true;
           }
           if (eventRegistry != null) {
             var registrationNameDependencies2 = eventRegistry.registrationNameDependencies, possibleRegistrationNames2 = eventRegistry.possibleRegistrationNames;
-            if (registrationNameDependencies2.hasOwnProperty(name2)) {
+            if (registrationNameDependencies2.hasOwnProperty(name)) {
               return true;
             }
             var registrationName = possibleRegistrationNames2.hasOwnProperty(lowerCasedName) ? possibleRegistrationNames2[lowerCasedName] : null;
             if (registrationName != null) {
-              error("Invalid event handler property `%s`. Did you mean `%s`?", name2, registrationName);
-              warnedProperties$1[name2] = true;
+              error("Invalid event handler property `%s`. Did you mean `%s`?", name, registrationName);
+              warnedProperties$1[name] = true;
               return true;
             }
-            if (EVENT_NAME_REGEX.test(name2)) {
-              error("Unknown event handler property `%s`. It will be ignored.", name2);
-              warnedProperties$1[name2] = true;
+            if (EVENT_NAME_REGEX.test(name)) {
+              error("Unknown event handler property `%s`. It will be ignored.", name);
+              warnedProperties$1[name] = true;
               return true;
             }
-          } else if (EVENT_NAME_REGEX.test(name2)) {
-            if (INVALID_EVENT_NAME_REGEX.test(name2)) {
-              error("Invalid event handler property `%s`. React events use the camelCase naming convention, for example `onClick`.", name2);
+          } else if (EVENT_NAME_REGEX.test(name)) {
+            if (INVALID_EVENT_NAME_REGEX.test(name)) {
+              error("Invalid event handler property `%s`. React events use the camelCase naming convention, for example `onClick`.", name);
             }
-            warnedProperties$1[name2] = true;
+            warnedProperties$1[name] = true;
             return true;
           }
-          if (rARIA$1.test(name2) || rARIACamel$1.test(name2)) {
+          if (rARIA$1.test(name) || rARIACamel$1.test(name)) {
             return true;
           }
           if (lowerCasedName === "innerhtml") {
             error("Directly setting property `innerHTML` is not permitted. For more information, lookup documentation on `dangerouslySetInnerHTML`.");
-            warnedProperties$1[name2] = true;
+            warnedProperties$1[name] = true;
             return true;
           }
           if (lowerCasedName === "aria") {
             error("The `aria` attribute is reserved for future use in React. Pass individual `aria-` attributes instead.");
-            warnedProperties$1[name2] = true;
+            warnedProperties$1[name] = true;
             return true;
           }
           if (lowerCasedName === "is" && value !== null && value !== void 0 && typeof value !== "string") {
             error("Received a `%s` for a string attribute `is`. If this is expected, cast the value to a string.", typeof value);
-            warnedProperties$1[name2] = true;
+            warnedProperties$1[name] = true;
             return true;
           }
           if (typeof value === "number" && isNaN(value)) {
-            error("Received NaN for the `%s` attribute. If this is expected, cast the value to a string.", name2);
-            warnedProperties$1[name2] = true;
+            error("Received NaN for the `%s` attribute. If this is expected, cast the value to a string.", name);
+            warnedProperties$1[name] = true;
             return true;
           }
-          var propertyInfo = getPropertyInfo(name2);
+          var propertyInfo = getPropertyInfo(name);
           var isReserved = propertyInfo !== null && propertyInfo.type === RESERVED;
           if (possibleStandardNames.hasOwnProperty(lowerCasedName)) {
             var standardName = possibleStandardNames[lowerCasedName];
-            if (standardName !== name2) {
-              error("Invalid DOM property `%s`. Did you mean `%s`?", name2, standardName);
-              warnedProperties$1[name2] = true;
+            if (standardName !== name) {
+              error("Invalid DOM property `%s`. Did you mean `%s`?", name, standardName);
+              warnedProperties$1[name] = true;
               return true;
             }
-          } else if (!isReserved && name2 !== lowerCasedName) {
-            error("React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element.", name2, lowerCasedName);
-            warnedProperties$1[name2] = true;
+          } else if (!isReserved && name !== lowerCasedName) {
+            error("React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element.", name, lowerCasedName);
+            warnedProperties$1[name] = true;
             return true;
           }
-          if (typeof value === "boolean" && shouldRemoveAttributeWithWarning(name2, value, propertyInfo, false)) {
+          if (typeof value === "boolean" && shouldRemoveAttributeWithWarning(name, value, propertyInfo, false)) {
             if (value) {
-              error('Received `%s` for a non-boolean attribute `%s`.\n\nIf you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}.', value, name2, name2, value, name2);
+              error('Received `%s` for a non-boolean attribute `%s`.\n\nIf you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}.', value, name, name, value, name);
             } else {
-              error('Received `%s` for a non-boolean attribute `%s`.\n\nIf you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}.\n\nIf you used to conditionally omit it with %s={condition && value}, pass %s={condition ? value : undefined} instead.', value, name2, name2, value, name2, name2, name2);
+              error('Received `%s` for a non-boolean attribute `%s`.\n\nIf you want to write it to the DOM, pass a string instead: %s="%s" or %s={value.toString()}.\n\nIf you used to conditionally omit it with %s={condition && value}, pass %s={condition ? value : undefined} instead.', value, name, name, value, name, name, name);
             }
-            warnedProperties$1[name2] = true;
+            warnedProperties$1[name] = true;
             return true;
           }
           if (isReserved) {
             return true;
           }
-          if (shouldRemoveAttributeWithWarning(name2, value, propertyInfo, false)) {
-            warnedProperties$1[name2] = true;
+          if (shouldRemoveAttributeWithWarning(name, value, propertyInfo, false)) {
+            warnedProperties$1[name] = true;
             return false;
           }
           if ((value === "false" || value === "true") && propertyInfo !== null && propertyInfo.type === BOOLEAN) {
-            error("Received the string `%s` for the boolean attribute `%s`. %s Did you mean %s={%s}?", value, name2, value === "false" ? "The browser will interpret it as a truthy value." : 'Although this works, it will not work as expected if you pass the string "false".', name2, value);
-            warnedProperties$1[name2] = true;
+            error("Received the string `%s` for the boolean attribute `%s`. %s Did you mean %s={%s}?", value, name, value === "false" ? "The browser will interpret it as a truthy value." : 'Although this works, it will not work as expected if you pass the string "false".', name, value);
+            warnedProperties$1[name] = true;
             return true;
           }
           return true;
@@ -26085,8 +26035,8 @@ var __publicField = (obj, key, value) => {
       function isInteractive(tag2) {
         return tag2 === "button" || tag2 === "input" || tag2 === "select" || tag2 === "textarea";
       }
-      function shouldPreventMouseEvent(name2, type, props) {
-        switch (name2) {
+      function shouldPreventMouseEvent(name, type, props) {
+        switch (name) {
           case "onClick":
           case "onClickCapture":
           case "onDoubleClick":
@@ -26136,7 +26086,7 @@ var __publicField = (obj, key, value) => {
           passiveBrowserEventsSupported = false;
         }
       }
-      function invokeGuardedCallbackProd(name2, func, context, a, b, c, d, e, f) {
+      function invokeGuardedCallbackProd(name, func, context, a, b, c, d, e, f) {
         var funcArgs = Array.prototype.slice.call(arguments, 3);
         try {
           func.apply(context, funcArgs);
@@ -26148,7 +26098,7 @@ var __publicField = (obj, key, value) => {
       {
         if (typeof window !== "undefined" && typeof window.dispatchEvent === "function" && typeof document !== "undefined" && typeof document.createEvent === "function") {
           var fakeNode = document.createElement("react");
-          invokeGuardedCallbackImpl = function invokeGuardedCallbackDev(name2, func, context, a, b, c, d, e, f) {
+          invokeGuardedCallbackImpl = function invokeGuardedCallbackDev(name, func, context, a, b, c, d, e, f) {
             if (typeof document === "undefined" || document === null) {
               throw new Error("The `document` global was defined when React was initialized, but is not defined anymore. This can happen in a test environment if a component schedules an update from an asynchronous callback, but the test has already finished running. To solve this, you can either unmount the component at the end of your test (and ensure that any asynchronous operations get canceled in `componentWillUnmount`), or you can change the test itself to be asynchronous.");
             }
@@ -26188,7 +26138,7 @@ var __publicField = (obj, key, value) => {
                 }
               }
             }
-            var evtType = "react-" + (name2 ? name2 : "invokeguardedcallback");
+            var evtType = "react-" + (name ? name : "invokeguardedcallback");
             window.addEventListener("error", handleWindowError);
             fakeNode.addEventListener(evtType, callCallback2, false);
             evt.initEvent(evtType, false, false);
@@ -26223,12 +26173,12 @@ var __publicField = (obj, key, value) => {
           caughtError = error2;
         }
       };
-      function invokeGuardedCallback(name2, func, context, a, b, c, d, e, f) {
+      function invokeGuardedCallback(name, func, context, a, b, c, d, e, f) {
         hasError = false;
         caughtError = null;
         invokeGuardedCallbackImpl$1.apply(reporter, arguments);
       }
-      function invokeGuardedCallbackAndCatchFirstError(name2, func, context, a, b, c, d, e, f) {
+      function invokeGuardedCallbackAndCatchFirstError(name, func, context, a, b, c, d, e, f) {
         invokeGuardedCallback.apply(this, arguments);
         if (hasError) {
           var error2 = clearCaughtError();
@@ -29876,8 +29826,8 @@ var __publicField = (obj, key, value) => {
           }
           didWarnInvalidHydration = true;
           var names = [];
-          attributeNames.forEach(function(name2) {
-            names.push(name2);
+          attributeNames.forEach(function(name) {
+            names.push(name);
           });
           error("Extra attributes from the server: %s", names);
         };
@@ -30349,8 +30299,8 @@ var __publicField = (obj, key, value) => {
           extraAttributeNames = /* @__PURE__ */ new Set();
           var attributes = domElement.attributes;
           for (var _i = 0; _i < attributes.length; _i++) {
-            var name2 = attributes[_i].name.toLowerCase();
-            switch (name2) {
+            var name = attributes[_i].name.toLowerCase();
+            switch (name) {
               case "value":
                 break;
               case "checked":
@@ -31485,8 +31435,8 @@ var __publicField = (obj, key, value) => {
             context[key] = unmaskedContext[key];
           }
           {
-            var name2 = getComponentNameFromFiber(workInProgress2) || "Unknown";
-            checkPropTypes(contextTypes, context, "context", name2);
+            var name = getComponentNameFromFiber(workInProgress2) || "Unknown";
+            checkPropTypes(contextTypes, context, "context", name);
           }
           if (instance) {
             cacheContext(workInProgress2, unmaskedContext, context);
@@ -31547,8 +31497,8 @@ var __publicField = (obj, key, value) => {
             }
           }
           {
-            var name2 = getComponentNameFromFiber(fiber) || "Unknown";
-            checkPropTypes(childContextTypes, childContext, "child context", name2);
+            var name = getComponentNameFromFiber(fiber) || "Unknown";
+            checkPropTypes(childContextTypes, childContext, "child context", name);
           }
           return assign2({}, parentContext, childContext);
         }
@@ -33200,80 +33150,80 @@ var __publicField = (obj, key, value) => {
       function checkClassInstance(workInProgress2, ctor, newProps) {
         var instance = workInProgress2.stateNode;
         {
-          var name2 = getComponentNameFromType(ctor) || "Component";
+          var name = getComponentNameFromType(ctor) || "Component";
           var renderPresent = instance.render;
           if (!renderPresent) {
             if (ctor.prototype && typeof ctor.prototype.render === "function") {
-              error("%s(...): No `render` method found on the returned component instance: did you accidentally return an object from the constructor?", name2);
+              error("%s(...): No `render` method found on the returned component instance: did you accidentally return an object from the constructor?", name);
             } else {
-              error("%s(...): No `render` method found on the returned component instance: you may have forgotten to define `render`.", name2);
+              error("%s(...): No `render` method found on the returned component instance: you may have forgotten to define `render`.", name);
             }
           }
           if (instance.getInitialState && !instance.getInitialState.isReactClassApproved && !instance.state) {
-            error("getInitialState was defined on %s, a plain JavaScript class. This is only supported for classes created using React.createClass. Did you mean to define a state property instead?", name2);
+            error("getInitialState was defined on %s, a plain JavaScript class. This is only supported for classes created using React.createClass. Did you mean to define a state property instead?", name);
           }
           if (instance.getDefaultProps && !instance.getDefaultProps.isReactClassApproved) {
-            error("getDefaultProps was defined on %s, a plain JavaScript class. This is only supported for classes created using React.createClass. Use a static property to define defaultProps instead.", name2);
+            error("getDefaultProps was defined on %s, a plain JavaScript class. This is only supported for classes created using React.createClass. Use a static property to define defaultProps instead.", name);
           }
           if (instance.propTypes) {
-            error("propTypes was defined as an instance property on %s. Use a static property to define propTypes instead.", name2);
+            error("propTypes was defined as an instance property on %s. Use a static property to define propTypes instead.", name);
           }
           if (instance.contextType) {
-            error("contextType was defined as an instance property on %s. Use a static property to define contextType instead.", name2);
+            error("contextType was defined as an instance property on %s. Use a static property to define contextType instead.", name);
           }
           {
             if (instance.contextTypes) {
-              error("contextTypes was defined as an instance property on %s. Use a static property to define contextTypes instead.", name2);
+              error("contextTypes was defined as an instance property on %s. Use a static property to define contextTypes instead.", name);
             }
             if (ctor.contextType && ctor.contextTypes && !didWarnAboutContextTypeAndContextTypes.has(ctor)) {
               didWarnAboutContextTypeAndContextTypes.add(ctor);
-              error("%s declares both contextTypes and contextType static properties. The legacy contextTypes property will be ignored.", name2);
+              error("%s declares both contextTypes and contextType static properties. The legacy contextTypes property will be ignored.", name);
             }
           }
           if (typeof instance.componentShouldUpdate === "function") {
-            error("%s has a method called componentShouldUpdate(). Did you mean shouldComponentUpdate()? The name is phrased as a question because the function is expected to return a value.", name2);
+            error("%s has a method called componentShouldUpdate(). Did you mean shouldComponentUpdate()? The name is phrased as a question because the function is expected to return a value.", name);
           }
           if (ctor.prototype && ctor.prototype.isPureReactComponent && typeof instance.shouldComponentUpdate !== "undefined") {
             error("%s has a method called shouldComponentUpdate(). shouldComponentUpdate should not be used when extending React.PureComponent. Please extend React.Component if shouldComponentUpdate is used.", getComponentNameFromType(ctor) || "A pure component");
           }
           if (typeof instance.componentDidUnmount === "function") {
-            error("%s has a method called componentDidUnmount(). But there is no such lifecycle method. Did you mean componentWillUnmount()?", name2);
+            error("%s has a method called componentDidUnmount(). But there is no such lifecycle method. Did you mean componentWillUnmount()?", name);
           }
           if (typeof instance.componentDidReceiveProps === "function") {
-            error("%s has a method called componentDidReceiveProps(). But there is no such lifecycle method. If you meant to update the state in response to changing props, use componentWillReceiveProps(). If you meant to fetch data or run side-effects or mutations after React has updated the UI, use componentDidUpdate().", name2);
+            error("%s has a method called componentDidReceiveProps(). But there is no such lifecycle method. If you meant to update the state in response to changing props, use componentWillReceiveProps(). If you meant to fetch data or run side-effects or mutations after React has updated the UI, use componentDidUpdate().", name);
           }
           if (typeof instance.componentWillRecieveProps === "function") {
-            error("%s has a method called componentWillRecieveProps(). Did you mean componentWillReceiveProps()?", name2);
+            error("%s has a method called componentWillRecieveProps(). Did you mean componentWillReceiveProps()?", name);
           }
           if (typeof instance.UNSAFE_componentWillRecieveProps === "function") {
-            error("%s has a method called UNSAFE_componentWillRecieveProps(). Did you mean UNSAFE_componentWillReceiveProps()?", name2);
+            error("%s has a method called UNSAFE_componentWillRecieveProps(). Did you mean UNSAFE_componentWillReceiveProps()?", name);
           }
           var hasMutatedProps = instance.props !== newProps;
           if (instance.props !== void 0 && hasMutatedProps) {
-            error("%s(...): When calling super() in `%s`, make sure to pass up the same props that your component's constructor was passed.", name2, name2);
+            error("%s(...): When calling super() in `%s`, make sure to pass up the same props that your component's constructor was passed.", name, name);
           }
           if (instance.defaultProps) {
-            error("Setting defaultProps as an instance property on %s is not supported and will be ignored. Instead, define defaultProps as a static property on %s.", name2, name2);
+            error("Setting defaultProps as an instance property on %s is not supported and will be ignored. Instead, define defaultProps as a static property on %s.", name, name);
           }
           if (typeof instance.getSnapshotBeforeUpdate === "function" && typeof instance.componentDidUpdate !== "function" && !didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate.has(ctor)) {
             didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate.add(ctor);
             error("%s: getSnapshotBeforeUpdate() should be used with componentDidUpdate(). This component defines getSnapshotBeforeUpdate() only.", getComponentNameFromType(ctor));
           }
           if (typeof instance.getDerivedStateFromProps === "function") {
-            error("%s: getDerivedStateFromProps() is defined as an instance method and will be ignored. Instead, declare it as a static method.", name2);
+            error("%s: getDerivedStateFromProps() is defined as an instance method and will be ignored. Instead, declare it as a static method.", name);
           }
           if (typeof instance.getDerivedStateFromError === "function") {
-            error("%s: getDerivedStateFromError() is defined as an instance method and will be ignored. Instead, declare it as a static method.", name2);
+            error("%s: getDerivedStateFromError() is defined as an instance method and will be ignored. Instead, declare it as a static method.", name);
           }
           if (typeof ctor.getSnapshotBeforeUpdate === "function") {
-            error("%s: getSnapshotBeforeUpdate() is defined as a static method and will be ignored. Instead, declare it as an instance method.", name2);
+            error("%s: getSnapshotBeforeUpdate() is defined as a static method and will be ignored. Instead, declare it as an instance method.", name);
           }
           var _state = instance.state;
           if (_state && (typeof _state !== "object" || isArray(_state))) {
-            error("%s.state: must be set to an object or null", name2);
+            error("%s.state: must be set to an object or null", name);
           }
           if (typeof instance.getChildContext === "function" && typeof ctor.childContextTypes !== "object") {
-            error("%s.getChildContext(): childContextTypes must be defined in order to use getChildContext().", name2);
+            error("%s.getChildContext(): childContextTypes must be defined in order to use getChildContext().", name);
           }
         }
       }
@@ -44127,9 +44077,8 @@ var __publicField = (obj, key, value) => {
   let MarkdownView = ({ markdown, snippetOptions }) => {
     let ref = reactExports.useRef(null);
     reactExports.useEffect(() => {
-      var _a2;
       renderIde(ref.current);
-      (_a2 = window.initAquascopeBlocks) == null ? void 0 : _a2.call(window, ref.current);
+      window.initAquascopeBlocks && window.initAquascopeBlocks(ref.current);
     }, [markdown]);
     return React.createElement(
       "div",
@@ -44154,7 +44103,7 @@ var __publicField = (obj, key, value) => {
     PromptView: ({ prompt }) => React.createElement(MarkdownView, { markdown: prompt.prompt, snippetOptions: { lineNumbers: true } }),
     questionState(prompt, answer) {
       let choices;
-      let answers = Array.isArray(answer.answer) ? answer.answer : [answer.answer];
+      let answers = answer.answer instanceof Array ? answer.answer : [answer.answer];
       if (prompt.answerIndex !== void 0) {
         choices = [...prompt.distractors];
         choices.splice(prompt.answerIndex, 0, ...answers);
@@ -44170,7 +44119,7 @@ var __publicField = (obj, key, value) => {
     },
     ResponseView: ({ answer, state, formValidators: { required, register } }) => React.createElement(React.Fragment, null, state.choices.map((choice, i2) => {
       let id = reactExports.useId();
-      let multiAnswer = Array.isArray(answer.answer);
+      let multiAnswer = answer.answer instanceof Array;
       return React.createElement(
         "div",
         { className: "choice", key: i2 },
@@ -44185,15 +44134,15 @@ var __publicField = (obj, key, value) => {
       );
     })),
     getAnswerFromDOM(data) {
-      if (Array.isArray(data.answer))
+      if (data.answer instanceof Array)
         data.answer.sort();
       return { answer: data.answer };
     },
     compareAnswers(provided, user) {
-      let toList = (s) => _.sortBy(Array.isArray(s) ? s : [s]);
+      let toList = (s) => _.sortBy(s instanceof Array ? s : [s]);
       return _.isEqual(toList(provided.answer), toList(user.answer));
     },
-    AnswerView: ({ answer, baseline }) => React.createElement("div", { className: classNames("md-flex", MultipleChoiceMethods.compareAnswers(baseline, answer) ? "correct" : "incorrect") }, Array.isArray(answer.answer) ? React.createElement("ul", null, answer.answer.map((a, i2) => React.createElement(
+    AnswerView: ({ answer, baseline }) => React.createElement("div", { className: classNames("md-flex", MultipleChoiceMethods.compareAnswers(baseline, answer) ? "correct" : "incorrect") }, answer.answer instanceof Array ? React.createElement("ul", null, answer.answer.map((a, i2) => React.createElement(
       "li",
       { key: i2 },
       React.createElement(MarkdownView, { markdown: a })
@@ -44203,8 +44152,8 @@ var __publicField = (obj, key, value) => {
     PromptView: ({ prompt }) => React.createElement(MarkdownView, { markdown: prompt.prompt, snippetOptions: { lineNumbers: true } }),
     ResponseView: ({ prompt, submit, formValidators: { required } }) => {
       let formFields = required("answer");
-      return React.createElement(React.Fragment, null, !prompt.response || prompt.response === "short" ? React.createElement("input", { ...formFields, type: "text", placeholder: "Write your answer here...", onKeyDown: (e) => {
-        if (e.key === "Enter")
+      return React.createElement(React.Fragment, null, !prompt.response || prompt.response == "short" ? React.createElement("input", { ...formFields, type: "text", placeholder: "Write your answer here...", onKeyDown: (e) => {
+        if (e.key == "Enter")
           submit();
       } }) : (
         /* prompt.response == "long" */
@@ -44273,7 +44222,7 @@ var __publicField = (obj, key, value) => {
       }
     },
     AnswerView: ({ answer, baseline }) => {
-      let correctnessClass = (key) => answer[key] === baseline[key] ? "correct" : "incorrect";
+      let correctnessClass = (key) => answer[key] == baseline[key] ? "correct" : "incorrect";
       return React.createElement(
         "div",
         null,
@@ -44288,7 +44237,7 @@ var __publicField = (obj, key, value) => {
         answer.doesCompile ? React.createElement(
           React.Fragment,
           null,
-          React.createElement("p", { className: baseline.stdout && answer.stdout.trim() === baseline.stdout.trim() ? "correct" : "incorrect" }, "The output of this program will be:"),
+          React.createElement("p", { className: baseline.stdout && answer.stdout.trim() == baseline.stdout.trim() ? "correct" : "incorrect" }, "The output of this program will be:"),
           React.createElement("pre", null, answer.stdout)
         ) : (
           /*<p className={correctnessClass("lineNumber")}>
@@ -44301,7 +44250,7 @@ var __publicField = (obj, key, value) => {
     },
     compareAnswers(providedAnswer, userAnswer) {
       let clean = (s) => s.trim();
-      return providedAnswer.doesCompile === userAnswer.doesCompile && (providedAnswer.doesCompile ? clean(userAnswer.stdout) === clean(providedAnswer.stdout) : true);
+      return providedAnswer.doesCompile == userAnswer.doesCompile && (providedAnswer.doesCompile ? clean(userAnswer.stdout) == clean(providedAnswer.stdout) : true);
     }
   };
   let methodMapping = {
@@ -44310,13 +44259,13 @@ var __publicField = (obj, key, value) => {
     MultipleChoice: MultipleChoiceMethods
   };
   let getQuestionMethods = (type) => methodMapping[type];
-  let questionNameToCssClass = (name2) => {
+  let questionNameToCssClass = (name) => {
     let output = [];
-    for (let i2 = 0; i2 < name2.length; ++i2) {
-      if (i2 > 0 && name2[i2].match(/[A-Z]/)) {
+    for (let i2 = 0; i2 < name.length; ++i2) {
+      if (i2 > 0 && name[i2].match(/[A-Z]/)) {
         output.push("-");
       }
-      output.push(name2[i2].toLowerCase());
+      output.push(name[i2].toLowerCase());
     }
     return output.join("");
   };
@@ -44337,11 +44286,11 @@ var __publicField = (obj, key, value) => {
     return React.createElement(
       "div",
       { className: "bug-report" },
-      React.createElement("button", { type: "button", title: "Report a bug in this question", onClick: () => setShow(!show) }, "🐞"),
+      React.createElement("button", { title: "Report a bug in this question", onClick: () => setShow(!show) }, "🐞"),
       show && React.createElement(
         "div",
         { className: "reporter" },
-        React.createElement("button", { type: "button", className: "close", onClick: () => setShow(false) }, "✕"),
+        React.createElement("button", { className: "close", onClick: () => setShow(false) }, "✕"),
         React.createElement("h3", null, "Report a bug"),
         React.createElement("p", null, "If you found an issue in this question (e.g. a typo or an incorrect answer), please describe the issue and report it:"),
         React.createElement(
@@ -44380,8 +44329,7 @@ we can better improve the surrounding text.
       React.createElement(MarkdownView, { markdown: multipart[question.multipart] })
     )
   );
-  let QuestionView = ({ multipart, question, index: index2, title, attempt, questionState, onSubmit }) => {
-    let { name: quizName, showBugReporter } = reactExports.useContext(QuizConfigContext);
+  let QuestionView = ({ quizName, multipart, question, index: index2, title, attempt, questionState, onSubmit }) => {
     let start = reactExports.useMemo(now, [quizName, question, index2]);
     let ref = reactExports.useRef(null);
     let [showExplanation, setShowExplanation] = reactExports.useState(false);
@@ -44395,10 +44343,10 @@ we can better improve the surrounding text.
       );
     }
     let formValidators = useForm();
-    let required = (name2, options) => {
-      let attrs = formValidators.register(name2, { ...options, required: true });
+    let required = (name, options) => {
+      let attrs = formValidators.register(name, { ...options, required: true });
       let className = classNames({
-        error: formValidators.formState.errors[name2]
+        error: formValidators.formState.errors[name]
       });
       return { ...attrs, className };
     };
@@ -44415,7 +44363,7 @@ we can better improve the surrounding text.
         explanation: data.explanation
       });
     });
-    let shouldPrompt = question.promptExplanation && attempt === 0;
+    let shouldPrompt = question.promptExplanation && attempt == 0;
     let explanationId = reactExports.useId();
     return React.createElement(
       "div",
@@ -44431,7 +44379,7 @@ we can better improve the surrounding text.
         ),
         question.multipart && React.createElement(MultipartContext, { question, multipart, title }),
         React.createElement(methods.PromptView, { prompt: question.prompt }),
-        window.telemetry && showBugReporter && React.createElement(BugReporter, { quizName, question: index2 })
+        window.telemetry && React.createElement(BugReporter, { quizName, question: index2 })
       ),
       React.createElement(
         "form",
@@ -44458,12 +44406,11 @@ we can better improve the surrounding text.
           ),
           React.createElement("textarea", { id: explanationId, title: "Explanation", ...required("explanation") })
         ),
-        shouldPrompt && !showExplanation ? React.createElement("button", { type: "button", onClick: () => setShowExplanation(true) }, "Submit") : React.createElement("input", { type: "submit" })
+        shouldPrompt && !showExplanation ? React.createElement("button", { onClick: () => setShowExplanation(true) }, "Submit") : React.createElement("input", { type: "submit" })
       )
     );
   };
-  let AnswerView = ({ multipart, question, index: index2, title, userAnswer, correct, showCorrect }) => {
-    let { name: quizName, showBugReporter } = reactExports.useContext(QuizConfigContext);
+  let AnswerView = ({ quizName, multipart, question, index: index2, title, userAnswer, correct, showCorrect }) => {
     let methods = getQuestionMethods(question.type);
     let questionClass = questionNameToCssClass(question.type);
     let multipartView = null;
@@ -44482,7 +44429,7 @@ we can better improve the surrounding text.
           { className: "multipart-context" },
           React.createElement(
             "a",
-            { href: `#${anchorId}` },
+            { href: "#" + anchorId },
             "Return to question context ",
             React.createElement("span", { className: "rotate-arrow" }, "↳")
           )
@@ -44502,7 +44449,7 @@ we can better improve the surrounding text.
         ),
         multipartView,
         React.createElement(methods.PromptView, { prompt: question.prompt }),
-        window.telemetry && showBugReporter && React.createElement(BugReporter, { quizName, question: index2 })
+        window.telemetry && React.createElement(BugReporter, { quizName, question: index2 })
       ),
       React.createElement(
         "div",
@@ -44532,7 +44479,7 @@ we can better improve the surrounding text.
         "div",
         { className: "context" },
         React.createElement(MarkdownView, { markdown: `**Context**:
-${question.context}` })
+` + question.context })
       )
     );
   };
@@ -44582,12 +44529,12 @@ ${question.context}` })
     24: function _2(thing) {
       return "Cannot obtain administration from " + thing;
     },
-    25: function _2(property, name2) {
-      return "the entry '" + property + "' does not exist in the observable map '" + name2 + "'";
+    25: function _2(property, name) {
+      return "the entry '" + property + "' does not exist in the observable map '" + name + "'";
     },
     26: "please specify a property",
-    27: function _2(property, name2) {
-      return "no observable property '" + property.toString() + "' found on the observable object '" + name2 + "'";
+    27: function _2(property, name) {
+      return "no observable property '" + property.toString() + "' found on the observable object '" + name + "'";
     },
     28: function _2(thing) {
       return "Cannot obtain atom from " + thing;
@@ -44595,14 +44542,14 @@ ${question.context}` })
     29: "Expecting some object",
     30: "invalid action stack. did you forget to finish an action?",
     31: "missing option for computed: get",
-    32: function _2(name2, derivation) {
-      return "Cycle detected in computation " + name2 + ": " + derivation;
+    32: function _2(name, derivation) {
+      return "Cycle detected in computation " + name + ": " + derivation;
     },
-    33: function _2(name2) {
-      return "The setter of computed value '" + name2 + "' is trying to update itself. Did you intend to update an _observable_ value, instead of the computed property?";
+    33: function _2(name) {
+      return "The setter of computed value '" + name + "' is trying to update itself. Did you intend to update an _observable_ value, instead of the computed property?";
     },
-    34: function _2(name2) {
-      return "[ComputedValue '" + name2 + "'] It is not possible to assign a new value to a computed value.";
+    34: function _2(name) {
+      return "[ComputedValue '" + name + "'] It is not possible to assign a new value to a computed value.";
     },
     35: "There are multiple, different versions of MobX active. Make sure MobX is loaded only once or use `configure({ isolateGlobalState: true })`",
     36: "isolateGlobalState should be called before MobX is running any reactions",
@@ -44728,8 +44675,8 @@ ${question.context}` })
       value
     });
   }
-  function createInstanceofPredicate(name2, theClass) {
-    var propName = "isMobX" + name2;
+  function createInstanceofPredicate(name, theClass) {
+    var propName = "isMobX" + name;
     theClass.prototype[propName] = true;
     return function(x) {
       return isObject(x) && x[propName] === true;
@@ -44976,14 +44923,14 @@ ${question.context}` })
     return Atom2;
   }();
   var isAtom = /* @__PURE__ */ createInstanceofPredicate("Atom", Atom);
-  function createAtom(name2, onBecomeObservedHandler, onBecomeUnobservedHandler) {
+  function createAtom(name, onBecomeObservedHandler, onBecomeUnobservedHandler) {
     if (onBecomeObservedHandler === void 0) {
       onBecomeObservedHandler = noop;
     }
     if (onBecomeUnobservedHandler === void 0) {
       onBecomeUnobservedHandler = noop;
     }
-    var atom = new Atom(name2);
+    var atom = new Atom(name);
     if (onBecomeObservedHandler !== noop) {
       onBecomeObserved(atom, onBecomeObservedHandler);
     }
@@ -45013,40 +44960,40 @@ ${question.context}` })
     "default": defaultComparer,
     shallow: shallowComparer
   };
-  function deepEnhancer(v, _2, name2) {
+  function deepEnhancer(v, _2, name) {
     if (isObservable(v)) {
       return v;
     }
     if (Array.isArray(v)) {
       return observable.array(v, {
-        name: name2
+        name
       });
     }
     if (isPlainObject(v)) {
       return observable.object(v, void 0, {
-        name: name2
+        name
       });
     }
     if (isES6Map(v)) {
       return observable.map(v, {
-        name: name2
+        name
       });
     }
     if (isES6Set(v)) {
       return observable.set(v, {
-        name: name2
+        name
       });
     }
     if (typeof v === "function" && !isAction(v) && !isFlow(v)) {
       if (isGenerator(v)) {
         return flow(v);
       } else {
-        return autoAction(name2, v);
+        return autoAction(name, v);
       }
     }
     return v;
   }
-  function shallowEnhancer(v, _2, name2) {
+  function shallowEnhancer(v, _2, name) {
     if (v === void 0 || v === null) {
       return v;
     }
@@ -45055,25 +45002,25 @@ ${question.context}` })
     }
     if (Array.isArray(v)) {
       return observable.array(v, {
-        name: name2,
+        name,
         deep: false
       });
     }
     if (isPlainObject(v)) {
       return observable.object(v, void 0, {
-        name: name2,
+        name,
         deep: false
       });
     }
     if (isES6Map(v)) {
       return observable.map(v, {
-        name: name2,
+        name,
         deep: false
       });
     }
     if (isES6Set(v)) {
       return observable.set(v, {
-        name: name2,
+        name,
         deep: false
       });
     }
@@ -45097,9 +45044,9 @@ ${question.context}` })
   function isOverride(annotation) {
     return annotation.annotationType_ === OVERRIDE;
   }
-  function createActionAnnotation(name2, options) {
+  function createActionAnnotation(name, options) {
     return {
-      annotationType_: name2,
+      annotationType_: name,
       options_: options,
       make_: make_$1,
       extend_: extend_$1
@@ -45160,9 +45107,9 @@ ${question.context}` })
       writable: safeDescriptors ? false : true
     };
   }
-  function createFlowAnnotation(name2, options) {
+  function createFlowAnnotation(name, options) {
     return {
-      annotationType_: name2,
+      annotationType_: name,
       options_: options,
       make_: make_$2,
       extend_: extend_$2
@@ -45223,9 +45170,9 @@ ${question.context}` })
       writable: safeDescriptors ? false : true
     };
   }
-  function createComputedAnnotation(name2, options) {
+  function createComputedAnnotation(name, options) {
     return {
-      annotationType_: name2,
+      annotationType_: name,
       options_: options,
       make_: make_$3,
       extend_: extend_$3
@@ -45248,9 +45195,9 @@ ${question.context}` })
       die("Cannot apply '" + annotationType_ + "' to '" + adm.name_ + "." + key.toString() + "':" + ("\n'" + annotationType_ + "' can only be used on getter(+setter) properties."));
     }
   }
-  function createObservableAnnotation(name2, options) {
+  function createObservableAnnotation(name, options) {
     return {
-      annotationType_: name2,
+      annotationType_: name,
       options_: options,
       make_: make_$4,
       extend_: extend_$4
@@ -45453,7 +45400,7 @@ ${question.context}` })
   var _getDescriptor$config, _getDescriptor;
   var currentActionId = 0;
   var nextActionId = 1;
-  var isFunctionNameConfigurable = (_getDescriptor$config = (_getDescriptor = /* @__PURE__ */ getDescriptor(function() {
+  var isFunctionNameConfigurable$1 = (_getDescriptor$config = (_getDescriptor = /* @__PURE__ */ getDescriptor(function() {
   }, "name")) == null ? void 0 : _getDescriptor.configurable) != null ? _getDescriptor$config : false;
   var tmpNameDescriptor = {
     value: "action",
@@ -45477,7 +45424,7 @@ ${question.context}` })
       return executeAction(actionName, autoAction2, fn, ref || this, arguments);
     }
     res.isMobxAction = true;
-    if (isFunctionNameConfigurable) {
+    if (isFunctionNameConfigurable$1) {
       tmpNameDescriptor.value = actionName;
       defineProperty(res, "name", tmpNameDescriptor);
     }
@@ -46157,9 +46104,6 @@ ${question.context}` })
       globalState = new MobXGlobals();
     }
   }
-  function getGlobalState() {
-    return globalState;
-  }
   function addObserver(observable2, node2) {
     observable2.observers_.add(node2);
     if (observable2.lowestObserverState_ > node2.dependenciesState_) {
@@ -46570,17 +46514,17 @@ ${question.context}` })
         die("Autorun does not accept actions since actions are untrackable");
       }
     }
-    var name2 = (_opts$name = (_opts = opts) == null ? void 0 : _opts.name) != null ? _opts$name : view.name || "Autorun@" + getNextId();
+    var name = (_opts$name = (_opts = opts) == null ? void 0 : _opts.name) != null ? _opts$name : view.name || "Autorun@" + getNextId();
     var runSync = !opts.scheduler && !opts.delay;
     var reaction;
     if (runSync) {
-      reaction = new Reaction(name2, function() {
+      reaction = new Reaction(name, function() {
         this.track(reactionRunner);
       }, opts.onError, opts.requiresObservable);
     } else {
       var scheduler2 = createSchedulerFromOptions(opts);
       var isScheduled = false;
-      reaction = new Reaction(name2, function() {
+      reaction = new Reaction(name, function() {
         if (!isScheduled) {
           isScheduled = true;
           scheduler2(function() {
@@ -46732,12 +46676,12 @@ ${question.context}` })
       die("Flow expects single argument with generator function");
     }
     var generator = arg1;
-    var name2 = generator.name || "<unnamed flow>";
+    var name = generator.name || "<unnamed flow>";
     var res = function res2() {
       var ctx = this;
       var args = arguments;
       var runId = ++generatorId;
-      var gen = action(name2 + " - runid: " + runId + " - init", generator).apply(ctx, args);
+      var gen = action(name + " - runid: " + runId + " - init", generator).apply(ctx, args);
       var rejector;
       var pendingPromise = void 0;
       var promise = new Promise(function(resolve, reject) {
@@ -46747,7 +46691,7 @@ ${question.context}` })
           pendingPromise = void 0;
           var ret;
           try {
-            ret = action(name2 + " - runid: " + runId + " - yield " + stepId++, gen.next).call(gen, res3);
+            ret = action(name + " - runid: " + runId + " - yield " + stepId++, gen.next).call(gen, res3);
           } catch (e) {
             return reject(e);
           }
@@ -46757,7 +46701,7 @@ ${question.context}` })
           pendingPromise = void 0;
           var ret;
           try {
-            ret = action(name2 + " - runid: " + runId + " - yield " + stepId++, gen["throw"]).call(gen, err);
+            ret = action(name + " - runid: " + runId + " - yield " + stepId++, gen["throw"]).call(gen, err);
           } catch (e) {
             return reject(e);
           }
@@ -46776,7 +46720,7 @@ ${question.context}` })
         }
         onFulfilled(void 0);
       });
-      promise.cancel = action(name2 + " - runid: " + runId + " - cancel", function() {
+      promise.cancel = action(name + " - runid: " + runId + " - cancel", function() {
         try {
           if (pendingPromise) {
             cancelPromise(pendingPromise);
@@ -46923,41 +46867,41 @@ ${question.context}` })
     return target2[$mobx];
   }
   var objectProxyTraps = {
-    has: function has(target2, name2) {
+    has: function has(target2, name) {
       if (globalState.trackingDerivation) {
         warnAboutProxyRequirement("detect new properties using the 'in' operator. Use 'has' from 'mobx' instead.");
       }
-      return getAdm(target2).has_(name2);
+      return getAdm(target2).has_(name);
     },
-    get: function get2(target2, name2) {
-      return getAdm(target2).get_(name2);
+    get: function get2(target2, name) {
+      return getAdm(target2).get_(name);
     },
-    set: function set2(target2, name2, value) {
+    set: function set2(target2, name, value) {
       var _getAdm$set_;
-      if (!isStringish(name2)) {
+      if (!isStringish(name)) {
         return false;
       }
-      if (!getAdm(target2).values_.has(name2)) {
+      if (!getAdm(target2).values_.has(name)) {
         warnAboutProxyRequirement("add a new observable property through direct assignment. Use 'set' from 'mobx' instead.");
       }
-      return (_getAdm$set_ = getAdm(target2).set_(name2, value, true)) != null ? _getAdm$set_ : true;
+      return (_getAdm$set_ = getAdm(target2).set_(name, value, true)) != null ? _getAdm$set_ : true;
     },
-    deleteProperty: function deleteProperty(target2, name2) {
+    deleteProperty: function deleteProperty(target2, name) {
       var _getAdm$delete_;
       {
         warnAboutProxyRequirement("delete properties from an observable object. Use 'remove' from 'mobx' instead.");
       }
-      if (!isStringish(name2)) {
+      if (!isStringish(name)) {
         return false;
       }
-      return (_getAdm$delete_ = getAdm(target2).delete_(name2, true)) != null ? _getAdm$delete_ : true;
+      return (_getAdm$delete_ = getAdm(target2).delete_(name, true)) != null ? _getAdm$delete_ : true;
     },
-    defineProperty: function defineProperty2(target2, name2, descriptor) {
+    defineProperty: function defineProperty2(target2, name, descriptor) {
       var _getAdm$definePropert;
       {
         warnAboutProxyRequirement("define property on an observable object. Use 'defineProperty' from 'mobx' instead.");
       }
-      return (_getAdm$definePropert = getAdm(target2).defineProperty_(name2, descriptor)) != null ? _getAdm$definePropert : true;
+      return (_getAdm$definePropert = getAdm(target2).defineProperty_(name, descriptor)) != null ? _getAdm$definePropert : true;
     },
     ownKeys: function ownKeys2(target2) {
       if (globalState.trackingDerivation) {
@@ -47052,31 +46996,31 @@ ${question.context}` })
   var UPDATE = "update";
   var MAX_SPLICE_SIZE = 1e4;
   var arrayTraps = {
-    get: function get2(target2, name2) {
+    get: function get2(target2, name) {
       var adm = target2[$mobx];
-      if (name2 === $mobx) {
+      if (name === $mobx) {
         return adm;
       }
-      if (name2 === "length") {
+      if (name === "length") {
         return adm.getArrayLength_();
       }
-      if (typeof name2 === "string" && !isNaN(name2)) {
-        return adm.get_(parseInt(name2));
+      if (typeof name === "string" && !isNaN(name)) {
+        return adm.get_(parseInt(name));
       }
-      if (hasProp(arrayExtensions, name2)) {
-        return arrayExtensions[name2];
+      if (hasProp(arrayExtensions, name)) {
+        return arrayExtensions[name];
       }
-      return target2[name2];
+      return target2[name];
     },
-    set: function set2(target2, name2, value) {
+    set: function set2(target2, name, value) {
       var adm = target2[$mobx];
-      if (name2 === "length") {
+      if (name === "length") {
         adm.setArrayLength_(value);
       }
-      if (typeof name2 === "symbol" || isNaN(name2)) {
-        target2[name2] = value;
+      if (typeof name === "symbol" || isNaN(name)) {
+        target2[name] = value;
       } else {
-        adm.set_(parseInt(name2), value);
+        adm.set_(parseInt(name), value);
       }
       return true;
     },
@@ -47085,9 +47029,9 @@ ${question.context}` })
     }
   };
   var ObservableArrayAdministration = /* @__PURE__ */ function() {
-    function ObservableArrayAdministration2(name2, enhancer, owned_, legacyMode_) {
-      if (name2 === void 0) {
-        name2 = "ObservableArray@" + getNextId();
+    function ObservableArrayAdministration2(name, enhancer, owned_, legacyMode_) {
+      if (name === void 0) {
+        name = "ObservableArray@" + getNextId();
       }
       this.owned_ = void 0;
       this.legacyMode_ = void 0;
@@ -47101,9 +47045,9 @@ ${question.context}` })
       this.lastKnownLength_ = 0;
       this.owned_ = owned_;
       this.legacyMode_ = legacyMode_;
-      this.atom_ = new Atom(name2);
+      this.atom_ = new Atom(name);
       this.enhancer_ = function(newV, oldV) {
-        return enhancer(newV, oldV, name2 + "[..]");
+        return enhancer(newV, oldV, name + "[..]");
       };
     }
     var _proto = ObservableArrayAdministration2.prototype;
@@ -47329,15 +47273,15 @@ ${question.context}` })
     };
     return ObservableArrayAdministration2;
   }();
-  function createObservableArray(initialValues, enhancer, name2, owned) {
-    if (name2 === void 0) {
-      name2 = "ObservableArray@" + getNextId();
+  function createObservableArray(initialValues, enhancer, name, owned) {
+    if (name === void 0) {
+      name = "ObservableArray@" + getNextId();
     }
     if (owned === void 0) {
       owned = false;
     }
     assertProxies();
-    var adm = new ObservableArrayAdministration(name2, enhancer, owned, false);
+    var adm = new ObservableArrayAdministration(name, enhancer, owned, false);
     addHiddenFinalProp(adm.values_, $mobx, adm);
     var proxy = new Proxy(adm.values_, arrayTraps);
     adm.proxy_ = proxy;
@@ -48516,8 +48460,8 @@ ${question.context}` })
     if (!Object.isExtensible(target2)) {
       die("Cannot make the designated object observable; it is not extensible");
     }
-    var name2 = (_options$name = options == null ? void 0 : options.name) != null ? _options$name : (isPlainObject(target2) ? "ObservableObject" : target2.constructor.name) + "@" + getNextId();
-    var adm = new ObservableObjectAdministration(target2, /* @__PURE__ */ new Map(), String(name2), getAnnotationFromOptions(options));
+    var name = (_options$name = options == null ? void 0 : options.name) != null ? _options$name : (isPlainObject(target2) ? "ObservableObject" : target2.constructor.name) + "@" + getNextId();
+    var adm = new ObservableObjectAdministration(target2, /* @__PURE__ */ new Map(), String(name), getAnnotationFromOptions(options));
     addHiddenProp(target2, $mobx, adm);
     return target2;
   }
@@ -48572,16 +48516,16 @@ ${question.context}` })
   inherit(StubArray, Array.prototype);
   var LegacyObservableArray = /* @__PURE__ */ function(_StubArray, _Symbol$toStringTag2, _Symbol$iterator2) {
     _inheritsLoose$1(LegacyObservableArray2, _StubArray);
-    function LegacyObservableArray2(initialValues, enhancer, name2, owned) {
+    function LegacyObservableArray2(initialValues, enhancer, name, owned) {
       var _this;
-      if (name2 === void 0) {
-        name2 = "ObservableArray@" + getNextId();
+      if (name === void 0) {
+        name = "ObservableArray@" + getNextId();
       }
       if (owned === void 0) {
         owned = false;
       }
       _this = _StubArray.call(this) || this;
-      var adm = new ObservableArrayAdministration(name2, enhancer, owned, true);
+      var adm = new ObservableArrayAdministration(name, enhancer, owned, true);
       adm.proxy_ = _assertThisInitialized(_this);
       addHiddenFinalProp(_assertThisInitialized(_this), $mobx, adm);
       if (initialValues && initialValues.length) {
@@ -48669,8 +48613,8 @@ ${question.context}` })
     }
   }
   reserveArrayBuffer(1e3);
-  function createLegacyArray(initialValues, enhancer, name2) {
-    return new LegacyObservableArray(initialValues, enhancer, name2);
+  function createLegacyArray(initialValues, enhancer, name) {
+    return new LegacyObservableArray(initialValues, enhancer, name);
   }
   function getAtom(thing, property) {
     if (typeof thing === "object" && thing !== null) {
@@ -49130,15 +49074,11 @@ ${question.context}` })
     shim.exports = useSyncExternalStoreShim_development;
   }
   var shimExports = shim.exports;
-  var mobxGlobalState = getGlobalState();
-  var globalStateVersionIsAvailable = typeof mobxGlobalState.globalVersion !== "undefined";
   function createReaction$1(adm) {
     adm.reaction = new Reaction("observer".concat(adm.name), function() {
       var _a2;
-      if (!globalStateVersionIsAvailable) {
-        adm.stateVersion = Symbol();
-      }
-      (_a2 = adm.forceUpdate) === null || _a2 === void 0 ? void 0 : _a2.call(adm);
+      adm.stateVersion = Symbol();
+      (_a2 = adm.onStoreChange) === null || _a2 === void 0 ? void 0 : _a2.call(adm);
     });
   }
   function useObserver(render2, baseComponentName) {
@@ -49149,25 +49089,25 @@ ${question.context}` })
     if (!admRef.current) {
       var adm_1 = {
         reaction: null,
-        forceUpdate: null,
+        onStoreChange: null,
         stateVersion: Symbol(),
         name: baseComponentName,
         subscribe: function(onStoreChange) {
           observerFinalizationRegistry.unregister(adm_1);
-          adm_1.forceUpdate = onStoreChange;
+          adm_1.onStoreChange = onStoreChange;
           if (!adm_1.reaction) {
             createReaction$1(adm_1);
-            adm_1.forceUpdate();
+            adm_1.stateVersion = Symbol();
           }
           return function() {
             var _a2;
-            adm_1.forceUpdate = null;
+            adm_1.onStoreChange = null;
             (_a2 = adm_1.reaction) === null || _a2 === void 0 ? void 0 : _a2.dispose();
             adm_1.reaction = null;
           };
         },
         getSnapshot: function() {
-          return globalStateVersionIsAvailable ? mobxGlobalState.stateVersion : adm_1.stateVersion;
+          return adm_1.stateVersion;
         }
       };
       admRef.current = adm_1;
@@ -49181,6 +49121,7 @@ ${question.context}` })
     shimExports.useSyncExternalStore(
       // Both of these must be stable, otherwise it would keep resubscribing every render.
       adm.subscribe,
+      adm.getSnapshot,
       adm.getSnapshot
     );
     var renderResult;
@@ -49197,8 +49138,11 @@ ${question.context}` })
     }
     return renderResult;
   }
+  var _a$1, _b;
   var warnObserverOptionsDeprecated = true;
   var hasSymbol = typeof Symbol === "function" && Symbol.for;
+  var isFunctionNameConfigurable = (_b = (_a$1 = Object.getOwnPropertyDescriptor(function() {
+  }, "name")) === null || _a$1 === void 0 ? void 0 : _a$1.configurable) !== null && _b !== void 0 ? _b : false;
   var ReactForwardRefSymbol = hasSymbol ? Symbol.for("react.forward_ref") : typeof reactExports.forwardRef === "function" && reactExports.forwardRef(function(props) {
     return null;
   })["$$typeof"];
@@ -49230,11 +49174,13 @@ ${question.context}` })
       }, baseComponentName);
     };
     observerComponent.displayName = baseComponent.displayName;
-    Object.defineProperty(observerComponent, "name", {
-      value: baseComponent.name,
-      writable: true,
-      configurable: true
-    });
+    if (isFunctionNameConfigurable) {
+      Object.defineProperty(observerComponent, "name", {
+        value: baseComponent.name,
+        writable: true,
+        configurable: true
+      });
+    }
     if (baseComponent.contextTypes) {
       observerComponent.contextTypes = baseComponent.contextTypes;
     }
@@ -49246,8 +49192,8 @@ ${question.context}` })
     {
       Object.defineProperty(observerComponent, "contextTypes", {
         set: function() {
-          var _a3, _b;
-          throw new Error("[mobx-react-lite] `".concat(this.displayName || ((_a3 = this.type) === null || _a3 === void 0 ? void 0 : _a3.displayName) || ((_b = this.type) === null || _b === void 0 ? void 0 : _b.name) || "Component", ".contextTypes` must be set before applying `observer`."));
+          var _a3, _b2;
+          throw new Error("[mobx-react-lite] `".concat(this.displayName || ((_a3 = this.type) === null || _a3 === void 0 ? void 0 : _a3.displayName) || ((_b2 = this.type) === null || _b2 === void 0 ? void 0 : _b2.name) || "Component", ".contextTypes` must be set before applying `observer`."));
         }
       });
     }
@@ -49274,27 +49220,6 @@ ${question.context}` })
       return observable(initializer(), annotations, { autoBind: true });
     })[0];
   }
-  globalThis && globalThis.__read || function(o, n) {
-    var m2 = typeof Symbol === "function" && o[Symbol.iterator];
-    if (!m2)
-      return o;
-    var i2 = m2.call(o), r, ar = [], e;
-    try {
-      while ((n === void 0 || n-- > 0) && !(r = i2.next()).done)
-        ar.push(r.value);
-    } catch (error) {
-      e = { error };
-    } finally {
-      try {
-        if (r && !r.done && (m2 = i2["return"]))
-          m2.call(i2);
-      } finally {
-        if (e)
-          throw e.error;
-      }
-    }
-    return ar;
-  };
   var _a;
   observerBatching(reactDomExports.unstable_batchedUpdates);
   (_a = observerFinalizationRegistry["finalizeAllImmediately"]) !== null && _a !== void 0 ? _a : function() {
@@ -50456,7 +50381,7 @@ ${question.context}` })
       let storedAnswersJson = localStorage.getItem(this.storageKey());
       if (storedAnswersJson) {
         let storedAnswers = JSON.parse(storedAnswersJson);
-        if (storedAnswers.quizHash === this.quizHash) {
+        if (storedAnswers.quizHash == this.quizHash) {
           return storedAnswers;
         }
       }
@@ -50502,43 +50427,37 @@ ${question.context}` })
       };
     }
   };
-  let Header = observer(({ state, ended }) => {
-    let { quiz } = reactExports.useContext(QuizConfigContext);
-    return React.createElement(
-      "header",
+  let Header = observer(({ quiz, state, ended }) => React.createElement(
+    "header",
+    null,
+    React.createElement("h3", null, "Quiz"),
+    React.createElement("div", { className: "counter" }, state.started ? !ended && React.createElement(
+      React.Fragment,
       null,
-      React.createElement("h3", null, "Quiz"),
-      React.createElement("div", { className: "counter" }, state.started ? !ended && React.createElement(
-        React.Fragment,
-        null,
-        "Question",
-        " ",
-        (state.attempt === 0 ? state.index : state.wrongAnswers.indexOf(state.index)) + 1,
-        " ",
-        "/",
-        " ",
-        state.attempt === 0 ? quiz.questions.length : state.wrongAnswers.length
-      ) : React.createElement(
-        React.Fragment,
-        null,
-        quiz.questions.length,
-        " question",
-        quiz.questions.length > 1 && "s"
-      ))
-    );
-  });
-  let AnswerReview = ({ state, nCorrect, onRetry, onGiveUp }) => {
-    let { quiz, name: name2 } = reactExports.useContext(QuizConfigContext);
+      "Question",
+      " ",
+      (state.attempt == 0 ? state.index : state.wrongAnswers.indexOf(state.index)) + 1,
+      " ",
+      "/",
+      " ",
+      state.attempt == 0 ? quiz.questions.length : state.wrongAnswers.length
+    ) : React.createElement(
+      React.Fragment,
+      null,
+      quiz.questions.length,
+      " question",
+      quiz.questions.length > 1 && "s"
+    ))
+  ));
+  let AnswerReview = ({ quiz, state, name, nCorrect, onRetry, onGiveUp }) => {
     let confirm = !state.confirmedDone && React.createElement(
       "p",
       { style: { marginBottom: "1em" } },
-      "You can either",
+      "You can either ",
+      React.createElement("button", { onClick: onRetry }, "retry the quiz"),
+      " or",
       " ",
-      React.createElement("button", { type: "button", onClick: onRetry }, "retry the quiz"),
-      " ",
-      "or",
-      " ",
-      React.createElement("button", { type: "button", onClick: onGiveUp }, "see the correct answers"),
+      React.createElement("button", { onClick: onGiveUp }, "see the correct answers"),
       "."
     );
     let questionTitles = generateQuestionTitles(quiz);
@@ -50567,7 +50486,7 @@ ${question.context}` })
         return React.createElement(
           "div",
           { className: "answer-wrapper", key: i2 },
-          React.createElement(AnswerView, { index: i2 + 1, title: questionTitles[i2], multipart: quiz.multipart, quizName: name2, question, userAnswer: answer, correct, showCorrect: state.confirmedDone })
+          React.createElement(AnswerView, { index: i2 + 1, title: questionTitles[i2], multipart: quiz.multipart, quizName: name, question, userAnswer: answer, correct, showCorrect: state.confirmedDone })
         );
       }),
       confirm
@@ -50591,7 +50510,6 @@ ${question.context}` })
       }
     }, [capture]);
   };
-  let QuizConfigContext = React.createContext(null);
   let aCode = "a".charCodeAt(0);
   let generateQuestionTitles = (quiz) => {
     let groups = [];
@@ -50618,47 +50536,42 @@ ${question.context}` })
       return title;
     }));
   };
-  let QuizView = observer(({ onFinish, ...config }) => {
-    let [quizHash] = reactExports.useState(() => hash.MD5(config.quiz));
-    let answerStorage = new AnswerStorage(config.name, quizHash);
-    let questionStates = reactExports.useMemo(() => config.quiz.questions.map((q) => {
-      var _a2;
+  let QuizView = observer(({ quiz, name, fullscreen, cacheAnswers, allowRetry, onFinish }) => {
+    let [quizHash] = reactExports.useState(() => hash.MD5(quiz));
+    let answerStorage = new AnswerStorage(name, quizHash);
+    let questionStates = reactExports.useMemo(() => quiz.questions.map((q) => {
       let methods = getQuestionMethods(q.type);
-      return (_a2 = methods.questionState) == null ? void 0 : _a2.call(methods, q.prompt, q.answer);
-    }), [config.quiz]);
-    let state = useLocalObservable(() => loadState({
-      quiz: config.quiz,
-      answerStorage,
-      cacheAnswers: config.cacheAnswers
-    }));
+      return methods.questionState && methods.questionState(q.prompt, q.answer);
+    }), [quiz]);
+    let state = useLocalObservable(() => loadState({ quiz, answerStorage, cacheAnswers }));
     let saveToCache = () => {
-      if (config.cacheAnswers)
+      if (cacheAnswers)
         answerStorage.save(state.answers, state.confirmedDone, state.attempt, state.wrongAnswers);
     };
-    let ended = state.index === config.quiz.questions.length;
+    let ended = state.index == quiz.questions.length;
     let inProgress = state.started && !ended;
     useCaptureMdbookShortcuts(inProgress);
     let [lastTop, setLastTop] = reactExports.useState();
-    let showFullscreen = inProgress && (config.fullscreen ?? false);
+    let showFullscreen = inProgress && (fullscreen ?? false);
     reactExports.useLayoutEffect(() => {
       document.body.style.overflowY = showFullscreen ? "hidden" : "auto";
       if (showFullscreen) {
         setLastTop(window.scrollY + 100);
-      } else if (config.fullscreen && lastTop !== void 0) {
+      } else if (fullscreen && lastTop !== void 0) {
         window.scrollTo(0, lastTop);
       }
     }, [showFullscreen]);
     let onSubmit = action((answer) => {
       var _a2;
       answer = _.cloneDeep(answer);
-      if (state.attempt === 0) {
+      if (state.attempt == 0) {
         state.answers.push(answer);
         state.index += 1;
       } else {
         state.answers[state.index] = answer;
-        let wrongAnswerIdx = state.wrongAnswers.findIndex((n) => n === state.index);
-        if (wrongAnswerIdx === state.wrongAnswers.length - 1)
-          state.index = config.quiz.questions.length;
+        let wrongAnswerIdx = state.wrongAnswers.findIndex((n) => n == state.index);
+        if (wrongAnswerIdx == state.wrongAnswers.length - 1)
+          state.index = quiz.questions.length;
         else
           state.index = state.wrongAnswers[wrongAnswerIdx + 1];
       }
@@ -50668,27 +50581,27 @@ ${question.context}` })
         answers: state.answers,
         attempt: state.attempt
       });
-      if (state.index === config.quiz.questions.length) {
+      if (state.index == quiz.questions.length) {
         let wrongAnswers = state.answers.map((a, i2) => ({ a, i: i2 })).filter(({ a }) => !a.correct);
-        if (wrongAnswers.length === 0 || !config.allowRetry) {
+        if (wrongAnswers.length == 0 || !allowRetry) {
           state.confirmedDone = true;
         } else {
           state.wrongAnswers = wrongAnswers.map(({ i: i2 }) => i2);
         }
         saveToCache();
-        onFinish == null ? void 0 : onFinish(toJS(state.answers));
+        onFinish && onFinish(toJS(state.answers));
       }
     });
     let nCorrect = state.answers.filter((a) => a.correct).length;
     state.confirmedDone;
-    let questionTitles = generateQuestionTitles(config.quiz);
-    let body = React.createElement("section", null, state.started ? ended ? React.createElement(AnswerReview, { state, nCorrect, onRetry: action(() => {
+    let questionTitles = generateQuestionTitles(quiz);
+    let body = React.createElement("section", null, state.started ? ended ? React.createElement(AnswerReview, { quiz, name, state, nCorrect, onRetry: action(() => {
       state.index = state.wrongAnswers[0];
       state.attempt += 1;
     }), onGiveUp: action(() => {
       state.confirmedDone = true;
       saveToCache();
-    }) }) : React.createElement(QuestionView, { key: state.index, multipart: config.quiz.multipart, index: state.index, title: questionTitles[state.index], attempt: state.attempt, question: config.quiz.questions[state.index], questionState: questionStates[state.index], onSubmit }) : React.createElement("button", { type: "button", className: "start", onClick: action(() => {
+    }) }) : React.createElement(QuestionView, { key: state.index, quizName: name, multipart: quiz.multipart, index: state.index, title: questionTitles[state.index], attempt: state.attempt, question: quiz.questions[state.index], questionState: questionStates[state.index], onSubmit }) : React.createElement("button", { className: "start", onClick: action(() => {
       state.started = true;
     }) }, "Start"));
     let wrapperClass = classNames("mdbook-quiz-wrapper", {
@@ -50702,23 +50615,19 @@ ${question.context}` })
     let exitButton = React.createElement("div", { className: "exit", onClick: onExit }, "✕");
     let wrapperRef = reactExports.useRef();
     return React.createElement(
-      QuizConfigContext.Provider,
-      { value: config },
+      "div",
+      { ref: wrapperRef, className: wrapperClass },
       React.createElement(
         "div",
-        { ref: wrapperRef, className: wrapperClass },
-        React.createElement(
-          "div",
-          { className: "mdbook-quiz" },
-          showFullscreen && React.createElement(
-            React.Fragment,
-            null,
-            exitButton,
-            React.createElement(ExitExplanation, { wrapperRef })
-          ),
-          React.createElement(Header, { state, ended }),
-          body
-        )
+        { className: "mdbook-quiz" },
+        showFullscreen && React.createElement(
+          React.Fragment,
+          null,
+          exitButton,
+          React.createElement(ExitExplanation, { wrapperRef })
+        ),
+        React.createElement(Header, { quiz, state, ended }),
+        body
       )
     );
   });
@@ -50818,32 +50727,50 @@ ${question.context}` })
     (_a2 = window.telemetry) == null ? void 0 : _a2.log("runtime_error", {
       error: error.stack || error.message
     });
-    return /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mdbook-quiz", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("strong", { children: "The quiz component encountered a runtime error!" }),
+    return /* @__PURE__ */ jsxDevRuntimeExports.jsxDEV("div", { className: "mdbook-quiz", children: [
+      /* @__PURE__ */ jsxDevRuntimeExports.jsxDEV("strong", { children: "The quiz component encountered a runtime error!" }, void 0, false, {
+        fileName: "/home/runner/work/mdbook-quiz/mdbook-quiz/js/packages/quiz-embed/src/main.tsx",
+        lineNumber: 18,
+        columnNumber: 7
+      }, globalThis),
       " Sorry for the inconvenience. The error has been reported to the developers, and we will try to fix it soon."
-    ] });
+    ] }, void 0, true, {
+      fileName: "/home/runner/work/mdbook-quiz/mdbook-quiz/js/packages/quiz-embed/src/main.tsx",
+      lineNumber: 17,
+      columnNumber: 5
+    }, globalThis);
   };
   let initQuizzes = () => {
     document.querySelectorAll(".quiz-placeholder").forEach((el2) => {
       let divEl = el2;
-      let name2 = divEl.dataset.quizName;
+      let name = divEl.dataset.quizName;
       let quiz = JSON.parse(divEl.dataset.quizQuestions);
       let root = createRoot(el2);
       let fullscreen = divEl.dataset.quizFullscreen !== void 0;
       let cacheAnswers = divEl.dataset.quizCacheAnswers !== void 0;
-      let showBugReporter = divEl.dataset.quizShowBugReporter !== void 0;
       root.render(
-        /* @__PURE__ */ jsxRuntimeExports.jsx(ErrorBoundary, { FallbackComponent: onError, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+        /* @__PURE__ */ jsxDevRuntimeExports.jsxDEV(ErrorBoundary, { FallbackComponent: onError, children: /* @__PURE__ */ jsxDevRuntimeExports.jsxDEV(
           QuizView,
           {
-            name: name2,
+            name,
             quiz,
             fullscreen,
             cacheAnswers,
-            showBugReporter,
             allowRetry: true
-          }
-        ) })
+          },
+          void 0,
+          false,
+          {
+            fileName: "/home/runner/work/mdbook-quiz/mdbook-quiz/js/packages/quiz-embed/src/main.tsx",
+            lineNumber: 40,
+            columnNumber: 9
+          },
+          globalThis
+        ) }, void 0, false, {
+          fileName: "/home/runner/work/mdbook-quiz/mdbook-quiz/js/packages/quiz-embed/src/main.tsx",
+          lineNumber: 39,
+          columnNumber: 7
+        }, globalThis)
       );
     });
   };
