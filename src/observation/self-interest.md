@@ -1,5 +1,7 @@
 # Do we work with self-interest?
 
+## Why don't we make informed choices?
+
 The concept of self-interest is a fundamental assumption in economics, where it is believed that individuals make decisions that maximize their own benefits and satisfaction. Economists use this assumption to build models that predict human behavior, particularly in relation to consumption and resource allocation. However, the question of whether people truly act in their own self-interest is a complex one?
 
 While individuals may sometimes prioritize their own self-interest, there are many instances where they don't. Furthermore, their self-interest can occasionally come into conflict with the greater good, resulting in decisions that harm the community and, ironically, themselves.
