@@ -14,6 +14,8 @@ Moreover, identifying one's self-interest can be a challenging task that require
 
 Unfortunately, people often prioritize their own biases and uninformed opinions over their true self-interest, leading to decisions that can have negative consequences for both themselves and those around them. 
 
+However, most individuals are not that resourceful, or do not have enough knowledge to make informed choices. Additionally, knowledge is not enough; it is not even half the battle. Putting knowledge into practice requires a high amount of grit and forming a habit.
+
 This highlights the need for education, critical thinking, and informed decision-making to ensure that individuals are able to make choices that align with their own self-interest and contribute to the greater good.
 
 By acknowledging the complexity of human decision-making and the many factors that influence it, we can work towards creating a more nuanced understanding of self-interest and its role in shaping our choices and actions.
