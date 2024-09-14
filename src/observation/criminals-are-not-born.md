@@ -46,7 +46,7 @@ The root cause of every big problem in India is now the CJI and the judiciary, w
 
 One should learn from the USA: when corruption becomes rampant in the judiciary, impeachment should be pursued.
 
-> Corruption, without consequence, infects all it touches. 
+> Corruption, without consequence, infects all it touches.
 
 Congress must exercise its powers to impeach.
 
@@ -57,11 +57,11 @@ Congress must exercise its powers to impeach.
 </video>
 
 
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Corruption, without consequence, infects all it touches. Congress must exercise its powers to impeach.<br><br>The corruption of Justices Thomas &amp; Alito constitutes a clear danger to our democracy. I moved to impeach them because it is the right thing to do for the American people. <a href="https://t.co/eOscx9avE1">pic.twitter.com/eOscx9avE1</a></p>&mdash; Rep. Alexandria Ocasio-Cortez (@RepAOC) <a href="https://twitter.com/RepAOC/status/1811251753435754564?ref_src=twsrc%5Etfw">July 11, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Corruption, without consequence, infects all it touches. Congress must exercise its powers to impeach.<br><br>The corruption of Justices Thomas &amp; Alito constitutes a clear danger to our democracy. I moved to impeach them because it is the right thing to do for the American people. <a href="https://t.co/eOscx9avE1">pic.twitter.com/eOscx9avE1</a></p>&mdash; Rep. Alexandria Ocasio-Cortez (@RepAOC) <a href="https://twitter.com/RepAOC/status/1811251753435754564?ref_src=twsrc%5Etfw">July 11, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Are judiciary decisions legitimate?
 
-> We need to stop believing the judiciary is legitimate, if they make decision on pseudoscience to serve the powerful. 
+> We need to stop believing the judiciary is legitimate, if they make decision on pseudoscience to serve the powerful.
 
 The [entire country rely on Electronic Voting Machines (EVMs)](https://iambrainstorming.github.io/chapters/the-lok-sabha-election-is-about-regional-parties-vs-one-party-dictatorship.html#loksabha-election-2024-results) for the electoral process integrity. Despite compelling evidence and widespread concerns regarding the potential flaws and vulnerabilities of EVMs, the Supreme Court rejected Public Interest Litigations (PILs) seeking a thorough investigation. Furthermore, the court denied requests to count all Voter-Verified Paper Audit Trails (VVPATs), an essential verification mechanism, without providing any satisfactory justification.
 
@@ -74,3 +74,13 @@ In democratic societies, power is ideally granted willingly by the people, but i
 The current situation calls for precisely such a response from the citizens. By questioning the legitimacy of the judiciary in the face of unjust decisions, people send a powerful message that they will not tolerate corruption or abuse of power. This sentiment is encapsulated in the pluralistic model of power, which asserts that rulers derive their power from the people and are therefore accountable to them.
 
 [Bring Down Dictatorship](https://iambrainstorming.github.io/chapters/democracy/fascism_power.html)
+
+## Data-Library: Empowering the Philosophy of Bail as the Rule, Jail as the Exception
+
+The implementation of a data library is crucial for ensuring transparency and fairness in the judicial system, especially when it comes to bail decisions. A comprehensive data library would allow for the collection and analysis of information regarding bail rulings made by judges. This library would contain detailed records of each case, including the circumstances, charges, and the judge's decision on whether to grant or deny bail. By having access to this data, stakeholders such as legal professionals, researchers, and policymakers can gain valuable insights into the factors influencing bail outcomes.
+
+One of the key benefits of a data library is the ability to track and analyze the time taken for judges to make bail decisions. With the data, it would be possible to determine the average number of months it takes for a judge to grant or reject a bail application.
+
+###  Bail Spree In The Supreme Court, But Who Is Listening? — The Justice Brief, With Saurav Das
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/SZPLhAOfv6Q?si=z8EXWHQ-G7nWTwVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
