@@ -40,6 +40,7 @@
 - [Justice for Moumita Debnath](./observation/justice-for-moumita-debnath.md)
 - [Capital Punishment: An Ineffective Solution to a Complex Issue](./justice/capital-punishment.md)
 - [Do we work with self-interest?](./observation/self-interest.md)
+- [Internet Shutdown is Anti-Constitutional](./justice/internet-shutdown.md)
 
 # Education
 - [Why Many Edupreneurs and Stakeholders in Education Do More Harm Than Good](./education/edupreneurs_do_more_harm_than_good.md)
