@@ -28,13 +28,14 @@ The internet is a fundamental right. It is not a tool for making reels and sprea
 
 Instead, the internet is essential for creative discourse, discussing democratic issues, serving journalists and civil societies, facilitating education and learning, and promoting e-commerce. 
 
-People can't make online bank transfers, nor can they make purchases online.
-
 ## Internet for livelihoods
 
 The internet shutdown is a draconian measure that constitutes a direct attack on the livelihoods of countless individuals. By disabling online access, governments are effectively severing the economic lifelines of cities and town who rely on the internet for their daily work.
 
 From entrepreneurs and small business owners to freelancers and remote workers, the internet has become an indispensable tool for earning a living in the modern economy.
+
+With internet ban, people can't make online bank transfers, nor can they make purchases online.
+
 
 ## Corporate Monopoly of the Internet
 
