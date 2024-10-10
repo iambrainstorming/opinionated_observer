@@ -42,6 +42,9 @@
 - [Do we work with self-interest?](./observation/self-interest.md)
 - [Internet Shutdown is Anti-Constitutional](./justice/internet-shutdown.md)
 
+# Election
+- [Haryana Election](./election/haryana-election.md)
+
 # Education
 - [Why Many Edupreneurs and Stakeholders in Education Do More Harm Than Good](./education/edupreneurs_do_more_harm_than_good.md)
 
