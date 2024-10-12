@@ -348,3 +348,28 @@ Will the election be considered valid? #RiggedElection #ElectoralFraud
   }
   
 ```
+
+## Odisha Assembly Election
+
+In the Odisha assembly election, have people actually voted for the BJP? The data suggests otherwise, as the vote percentage of BJD is more than that of BJP. Now, look at the data on seat share. The manipulation of EVMs is so evident.
+
+[Data](https://github.com/silicology/election_data_analysis/blob/main/data/2024_assembly/analysis/percentage_votes_state_wise_odisha.json)
+
+
+### Seat Percentage
+Bharatiya Janata Party - BJP seat percentage:53.06122449
+
+Biju Janata Dal - BJD seat percentage: 34.693877551
+
+### Vote share
+Bharatiya Janata Party - BJP vote share: 40.07348883521068
+
+Biju Janata Dal - BJD seat percentage: 40.22330215683086
+
+
+### Difference
+Difference in seat percentage: 18.367346939
+
+Difference in vote share: −0.149813322
+
+Yes, its negative. BJD has more vote share than BJP.
