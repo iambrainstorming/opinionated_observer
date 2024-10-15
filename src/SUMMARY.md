@@ -41,6 +41,7 @@
 - [Capital Punishment: An Ineffective Solution to a Complex Issue](./justice/capital-punishment.md)
 - [Do we work with self-interest?](./observation/self-interest.md)
 - [Internet Shutdown is Anti-Constitutional](./justice/internet-shutdown.md)
+- [Freezing of account](./justice/freeze-of-account.md)
 
 # Election
 - [Haryana Election](./election/haryana-election.md)
