@@ -6,6 +6,11 @@ Ignoring all the evidence and not providing or hiding all the data that  the Ele
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lMQxflqpiDU?si=CqFHyZ2oK6uMD5ja" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
+## Haryana election rigging, listen to the counting agent
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FBP0TB1hUqE?si=aX8Le_XV0xnuRwpO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 [Assembly Election Data](https://github.com/silicology/election_data_analysis/tree/main/data/2024_assembly)
 
 
