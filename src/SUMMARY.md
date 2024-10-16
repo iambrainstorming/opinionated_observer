@@ -45,7 +45,7 @@
 
 # Election
 - [Haryana Election](./election/haryana-election.md)
-- [Maharastra Election](./election/maharastra-election.md)
+- [Maharashtra Election](./election/maharastra-election.md)
 
 # Education
 - [Why Many Edupreneurs and Stakeholders in Education Do More Harm Than Good](./education/edupreneurs_do_more_harm_than_good.md)

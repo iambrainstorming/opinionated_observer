@@ -1,4 +1,4 @@
-# Its time to quit voting in Maharastra election
+# Its time to quit voting in Maharashtra election
 
 Your vote doesn't really matter. The evidence from data is clear: EVMs are being manipulated. As a result, voting has become a futile exercise. Unfortunately, the opposition has also failed to ensure election integrity. They often raise a ruckus for a day or two after losing an election, only to become silent afterwards. Moreover, opposition leaders are known to switch parties for personal gain, often in exchange for financial benefits. Therefore, it's pointless to vote for the opposition.
 
