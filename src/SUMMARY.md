@@ -42,6 +42,7 @@
 - [Do we work with self-interest?](./observation/self-interest.md)
 - [Internet Shutdown is Anti-Constitutional](./justice/internet-shutdown.md)
 - [Freezing of account](./justice/freeze-of-account.md)
+- [Police Loyalty to the People and the Constitution, Not to Political Powers or Corporations](./justice/police-loyality.md)
 
 # Election
 - [Haryana Election](./election/haryana-election.md)
