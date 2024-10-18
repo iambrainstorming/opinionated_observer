@@ -2,6 +2,8 @@
 
 In a democracy like India, the police force is expected to serve and protect the people, uphold the Constitution, and act as guardians of justice. Unfortunately, recent events in Chhattisgarh’s Hasdeo forest, where police clashed with villagers over the felling of trees for a coal mining project, have highlighted a growing concern: the police, in many instances, seem more loyal to political powers and corporate interests than to the very people and Constitution they are sworn to protect.
 
+![Hasdeo](hasdeo/hasdeo.jpeg)
+
 ### The Hasdeo Forest Tragedy: A Tale of Betrayal
 
 The conflict in Hasdeo forest centers around the Parsa coal block mining project awarded to Rajasthan Rajya Vidyut Utpadan Nigam Limited (RRVUNL), where the authorities intend to fell approximately 5,000 trees. This is not just an environmental issue; it’s a matter of survival for the local indigenous communities, whose lives and livelihoods depend on the forest. The people of six villages near Fatehpur and Sali have shown clear opposition to the destruction of their environment, gathering in protest to prevent the felling of trees. 
