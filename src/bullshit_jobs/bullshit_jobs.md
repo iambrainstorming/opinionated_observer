@@ -52,7 +52,7 @@ Taskmasters are a unique category of bullshit jobs, divided into two types:
 
 Testimonies from people in taskmaster positions reveal the frustrating cycle of supervising or creating work that often serves no real purpose.
 
-### Type 1 Taskmasters in Indian Bureaucracy
+#### Type 1 Taskmasters in Indian Bureaucracy
 
 In Indian bureaucracy, there are numerous officials whose main job is to supervise or manage tasks that do not require their oversight. These individuals often occupy middle management positions in various governmental departments. For example, many government offices have layers of hierarchy, with a Section Officer overseeing clerks who are already proficient in their work. This results in redundant supervision, where the clerks could handle the tasks independently. The over-reliance on hierarchy leads to situations where multiple approvals or signatures are required for even routine work, causing delays and inefficiency.
 
