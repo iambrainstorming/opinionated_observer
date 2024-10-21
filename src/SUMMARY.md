@@ -18,6 +18,7 @@
 - [Elon on Freedom of Speech](./satire/elon_on_freedom_of_speech.md)
 - [Modi Balloon](./satire/modi_balloon.md)
 - [Indian Elections John Oliver](./satire/indian-election.md)
+- [Blindfold](./justice/blindfold.md)
 
 # Factcheck
 
