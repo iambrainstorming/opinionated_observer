@@ -32,3 +32,13 @@ Difference in vote share: 0.850879113
 
 
 Hardly any election analysis has yet revealed such a significant seat share difference in comparison to the margin of vote percentage difference. The possibility of election rigging appears to be very evident.
+
+### Winner won majority
+
+In 36 constituencies, the winner won the majority votes, while in 54 constituencies, the candidate who won did not get the majority votes.
+
+[Data](https://github.com/silicology/election_data_analysis/blob/main/data/2024_assembly/analysis/vote-splitting-haryana.json)
+
+One can assume how terrible FPTP is. FPTP voting is most susceptible to EVM manipulation, and it's also terrible because it hardly considers what the majority of voters want. Moreover, it's antidemocratic because in 60% of constituencies, the representative didn't receive the majority of votes or the majority mandate from the people.
+
+We need to start considering a more fair voting system, such as Approval Voting, that eliminates vote splitting.
