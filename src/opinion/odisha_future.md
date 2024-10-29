@@ -373,3 +373,14 @@ Difference in seat percentage: 18.367346939
 Difference in vote share: −0.149813322
 
 Yes, its negative. BJD has more vote share than BJP.
+
+
+### Winner won majority in assembly election
+
+In 38 constituencies, the winner won the majority votes, while in 109 constituencies, the candidate who won did not get the majority votes.
+
+[Data](https://github.com/silicology/election_data_analysis/blob/main/data/2024_assembly/analysis/vote-splitting-odisha.json)
+
+One can assume how terrible FPTP is. FPTP voting is most susceptible to EVM manipulation, and it's also terrible because it hardly considers what the majority of voters want. Moreover, it's antidemocratic because in 74.149% of constituencies, the representative didn't receive the majority of votes or the majority mandate from the people.
+
+We need to start considering a more fair voting system, such as Approval Voting, that eliminates vote splitting.
