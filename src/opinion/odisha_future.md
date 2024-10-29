@@ -65,7 +65,15 @@ What will happen to public transport, Mo Bus, Lakhmi Bus?
 
 Things seem to be now uncertain. 
 
+## Education System
+
 The fate of the 5T schools, known for their improved infrastructure under Naveen's leadership, is uncertain under a BJP government led by Modi. The quality of education in Odisha under the leadership of Naveen remains questionable. However, it is worth acknowledging that the school infrastructure has witnessed some positive changes and improvements during his tenure. Modi, who has positioned himself as a divine, non-biological entity, promotes pseudoscience over scientific facts, as evidenced by his party's efforts to remove the theory of evolution from the curriculum. This raises concerns about the BJP's commitment to educational standards and their potential disregard for evidence-based learning.
+
+### Maharashtra (BJP Govt) may lower maths & science pass mark to 20/100
+
+[Link](https://timesofindia.indiatimes.com/city/pune/maharashtra-reduces-passing-marks-in-math-and-science-to-20-for-ssc-students/articleshow/114474457.cms)
+
+The move by the BJP government to consider lowering pass marks in Maharashtra, especially in critical subjects like math and science, indicates a troubling approach to education standards. In Maharashtra, the potential reduction of the pass mark for these subjects to 20 out of 100 reflects a shift away from fostering quality education and intellectual rigor. Math and science are fundamental disciplines that build critical thinking, problem-solving, and analytical skills, essential not only for individual growth but also for societal advancement. Lowering standards undermines the value of these subjects, leaving students ill-prepared for the complexities of the modern world. These subjects are cornerstones of technological and scientific progress, which are essential for a nation’s development. Meanwhile, it appears the party may prioritize winning elections through divisive tactics, including religious conflict, disinformation, and indoctrination, over promoting scientific literacy and critical thought—skills necessary for a robust, enlightened democracy. This approach risks compromising the future of young learners and, ultimately, the progress of the nation itself.
 
 ## Lakshmi bus scheme 
 
