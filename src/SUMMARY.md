@@ -44,6 +44,7 @@
 - [Internet Shutdown is Anti-Constitutional](./justice/internet-shutdown.md)
 - [Freezing of account](./justice/freeze-of-account.md)
 - [Police Loyalty to the People and the Constitution, Not to Political Powers or Corporations](./justice/police-loyality.md)
+- [Stubble Burning is a Distraction to Pollution](./pollution/stubble-burning.md)
 
 # Election
 - [Haryana Election](./election/haryana-election.md)
