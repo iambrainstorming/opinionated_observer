@@ -9,6 +9,7 @@
 - [Meat politics in India](./health/meat_politics.md)
 - [Gullibility Test](./opinion/gullibility_test.md)
 - [Odisha's future for the next five years looks gloomy with the change in government](./opinion/odisha_future.md)
+- [Breaking Free from the Post-Truth World: Why Indian Media Should Migrate to Mastodon and Bluesky](./observation/move_to_decentralized_platform.md)
 
 # Sarcasm
 
@@ -45,6 +46,7 @@
 - [Freezing of account](./justice/freeze-of-account.md)
 - [Police Loyalty to the People and the Constitution, Not to Political Powers or Corporations](./justice/police-loyality.md)
 - [Stubble Burning is a Distraction to Pollution](./pollution/stubble-burning.md)
+
 
 # Election
 - [Haryana Election](./election/haryana-election.md)
