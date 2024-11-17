@@ -38,7 +38,7 @@ Additionally, party workers need to challenge Rahul Gandhi to step out of the sh
 
 ## Time for Concrete Action
 
-Rahul Gandhi should not merely pretend to emulate Mahatma Gandhi’s moral leadership; he must also take decisive actions to uphold democratic principles. Concrete steps are necessary—be it demanding a return to paper ballots, pushing for EVM audits, or rallying opposition parties to collectively address this pressing issue.
+Rahul Gandhi should not merely pretend to emulate Mahatma Gandhi’s moral leadership; he must also take decisive actions to uphold democratic principles. Concrete steps are necessary—be it demanding a return to paper ballots, pushing for EVM audits, compiling all the 17C forms and making them public for scrutiny of ballot counts or rallying opposition parties to collectively address this pressing issue.
 
 ## Conclusion
 
