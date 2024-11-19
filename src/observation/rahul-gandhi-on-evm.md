@@ -7,6 +7,8 @@ The debate around Electronic Voting Machines (EVMs) and their alleged vulnerabil
 
 A potential reason for Rahul Gandhi’s apparent indecision could be reliance on advice from close party leaders who might downplay the significance of addressing EVM-related concerns. If these advisors believe raising the issue might backfire or appear as an excuse for electoral losses, it could explain his reluctance. However, ignoring legitimate concerns about EVM security undermines the trust of both party workers and the electorate.
 
+Moreover, many of these close party leaders are rumored to have connections with the party in power. While appearing to be on Rahul Gandhi’s side, they may deliberately misguide him, steering him away from addressing critical issues like EVM fraud. Such duplicitous behavior not only weakens the opposition's ability to mount an effective challenge but also deepens mistrust within the party ranks.
+
 ## Overlooking Flaws in EVMs?
 
 The flaws of secretive EVM systems are well-documented, with concerns about hacking, tampering, and lack of transparency repeatedly raised by opposition parties, activists, and technologists. Does Rahul Gandhi not grasp the gravity of these issues? Or does he underestimate their impact on India's democratic processes? As a leader expected to champion democratic values, his silence is disappointing, especially when the integrity of elections—the cornerstone of any democracy—is in question.
@@ -23,10 +25,13 @@ Further speculation suggests more troubling possibilities. Could Rahul Gandhi be
 
 Another possibility is a behind-the-scenes compromise with corporate entities or the party in power. In a political climate where large businesses wield significant influence, it’s plausible that tacit agreements have been made to maintain the status quo. If there is any truth to this, it would reflect a betrayal of public trust and the foundational principles of democracy.
 
+## Flawed Priorities: Focusing on Caste Census Over EVM Concerns
+
+Rahul Gandhi's focus on pushing for a caste census, while ignoring the pressing issue of EVM integrity, reflects flawed priorities. Without securing the democratic structure that ensures free and fair elections, the relevance of a caste census becomes questionable. A caste census may have its merits, but its execution requires a robust and balanced democratic framework where power is not centralized or manipulated. Addressing EVM vulnerabilities should be the first step in restoring electoral credibility and ensuring that policies like the caste census are implemented in a fair and transparent system. Without this foundation, even well-intentioned initiatives risk being undermined.
 
 ## The Threat to Democracy
 
-The consequences of inaction on EVM integrity are dire. Without a credible and transparent voting process, the country risks sliding toward authoritarianism. Despite opposition parties collectively receiving over 60% of the votes in many elections, they frequently lose due to questionable seat distributions. For instance, in the recent Haryana Assembly election, Congress lost 12% of seats despite only a 0.85% vote difference. Such anomalies are not isolated incidents but recurring patterns.
+The consequences of inaction on EVM integrity are dire. Without a credible and transparent voting process, the country risks sliding toward authoritarianism. Despite opposition parties collectively receiving over 60% of the votes in many elections, they frequently lose due to questionable seat distributions. For instance, in the recent Haryana Assembly election, Congress lost 12% of seats despite only a 0.85% vote difference. Such anomalies are not isolated incidents but recurring patterns. The opposition's act of providing legitimacy to an illegitimate government elected through EVM fraud poses a serious threat to democracy.
 
 ## The Responsibility of Party Workers
 
