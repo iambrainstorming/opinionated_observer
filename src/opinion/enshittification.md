@@ -75,7 +75,7 @@ But it is not a law of nature that centralized data processing is always less ef
 
 As Moore's Law ends and the pace of exponential improvements in centralized processing power diminishes, the reliance on centralized AI systems will face increasing challenges. This shift opens the door for distributed and decentralized systems to emerge as more viable and efficient alternatives. With these systems evolving and gaining prominence, we can anticipate reduced dominance by Big Tech and oligarchic control. Decentralized systems, by design, democratize computational power and decision-making, offering a future where technology is less prone to monopolization and more equitably distributed.
 
-We can expect less disruption from oligarchs and Big Tech wiht Moore's law end, as distributed and decentralized protocols begin to take over the system.
+We can expect less disruption from oligarchs and Big Tech with Moore's law end, as distributed and decentralized protocols begin to take over the system.
 
 
 
