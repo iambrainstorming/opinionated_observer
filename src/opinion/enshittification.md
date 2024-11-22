@@ -47,7 +47,7 @@ To change the narrative, developers must focus on designing systems that prevent
 
 ### Navigating Constraints in Blockchain and Off-Chain Computing
 
-Building on blockchain comes with inherent constraints, including limited capacity for heavy computation and storage. Similarly, off-chain computing methods like zero-knowledge proofs, while powerful for privacy and scalability, are slow and computationally intensive. Even basic computations can take hours, making the user experience challenging. However, these limitations are not insurmountable. By designing systems that account for these constraints, we can still create systems with trade-offs that are user-friendly enough.
+Building on blockchain comes with inherent constraints, including limited capacity for heavy computation and storage. Similarly, off-chain computing methods like zero-knowledge proofs, while powerful for privacy, are slow and computationally intensive. Even basic computations can take hours, making the user experience challenging. However, these limitations are not insurmountable. By designing systems that account for these constraints, we can still create systems with trade-offs that are user-friendly enough.
 
 ## The Road Ahead
 
