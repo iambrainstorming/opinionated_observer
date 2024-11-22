@@ -56,3 +56,26 @@ The current system has persisted because it works—for Big Tech. But as enshitt
 We are at a crossroads. Change is not only possible—it’s necessary. The question is whether we’re ready to step out of our comfort zone and invest in an internet that serves people, not profits.
 
 The time for alternatives is now. Are we ready to build them?
+
+## Can Fascism and Dictatorshi might come back?
+
+[Why fascism is so tempting -- and how your data could power it](https://www.ted.com/talks/yuval_noah_harari_why_fascism_is_so_tempting_and_how_your_data_could_power_it/transcript?subtitle=en)
+
+Fascism and dictatorships might come back, but they will come back in a new form, a form which is much more relevant to the new technological realities of the 21st century. In ancient times, land was the most important asset in the world. Politics, therefore, was the struggle to control land. And dictatorship meant that all the land was owned by a single ruler or by a small oligarch. And in the modern age, machines became more important than land. Politics became the struggle to control the machines. And dictatorship meant that too many of the machines became concentrated in the hands of the government or of a small elite. Now data is replacing both land and machines as the most important asset. Politics becomes the struggle to control the flows of data. And dictatorship now means that too much data is being concentrated in the hands of the government or of a small elite.
+
+The greatest danger that now faces liberal democracy is that the revolution in information technology will make dictatorships more efficient than democracies.  
+
+In the 20th century, democracy and capitalism defeated fascism and communism because democracy was better at processing data and making decisions. Given 20th-century technology, it was simply inefficient to try and concentrate too much data and too much power in one place. 
+
+But it is not a law of nature that centralized data processing is always less efficient than distributed data processing. With the rise of artificial intelligence and machine learning, it might become feasible to process enormous amounts of information very efficiently in one place, to take all the decisions in one place, and then centralized data processing will be more efficient than distributed data processing. And then the main handicap of authoritarian regimes in the 20th century -- their attempt to concentrate all the information in one place -- it will become their greatest advantage. 
+
+## The Impact of Moore’s Law Ending: A Shift Towards Decentralized Systems
+
+[Is Moore's Law Finally Dead?](https://iambrainstorming.github.io/chapters/computer/moore-law.html)
+
+As Moore's Law ends and the pace of exponential improvements in centralized processing power diminishes, the reliance on centralized AI systems will face increasing challenges. This shift opens the door for distributed and decentralized systems to emerge as more viable and efficient alternatives. With these systems evolving and gaining prominence, we can anticipate reduced dominance by Big Tech and oligarchic control. Decentralized systems, by design, democratize computational power and decision-making, offering a future where technology is less prone to monopolization and more equitably distributed.
+
+We can expect less disruption from oligarchs and Big Tech wiht Moore's law end, as distributed and decentralized protocols begin to take over the system.
+
+
+
