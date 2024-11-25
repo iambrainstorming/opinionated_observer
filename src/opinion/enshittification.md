@@ -57,7 +57,7 @@ We are at a crossroads. Change is not only possible—it’s necessary. The ques
 
 The time for alternatives is now. Are we ready to build them?
 
-## Can Fascism and Dictatorshi might come back?
+## Can Fascism and Dictatorship might come back?
 
 [Why fascism is so tempting -- and how your data could power it](https://www.ted.com/talks/yuval_noah_harari_why_fascism_is_so_tempting_and_how_your_data_could_power_it/transcript?subtitle=en)
 

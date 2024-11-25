@@ -27,6 +27,7 @@
 - [PM's Rajasthan Speech on Population Jihad](./factcheck/pm_modi_speech.md)
 - [Palki Sharma Fact Check](./factcheck/palki_speech.md)
 - [Robin Hood Economics Fact Check](./factcheck/tavleen_sign_factcheck.md)
+- [The Danger of Oversimplified Questions in Politics](./information/gopinathan-speech.md)
 
 # Observation
 
@@ -67,5 +68,3 @@
 
 # Others
 - [What shorts of Bullshit Jobs are there?](./bullshit_jobs/bullshit_jobs.md)
-
- 
