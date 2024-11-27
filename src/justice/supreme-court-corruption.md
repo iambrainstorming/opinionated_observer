@@ -5,7 +5,7 @@ The Supreme Court of India, often lauded as the guardian of the Constitution, ha
 
 ## The Case of Hidden Data: A Blow to Electoral Transparency
 
-One of the most glaring controversies involves the Supreme Court’s refusal to release polling station-wise voter turnout data (Form 17C). The Association for Democratic Reforms (ADR) argued that such data could help address discrepancies of 5-6% between initial and final turnout figures, enhancing electoral transparency. However, the Supreme Court denied this request, citing logistical challenges and potential misuse of data.
+One of the most glaring controversies involves the [Supreme Court’s refusal](https://thewire.in/news/95-constituencies-33912-votes-maharashtra-data-mismatch-between-votes-polled-and-counted) to release polling station-wise voter turnout data (Form 17C). The Association for Democratic Reforms (ADR) argued that such data could help address discrepancies of 5-6% between initial and final turnout figures, enhancing electoral transparency. However, the Supreme Court denied this request, citing logistical challenges and potential misuse of data.
 
 > This decision has drawn sharp criticism. How can data lead to misuse? Transparency advocates argue that data, in itself, cannot inherently lead to misuse—it serves as the foundation for accountability and transparency. Denying public access to such critical information fosters suspicions of electoral malpractice and fuels distrust in democratic institutions.
 
@@ -13,7 +13,7 @@ The Election Commission of India (ECI) defended its stance, claiming that Form 1
 
 ## EVM Debate: Science Dismissed, Whataboutism Adopted
 
-The debate over the reliability of Electronic Voting Machines (EVMs) is another example where the Supreme Court faced criticism for its handling of concerns. In response to a petition advocating a return to paper ballots, the court dismissed the plea with a sweeping generalization: "When you win the election, EVMs are not tampered with. When you lose, they are tampered with."
+The debate over the reliability of Electronic Voting Machines (EVMs) is another example where the Supreme Court faced criticism for its handling of concerns. In response to a petition advocating a return to paper ballots, the court dismissed the plea with a [sweeping generalization](https://economictimes.indiatimes.com/news/india/supreme-court-rejects-plea-for-reverting-to-ballots-in-elections/articleshow/115689176.cms): "When you win the election, EVMs are not tampered with. When you lose, they are tampered with."
 
 Such remarks trivialize serious concerns raised by cryptographers and computer science experts globally. Most computer science and cryptography experts agree that no electronic system is entirely immune to manipulation. Internationally, many nations have reverted to paper ballots or adopted verifiable hybrid systems to enhance electoral integrity.
 
