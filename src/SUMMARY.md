@@ -54,6 +54,7 @@
 - [Haryana Election](./election/haryana-election.md)
 - [Maharashtra Election](./election/maharastra-election.md)
 - [Why is Leader of Oppostion Rahul Gandhi Silent on EVM issues?](./observation/rahul-gandhi-on-evm.md)
+- [The Supreme Court of India: Supreme Corruption Institution?](./justice/supreme-court-corruption.md)
 
 # Education
 - [Why Many Edupreneurs and Stakeholders in Education Do More Harm Than Good](./education/edupreneurs_do_more_harm_than_good.md)
