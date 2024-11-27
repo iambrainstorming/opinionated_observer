@@ -39,3 +39,11 @@ What it can be interpreted is:
 These instances point to a broader issue: the Supreme Court’s unwillingness to engage transparently and scientifically with matters of public concern. Critics argue that the judiciary is increasingly shielded from scrutiny, with decisions reflecting institutional convenience rather than constitutional principles.
 
 Transparency and accountability are the cornerstones of democracy. Whether it is electoral data or the integrity of voting systems, the judiciary has a responsibility to lead by example. By refusing to embrace transparency and dismissing scientific arguments, the Supreme Court risks eroding public trust—a danger that no democracy can afford.
+
+## Responsibility of Political Parties in releasing the data
+
+While the Election Commission of India (ECI) has a duty to publish Form 17C data as it is public information, political parties and candidates have an equally critical role in ensuring transparency. As participants in the electoral process, candidates are not merely passive competitors; they also act as inspectors of the process. This dual role places a responsibility on them to share their findings and reports with the ultimate authority—the public.
+
+Candidates have access to Form 17C data, which includes crucial voter turnout information. Transparency advocates argue that political parties should publish this data regardless of whether the ECI fulfills its obligation to do so. The idea that political parties should disclose 17C data only in response to the ECI’s inaction is flawed. This data belongs to the public, and withholding it undermines the principles of accountability and trust.
+
+By voluntarily publishing their inspection reports and turnout data, political parties can demonstrate their commitment to fair and transparent elections. Such proactive measures would not only bolster public confidence in the electoral process but also set a higher standard for institutional integrity, compelling the ECI and other stakeholders to follow suit.
