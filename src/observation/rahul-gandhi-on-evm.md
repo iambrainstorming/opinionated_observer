@@ -45,6 +45,18 @@ Additionally, party workers need to challenge Rahul Gandhi to step out of the sh
 
 Rahul Gandhi should not merely pretend to emulate Mahatma Gandhi’s moral leadership; he must also take decisive actions to uphold democratic principles. Concrete steps are necessary—be it demanding a return to paper ballots, pushing for EVM audits, compiling all the 17C forms and making them public for scrutiny of ballot counts or rallying opposition parties to collectively address this pressing issue.
 
+## Will Congress Truly Fight to Eliminate EVMs?
+
+In a recent statement, Congress Chief Mallikarjun Kharge declared, "We don't want EVMs, we want ballot paper." While this sentiment aligns with growing concerns over EVM integrity, the real test lies in whether Congress is willing to fight tooth and nail to eliminate EVMs from the electoral process. Mere words are not enough—what's needed is sustained action, relentless advocacy, and political courage to challenge the system. The party must ensure it does not inadvertently become an accomplice to EVM fraud by failing to follow through on this stance. If Congress genuinely prioritizes democracy, it must lead a determined movement to restore the ballot paper system, rallying public support and forging a united opposition on this critical issue.
+
+## The Imitation Game Movie and Its Relevance to EVM Concerns
+
+The Imitation Game, a movie based on true events, depicts the incredible story of Alan Turing and his team at Bletchley Park during World War II. They succeeded in breaking the Nazi Enigma code, a cryptographic system thought to be unbreakable. However, their victory brought an unexpected challenge: they couldn’t use the decoded information to stop all enemy attacks. Doing so would alert the Germans that their code had been cracked, rendering the entire effort futile. To maintain secrecy, Turing's team had to make calculated decisions, allowing some attacks to occur to ensure the enemy didn’t suspect their encryption system had been compromised. As a result, while 70% of Allied ships were saved through strategic interventions, others were left to their fate to protect the greater mission—winning the war.
+
+## Strategic Manipulation: The Plausible EVM Tactic
+
+In a method strikingly similar to the Enigma strategy, the government may not be hacking EVM results across the board. Instead, they could be selectively targeting key states and constituencies with a larger number of seats while leaving a few smaller states or constituencies untouched. This calculated approach ensures plausible deniability, as it allows them to argue, "If EVMs are manipulated, how can the opposition win in these states?" By leaving room for some opposition victories, the public's suspicion is mitigated, and the system's legitimacy remains intact in the eyes of many. This selective interference could effectively tilt the balance of power while maintaining the illusion of fairness in the electoral process. Such a strategy, if true, would pose a grave threat to democracy by undermining its foundational principle of free and fair elections.
+
 ## Conclusion
 
 As the leader of the opposition, Rahul Gandhi bears the responsibility to safeguard the nation’s democratic integrity. His reluctance to address EVM concerns undermines not only his leadership but also the trust of millions who look up to him. India deserves leaders who act decisively, especially on issues as fundamental as electoral integrity. Without urgent action, the future of democracy in the country remains at risk. It’s time for Rahul Gandhi to step up and take a firm stand—for his party, his nation, and democracy itself.
