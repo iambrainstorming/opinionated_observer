@@ -1,0 +1,12 @@
+# State terrorism for those who distrust EVM
+
+<video controls width="500">
+    <source src="https://42683ff2b1a2ac5ad2fef0ee01995d78.ipfs.4everland.link/ipfs/bafybeiauxrpwmv2lhvxsp65bknxbdpmsg73fbdjsnuoww5tjuegyk3bcym" type="video/mp4">
+    <!-- Add additional source elements for different video formats if needed -->
+    Your browser does not support the video tag.
+</video>
+
+[Video link](https://42683ff2b1a2ac5ad2fef0ee01995d78.ipfs.4everland.link/ipfs/bafybeiauxrpwmv2lhvxsp65bknxbdpmsg73fbdjsnuoww5tjuegyk3bcym)
+
+
+![Big EVM](evm/big_evm.jpeg)

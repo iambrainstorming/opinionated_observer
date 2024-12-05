@@ -56,6 +56,7 @@
 - [Why is Leader of Oppostion Rahul Gandhi Silent on EVM issues?](./observation/rahul-gandhi-on-evm.md)
 - [The Supreme Court of India: Supreme Corruption Institution?](./justice/supreme-court-corruption.md)
 - [Breaking the Trust on EVMs: Addressing the Awareness Problem Through Deep Canvassing](./election/awareness-problem-evm.md)
+- [State terrorism for those who distrust EVM](./observation/state_terrorism.md)
 
 
 # Education
