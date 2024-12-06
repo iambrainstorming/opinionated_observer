@@ -13,7 +13,7 @@ Two major state elections loom on the horizon in 2025: Delhi and Bihar. Delhi is
 The future of India’s democracy depends on an awakened citizenry willing to demand accountability, transparency, and pluralism. Citizens who can mobilize to ban EVMs and advocate for a robust, fair electoral process will play a critical role in shaping the country's destiny. Without meaningful reforms to ensure the integrity of elections, India's democratic framework may continue to erode.  
 
 ### **A Call for Collective Action**  
-As we grapple with this potential reality, one question looms large: what role will the common citizen play? Will citizens rally to bolster the opposition and regional parties, forcing them to address concerns of electoral manipulation and EVM transparency? Or will they passively witness India’s democratic framework being hollowed out?  
+As we grapple with this potential reality, one question looms large: what role will the common citizen play? Will citizens rally to bolster the opposition and regional parties, forcing them to address concerns of electoral manipulation and EVM transparency? Or will they passively witness the hollowing out of democracy, sleepwalking into authoritarianism? 
 
 ### **The Test of India’s Democratic Resolve**  
 The answer lies in the collective resolve of India's citizens to safeguard the country’s rich, diverse democratic heritage. The coming years will test their commitment to a future where every voice matters, and every vote truly counts.
