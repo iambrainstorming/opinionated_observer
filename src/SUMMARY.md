@@ -57,6 +57,7 @@
 - [The Supreme Court of India: Supreme Corruption Institution?](./justice/supreme-court-corruption.md)
 - [Breaking the Trust on EVMs: Addressing the Awareness Problem Through Deep Canvassing](./election/awareness-problem-evm.md)
 - [State terrorism for those who distrust EVM](./observation/state_terrorism.md)
+- [India's Democratic Crossroads: A Future in Peril?](./opinion/democractic_crossroads.md)
 
 
 # Education
