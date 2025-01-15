@@ -48,6 +48,7 @@
 - [Freezing of account](./justice/freeze-of-account.md)
 - [Police Loyalty to the People and the Constitution, Not to Political Powers or Corporations](./justice/police-loyality.md)
 - [Stubble Burning is a Distraction to Pollution](./pollution/stubble-burning.md)
+- [No Place for Street Vendors in India: The Erosion of Local Markets and the Rise of Rent-Seeking Hubs](./opinion/street-vendors.md)
 
 
 # Election
