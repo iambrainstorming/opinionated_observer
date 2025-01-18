@@ -4,7 +4,7 @@ We're living in a world where the lines between fact and fiction are increasingl
 
 ## The Power of Decentralization: Mastodon and Bluesky
 
-Mastodon and Bluesky offer a refreshing alternative to the traditional social media landscape. As free and open-source software (FOSS), these platforms empower users to take control of their online interactions. Their algorithms are transparent, and the community has a say in how they're developed and implemented. This means that disinformation is much harder to spread, as it's subject to public scrutiny and control. By decentralizing the power dynamics, Mastodon and Bluesky create a more democratic and trustworthy online environment.
+Mastodon and Bluesky offer a refreshing alternative to the traditional social media landscape. As [free and open-source software (FOSS)](https://iambrainstorming.github.io/chapters/programming/foss_philosophy.html), these platforms empower users to take control of their online interactions. Their algorithms are transparent, and the community has a say in how they're developed and implemented. This means that disinformation is much harder to spread, as it's subject to public scrutiny and control. By decentralizing the power dynamics, Mastodon and Bluesky create a more democratic and trustworthy online environment.
 
 ## Interoperability and Innovation
 
