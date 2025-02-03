@@ -72,5 +72,8 @@
 - [Broadcast bill explained: Is censorship coming for content creators?](./information/broadcast_bill.md)
 - [Last 48 Hours Of Dictator Sheikh Hasina | What Next For Bangladesh?](./information/dicator_sheikh_hasina.md)
 
+# Decentralization
+- [To Eliminate Poverty, We Need to Decentralize Supply Chains and Introduce Supply Chain-Based Basic Income](./decentralization/supplychain-basic-income.md)
+
 # Others
 - [What shorts of Bullshit Jobs are there?](./bullshit_jobs/bullshit_jobs.md)
