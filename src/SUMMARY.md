@@ -77,3 +77,6 @@
 
 # Others
 - [What shorts of Bullshit Jobs are there?](./bullshit_jobs/bullshit_jobs.md)
+
+# Economics
+- [Why do prices keep rising while incomes remain stagnant?](./economics/printing-money.md)
