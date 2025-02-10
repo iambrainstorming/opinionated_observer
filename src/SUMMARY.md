@@ -59,6 +59,7 @@
 - [Breaking the Trust on EVMs: Addressing the Awareness Problem Through Deep Canvassing](./election/awareness-problem-evm.md)
 - [State terrorism for those who distrust EVM](./observation/state_terrorism.md)
 - [India's Democratic Crossroads: A Future in Peril?](./opinion/democractic_crossroads.md)
+- [FPTP is Anti-Democratic: It's Time for Political Parties to Show Their Patriotism](./election/delhi-election-2025.md)
 
 
 # Education
