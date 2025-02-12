@@ -29,7 +29,7 @@ A better approach is to use torrent clients to distribute the files, reducing th
 
 ## WebTorrent Links Compilation
 
-Anyone is requested to seed, by downloading from transparentelections.in website.
+Everyone is encouraged to seed using WebTorrent by downloading from the transparentelections.in website. More seeds mean a faster download.
 
 [https://github.com/silicology/election_data_analysis/tree/main/data/2025_assembly/torrent-magnets](https://github.com/silicology/election_data_analysis/tree/main/data/2025_assembly/torrent-magnets)
 
