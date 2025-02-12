@@ -25,6 +25,12 @@ To better understand the concerns surrounding EVMs, take the quiz provided.
 
 [Who is evil, whether it's the people or the voting method?](https://iambrainstorming.github.io/chapters/the-lok-sabha-election-is-about-regional-parties-vs-one-party-dictatorship.html#who-is-evil-whether-its-the-people-or-the-voting-method)
 
+## Automated counting of VVPAT
+
+If parties find it too hard to bring paper ballots, they may request a 100% automated counting of VVPAT slips, with the slips handed to voters and placed in the ballot box. Automated counting through OCR is possible, and with parallel counting, it can be completed in a few hours.
+
+Such a request is even more effective, as opponents will have no argument to make. The purpose of VVPAT is for counting and matching with the EVM results, right? So why aren't they counting it? Just make the paper slips compatible with OCR machines so they can be counted through them.
+
 ### **Patriotism: Actions Speak Louder Than Words**
 AAP claims to be more patriotic than other parties, citing its nationwide anti-corruption protests as evidence. However, these protests, while impactful, failed to bring about concrete systemic changes. Proposals like strengthening bureaucratic structures such as the LokPal may not eliminate corruption but could instead lead to authoritarianism. Real change can only come through free and fair elections, which require the adoption of approval voting and the elimination of EVMs. Only when good candidates come to power can transparency and accountability be ensured, ultimately reducing corruption.
 
