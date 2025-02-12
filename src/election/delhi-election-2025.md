@@ -29,6 +29,8 @@ A better approach is to use torrent clients to distribute the files, reducing th
 
 ## WebTorrent Links Compilation
 
+Anyone is requested to seed, by downloading from transparentelections.in website.
+
 [https://github.com/silicology/election_data_analysis/tree/main/data/2025_assembly/torrent-magnets](https://github.com/silicology/election_data_analysis/tree/main/data/2025_assembly/torrent-magnets)
 
 ## EVM Quiz 
