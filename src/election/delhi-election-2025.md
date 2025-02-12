@@ -27,6 +27,10 @@ For serving lakhs of people, the cost would be Rs 56,000,000. This is quite expe
 
 A better approach is to use torrent clients to distribute the files, reducing the bandwidth load on a single server. One can use [WebTorrent](https://webtorrent.io/) to create torrent files and [rqbit](https://github.com/ikatson/rqbit) to run servers. However, rqbit does not currently have a feature to create torrent files.
 
+## WebTorrent Links Compilation
+
+[https://github.com/silicology/election_data_analysis/tree/main/data/2025_assembly/torrent-magnets](https://github.com/silicology/election_data_analysis/tree/main/data/2025_assembly/torrent-magnets)
+
 ## EVM Quiz 
 
 To better understand the concerns surrounding EVMs, take the quiz provided.
