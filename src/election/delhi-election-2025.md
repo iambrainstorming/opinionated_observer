@@ -31,6 +31,15 @@ A better approach is to use torrent clients to distribute the files, reducing th
 
 Everyone is encouraged to seed using WebTorrent by downloading from the transparentelections.in website. More seeds mean a faster download.
 
+Just place the file in the torrent client's download folder. By adding the [torrent file](https://github.com/silicology/election_data_analysis/blob/main/data/2025_assembly/torrent-magnets/AC-4.torrent) to the client, it will start seeding. For example, if you are starting the server in the `Downloads` folder, place the `AC-4.zip` file in `Downloads` and run:  
+ 
+```sh  
+rqbit server start ~/Downloads  
+```   
+
+The same method applies to all BitTorrent clients.  
+
+
 [https://github.com/silicology/election_data_analysis/tree/main/data/2025_assembly/torrent-magnets](https://github.com/silicology/election_data_analysis/tree/main/data/2025_assembly/torrent-magnets)
 
 ## EVM Quiz 
