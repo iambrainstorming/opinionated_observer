@@ -17,9 +17,10 @@ In the 2025 Delhi election, [only 38 winning candidates secured a simple majorit
 The drastic 37.15% disparity in seat percentages, despite the narrow 2% difference in vote shares, has raised suspicions of Electronic Voting Machine (EVM) manipulation. Additionally, discrepancies in FORM 17C data—which records votes polled—have further fueled these doubts. While AAP has uploaded FORM 17C data on its website, the [data on the Election Commission of India (ECI) website does not match](https://github.com/silicology/election_data_analysis/blob/main/data/2025_assembly/other_data/Aap-compilation-eci-website.png). Since FORM 17C data consists of scanned copies, automated counting is challenging. A manual analysis, which could take several days, is necessary to uncover the truth. [AAP and Arvind Kejriwal deserve credit for uploading FORM 17C](https://transparentelections.in/) data and promoting transparency, something the ECI has failed to do. Similarly, FORM 17C Part 2 and FORM 20 should also be made available for public scrutiny. Also, there is a rule to randomly count a few VVPATs. How many VVPATs have been counted? Have they matched the EVM data? This data form should also be disclosed.
 
 
+## Bandwidth Resource Calculation:
+
 The AAP initiative website [transparentelections.in](https://transparentelections.in/) has exceeded its bandwidth limit. Hosting such large files (about 40-50GB) for nationwide access requires significant financial resources. They could have uploaded the data as a torrent, allowing users to share bandwidth and distribute the load efficiently.
 
-## Bandwidth Resource Calculation:
 1Gb of bandwidth may cost around Rs 14. So, for 1,000 people downloading 40Gb each, the total cost would be:
 40 * 14 * 1,000 = Rs 560,000.
 
