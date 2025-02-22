@@ -49,6 +49,7 @@
 - [Police Loyalty to the People and the Constitution, Not to Political Powers or Corporations](./justice/police-loyality.md)
 - [Stubble Burning is a Distraction to Pollution](./pollution/stubble-burning.md)
 - [No Place for Street Vendors in India: The Erosion of Local Markets and the Rise of Rent-Seeking Hubs](./opinion/street-vendors.md)
+- [Mahakumbh Mela: A Product of Rampant Superstition Plaguing India](./observation/kumbh/kumbh-mela-or-superstition.md)
 
 
 # Election
