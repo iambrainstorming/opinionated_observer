@@ -11,6 +11,8 @@
 - [Odisha's future for the next five years looks gloomy with the change in government](./opinion/odisha_future.md)
 - [Breaking Free from the Post-Truth World: Why Indian Media Should Migrate to Mastodon and Bluesky](./observation/move_to_decentralized_platform.md)
 - [The Path to Enshittification: How Ad-Driven Models Poison Information and Society](./opinion/enshittification.md)
+- [User-Controlled FOSS Apps: The Lifeline for Democracy in the Digital Age](./opinion/user-controlled-feeds.md)
+
 
 # Sarcasm
 
