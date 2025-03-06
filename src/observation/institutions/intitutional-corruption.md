@@ -1,5 +1,7 @@
 # Corrupt Institutions of India
 
+Date: 06-03-2025
+
 ## Puzzle of Growth: Rich Countries and Poor Countries
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/u5P8AZRBLac?si=PKcyd36VPOEHTApK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -31,7 +33,7 @@ Indian schools and universities continue to teach an outdated, rote-based curric
 
 The current government has spent in multiples of 1000 crore on advertisements to promote an uneducated prime minister as a "viswaguru" (universal guru) with god-like status. They have used the complicit mainstream media to hide their flaws and shortcomings. The government's poor economic policies have led to a slowdown in the economy, reducing the GDP growth rate from 10% to 5-6%, despite the rapidly increasing population. India has now become the country with the highest population growth rate, surpassing China.
 
-Our government is trying its best to hide information by introducing bills like the [Digital Personal Data Protection Act (DPDP Act)](https://filestorage.4everland.store/RTI-DPDP.mp4) to dilute the RTI and control online media by tabling bills like the [Broadcast Bill](../../information/broadcast_bill.md).
+Our government is trying its best to hide information by introducing bills like the [Digital Personal Data Protection Act (DPDP Act)](https://filestorage.4everland.store/RTI-DPDP.mp4) to dilute the RTI and control online media by tabling bills like the [Broadcast Bill](../../information/broadcast_bill.md). Or amending income tax laws to transform India into a surveillance state, infringing on your right to privacy by [enabling the scrutiny of every person’s social media accounts, personal emails, bank accounts, online investment accounts, trading accounts](https://thewire.in/government/income-tax-officials-will-be-able-to-access-your-emails-and-social-media-accounts-from-april-2026), and more.
 
 These institutions, plagued by corruption, inefficiency, and a lack of accountability, are hindering India's progress and development. Reforms and significant changes are necessary to address these issues and ensure a brighter future for the country.
 
