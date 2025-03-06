@@ -76,6 +76,7 @@
 - [The Justice Brief, Master of Roster](./information/master_of_the_roster.md)
 - [Broadcast bill explained: Is censorship coming for content creators?](./information/broadcast_bill.md)
 - [Last 48 Hours Of Dictator Sheikh Hasina | What Next For Bangladesh?](./information/dicator_sheikh_hasina.md)
+- [Digital Personal Data Protection Act to dilute RTI](./information/DPDP_Act.md)
 
 # Decentralization
 - [To Eliminate Poverty, We Need to Decentralize Supply Chains and Introduce Supply Chain-Based Basic Income](./decentralization/supplychain-basic-income.md)
