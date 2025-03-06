@@ -31,6 +31,8 @@ Indian schools and universities continue to teach an outdated, rote-based curric
 
 The current government has spent in multiples of 1000 crore on advertisements to promote an uneducated prime minister as a "viswaguru" (universal guru) with god-like status. They have used the complicit mainstream media to hide their flaws and shortcomings. The government's poor economic policies have led to a slowdown in the economy, reducing the GDP growth rate from 10% to 5-6%, despite the rapidly increasing population. India has now become the country with the highest population growth rate, surpassing China.
 
+Our government is trying its best to hide information by introducing bills like the [Digital Personal Data Protection Act (DPDP Act)](https://filestorage.4everland.store/RTI-DPDP.mp4) to dilute the RTI and control online media by tabling bills like the [Broadcast Bill](../../information/broadcast_bill.md).
+
 These institutions, plagued by corruption, inefficiency, and a lack of accountability, are hindering India's progress and development. Reforms and significant changes are necessary to address these issues and ensure a brighter future for the country.
 
 ### Form follows function
