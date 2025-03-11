@@ -53,6 +53,8 @@
 - [No Place for Street Vendors in India: The Erosion of Local Markets and the Rise of Rent-Seeking Hubs](./opinion/street-vendors.md)
 - [Mahakumbh Mela: A Product of Rampant Superstition Plaguing India](./observation/kumbh/kumbh-mela-or-superstition.md)
 - [Corrupt Institutions of India](./observation/institutions/intitutional-corruption.md)
+- [From Godmen to Godfathers: How Babas Are Shaping Hindutva Politics and India’s Future](./secularism/godman-babas.md)
+
 
 
 # Election
