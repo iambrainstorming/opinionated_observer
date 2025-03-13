@@ -16,4 +16,4 @@ Without government subsidies, Starlink's future appears uncertain. The service r
 
 ## Conclusion
 
-Starlink's ability to compete with 5G is questionable. While it provides a valuable service for remote and underserved areas, its high costs, low latency, limited satellite lifespan, and slower speeds compared to 5G make it difficult to sustain without government support. As 5G networks become more widespread and affordable, Starlink may struggle to attract and retain subscribers, raising doubts about its long-term viability.
+Starlink's ability to compete with 5G is questionable. While it provides a valuable service for remote and underserved areas, its high costs, high latency, limited satellite lifespan, and slower speeds compared to 5G make it difficult to sustain without government support. As 5G networks become more widespread and affordable, Starlink may struggle to attract and retain subscribers, raising doubts about its long-term viability.
