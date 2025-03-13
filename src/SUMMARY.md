@@ -56,6 +56,8 @@
 - [Mahakumbh Mela: A Product of Rampant Superstition Plaguing India](./observation/kumbh/kumbh-mela-or-superstition.md)
 - [Corrupt Institutions of India](./observation/institutions/intitutional-corruption.md)
 - [From Godmen to Godfathers: How Babas Are Shaping Hindutva Politics and India’s Future](./secularism/godman-babas.md)
+- [Without Government Subsidies, Starlink Is Dead: Can It Compete with 5G's Dominance?](./observation/starlink/starlink-is-dead.md)
+
 
 
 
