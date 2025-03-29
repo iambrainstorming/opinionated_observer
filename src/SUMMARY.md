@@ -28,6 +28,7 @@
 
 # Presentation
 - [What Happens When There Is No Government?](./presentation/no-govt.md)
+- [Advantages of Approval Voting](./presentation/approval-voting/approval-voting.md)
 
 # Factcheck
 
