@@ -61,8 +61,15 @@ Instead of harassing citizens and turning India into an Orwellian surveillance s
 3. **Increasing Political Transparency**: Make all political donations public and traceable to avoid quid pro quo deals.
 4. **Holding Billionaires and Corporates Accountable**: Instead of targeting retail crypto traders, go after major defaulters who have looted the country.
 
+## Web3 and Startups
+Web3 is not just a buzzword; it represents the future of technology and innovation, shaping the next phase of our digital transition. India must embrace Web3 technologies to drive economic growth and create a more inclusive society. By fostering an ecosystem that encourages entrepreneurship and innovation, the country can unlock its full potential and ensure financial freedom for all.
+
+While government may blame startups for not delivering, the government must also reflect on the regressive environment it creates for startup development. China, a [meritocratic](https://www.youtube.com/watch?app=desktop&v=ChFRnI7-QS4) and atheist nation, invests heavily in education and is not hindered by superstition or illiteracy. Meanwhile, the U.S. attracts talent from India and around the world, benefiting from the brain drain in India. Indians who thrive abroad struggle to succeed in India due to bureaucratic hurdles and restrictive economic policies. If India wants to retain its best minds and foster innovation, it must create an environment that nurtures talent rather than stifling it.
+
+![Startup Mahakumbh](./startup_mahakumbh.jpeg)
+
+
+
 ### **Conclusion**
 
 Cryptocurrency is not about tax evasion—it is about **efficient, fair, and transparent tax collection**. Instead of adopting surveillance-heavy policies that punish ordinary citizens, India must embrace blockchain technology to create a fairer economy. The government must stop doubting its people and start holding itself accountable for the rampant corruption and inefficiencies that continue to plague the nation. Only then can India truly unlock its economic potential and ensure financial freedom for all.
-
-
