@@ -63,6 +63,7 @@
 - [Without Government Subsidies, Starlink Is Dead: Can It Compete with 5G's Dominance?](./observation/starlink/starlink-is-dead.md)
 - [Crypto is Not About Tax Evasion; It's About Collecting Decentralized Tax Efficiently](./observation/surveillance/crypto-not-tax-evasion.md)
 - [Stop Replacing Forests with IT Parks: The Future of Work is Remote](./observation/remote-work/remote-work.md)
+- [Idea of India](./observation/idea_of_india/idea_of_india.md)
 
 
 
