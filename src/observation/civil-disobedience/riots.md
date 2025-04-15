@@ -45,6 +45,9 @@ It feels as though the Jallianwala Bagh massacre is repeating itself in modern f
 The farmers’ protest against the farm bills stood out as a powerful example of disciplined, sustained, and peaceful civil disobedience. Even India’s farmers—despite their peaceful resistance—have not been spared. Branded as 'Khalistanis' by sections of a compromised mainstream media, they have faced tear gas, water cannons, and brutal crackdowns. These orchestrated assaults have triggered stampedes and injuries, appearing less like crowd control and more like an intentional effort to intimidate and harm those who dare to speak up.
 
 ---
+### "✊🏽 Power of the People: When Millions Rise, No Force Can Stop Us"
+
+No police force can stand against the [collective will of millions rising together to challenge authoritarianism](https://en.wikipedia.org/wiki/Hands_Off_protests). When people unite in vast numbers with a shared purpose and unshakable resolve, even the most repressive regimes tremble. It is not violence but the sheer strength of solidarity and mass civil resistance that breaks the chains of oppression. The power of the people, when awakened and organized, becomes unstoppable—no baton, no barricade, and no order from above can silence a nation that chooses to stand up together for its rights and dignity.
 
 ### 🌱 **The Way Forward**
 
