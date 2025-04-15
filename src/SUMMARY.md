@@ -64,6 +64,7 @@
 - [Crypto is Not About Tax Evasion; It's About Collecting Decentralized Tax Efficiently](./observation/surveillance/crypto-not-tax-evasion.md)
 - [Stop Replacing Forests with IT Parks: The Future of Work is Remote](./observation/remote-work/remote-work.md)
 - [Idea of India](./observation/idea_of_india/idea_of_india.md)
+- [Riots Aren’t the Solution to Government Dictatorship—It’s Always Civil Disobedience](./observation/civil-disobedience/riots.md)
 
 
 
