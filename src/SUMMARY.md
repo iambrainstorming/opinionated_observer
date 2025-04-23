@@ -67,6 +67,7 @@
 - [Riots Aren’t the Solution to Government Dictatorship—It’s Always Civil Disobedience](./observation/civil-disobedience/riots.md)
 - [The Hindutva Brigade Wants you to Believe in Eugenics not Evolution](./evolution/hindutva_brigade_wants_you_to_believe_in_eugenics.md)
 - [On Critiquing Ideologies: Islam, Extremism & Women’s Rights — Beyond Hindutva Propaganda](./islam/islam-and-terrorism.md)
+- [The Root Cause of Democracy at Risk: Big Tech Social Media](./big-tech-media/big-tech-media.md)
 
 
 
