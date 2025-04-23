@@ -20,6 +20,10 @@ The more vulnerable the audience is, the easier it is to target them on big tech
 
 We’ve seen this movie play out over and over. Brave individuals raise their voices. They get millions of views. They trend. And then? Nothing. The platform remains unchanged. The structure that enables hate and disinformation stays intact. Moderation teams are underfunded or overwhelmed, while political pressure and profit motives keep platforms complicit.
 
+### **Politics Is No Longer in the Streets — It’s in the Algorithm Feed**
+
+Politics is no longer confined to the streets or assembly halls — it has moved to the virtual realm, where big tech social media platforms dominate the narrative. The algorithms behind these platforms shape public discourse by prioritizing content that maximizes engagement, not truth. As a result, political agendas are crafted, amplified, and manipulated in algorithmically curated echo chambers, where the loudest voices are often the most extreme. In this new landscape, power lies not in the hands of the people, but in the unseen mechanisms that decide what we see, hear, and believe.
+
 ### **Time to Leave — And Take Your People With You**
 
 It's time to stop playing a rigged game. The only winning move is to leave the table. Activists, journalists, and conscious users must begin a serious exodus from these platforms. But don’t just leave quietly — migrate with purpose.
