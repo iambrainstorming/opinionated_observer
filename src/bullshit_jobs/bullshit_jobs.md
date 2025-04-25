@@ -1,5 +1,26 @@
 # What shorts of Bullshit Jobs are there?
 
+Morally ambitious individuals don’t move with the herd, but believe in a deeper form of freedom. It’s the freedom to push aside conventional standards of success, to make your own way along life’s path, knowing that it’s a journey you can only make once.
+
+[No, you’re not fine just the way you are: time to quit your pointless job, become morally ambitious and change the world](https://www.theguardian.com/lifeandstyle/2025/apr/19/no-youre-not-fine-just-the-way-you-are-time-to-quit-your-pointless-job-become-morally-ambitious-and-change-the-world)
+
+Category I jobs
+
+Not that ambitious, not that idealistic
+
+Category II jobs
+
+Ambitious, but not all that idealistic
+
+Category III jobs
+
+Idealistic, but not all that ambitious
+
+Category IV jobs
+
+Idealistic and ambitious
+
+
 Summary from book Bullshit Jobs by David Graeber
 
 ## What Flunkies Do
