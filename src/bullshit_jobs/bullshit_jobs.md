@@ -21,7 +21,7 @@ Category IV jobs
 Idealistic and ambitious
 
 
-Summary from book Bullshit Jobs by David Graeber
+## Summary from book Bullshit Jobs by David Graeber
 
 ## What Flunkies Do
 Flunky jobs are roles that exist mainly to make someone else look or feel important, without serving a real functional purpose. These jobs are often symbolic, like the feudal retainers of old, whose presence emphasized their master's status. In modern times, examples include doormen, receptionists in companies with little real need for them, or assistants hired solely to make higher-ups appear more successful or busy. The primary goal is to create an image of importance or authority for those in power, rather than perform necessary tasks.
