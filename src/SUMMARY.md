@@ -103,3 +103,6 @@
 
 # Economics
 - [Why do prices keep rising while incomes remain stagnant?](./economics/printing-money.md)
+
+# Health
+- [Is Ayushman Bharat merely a gimmick?](./health/ayushman-bharat/ayushman-bharat.md)
