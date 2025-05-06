@@ -29,6 +29,7 @@
 # Presentation
 - [What Happens When There Is No Government?](./presentation/no-govt.md)
 - [Advantages of Approval Voting](./presentation/approval-voting/approval-voting.md)
+- [Two-Step Democracy Restore](./presentation/two-step-democracy-restore/democracy_restore.md)
 
 # Factcheck
 
