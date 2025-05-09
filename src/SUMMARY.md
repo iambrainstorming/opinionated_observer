@@ -69,6 +69,7 @@
 - [The Hindutva Brigade Wants you to Believe in Eugenics not Evolution](./evolution/hindutva_brigade_wants_you_to_believe_in_eugenics.md)
 - [On Critiquing Ideologies: Islam, Extremism & Women’s Rights — Beyond Hindutva Propaganda](./islam/islam-and-terrorism.md)
 - [The Root Cause of Democracy at Risk: Big Tech Social Media](./big-tech-media/big-tech-media.md)
+- [Does War Stop Terrorism? A Deeper Look into the Roots and Solutions](./terrorism/war_and_terrorism.md)
 
 
 
