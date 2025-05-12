@@ -35,22 +35,22 @@ A better approach is to use torrent clients to distribute the files, reducing th
 
 Everyone is encouraged to seed using WebTorrent by downloading from the transparentelections.in website. More seeds mean a faster download.
 
-Just place the file in the torrent client's download folder. By adding the [torrent file](https://github.com/silicology/election_data_analysis/blob/main/data/2025_assembly/torrent-magnets/AC-4.torrent) to the client, it will start seeding. For example, if you are starting the server in the `Downloads` folder, place the `AC-4.zip` file in `Downloads` and run:  
- 
-```sh  
-rqbit server start ~/Downloads  
-```   
+Just place the file in the torrent client's download folder. By adding the [torrent file](https://github.com/silicology/election_data_analysis/blob/main/data/2025_assembly/torrent-magnets/AC-4.torrent) to the client, it will start seeding. For example, if you are starting the server in the `Downloads` folder, place the `AC-4.zip` file in `Downloads` and run:
 
-The same method applies to all BitTorrent clients.  
+```sh
+rqbit server start ~/Downloads
+```
+
+The same method applies to all BitTorrent clients.
 
 
 [https://github.com/silicology/election_data_analysis/tree/main/data/2025_assembly/torrent-magnets](https://github.com/silicology/election_data_analysis/tree/main/data/2025_assembly/torrent-magnets)
 
-## EVM Quiz 
+## EVM Quiz
 
 To better understand the concerns surrounding EVMs, take the quiz provided.
 
-[EVM Quiz](https://interactive.on-fleek.app/evm)
+[EVM Quiz](https://interactive-five.vercel.app/evm)
 
 [Who is evil, whether it's the people or the voting method?](https://iambrainstorming.github.io/chapters/the-lok-sabha-election-is-about-regional-parties-vs-one-party-dictatorship.html#who-is-evil-whether-its-the-people-or-the-voting-method)
 
@@ -64,4 +64,3 @@ Such a request is even more effective, as opponents will have no argument to mak
 AAP claims to be more patriotic than other parties, citing its nationwide anti-corruption protests as evidence. However, these protests, while impactful, failed to bring about concrete systemic changes. Proposals like strengthening bureaucratic structures such as the LokPal may not eliminate corruption but could instead lead to authoritarianism. Real change can only come through free and fair elections, which require the adoption of approval voting and the elimination of EVMs. Only when good candidates come to power can transparency and accountability be ensured, ultimately reducing corruption.
 
 AAP has demonstrated its ability to protest and win elections in the past. They have the potential to lead the charge for approval voting and the banning of EVMs, but their inaction on these issues raises questions about their commitment to true patriotism. It is time for AAP to walk the talk and champion reforms that strengthen democracy.
-
