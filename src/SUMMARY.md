@@ -70,6 +70,7 @@
 - [On Critiquing Ideologies: Islam, Extremism & Women’s Rights — Beyond Hindutva Propaganda](./islam/islam-and-terrorism.md)
 - [The Root Cause of Democracy at Risk: Big Tech Social Media](./big-tech-media/big-tech-media.md)
 - [Does War Stop Terrorism? A Deeper Look into the Roots and Solutions](./terrorism/war_and_terrorism.md)
+- [When Criticism Becomes a Crime: India's Slide Toward Authoritarianism](./criticism/criticism-becomes-crime.md)
 
 
 
