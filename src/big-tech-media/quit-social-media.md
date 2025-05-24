@@ -56,3 +56,8 @@ It’s time to take a stand—not just by speaking truth to power, but by **buil
 Let’s stop playing on a rigged field. Let’s move to decentralized platforms like Bluesky, where we can create communities based on trust, transparency, and mutual respect.
 
 The future of informed democracy depends on it.
+
+![Presentation](quit-big-tech-small1.svg)
+
+<br/>
+<a href="quit-big-tech-small1.png">PNG Image file download</a>
