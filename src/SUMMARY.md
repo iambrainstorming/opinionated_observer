@@ -9,10 +9,7 @@
 - [Meat politics in India](./health/meat_politics.md)
 - [Gullibility Test](./opinion/gullibility_test.md)
 - [Odisha's future for the next five years looks gloomy with the change in government](./opinion/odisha_future.md)
-- [Breaking Free from the Post-Truth World: Why Indian Media Should Migrate to Mastodon and Bluesky](./observation/move_to_decentralized_platform.md)
-- [The Path to Enshittification: How Ad-Driven Models Poison Information and Society](./opinion/enshittification.md)
-- [User-Controlled FOSS Apps: The Lifeline for Democracy in the Digital Age](./opinion/user-controlled-feeds.md)
-- [Elon Musk: A Problem for Society?](./opinion/elon_musk_a_problem.md)
+
 
 
 
@@ -68,7 +65,6 @@
 - [Riots Aren’t the Solution to Government Dictatorship—It’s Always Civil Disobedience](./observation/civil-disobedience/riots.md)
 - [The Hindutva Brigade Wants you to Believe in Eugenics not Evolution](./evolution/hindutva_brigade_wants_you_to_believe_in_eugenics.md)
 - [On Critiquing Ideologies: Islam, Extremism & Women’s Rights — Beyond Hindutva Propaganda](./islam/islam-and-terrorism.md)
-- [The Root Cause of Democracy at Risk: Big Tech Social Media](./big-tech-media/big-tech-media.md)
 - [Does War Stop Terrorism? A Deeper Look into the Roots and Solutions](./terrorism/war_and_terrorism.md)
 - [When Criticism Becomes a Crime: India's Slide Toward Authoritarianism](./criticism/criticism-becomes-crime.md)
 
@@ -98,8 +94,19 @@
 - [Last 48 Hours Of Dictator Sheikh Hasina | What Next For Bangladesh?](./information/dicator_sheikh_hasina.md)
 - [Digital Personal Data Protection Act to dilute RTI](./information/DPDP_Act.md)
 
+# Social Media
+- [Breaking Free from the Post-Truth World: Why Indian Media Should Migrate to Mastodon and Bluesky](./observation/move_to_decentralized_platform.md)
+- [The Path to Enshittification: How Ad-Driven Models Poison Information and Society](./opinion/enshittification.md)
+- [User-Controlled FOSS Apps: The Lifeline for Democracy in the Digital Age](./opinion/user-controlled-feeds.md)
+- [Elon Musk: A Problem for Society?](./opinion/elon_musk_a_problem.md)
+- [The Root Cause of Democracy at Risk: Big Tech Social Media](./big-tech-media/big-tech-media.md)
+- [Dear Civil Societies, Journalists, and Fact-Checkers — It’s Time to Mobilize People to Leave Big Tech Social Media Behind](./big-tech-media/quit-social-media.md)
+
+
 # Decentralization
 - [To Eliminate Poverty, We Need to Decentralize Supply Chains and Introduce Supply Chain-Based Basic Income](./decentralization/supplychain-basic-income.md)
+
+
 
 # Others
 - [What shorts of Bullshit Jobs are there?](./bullshit_jobs/bullshit_jobs.md)
