@@ -47,6 +47,22 @@ With Bluesky:
 
 This is not just a technical upgrade—it’s a philosophical shift. It’s about reclaiming the internet as a space for open dialogue, critical thinking, and democratic participation.
 
+### There is no future in disinformation
+
+It feels like utter darkness, full of chaos. Is it the second law of thermodynamics leading us to collapse, or will a new order emerge?
+To be very clear, there is no future in disinformation. It’s all chaos—fragmented, with conflicting realities and no collective action toward order. It's better to quit big tech social media early; otherwise, we face collapse.
+
+This is how conflicting realities spread though fake accounts:
+
+e.g. ANI strike of copyright. Such posts are filled in X.
+
+![Reality](reality.jpg)
+
+### Switch to free and open-source (FOSS), decentralized systems
+
+There are FOSS-based social media platforms available—Bluesky and Mastodon for social networking, and [LBRY](https://lbry.com/) as a YouTube alternative. These are not walled gardens; you can easily switch between systems or apps. You can build on them, improve them, and customize them as people wish—because they are FOSS protocol.
+
+
 ### A Call to Action
 
 To civil societies, journalists, and fact-checkers: your presence on Big Tech platforms legitimizes a system designed to distort reality. Your efforts are being drowned out by algorithms that favor sensationalism over truth.
