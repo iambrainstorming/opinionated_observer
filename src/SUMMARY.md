@@ -106,6 +106,9 @@
 # Decentralization
 - [To Eliminate Poverty, We Need to Decentralize Supply Chains and Introduce Supply Chain-Based Basic Income](./decentralization/supplychain-basic-income.md)
 
+# Pollution
+- [Banning Cars to Tackle Pollution: A Must, But Intentions Matter More](./pollution/car-ban.md)
+
 
 
 # Others
