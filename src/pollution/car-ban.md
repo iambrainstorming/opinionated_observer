@@ -1,6 +1,6 @@
 # Banning Cars to Tackle Pollution: A Must, But Intentions Matter More
 
-India is once again at a policy crossroads, where the public narrative claims to focus on tackling air pollution and traffic congestion. Under the new directive, petrol vehicles older than 15 years and diesel vehicles older than 10 years will no longer be allowed to refuel or operate on public roads. On the surface, this sounds like a much-needed measure to curb urban air pollution and improve public health. But as with many government decisions in recent years, the public is questioning the true intentions behind these policies. Are these actions genuinely aimed at saving the environment, or are they cleverly disguised attempts to boost profits for the automobile industry?
+India is once again at a policy crossroads, where the public narrative claims to focus on tackling air pollution and traffic congestion. Under the new directive, petrol vehicles older than 15 years and diesel vehicles older than 10 years will no longer be allowed to refuel or operate on public roads in Delhi. On the surface, this sounds like a much-needed measure to curb urban air pollution and improve public health. But as with many government decisions in recent years, the public is questioning the true intentions behind these policies. Are these actions genuinely aimed at saving the environment, or are they cleverly disguised attempts to boost profits for the automobile industry?
 
 ### Banning Old Vehicles: Solution or Sales Boost?
 
