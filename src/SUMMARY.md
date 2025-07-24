@@ -116,6 +116,7 @@
 
 # Economics
 - [Why do prices keep rising while incomes remain stagnant?](./economics/printing-money.md)
+- [When Taxes Undermine Livelihood: A Critique of India’s Current Tax Policy](./economics/right-to-livelihood.md)
 
 # Health
 - [Is Ayushman Bharat merely a gimmick?](./health/ayushman-bharat/ayushman-bharat.md)
