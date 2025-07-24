@@ -1,5 +1,7 @@
 # When Taxes Undermine Livelihood
 
+Date: 24-07-2025 IST
+
 Taxation, at its core, is meant to be a tool for collective progress — a means for governments to fund public goods and services that benefit all. However, when the burden of taxes becomes so heavy that it begins to choke the very livelihood of citizens, it no longer serves its purpose. Instead, it becomes a form of economic suppression. In India, this concern has reached a boiling point.
 
 ---
@@ -39,6 +41,12 @@ Every time a tax is levied, it creates **deadweight loss** — an inefficiency t
 The result is a reduction in sales and consumption, which not only hurts the individual seller and consumer but **reduces overall economic activity**.
 
 In theory, businesses "collect" tax on behalf of the government. But in practice, **they suffer when end-prices go up**. A customer who sees a product is ₹100 but has to pay ₹118 with GST may walk away. Multiply that effect across thousands of customers, and the result is a severe hit to revenue for small shopkeepers — who are already struggling to stay afloat.
+
+---
+
+### Empowerment or Entrapment? The Surveillance Side of UPI
+
+UPI, once hailed as a revolutionary tool for financial inclusion and digital empowerment, is increasingly revealing its darker side — a powerful instrument of financial surveillance. Every transaction, no matter how small, is recorded, traceable, and now being used by tax authorities to scrutinize even the most informal economic activities. Instead of liberating small vendors and daily wage earners from cash dependency, UPI has made them vulnerable to arbitrary notices, legal threats, and financial scrutiny. What was supposed to be a means of empowerment has morphed into a mechanism of control, turning honest digital trails into potential liabilities.
 
 ---
 
