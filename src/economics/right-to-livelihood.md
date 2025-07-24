@@ -1,6 +1,6 @@
 # When Taxes Undermine Livelihood
 
-Date: 24-07-2025 IST
+Date: 24-07-2025
 
 Taxation, at its core, is meant to be a tool for collective progress — a means for governments to fund public goods and services that benefit all. However, when the burden of taxes becomes so heavy that it begins to choke the very livelihood of citizens, it no longer serves its purpose. Instead, it becomes a form of economic suppression. In India, this concern has reached a boiling point.
 
