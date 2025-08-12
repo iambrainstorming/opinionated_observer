@@ -80,6 +80,7 @@
 - [State terrorism for those who distrust EVM](./observation/state_terrorism.md)
 - [India's Democratic Crossroads: A Future in Peril?](./opinion/democractic_crossroads.md)
 - [FPTP is Anti-Democratic: It's Time for Political Parties to Show Their Patriotism](./election/delhi-election-2025.md)
+- [Why Does the Election Commission of India Fear Transparency?](./election/eci-transparency.md)
 
 
 # Education
