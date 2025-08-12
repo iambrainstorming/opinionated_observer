@@ -5,7 +5,7 @@ Date: 12-08-2025
 
 The Election Commission of India (ECI) claims to be the guardian of democracy, yet it withholds crucial election-related data from the very people it serves. If the elections are truly free and fair, why not open the books and cameras for all to see? Democracy thrives on sunlight, not secrecy.
 
-These are the specific datasets that must be made fully public, in machine-readable and easily downloadable formats:
+These are the specific datasets that must be made fully public, in machine-readable English, and in easily downloadable formats:
 
 1. **Form 17C – Part 1 and Part 2**
 
@@ -27,7 +27,7 @@ These are the specific datasets that must be made fully public, in machine-reada
 
 5. **Voter List Data in Bulk Downloadable Form**
 
-   * The electoral roll should be available in machine-readable format, without captcha or access barriers, to allow public audit of voter deletions, additions, and potential duplication.
+   * The electoral roll should be available in machine-readable English format, without captcha or access barriers, to allow public audit of voter deletions, additions, and potential duplication.
 
 By hiding these data points, the ECI creates an opaque process where citizens cannot verify the integrity of elections. Such secrecy not only breeds suspicion but also enables manipulation at every stage — from voting to counting.
 
