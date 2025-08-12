@@ -5,7 +5,7 @@ Date: 12-08-2025
 
 The Election Commission of India (ECI) claims to be the guardian of democracy, yet it withholds crucial election-related data from the very people it serves. If the elections are truly free and fair, why not open the books and cameras for all to see? Democracy thrives on sunlight, not secrecy.
 
-These are the specific datasets that must be made fully public, in machine-readable English, and in easily downloadable formats:
+These are the specific datasets that must be made fully public, in machine-readable English, and in easily downloadable formats. Machines don't process local languages well, so data must also be provided in English.
 
 1. **Form 17C – Part 1 and Part 2**
 
