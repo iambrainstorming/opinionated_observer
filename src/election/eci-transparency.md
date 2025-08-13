@@ -47,4 +47,6 @@ Without openness, democracy rots from within. With openness, the people themselv
 
 ## OCR Demo code for electoral rolls
 
-[ollama-qwen-vl](https://github.com/silicology/ollama-qwen-vl)
+[https://github.com/silicology/ollama-qwen-vl](https://github.com/silicology/ollama-qwen-vl)
+
+English OCR achieves around 99% accuracy, while OCR for other languages ranges from 80–90% depending on the model used. The real question is: why is the ECI making analysis harder? Why not provide the data directly in English and in a machine-readable format?
