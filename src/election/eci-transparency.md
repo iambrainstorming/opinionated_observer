@@ -29,7 +29,16 @@ These are the specific datasets that must be made fully public, in machine-reada
 
    * The electoral roll should be available in machine-readable English format, without captcha or access barriers, to allow public audit of voter deletions, additions, and potential duplication.
 
+
 By hiding these data points, the ECI creates an opaque process where citizens cannot verify the integrity of elections. Such secrecy not only breeds suspicion but also enables manipulation at every stage — from voting to counting.
+
+## Why doesn’t the ECI want the data to be analysed through programming or machines?
+
+India has about 97 crore registered electors. If each record took 20 seconds to enter manually, it would take 1,940 crore seconds — that’s 19,400,000,000/(60×60×24×365) ≈ 615.2 years for a single person to analyse. A machine could do it in just a few weeks.
+
+What is the point of collecting data if it cannot be analysed? The Supreme Court must take this seriously and direct that the data be provided in machine-readable, English format. Refusal to do so raises serious concerns about the integrity of both the ECI and the Supreme Court.
+
+## Transpareny is a Democractic Obligation
 
 Transparency is not a favor the Election Commission grants; it is a fundamental democratic obligation. The Supreme Court must enforce complete transparency in every step of the election process if it wishes to protect free and fair elections. It must resist becoming a passive bystander — or worse, an obedient instrument of the ruling government.
 
