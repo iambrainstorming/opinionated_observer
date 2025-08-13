@@ -28,7 +28,8 @@ Such questions are less about assessing ability and more about filtering candida
 From Class 6 to UPSC aspirants, the story is the same: pressure, cramming, and the fear of failure. Families sacrifice comfort and savings, expecting results. Students shrink their worlds to libraries, coaching centres, and late-night study sessions under the glow of phone screens.
 
 Social lives, hobbies, and exploration take a back seat to the endless loop of revision and mock tests. Many young people grow up believing that their value is defined solely by a rank or percentage. Those who falter in this race often carry a lifelong sense of inadequacy — not because they lack ability, but because they failed to play by the rigid, memory-based rules.
-What We Should Be Testing Instead
+
+## What We Should Be Testing Instead
 
 The obsession with marks is a cultural habit, but it is also a systemic design flaw. Exams in schools, colleges, and recruitment boards should shift focus to:
 - Application of knowledge in practical scenarios.
