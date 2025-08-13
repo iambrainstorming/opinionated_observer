@@ -43,3 +43,8 @@ What is the point of collecting data if it cannot be analysed? The Supreme Court
 Transparency is not a favor the Election Commission grants; it is a fundamental democratic obligation. The Supreme Court must enforce complete transparency in every step of the election process if it wishes to protect free and fair elections. It must resist becoming a passive bystander — or worse, an obedient instrument of the ruling government.
 
 Without openness, democracy rots from within. With openness, the people themselves become the watchdogs — and that is exactly what a healthy democracy requires.
+
+
+## OCR Demo code for electoral rolls
+
+[ollama-qwen-vl](https://github.com/silicology/ollama-qwen-vl)
