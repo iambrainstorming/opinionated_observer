@@ -85,6 +85,7 @@
 
 # Education
 - [Why Many Edupreneurs and Stakeholders in Education Do More Harm Than Good](./education/edupreneurs_do_more_harm_than_good.md)
+- [India’s Obsession with Marks and the Absurdity of Arbitrary Questioning](./education/arbitrary_questioning.md)
 
 
 # Information
