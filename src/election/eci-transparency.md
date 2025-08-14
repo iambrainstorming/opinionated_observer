@@ -1,6 +1,8 @@
 # Why Does the Election Commission of India Fear Transparency?
 
 Date: 12-08-2025
+Update: 14-08-2025
+
 
 
 The Election Commission of India (ECI) claims to be the guardian of democracy, yet it withholds crucial election-related data from the very people it serves. If the elections are truly free and fair, why not open the books and cameras for all to see? Democracy thrives on sunlight, not secrecy.
@@ -49,4 +51,4 @@ Without openness, democracy rots from within. With openness, the people themselv
 
 [https://github.com/silicology/ollama-qwen-vl](https://github.com/silicology/ollama-qwen-vl)
 
-English OCR achieves around 99% accuracy, while OCR for other languages ranges from 80–90% depending on the model used. The real question is: why is the ECI making analysis harder? Why not provide the data directly in English and in a machine-readable format?
+English OCR achieves around 99% accuracy, Hindi OCR performs well with large models, but OCR for other Indian languages often performs poorly and tends to hallucinate. The real question is: why is the ECI making analysis harder? Why not provide the data directly in English and in a machine-readable format? Denying voter roll data in a machine-readable format is blatant misconduct and hooliganism, and it must not be tolerated.
