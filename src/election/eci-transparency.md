@@ -51,4 +51,4 @@ Without openness, democracy rots from within. With openness, the people themselv
 
 [https://github.com/silicology/ollama-qwen-vl](https://github.com/silicology/ollama-qwen-vl)
 
-English OCR achieves around 99% accuracy, Hindi OCR performs well with large models, but OCR for other Indian languages often performs poorly and tends to hallucinate. The real question is: why is the ECI making analysis harder? Why not provide the data directly in English and in a machine-readable format? Denying voter roll data in a machine-readable format is blatant misconduct and hooliganism, and it must not be tolerated.
+English OCR achieves around 99% accuracy, Hindi OCR performs well with large models, but OCR for other Indian languages often performs poorly and tends to hallucinate. The real question is: why is the ECI making analysis harder? Why not provide the data directly in English and in a machine-readable format? Denying voter roll data in a machine-readable format is blatant misconduct and it must not be tolerated.
