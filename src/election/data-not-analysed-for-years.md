@@ -55,7 +55,7 @@ Funding independent civil society organizations and watchdogs.
 
 Building decentralized platforms for transparency, data ownership, and free association.
 
-For Web3 to live up to its ethos — decentralization, privacy, data sovereignty, and freedom from corporate or state monopolies — it must extend its struggle beyond crypto markets and into the defense of democracy itself. If governance collapses into unchecked centralization, even Web3’s promises cannot survive.
+For [Web3 to live up to its ethos](https://iambrainstorming.github.io/chapters/education/web3_curriculum.html) — decentralization, privacy, data sovereignty, and freedom from corporate or state monopolies — it must extend its struggle beyond crypto markets and into the defense of democracy itself. If governance collapses into unchecked centralization, even Web3’s promises cannot survive.
 
 ---
 
