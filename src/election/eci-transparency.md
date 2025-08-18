@@ -40,6 +40,16 @@ India has about 97 crore registered electors. If each record took 20 seconds to 
 
 What is the point of collecting data if it cannot be analysed? The Supreme Court must take this seriously and direct that the data be provided in machine-readable, English format. Refusal to do so raises serious concerns about the integrity of both the ECI and the Supreme Court.
 
+## Machine-readable data is not enough for voter rolls
+
+Public voter roll data lacks photos and addresses. While politicians can obtain this information through official procedures, even with such data it remains difficult to verify whether a name belongs to a real person, or whether that person is alive or deceased. The only reliable way to validate is by meeting the individual in person. Detecting discrepancies therefore requires field work and community involvement, not just software running on a computer.
+
+
+### Aadhaar is not the solution
+
+Aadhaar suffers from the same limitation. The data remains hidden in centralized servers, making it prone to manipulation under centralized control. While personal data must indeed be protected for privacy, keeping it under a closed, non-transparent system prevents independent validation. Because Aadhaar data is not open and verifiable, it can be manipulated by centralized authorities without the public ever knowing.
+
+
 ## Transpareny is a Democractic Obligation
 
 Transparency is not a favor the Election Commission grants; it is a fundamental democratic obligation. The Supreme Court must enforce complete transparency in every step of the election process if it wishes to protect free and fair elections. It must resist becoming a passive bystander — or worse, an obedient instrument of the ruling government.
