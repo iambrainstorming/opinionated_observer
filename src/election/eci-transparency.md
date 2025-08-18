@@ -47,7 +47,7 @@ Public voter roll data lacks photos and addresses. While politicians can obtain 
 
 ### Aadhaar is not the solution
 
-Aadhaar suffers from the same limitation. The data remains hidden in centralized servers, making it prone to manipulation under centralized control. While personal data must indeed be protected for privacy, keeping it under a closed, non-transparent system prevents independent validation. Because Aadhaar data is not open and verifiable, it can be manipulated by centralized authorities without the public ever knowing.
+Aadhaar suffers from the same limitation. The data remains hidden in centralized servers, making it prone to manipulation under centralized control. While personal data must indeed be protected for privacy, keeping it under a closed, non-transparent system prevents independent validation. Because Aadhaar data is not open and verifiable, server can be manipulated by centralized authorities without the public ever knowing.
 
 
 ## Transpareny is a Democractic Obligation
