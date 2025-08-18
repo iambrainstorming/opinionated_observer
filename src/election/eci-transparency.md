@@ -1,7 +1,9 @@
 # Why Does the Election Commission of India Fear Transparency?
 
 Date: 12-08-2025
-Update: 14-08-2025
+
+Update: 18-08-2025
+
 
 
 
