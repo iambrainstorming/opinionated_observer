@@ -104,6 +104,7 @@
 - [Elon Musk: A Problem for Society?](./opinion/elon_musk_a_problem.md)
 - [The Root Cause of Democracy at Risk: Big Tech Social Media](./big-tech-media/big-tech-media.md)
 - [Dear Civil Societies, Journalists, and Fact-Checkers — It’s Time to Mobilize People to Leave Big Tech Social Media Behind](./big-tech-media/quit-social-media.md)
+- [The Great Indian Media Circus: Which Platforms Are Left for Political Discourse in India?](./big-tech-media/the_great_indian_media_circus.md)
 
 
 # Decentralization
