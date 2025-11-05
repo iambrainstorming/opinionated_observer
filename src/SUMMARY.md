@@ -96,6 +96,7 @@
 - [Broadcast bill explained: Is censorship coming for content creators?](./information/broadcast_bill.md)
 - [Last 48 Hours Of Dictator Sheikh Hasina | What Next For Bangladesh?](./information/dicator_sheikh_hasina.md)
 - [Digital Personal Data Protection Act to dilute RTI](./information/DPDP_Act.md)
+- [Collective Achievements Shaping a Freer Digital Future](./information/five-year-achievement.md)
 
 # Social Media
 - [Breaking Free from the Post-Truth World: Why Indian Media Should Migrate to Mastodon and Bluesky](./observation/move_to_decentralized_platform.md)
@@ -110,6 +111,7 @@
 
 # Decentralization
 - [To Eliminate Poverty, We Need to Decentralize Supply Chains and Introduce Supply Chain-Based Basic Income](./decentralization/supplychain-basic-income.md)
+
 
 # Pollution
 - [Banning Cars to Tackle Pollution: A Must, But Intentions Matter More](./pollution/car-ban.md)
