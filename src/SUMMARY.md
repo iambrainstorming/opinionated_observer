@@ -115,6 +115,8 @@
 
 # Pollution
 - [Banning Cars to Tackle Pollution: A Must, But Intentions Matter More](./pollution/car-ban.md)
+- [Stubble Burning is a Distraction to Pollution](./pollution/stubble-burning.md)
+
 
 
 
