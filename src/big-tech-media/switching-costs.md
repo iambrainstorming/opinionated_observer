@@ -2,6 +2,12 @@
 
 Date: 21-10-2025
 
+## What Are Switching Costs and Why Companies Create Them?
+
+Many tech companies deliberately make it hard for users to switch away by increasing what economists call “switching costs.” These are barriers—technical, social, or psychological—that make leaving a platform costly or inconvenient. Facebook, for instance, locks users in by hosting their entire social network and memories on its platform, making it emotionally and practically difficult to leave without losing touch with friends or personal history. Similarly, Amazon uses services like Prime subscriptions and Kindle’s DRM-protected books to trap users inside its ecosystem. Once users buy into these systems, moving elsewhere means giving up access to media, convenience, and accumulated value. By intertwining users’ daily habits and relationships with their platforms, these companies ensure that the cost of leaving—whether measured in time, data, or connections—is simply too high.
+
+This strategy also extends to creators and businesses that rely on these platforms. Facebook and TikTok, for example, initially offer free reach and visibility to attract content creators and brands. Once these creators become dependent on the traffic and audience the platform provides, algorithms shift to reduce organic reach—forcing them to pay for ads or promotion to maintain visibility. Amazon similarly began by giving sellers favorable terms before imposing high fees and ranking manipulation that make it nearly impossible to operate elsewhere. In every case, the companies exploit the dependence they’ve created—turning once-open ecosystems into walled gardens that maximize profit by restricting freedom of choice.
+
 ### **1. Network Effects Are Asymmetric — But They Can Be Rebalanced**
 
 One of the biggest hurdles to switching platforms is the **asymmetry of network effects**. Even if you can quickly rebuild your immediate circle on Bluesky, you're still missing out on the full network you've cultivated over years on platforms like Twitter or Facebook. That includes:
