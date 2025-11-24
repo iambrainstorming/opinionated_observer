@@ -1,6 +1,9 @@
 # Stubble Burning is a Distraction to pollution problem
 
-Update: 10-11-2025
+Date: 10-11-2024
+
+Update: 24-11-2025
+
 
 
 Stubble burning is a distraction used to protect the corporate lobby, including factories that burn coal and the car industry. The lobby is so influential that no institute will dare to publish the actual data of Indian industries causing pollution.
@@ -26,13 +29,33 @@ Meanwhile, [a study by the Centre for Research on Energy and Clean Air (CREA)](h
 
 [Thermal power plants in NCR emit 16 times more pollutants than stubble burning: Report ](https://www.businesstoday.in/india/story/thermal-power-plants-in-ncr-emit-16-times-more-pollutants-than-stubble-burning-report-454093-2024-11-18)
 
-## India is the largest SO2 emitting country
+### India is the largest SO2 emitting country
 India is currently the worlds largest SO2 emitter. It is responsible for more than 20% of global anthropogenic SO2 emissions. This is mainly due to its coal-dependent energy sector.
 
-## Most SO2 coming out of thermal power plant
+### Most SO2 coming out of thermal power plant
 The study found that the comparison between NCR thermal power plant emissions and stubble burning emissions in Punjab and Haryana highlights the scale of SO2 pollution. Thermal power plants in NCR emit 281 kilotons of SO2 annually, which is 16 times more than the 17.8 kilotons emitted from 89 lakh tonnes of stubble burning.
 
+## Database for all polluting units
 
+Data on polluting factories in India is scarce and largely inaccessible to the public. Without transparent information, we cannot identify which units are causing harm, and therefore cannot take meaningful action. Only when polluting industries are clearly identified can pressure be applied—either to enforce compliance or to shut down the worst offenders.
+
+**The government has failed to provide this crucial data, and powerful industrial lobbies actively resist transparency. This leaves the responsibility to civil society and independent institutions to map all factories, assess their pollution levels, and create an open, publicly accessible database.**
+
+![Polluting Industries](images/polluting_units.jpg)
+
+### What data to collect?
+
+[Sketch for data collection](factories-datatabase.md)
+
+## Should Coal Power Plants Install Anti-Pollution Systems?
+
+[Environment Ministry exempts 78% of coal plants from installing key anti-polluting systems](https://www.thehindu.com/sci-tech/energy-and-environment/environment-ministry-exempts-78-of-coal-plants-from-installing-key-anti-polluting-systems/article69804518.ece)
+
+The cost of Flue Gas Desulfurization (FGD) equipment for reducing sulfur dioxide emissions varies significantly based on technology and plant size. Estimates for wet limestone-gypsum FGD systems range from approximately ₹1 crore per megawatt (MW). More recent tenders from NTPC suggest a cost range of Rs 1.9 million to Rs 9 million per MW.
+
+The cost of a 1 megawatt (MW) solar power plant in India typically ranges between ₹4 crore and ₹6 crore, depending on the type of installation, component quality, and whether battery backup is included. This cost breakdown includes solar PV modules (₹2.8 – ₹3.2 crore), inverters (₹80 lakh – ₹1 crore), mounting structures and cabling (₹40 – ₹60 lakh), installation and commissioning (₹20 – ₹30 lakh), and SCADA & monitoring systems (₹10 – ₹15 lakh). The price of components has steadily dropped throughout 2025, with solar panels alone accounting for about 50–55% of the total plant cost, amounting to roughly ₹2.5 crore.
+
+**Solar installation costs are roughly twice that of Flue Gas Desulfurization (FGD) systems, yet solar requires no coal, no fuel cost, and minimal ongoing maintenance. In the long run, rooftop solar is far cheaper and more sustainable than investing in FGD for coal plants.**
 
 ## Pollution Isn't Just a One-Day Issue: The Year-Round Impact of the Fossil Fuel Industry
 
