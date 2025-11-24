@@ -57,6 +57,15 @@ The cost of a 1 megawatt (MW) solar power plant in India typically ranges betwee
 
 **Solar installation costs are roughly twice that of Flue Gas Desulfurization (FGD) systems, yet solar requires no coal, no fuel cost, and minimal ongoing maintenance. In the long run, rooftop solar is far cheaper and more sustainable than investing in FGD for coal plants.**
 
+## In 2025, India Dominates the List of 100 Most Polluted Cities — Over 90% Are Indian
+
+[Aqi.in](https://www.aqi.in/in/real-time-most-polluted-city-ranking)
+![Polluting Cities](images/polluted_cites.png)
+
+This is complete dystopia. Indians don’t even have the right to breathe. It affects politicians, bureaucrats, and their children alike — they too are breathing hazardous air. It should be a collective responsibility for everyone to take concrete steps to reduce pollution.
+
+
+
 ## Pollution Isn't Just a One-Day Issue: The Year-Round Impact of the Fossil Fuel Industry
 
 During Diwali, families and children are often discouraged from celebrating due to heightened pollution levels, and [many Delhi residents even leave the city to escape the toxic air](https://scroll.in/article/1074991/why-some-delhi-residents-leave-the-city-during-diwali). With pollution present year-round, even a small increase becomes intolerable, impacting daily life and health. It’s crucial to recognize the primary causes of this pollution—namely, the fossil fuel and car industries—rather than focusing solely on a single-day celebration like Diwali. Affordable and efficient solar panels are now widely available and could replace fossil fuel industries, significantly reducing emissions. However, the government is not taking sufficient measures to promote rooftop, community-owned power generation through solar panels; instead, they remain focused on appeasing the fossil fuel industry. Additionally, we need to rethink urban design: rather than cities congested with cars that create traffic and occupy vast spaces, we should prioritize bike-friendly, pedestrian-oriented green cities. Shifting towards renewable energy and sustainable urban planning can make our cities healthier, cleaner, and safer for future generations.
