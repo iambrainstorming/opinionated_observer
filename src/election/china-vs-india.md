@@ -9,6 +9,12 @@ The False Equivalence: Why Comparing India’s Democratic Erosion to China’s O
 
 India’s democratic backsliding is often compared to China’s centralized model. But while China spent decades building bureaucratic discipline, India today is hollowing out its institutional foundations. The Enforcement Directorate, Election Commission, media, civil society, and judiciary show growing executive influence. In contrast, China built a rule-bound—though authoritarian—bureaucratic ecosystem with layered oversight, audits, cadre evaluations, and internal discipline. India centralizes by dismantling institutions; China centralizes by reinforcing them. This is a fundamental divergence.
 
+There is growing evidence that the BJP-led government in India has systematically undermined democratic institutions meant to serve as checks on executive power. From the Enforcement Directorate (ED) and Central Bureau of Investigation (CBI) being weaponized against political opponents, to the Election Commission of India (ECI) facing questions over impartiality, to the media being pressured through legal, financial, and social intimidation, the scaffolding of India’s democracy is under sustained assault. Civil society organizations face relentless scrutiny under foreign funding laws, while dissent is increasingly criminalized.
+
+But this is not the consolidation of a stable authoritarian system like China’s—it is the degradation of a vibrant, if imperfect, democracy. India still holds elections, however skewed the playing field may become. Opposition parties still exist, however harassed. Courts still deliver inconvenient verdicts, however delayed. And millions still protest, however risky it may be.
+
+China, by contrast, never had these democratic features to begin with. It is not “backsliding”—it is operating exactly as designed: a Leninist party-state where all authority flows from the Communist Party of China (CPC).
+
 
 ## China Has Internal Accountability; India Is Losing All Accountability
 
