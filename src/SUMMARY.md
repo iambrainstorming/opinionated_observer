@@ -67,6 +67,7 @@
 - [On Critiquing Ideologies: Islam, Extremism & Women’s Rights — Beyond Hindutva Propaganda](./islam/islam-and-terrorism.md)
 - [Does War Stop Terrorism? A Deeper Look into the Roots and Solutions](./terrorism/war_and_terrorism.md)
 - [When Criticism Becomes a Crime: India's Slide Toward Authoritarianism](./criticism/criticism-becomes-crime.md)
+- [India vs China: Why the Comparison Is Fundamentally Flawed](./election/china-vs-india.md)
 
 
 
