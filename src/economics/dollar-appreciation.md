@@ -1,5 +1,7 @@
 # The Dollar’s Inflation Export Machine – And Why an INR Crypto Stablecoin Might Be India’s Lifeline
 
+Data: 05-12-2025
+
 The global monetary order is not just inequitable—it’s inflationary by design for nations outside the U.S. orbit. When the Federal Reserve prints trillions or hikes interest rates, the ripples don’t stop at American shores. They crash onto emerging economies like India with the force of a silent storm. This isn’t just “market dynamics”—it’s structural imperialism disguised as liquidity management. And while India hasn’t been recklessly printing rupees, it still bears the brunt of U.S. monetary policy through imported inflation, triggered by dollar appreciation.
 
 
