@@ -82,7 +82,7 @@ Both want de-dollarization — this helps India.
 
 But there is a deeper, structural solution:
 
-## 🟧  The Most Overlooked Solution — A Global INR Crypto Stablecoin on Public Chains
+## 🟧  The Most Overlooked Solution — A Global INR Crypto Stablecoin on Public Blockchains
 
 Today:
 
