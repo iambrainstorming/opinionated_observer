@@ -128,6 +128,7 @@
 # Economics
 - [Why do prices keep rising while incomes remain stagnant?](./economics/printing-money.md)
 - [When Taxes Undermine Livelihood: A Critique of India’s Current Tax Policy](./economics/right-to-livelihood.md)
+- [The Dollar’s Inflation Export Machine – And Why an INR Crypto Stablecoin Might Be India’s Lifeline](./economics/dollar-appreciation.md)
 
 # Health
 - [Is Ayushman Bharat merely a gimmick?](./health/ayushman-bharat/ayushman-bharat.md)
