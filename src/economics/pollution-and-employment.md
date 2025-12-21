@@ -63,7 +63,7 @@ How? By deducting a small percentage from idle balances over time, with those fu
 
 - ✅ **Fixed supply**: No hidden money printing. No Cantillon Effect.  
 - ✅ **Encourages spending & investment**, not speculation.  
-- ✅ **Funds public goods without taxes**—ideal for cooperatives, DAOs, and civic ecosystems.  
+- ✅ **Funds public goods**—ideal for cooperatives, DAOs, and civic ecosystems.  
 - ✅ **Increases economic velocity**: More transactions, more jobs, more resilience.  
 - ✅ **Doesn’t require endless growth**: Stable in a steady-state or regenerative economy.
 
