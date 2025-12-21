@@ -29,7 +29,7 @@ This logic is cynical—and self-defeating. Because the workers powering those p
 Meanwhile, some of the arguments made:  
 - Polluting industries left the West due to strict environmental laws.  
 - China became the “factory of the world”—and choked under its own smog. (It later acted.)  
-- Now, India is the “pharmacy of the world”—a title earned partly because drug production is harder under the FDA’s scrutiny.  
+- Now, India is the “pharmacy of the world”—a title earned partly because drug production in West is harder under the FDA’s scrutiny.  
 - Coal remains king here—not because it’s clean, but because it’s cheap and abundant.
 
 [When sunshine became cheaper than coal](https://www.sciencedaily.com/releases/2025/10/251007081814.htm)
