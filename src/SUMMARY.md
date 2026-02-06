@@ -130,6 +130,7 @@
 - [When Taxes Undermine Livelihood: A Critique of India’s Current Tax Policy](./economics/right-to-livelihood.md)
 - [The Dollar’s Inflation Export Machine – And Why an INR Crypto Stablecoin Might Be India’s Lifeline](./economics/dollar-appreciation.md)
 - [Pollution and Employment Need Not Be Mutually Exclusive](./economics/pollution-and-employment.md)
+- [Understaning Central Bank Digital Currency](./economics/digital_bank_currency.md)
 
 # Health
 - [Is Ayushman Bharat merely a gimmick?](./health/ayushman-bharat/ayushman-bharat.md)
