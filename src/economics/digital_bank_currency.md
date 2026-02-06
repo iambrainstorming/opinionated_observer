@@ -1,5 +1,7 @@
 ## Why governments are desperate to ban cash and make people lose their right to withdraw it? 
 
+Date: 06-02-2026
+
 
 
 They don't understand central bank digital currency. They don't understand the implications of a cashless society. They think its about convenience. They think its about modernization. They don't realize its about control. By the time they figure it out, it will too late.
@@ -11,7 +13,7 @@ Public blockchains (Bitcoin, Ethereum, Monero) are a hope for financial freedom 
 
 The current price collapse is temporary; history shows public blockchains recover and grow over time.
 
-on’t keep a large amount of your money in a bank account if you want to avoid arbitrary government censorship of your funds. Use a non-custodial crypto wallet. Diversify—hold some stablecoins, some Ethereum, and some gold-backed crypto.
+Don’t keep a large amount of your money in a bank account if you want to avoid arbitrary government censorship of your funds. Use a non-custodial crypto wallet. Diversify—hold some stablecoins, some Ethereum, and some gold-backed crypto.
 
 Stay away from scammers in crypto. Educate yourself about cryptoeconomics. Quit Big Tech social media, where scammers thrive. 
 
