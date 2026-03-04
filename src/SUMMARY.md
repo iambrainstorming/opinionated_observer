@@ -108,6 +108,7 @@
 - [Dear Civil Societies, Journalists, and Fact-Checkers — It’s Time to Mobilize People to Leave Big Tech Social Media Behind](./big-tech-media/quit-social-media.md)
 - [The Great Indian Media Circus: Which Platforms Are Left for Political Discourse in India?](./big-tech-media/the_great_indian_media_circus.md)
 - [How to Decrease Switching Costs and Make People Move to Bluesky](./big-tech-media/switching-costs.md)
+- [Twitter: Last Week Tonight with John Oliver](./big-tech-media/shitter.md)
 
 
 # Decentralization

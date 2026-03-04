@@ -2,8 +2,6 @@
 
 Date: 06-02-2026
 
-
-
 They don't understand central bank digital currency. They don't understand the implications of a cashless society. They think its about convenience. They think its about modernization. They don't realize its about control. By the time they figure it out, it will too late.
 
 
