@@ -83,6 +83,7 @@
 - [FPTP is Anti-Democratic: It's Time for Political Parties to Show Their Patriotism](./election/delhi-election-2025.md)
 - [Why Does the Election Commission of India Fear Transparency?](./election/eci-transparency.md)
 - [Why Has Election Commission Data Not Been Analyzed for Years? Why Are Universities Failing Us?](./election/data-not-analysed-for-years.md)
+- [Authoritarian regimes seek a lack of unity among the opposition to hold on to power—and it is succeeding](./election/oppostion-unity.md)
 
 
 # Education
