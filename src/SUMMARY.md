@@ -22,6 +22,7 @@
 - [Modi Balloon](./satire/modi_balloon.md)
 - [Indian Elections John Oliver](./satire/indian-election.md)
 - [Blindfold](./justice/blindfold.md)
+- [Welcome to India 2030](./satire/india-2030.md)
 
 # Presentation
 - [What Happens When There Is No Government?](./presentation/no-govt.md)
