@@ -10,15 +10,15 @@ Citizens’ rights now exist mainly as nostalgic screenshots from old NCERT text
 Freedom of speech?
 Absolutely. You are free to praise the government in any language recognized by the Constitution.
 
-Criticize inflation? UAPA.
-Question unemployment? Anti-national.
-Post a meme? Threat to national security.
-Like the wrong tweet? Congratulations — your nearest police station has already filed an FIR through the all-seeing Sahyog Portal before you finished brushing your teeth.
+Criticize inflation? UAPA.    
+Question unemployment? Anti-national.   
+Post a meme? Threat to national security.   
+Like the wrong tweet? Congratulations — your nearest police station has already filed an FIR through the all-seeing Sahyog Portal before you finished brushing your teeth.   
 
-Every citizen is monitored for “national harmony.”
-Your phone listens.
-Your TV listens.
-Your pressure cooker probably reports directly to the Home Ministry.
+Every citizen is monitored for “national harmony.”   
+Your phone listens.  
+Your TV listens.   
+Your pressure cooker probably reports directly to the Home Ministry.   
 
 The courts, once described as the guardians of democracy, have evolved into India’s fastest rubber-stamp delivery system. Supreme Court and High Court judges now arrive pre-approved, pre-aligned, and pre-loaded with patriotic firmware updates.
 
