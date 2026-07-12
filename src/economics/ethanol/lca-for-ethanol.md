@@ -1,5 +1,7 @@
 # An LCA Analysis of Ethanol Production from Maize: Economic and Environmental Implications
 
+Date: 12-07-2026
+
 National Average: India’s average maize yield is approximately 3.5 tonnes per hectare. Applying the standard conversion, this yields roughly 1,400 liters of ethanol per hectare
 
 Approximate costs per hectare:
