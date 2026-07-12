@@ -1,4 +1,4 @@
-# A Rough LCA Analysis of Ethanol
+# An LCA Analysis of Ethanol Production from Maize: Economic and Environmental Implications
 
 National Average: India’s average maize yield is approximately 3.5 tonnes per hectare. Applying the standard conversion, this yields roughly 1,400 liters of ethanol per hectare
 
@@ -47,7 +47,7 @@ Thus, the relatively low yield in India is a major reason why maize-based ethano
 
 These are only approximate estimates. A comprehensive research-based life-cycle assessment (LCA) is needed to evaluate the environmental impacts, including [water consumption](https://www.indiatoday.in/information/story/ethanol-water-use-india-state-wise-biofuel-push-2925042-2026-06-11), fertilizer use, and pesticide use associated with ethanol production.
 
-## Food Security
+## The Food versus Fuel Dilemma: Risks to India's Food and Nutritional Security
 
 [Biofuels: Area under maize cultivation in India increases sharply, driven by push for ethanol](https://www.downtoearth.org.in/energy/biofuels-area-under-maize-cultivation-in-india-increases-sharply-driven-by-push-for-ethanol)
 
@@ -63,6 +63,6 @@ More importantly, using food crops as fuel creates a strategic risk during years
 
 
 
-## Is ethanol production really worth it. What exactly are we trying to save?
+## Is Ethanol Production Really Worth It? What Exactly Are We Trying to Save?
 
 This raises an important question: is large-scale ethanol production really worth it? What exactly are we trying to save—money, energy imports, or the environment? Based on the available evidence, the benefits appear far less certain than often claimed. If ethanol production relies heavily on food crops, intensive fertilizer use, irrigation, subsidies, and significant energy inputs for cultivation and processing, the economic and environmental gains may be substantially reduced. Without comprehensive life-cycle assessments and transparent cost-benefit analyses, it is difficult to conclude that ethanol provides meaningful savings either for the economy or for the environment. Rather than assuming ethanol is inherently sustainable, policymakers should carefully evaluate whether the resources devoted to it could be more effectively invested in other measures that improve energy security while protecting food and nutritional security.
