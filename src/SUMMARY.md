@@ -72,6 +72,7 @@
 
 
 
+
 # Election
 - [Haryana Election](./election/haryana-election.md)
 - [Maharashtra Election](./election/maharastra-election.md)
@@ -89,6 +90,7 @@
 # Education
 - [Why Many Edupreneurs and Stakeholders in Education Do More Harm Than Good](./education/edupreneurs_do_more_harm_than_good.md)
 - [India’s Obsession with Marks and the Absurdity of Arbitrary Questioning](./education/arbitrary_questioning.md)
+- [ What Is Luck? Astrology or Science](./education/luck.md)
 
 
 # Information
