@@ -108,3 +108,8 @@ Physics teaches us that uncertainty is fundamental. Biology reminds us that we d
 Ultimately, luck is both an individual and collective phenomenon. Better communities create better probabilities for everyone. Societies that invest in education, healthcare, trust, and cooperation effectively manufacture good luck for their citizens.
 
 Rather than searching for fortune in the stars, humanity should focus on building institutions and communities that maximize opportunities and minimize unnecessary suffering. The most powerful form of luck is not cosmic destiny—it is a society that allows human potential to flourish.
+
+
+\\[\text{LUCK} \neq \text{MYSTICISM} \\]
+
+\\[\text{LUCK} = \text{PROBABILITY} + \text{GENETICS} + \text{COMMUNITY} + \text{PREPARATION} \\]
