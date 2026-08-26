@@ -112,6 +112,7 @@
 - [The Great Indian Media Circus: Which Platforms Are Left for Political Discourse in India?](./big-tech-media/the_great_indian_media_circus.md)
 - [How to Decrease Switching Costs and Make People Move to Bluesky](./big-tech-media/switching-costs.md)
 - [Twitter: Last Week Tonight with John Oliver](./big-tech-media/shitter.md)
+- [LinkedIn: The Largest Gaslighting Network](./social-media/gaslighting-network.md)
 
 
 # Decentralization
