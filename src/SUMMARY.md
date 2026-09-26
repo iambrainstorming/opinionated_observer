@@ -29,6 +29,10 @@
 - [Advantages of Approval Voting](./presentation/approval-voting/approval-voting.md)
 - [Two-Step Democracy Restore](./presentation/two-step-democracy-restore/democracy_restore.md)
 
+# Nonviolent Struggle
+- [If people withdraw their support, the ruler cannot rule!](./nonviolent-struggle/power-and-obedience.md)
+
+
 # Factcheck
 
 - [PM's Rajasthan Speech on Population Jihad](./factcheck/pm_modi_speech.md)
@@ -85,6 +89,7 @@
 - [Why Does the Election Commission of India Fear Transparency?](./election/eci-transparency.md)
 - [Why Has Election Commission Data Not Been Analyzed for Years? Why Are Universities Failing Us?](./election/data-not-analysed-for-years.md)
 - [Authoritarian regimes seek a lack of unity among the opposition to hold on to power—and it is succeeding](./election/oppostion-unity.md)
+
 
 
 # Education
