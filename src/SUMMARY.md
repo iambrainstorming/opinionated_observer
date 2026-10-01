@@ -123,6 +123,7 @@
 
 # Decentralization
 - [To Eliminate Poverty, We Need to Decentralize Supply Chains and Introduce Supply Chain-Based Basic Income](./decentralization/supplychain-basic-income.md)
+- [Why there is no adoption of Helium Network in India?](./decentralization/why-helium-not-in-india.md)
 
 
 # Pollution
