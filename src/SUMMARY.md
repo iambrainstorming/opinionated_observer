@@ -32,6 +32,7 @@
 # Nonviolent Struggle
 - [If people withdraw their support, the ruler cannot rule!](./nonviolent-struggle/power-and-obedience.md)
 - [ From Pleading to Power: Why Indian Women Must Demand 50% Parliamentary Parity](./nonviolent-struggle/pleading-to-power-women-in-parliament.md)
+- [The Precision of Protest: Why Concrete, Evidence-Based Demands Win](./nonviolent-struggle/precision-of-protest.md)
 
 
 # Factcheck
