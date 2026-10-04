@@ -1,5 +1,7 @@
 # The Illusion of Participation: Why the Opposition’s Argument Against Boycotting Elections is Deeply Flawed
 
+Date: 04-10-2026
+
 It is an open secret in the public consciousness that elections in India have devolved into a completely rigged game. The machinery of voting has been compromised, and everyone knows it. Yet, faced with this reality, the political opposition has chosen to participate, offering a series of deeply flawed justifications for their refusal to boycott the polls. 
 
 According to the opposition’s current logic, boycotting the elections is a strategic blunder. "It boomerangs because the ruling party gets 90% of the seats," one Opposition leader argued. Another rued that a boycott would amount to "yielding space to the political forces they want to defeat." 
