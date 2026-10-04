@@ -29,10 +29,7 @@
 - [Advantages of Approval Voting](./presentation/approval-voting/approval-voting.md)
 - [Two-Step Democracy Restore](./presentation/two-step-democracy-restore/democracy_restore.md)
 
-# Nonviolent Struggle
-- [If people withdraw their support, the ruler cannot rule!](./nonviolent-struggle/power-and-obedience.md)
-- [ From Pleading to Power: Why Indian Women Must Demand 50% Parliamentary Parity](./nonviolent-struggle/pleading-to-power-women-in-parliament.md)
-- [The Precision of Protest: Why Concrete, Evidence-Based Demands Win](./nonviolent-struggle/precision-of-protest.md)
+
 
 
 # Factcheck
@@ -77,6 +74,10 @@
 
 
 
+# Nonviolent Struggle
+- [If people withdraw their support, the ruler cannot rule!](./nonviolent-struggle/power-and-obedience.md)
+- [ From Pleading to Power: Why Indian Women Must Demand 50% Parliamentary Parity](./nonviolent-struggle/pleading-to-power-women-in-parliament.md)
+- [The Precision of Protest: Why Concrete, Evidence-Based Demands Win](./nonviolent-struggle/precision-of-protest.md)
 
 
 # Election
@@ -91,6 +92,7 @@
 - [Why Does the Election Commission of India Fear Transparency?](./election/eci-transparency.md)
 - [Why Has Election Commission Data Not Been Analyzed for Years? Why Are Universities Failing Us?](./election/data-not-analysed-for-years.md)
 - [Authoritarian regimes seek a lack of unity among the opposition to hold on to power—and it is succeeding](./election/oppostion-unity.md)
+- [The Illusion of Participation: Why the Opposition’s Argument Against Boycotting Elections is Deeply Flawed](./election/illusion-of-participation.md)
 
 
 
