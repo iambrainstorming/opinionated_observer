@@ -40,6 +40,14 @@ To understand why a boycott is necessary, one must understand what an election a
 
 Like all social constructs, it relies entirely on collective belief. If the people and their representatives no longer believe in the fairness of the process, the construct automatically collapses. You cannot force a social contract to function through administrative fiat when the underlying trust has been annihilated.
 
+## The Shadow Agenda: Secret Collaboration and Post-Election Defections
+
+If "political survival" is the stated goal, one must ask: what is the real plan behind participating in these elections? Is the opposition’s true strategy to merely contest the polls, secretly collaborate with the fascist government, and then conveniently switch sides after the results are declared?
+
+This is not mere speculation; it is a documented, recurring pattern of behavior. This is exactly what they keep doing. [Since 2022, a staggering 111 MPs and MLAs have changed parties after winning their elections](https://www.tribuneindia.com/news/india/111-sitting-mps-and-mlas-changed-their-political-parties-after-being-elected-adr), and many more are reportedly waiting in the wings to switch allegiances. 
+
+This revolving door of defections proves that for many in the opposition, the election is not a battle of ideologies, but a mere audition for power. By participating in a rigged system, they are not fighting authoritarianism; they are keeping their resumes updated for a future merger or defection. This cynical maneuvering betrays the voters who cast their ballots in good faith, only to see their mandates hijacked by opportunistic politicians.
+
 ## Conclusion: The Danger of Legitimizing the Rigged Game
 
 By choosing to participate in a rigged election, the opposition is doing the ruling party’s work for them. They are taking an illegitimate exercise and making it look legitimate simply by showing up. Worse, they are asking the voters to join them in this charade, asking the public to invest their time, hope, and votes into a process the opposition itself knows will not result in a fair victory.
