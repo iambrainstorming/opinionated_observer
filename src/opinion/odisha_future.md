@@ -372,7 +372,7 @@ Biju Janata Dal - BJD seat percentage: 34.693877551
 ### Vote share
 Bharatiya Janata Party - BJP vote share: 40.07348883521068
 
-Biju Janata Dal - BJD seat percentage: 40.22330215683086
+Biju Janata Dal - BJD vote share: 40.22330215683086
 
 
 ### Difference
