@@ -93,6 +93,7 @@
 - [Why Has Election Commission Data Not Been Analyzed for Years? Why Are Universities Failing Us?](./election/data-not-analysed-for-years.md)
 - [Authoritarian regimes seek a lack of unity among the opposition to hold on to power—and it is succeeding](./election/oppostion-unity.md)
 - [The Illusion of Participation: Why the Opposition’s Argument Against Boycotting Elections is Deeply Flawed](./election/illusion-of-participation.md)
+- [Taking Back Our Votes: Why We Must Move Voter Lists from Secret Servers to Open Technology](./election/decentralizing_voter_list_database.md)
 
 
 
