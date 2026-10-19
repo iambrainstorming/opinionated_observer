@@ -37,7 +37,7 @@
             const path_to_root = "../";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "../searchindex-0e130d7d.js";
+            window.path_to_searchindex_js = "../searchindex-5348399f.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="../toc-c7fc7cc5.js"></script>
@@ -205,7 +205,7 @@
 <h2 id="the-paradigm-shift-one-booth-level-officer-blo-one-database"><a class="header" href="#the-paradigm-shift-one-booth-level-officer-blo-one-database">The Paradigm Shift: One Booth Level Officer (BLO), One Database</a></h2>
 <p>To build a system where voter data is open, fast, and impossible for a single central authority to secretly manipulate, we must break the centralized monolith. We do this by shifting the power to the <strong>Booth Level Officer (BLO)</strong>—the local government official or teacher responsible for maintaining the voter roll of a specific, small geographic area (a polling booth).</p>
 <p><strong>The Golden Rule of Decentralized Elections:</strong>
-Every single BLO must have their own dedicated Turso database instance and their own React/Dioxus software instance, hosted independently.</p>
+Every single BLO must have their own dedicated Turso database instance and their own NextJs/Dioxus software instance, hosted independently.</p>
 <p>Instead of one giant database for the whole country, we create thousands of small, independent digital filing cabinets—one for each BLO’s jurisdiction.</p>
 <hr>
 <h2 id="turso-the-database-per-tenant-revolution"><a class="header" href="#turso-the-database-per-tenant-revolution">Turso: The “Database Per Tenant” Revolution</a></h2>
@@ -218,29 +218,32 @@ Instead of mixing every voter in the country into one giant pool and hoping the 
 Backing up or restoring one customer (in this case, one BLO’s jurisdiction) touches only one database. If a BLO needs to restore their voter list to a previous state to fix an error, it only touches their own vault. There is zero risk of accidentally corrupting or rolling back the entire country’s voter data at once.</p>
 <p><strong>3. Clean Deletions</strong>
 Deleting a customer is as simple as dropping a database. If a polling booth is dissolved, merged, or a BLO’s specific dataset needs to be completely wiped and reset, you simply delete that single database vault. No complex, risky code is required, and there is no chance of accidentally deleting someone else’s data.</p>
-<p><strong>4. Data Residency is Solved by Geography</strong>
+<p><strong>4. Offline-first by design.</strong>
+Voter verification workers can keep working in areas with poor or no connectivity. Every verification is saved to the device’s local database right away, so no work is lost. When a connection returns, the app syncs all pending changes to the server automatically.</p>
+<p><strong>5. Data Residency is Solved by Geography</strong>
 Laws often dictate that certain data must stay within specific physical borders. Because each BLO has their own Turso instance, data residency comes down to simply choosing which region you place that specific database in. If a state law says voter data for Kerala must stay on servers in South India, you just place that specific BLO’s Turso database in a South Indian data center. It is as simple as choosing a physical address for a filing cabinet.</p>
 <hr>
-<h2 id="react-and-dioxus-the-fast-reliable-public-face"><a class="header" href="#react-and-dioxus-the-fast-reliable-public-face">React and Dioxus: The Fast, Reliable Public Face</a></h2>
-<p>Having a secure, decentralized database (Turso) and open data windows (APIs) is only half the battle. The BLOs, the public, and civil society need a way to actually <em>see</em> and <em>use</em> this data without the website crashing when millions of people log in during election season. This is where <strong>React</strong> or <strong>Dioxus</strong> come in.</p>
+<h2 id="nextjs-and-dioxus-the-fast-reliable-public-face"><a class="header" href="#nextjs-and-dioxus-the-fast-reliable-public-face">NextJs and Dioxus: The Fast, Reliable Public Face</a></h2>
+<p>Having a secure, decentralized database (Turso) and open data windows (APIs) is only half the battle. The BLOs, the public, and civil society need a way to actually <em>see</em> and <em>use</em> this data without the website crashing when millions of people log in during election season. This is where <strong>NextJs</strong> or <strong>Dioxus</strong> come in.</p>
 <ul>
-<li><strong>React (The Interactive Dashboard):</strong> React is a technology used to build the “face” of the website. It creates a smart, interactive dashboard. When a citizen or a BLO types in a voter ID to check their status, React updates the screen instantly without having to reload the whole webpage. It makes checking your voter status as easy and smooth as using a modern smartphone app.</li>
-<li><strong>Dioxus (The Heavy Lifter):</strong> Dioxus is a super-fast, highly secure engine built in the background. When millions of citizens try to check their voting status on the morning of the election, centralized servers usually crash under the pressure. Dioxus is designed to build and deliver these web pages lightning-fast, ensuring the BLO’s portal never slows down, even under massive traffi</li>
+<li><strong>NextJs (The Interactive Dashboard):</strong> NextJs is a technology used to build the “face” of the website. It creates a smart, interactive dashboard. When a citizen or a BLO types in a voter ID to check their status, NextJs updates the screen instantly without having to reload the whole webpage. It makes checking your voter status as easy and smooth as using a modern smartphone app.</li>
+<li><strong>Dioxus (The Heavy Lifter):</strong> Dioxus is a super-fast, highly secure engine built in the background. When millions of citizens try to check their voting status on the morning of the election, centralized servers usually crash under the pressure. Dioxus is designed to build and deliver these web pages lightning-fast, ensuring the BLO’s portal never slows down, even under massive traffic.</li>
 </ul>
+<p>Android and desktop apps can be built with minimal effort using Dioxus or Tauri if you are using Next.js.</p>
 <h2 id="deployment---serverless-vs-docker-containers"><a class="header" href="#deployment---serverless-vs-docker-containers">Deployment - Serverless vs. Docker Containers</a></h2>
-<p>Because every BLO has its own React and Turso instance, you have ultimate flexibility in how you host them.</p>
+<p>Because every BLO has its own NextJs and Turso instance, you have ultimate flexibility in how you host them.</p>
 <p>All source code must be open-source for independent security audits. Open-source code also removes the technical burden of independent server hosting from the BLOs.</p>
 <h3 id="option-a-serverless-hosting-flyio--vercel--aws-lambda"><a class="header" href="#option-a-serverless-hosting-flyio--vercel--aws-lambda">Option A: Serverless Hosting (Fly.io / Vercel / AWS Lambda)</a></h3>
 <p>For maximum edge distribution, host each BLO as a serverless function.</p>
 <ul>
-<li><strong>How it works:</strong> You deploy the Dioxus/ React a serverless provider.</li>
+<li><strong>How it works:</strong> You deploy the Dioxus/ NextJs a serverless provider.</li>
 <li><strong>Turso Integration:</strong> Turso is perfectly suited for serverless because SQLite doesn’t require a persistent connection pool. The BLO opens a connection to its Turso DB only when a request comes in, eliminating cold-start database latency.</li>
 <li><strong>Pros:</strong> Zero idle costs, auto-scaling to zero, global edge deployment.</li>
 </ul>
 <h3 id="option-b-docker-container-hosting-kubernetes--ecs"><a class="header" href="#option-b-docker-container-hosting-kubernetes--ecs">Option B: Docker Container Hosting (Kubernetes / ECS)</a></h3>
 <p>If your BLOs require heavy, persistent background processing (e.g., generating massive PDF invoices), Docker containers are better.</p>
 <ul>
-<li><strong>How it works:</strong> Each BLO is packaged into its own Docker image containing the Dioxus binary and the React static assets.</li>
+<li><strong>How it works:</strong> Each BLO is packaged into its own Docker image containing the Dioxus binary and the NextJs static assets.</li>
 <li><strong>Orchestration:</strong> You use Kubernetes or Docker Swarm. The BLO gets its own Deployment and Service.</li>
 <li><strong>Turso Integration:</strong> The Docker container mounts the Turso edge-synced local cache, ensuring microsecond read latencies while writes are asynchronously synced to the Turso cloud cluster.</li>
 <li><strong>Pros:</strong> Predictable performance, no cold starts, full control over the runtime environment.</li>
@@ -249,7 +252,7 @@ Laws often dictate that certain data must stay within specific physical borders.
 <h2 id="a-new-vision-for-democratic-tech"><a class="header" href="#a-new-vision-for-democratic-tech">A New Vision for Democratic Tech</a></h2>
 <p>Technology is not neutral; the way we build our digital infrastructure dictates who holds power.</p>
 <p>As long as voter lists are kept on centralized servers and released as static PDFs, the public is forced to blindly trust the central authority holding the keys. But by moving to an open, decentralized model, we change the balance of power.</p>
-<p>By using <strong>Turso</strong> to give every Booth Level Officer their own structurally isolated database, <strong>APIs</strong> to let civil society constantly audit the rolls, and <strong>React/Dioxus</strong> to provide a fast, crash-proof experience for the citizens, we can build an election system that is truly transparent and tamper-proof.</p>
+<p>By using <strong>Turso</strong> to give every Booth Level Officer their own structurally isolated database, <strong>APIs</strong> to let civil society constantly audit the rolls, and <strong>NextJs/Dioxus</strong> to provide a fast, crash-proof experience for the citizens, we can build an election system that is truly transparent and tamper-proof.</p>
 <p>Democracy belongs to the people, and it is managed on the ground by the Booth Level Officers. It’s time our digital infrastructure reflects that.</p>
 
                     </main>
