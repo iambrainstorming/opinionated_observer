@@ -38,7 +38,7 @@
             const path_to_root = "";
             const default_light_theme = "light";
             const default_dark_theme = "navy";
-            window.path_to_searchindex_js = "searchindex-5348399f.js";
+            window.path_to_searchindex_js = "searchindex-63eb7e6c.js";
         </script>
         <!-- Start loading toc.js asap -->
         <script src="toc-c7fc7cc5.js"></script>
@@ -2336,12 +2336,16 @@ Voter verification workers can keep working in areas with poor or no connectivit
 <p><strong>5. Data Residency is Solved by Geography</strong>
 Laws often dictate that certain data must stay within specific physical borders. Because each BLO has their own Turso instance, data residency comes down to simply choosing which region you place that specific database in. If a state law says voter data for Kerala must stay on servers in South India, you just place that specific BLO’s Turso database in a South Indian data center. It is as simple as choosing a physical address for a filing cabinet.</p>
 <hr>
-<h2 id="nextjs-and-dioxus-the-fast-reliable-public-face"><a class="header" href="#nextjs-and-dioxus-the-fast-reliable-public-face">NextJs and Dioxus: The Fast, Reliable Public Face</a></h2>
+<h2 id="nextjs-or-dioxus-the-fast-reliable-public-face"><a class="header" href="#nextjs-or-dioxus-the-fast-reliable-public-face">NextJs or Dioxus: The Fast, Reliable Public Face</a></h2>
 <p>Having a secure, decentralized database (Turso) and open data windows (APIs) is only half the battle. The BLOs, the public, and civil society need a way to actually <em>see</em> and <em>use</em> this data without the website crashing when millions of people log in during election season. This is where <strong>NextJs</strong> or <strong>Dioxus</strong> come in.</p>
 <ul>
 <li><strong>NextJs (The Interactive Dashboard):</strong> NextJs is a technology used to build the “face” of the website. It creates a smart, interactive dashboard. When a citizen or a BLO types in a voter ID to check their status, NextJs updates the screen instantly without having to reload the whole webpage. It makes checking your voter status as easy and smooth as using a modern smartphone app.</li>
+</ul>
+<p><a href="https://orm.drizzle.team/docs/tutorials/drizzle-with-turso">Drizzle with Turso</a></p>
+<ul>
 <li><strong>Dioxus (The Heavy Lifter):</strong> Dioxus is a super-fast, highly secure engine built in the background. When millions of citizens try to check their voting status on the morning of the election, centralized servers usually crash under the pressure. Dioxus is designed to build and deliver these web pages lightning-fast, ensuring the BLO’s portal never slows down, even under massive traffic.</li>
 </ul>
+<p><a href="https://turso.tech/blog/toasty-now-fully-supports-turso">Toasty now fully supports Turso</a></p>
 <p>Android and desktop apps can be built with minimal effort using Dioxus or Tauri if you are using Next.js.</p>
 <h2 id="deployment---serverless-vs-docker-containers"><a class="header" href="#deployment---serverless-vs-docker-containers">Deployment - Serverless vs. Docker Containers</a></h2>
 <p>Because every BLO has its own NextJs and Turso instance, you have ultimate flexibility in how you host them.</p>

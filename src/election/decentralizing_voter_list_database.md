@@ -74,12 +74,17 @@ Laws often dictate that certain data must stay within specific physical borders.
 
 ---
 
-## NextJs and Dioxus: The Fast, Reliable Public Face
+## NextJs or Dioxus: The Fast, Reliable Public Face
 
 Having a secure, decentralized database (Turso) and open data windows (APIs) is only half the battle. The BLOs, the public, and civil society need a way to actually *see* and *use* this data without the website crashing when millions of people log in during election season. This is where **NextJs** or **Dioxus** come in.
 
 * **NextJs (The Interactive Dashboard):** NextJs is a technology used to build the "face" of the website. It creates a smart, interactive dashboard. When a citizen or a BLO types in a voter ID to check their status, NextJs updates the screen instantly without having to reload the whole webpage. It makes checking your voter status as easy and smooth as using a modern smartphone app.
+
+[Drizzle with Turso](https://orm.drizzle.team/docs/tutorials/drizzle-with-turso)
+
 * **Dioxus (The Heavy Lifter):** Dioxus is a super-fast, highly secure engine built in the background. When millions of citizens try to check their voting status on the morning of the election, centralized servers usually crash under the pressure. Dioxus is designed to build and deliver these web pages lightning-fast, ensuring the BLO's portal never slows down, even under massive traffic.
+
+[Toasty now fully supports Turso](https://turso.tech/blog/toasty-now-fully-supports-turso)
 
 Android and desktop apps can be built with minimal effort using Dioxus or Tauri if you are using Next.js.
 
