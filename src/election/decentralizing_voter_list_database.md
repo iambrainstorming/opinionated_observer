@@ -10,6 +10,14 @@ Here is why we need to rethink how our election data is stored, who controls it,
 
 ---
 
+## Centralization of SIR
+
+The **Special Intensive Revision (SIR)** of voter rolls in India has been **centralized**, a shift that has sparked significant legal and political controversy.
+
+*   **Process Centralization:** The **Election Commission of India (ECI)** utilized centralized software to generate notices and flag "logical discrepancies" against historical rolls from 2002–2005, overriding the traditional decentralized role of local **Electoral Registration Officers (EROs)** who are statutorily empowered to make inclusion/exclusion decisions.
+*   **Scale of Deletion:** This centralized digital purge has resulted in the removal of over **130 million names** from draft rolls across multiple states, with critics arguing the opaque algorithms disproportionately excluded eligible voters, particularly women and minorities.
+*   **Internal Dissent:** Reports in late 2026 revealed internal dissent within the ECI, with commissioners warning against the "gradual centralization" of the database and the unilateral decisions made by the **Chief Election Commissioner** without consensus.
+
 ## The Problem with the "Master Server"
 
 When the ECI manages voter rolls on a centralized server, that single server holds absolute power. The authority controlling the server has the ability to add or delete voters at their own whim. 
